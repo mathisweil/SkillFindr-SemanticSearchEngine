@@ -1,65 +1,68 @@
 import time
-import json
 import logging
-import os
-from selenium import webdriver
 
+from selenium.webdriver.common.by import By
+from selenium.webdriver.ie.webdriver import WebDriver
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-def setup_logger():
-    """Sets up the logger for the scraper."""
-    base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    log_path = os.path.join(base_path, "logs", "scraper.log")
+from utils import load_config, setup_logger, init_driver
 
-    os.makedirs(os.path.dirname(log_path), exist_ok=True)  # Ensure the logs directory exists
-
-    logging.basicConfig(
-        filename=log_path,
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
-    logging.info("Logger initialised.")
-
-def load_config():
-    """Loads the configuration from the config.json file."""
-    try:
-        base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        config_path = os.path.join(base_path, "config.json")
-
-        with open(config_path, "r") as config_file:
-            logging.info("Configuration file loaded successfully.")
-            return json.load(config_file)
-    except FileNotFoundError:
-        logging.error("Error: config.json file not found.")
-        print("Error: config.json file not found.")
-        exit(1)
-    except json.JSONDecodeError:
-        logging.error("Error: Invalid JSON format in config.json.")
-        print("Error: Invalid JSON format in config.json.")
-        exit(1)
-
-def init_driver():
-    """Initializes the Chrome WebDriver with options."""
-    options = webdriver.ChromeOptions()
-    # options.add_argument("--headless")
-    logging.info("Chrome WebDriver initialised.")
-    return webdriver.Chrome(options=options)
-
-def scraper():
+def scraper(config):
     logging.info("Scraper started.")
-    config = load_config()
-    options = webdriver.ChromeOptions()
-    driver = webdriver.Chrome(options=options)
 
-    try:
+    with init_driver(config) as driver:
         driver.get(config["login_url"])
         logging.info(f"Navigated to {config['login_url']}.")
+
+        ibm_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, '[btntype="ibm"]'))
+        )
+        ibm_button.click()
+
+        username_field = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.ID, 'username'))
+        )
+        username_field.send_keys(config["auth"]["username"])
+        username_field.submit()
+
+        password_field = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.ID, 'password'))
+        )
+        password_field.send_keys(config["auth"]["password"])
+        password_field.submit()
+        time.sleep(10)
+
+        search_sections = config.get("search_sections", {})
+        for section, slug in search_sections.items():
+            url = f"{config["base_url"]}/search/{slug}/q={config["search_keyword"]}"
+            driver.get(url)
+            WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.CLASS_NAME, "ShowMoreButton_showMoreBtn__z194i"))
+            )
+
+            while True:
+                buttons = driver.find_elements(By.CLASS_NAME, "ShowMoreButton_showMoreBtn__z194i")
+                if len(buttons) > 0:
+                    show_more_button = buttons[0]
+
+                    driver.execute_script("arguments[0].scrollIntoView(true);", show_more_button)
+
+                    show_more_button.click()
+
+                    time.sleep(config["scrape_delay"])
+                else:
+                    break
+
+            courses = driver.find_elements(By.XPATH, '//div[contains(@class, "FocusOnShowMoreWrapper_wrapper__Ord-a")]/div[contains(@class, "overflowContainer ItemCard_overflowContainer__tpWp9")]')
+            links = [course.get_attribute("href") for course in courses]
+            driver.execute_script("window.open(arguments[0]);", link)
+            driver.switch_to.window(driver.window_handles[-1])
+
         time.sleep(config["scrape_delay"])
-    except Exception as e:
-        logging.error(f"An error occurred during scraping: {e}")
-    finally:
-        driver.quit()
-        logging.info("WebDriver closed.")
+
 
 if __name__ == '__main__':
-    setup_logger()
-    scraper()
+    config_file = load_config()
+    setup_logger(config_file)
+    scraper(config_file)
