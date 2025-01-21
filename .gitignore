@@ -1,0 +1,27 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Virtual Environment
+env/
+venv/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Configuration
+config.json
+
+# Outputs
+output/*
+
+# Test Files
+*.test
+
+# Selenium Drivers
+*.exe
