@@ -2,11 +2,30 @@ import time
 import logging
 from bs4 import BeautifulSoup
 
+from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from utils import load_config, setup_logger, init_driver
+
+
+def clean_text(text):
+    if not text:
+        return ""
+    text = text.strip()
+    text = "\n".join([line.strip() for line in text.splitlines() if line.strip()])
+    return text
+
+def extract_field(selector, soup, unwanted_selector=None):
+    element = soup.select_one(selector)
+    if element:
+        if unwanted_selector:
+            for unwanted_child in element.select(unwanted_selector):
+                unwanted_child.decompose()
+
+        return clean_text(element.text)
+    return "N/A"
 
 
 def scraper(config):
@@ -78,26 +97,19 @@ def scraper(config):
                 html_source = driver.page_source  # Get the full HTML source of the page
                 soup = BeautifulSoup(html_source, 'lxml')
 
-                def clean_text(text):
-                    if not text:
-                        return ""
-                    text = text.strip()
-                    text = "\n".join([line.strip() for line in text.splitlines() if line.strip()])
-                    return text
-
                 # Cleaning the extracted data
                 course_data = {
-                    "type": clean_text(soup.select_one('.FullPageHeader_fullPageHeader__type__WaUEO').text),
-                    "title": clean_text(
-                        soup.select_one('h1.FullPageHeader_fullPageHeader__title__DmVZ\\+ > span').text),
-                    "duration": clean_text(
-                        soup.select_one('.ActivityDuration_activityDuration__9CBo0').text.replace("Duration is",
-                                                                                                  "").strip()),
-                    "learners_amount": clean_text(soup.select_one(
-                        '.LearnersAmount_learnersAmount__qttyB span[class^="ActivityFullPage_textClass__"]').text),
-                    "description": clean_text(soup.select_one(
-                        '.FullPageDescription_wrapper__CEPjU > div').get_text(
-                        separator="\n"))
+                    "type": extract_field('#full-page-header-type', soup),
+
+                    "title": extract_field('h1.FullPageHeader_fullPageHeader__title__DmVZ\\+ > span', soup),
+
+                    "duration": extract_field('#a11y-undefined-duration, #a11y-undefined-time', soup, "sr-only"),
+
+                    "learners_amount": extract_field('.LearnersAmount_learnersAmount__qttyB span[class^="ActivityFullPage_textClass__"]', soup),
+
+                    # "star_rating": extract_field('#a11y-undefined-rating', soup),
+
+                    "description": extract_field('.FullPageDescription_wrapper__CEPjU > div', soup)
                 }
                 print(course_data)
                 driver.close()
