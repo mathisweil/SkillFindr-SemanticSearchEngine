@@ -1,4 +1,5 @@
 import json
+import csv
 import logging
 import os
 from selenium import webdriver
@@ -43,3 +44,26 @@ def init_driver(config):
 
     logging.info("Chrome WebDriver initialised.")
     return webdriver.Chrome(options=options)
+
+def save_to_csv(data, file_name):
+    """Saves the scraped data to a CSV file."""
+    try:
+        with open(f'{file_name}.csv', 'w', newline='') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=data[0].keys())
+            writer.writeheader()
+            writer.writerows(data)
+        logging.info(f"Data successfully saved to {file_name}.csv")
+
+    except Exception as e:
+        logging.error(f"Error saving data to {file_name}.csv: {e}")
+
+
+def save_to_json(data, file_name):
+    """Saves the scraped data to a JSON file."""
+    try:
+        with open(f'{file_name}.json', 'w') as jsonfile:
+            json.dump(data, jsonfile, indent=4)
+        logging.info(f"Data successfully saved to {file_name}.json")
+
+    except Exception as e:
+        logging.error(f"Error saving data to {file_name}.json: {e}")
