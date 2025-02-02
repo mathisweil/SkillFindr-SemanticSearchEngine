@@ -7,39 +7,57 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from utils import load_config, setup_logger, init_driver, save_to_csv, save_to_json
+from utils import load_config, setup_logger, init_driver, save_to_csv, save_to_json, clean_text
 
-
-def clean_text(text):
-    if not text:
-        return ""
-    text = text.strip()
-    text = "\n".join([line.strip() for line in text.splitlines() if line.strip()])
-    return text
 
 def extract_elements(selector, soup, single=True, unwanted_selector=None, attribute=None):
+    """
+    Extracts text or attribute values from elements in a BeautifulSoup object.
+
+    :param selector: CSS selector to find the desired elements.
+    :param soup: BeautifulSoup instance containing the HTML to parse.
+    :param single: Determines whether to return a single element or a list of elements.
+    :param unwanted_selector: CSS selector for unwanted child elements to remove before extraction.
+    :param attribute: If specified, extracts the given attribute value instead of text.
+    :return: Cleaned text or attribute value(s). Returns 'N/A' if no element is found.
+    """
     if single:
         element = soup.select_one(selector)
         if element:
             if unwanted_selector:
                 for unwanted_child in element.select(unwanted_selector):
                     unwanted_child.decompose()
-            return clean_text(element[attribute]) if attribute else clean_text(element.text)
+            if attribute:
+                return clean_text(element.get(attribute, 'N/A'))
+            return clean_text(element.text)
         return "N/A"
     else:
         elements = soup.select(selector)
         if elements:
-            fields = []
-            for element in elements:
+            values = []
+            for elem in elements:
                 if unwanted_selector:
-                    for unwanted_child in element.select(unwanted_selector):
+                    for unwanted_child in elem.select(unwanted_selector):
                         unwanted_child.decompose()
-                fields.append(clean_text(element.text))
-            return fields
+                if attribute:
+                    values.append(clean_text(elem.get(attribute, 'N/A')))
+                else:
+                    values.append(clean_text(elem.text))
+            return values
         return "N/A"
 
 
 def wait_for_element(driver, by, value, condition, timeout=10):
+    """
+        Waits for an element to meet the specified condition within a given timeout.
+
+        :param driver: Selenium WebDriver instance.
+        :param by: Locator strategy (e.g., By.ID, By.CLASS_NAME).
+        :param value: The locator (e.g., the element's ID or class name).
+        :param condition: The expected condition from selenium.webdriver.support.
+        :param timeout: Maximum time to wait (in seconds).
+        :return: The WebElement if found, otherwise None.
+        """
     try:
         return WebDriverWait(driver, timeout).until(condition((by, value)))
     except TimeoutException:
@@ -47,8 +65,18 @@ def wait_for_element(driver, by, value, condition, timeout=10):
         return None
 
 
-def wait_and_interact(driver, by, value, interaction, keys=None, submit=False):
-    element = wait_for_element(driver, by, value, interaction)
+def wait_and_perform_action(driver, by, value, condition, keys=None, submit=False):
+    """
+    Waits for an element and performs an action (click or send_keys).
+
+    :param driver: Selenium WebDriver instance.
+    :param by: Locator strategy.
+    :param value: The locator string (ID, class name, etc.).
+    :param condition: Expected condition to check (e.g., element_to_be_clickable).
+    :param keys: Text to send to the element if any.
+    :param submit: Whether to submit the form after sending keys.
+    """
+    element = wait_for_element(driver, by, value, condition)
     if element:
         if keys:
             element.send_keys(keys)
@@ -58,13 +86,22 @@ def wait_and_interact(driver, by, value, interaction, keys=None, submit=False):
             element.click()
 
 
-def handle_show_more_button(driver, delay):
-    """Click 'Show More' button until no more buttons are found."""
+def click_show_more_button(driver, delay):
+    """
+    Continuously clicks the 'Show More' button until it no longer appears.
+
+    :param driver: Selenium WebDriver instance.
+    :param delay: Time to wait (in seconds) after each click for the next button to appear.
+    """
     while True:
-        wait_for_element(driver, By.CLASS_NAME, "ShowMoreButton_showMoreBtn__z194i", EC.element_to_be_clickable)
-        buttons = driver.find_elements(By.CLASS_NAME, "ShowMoreButton_showMoreBtn__z194i")
-        if buttons:
-            show_more_button = buttons[0]
+        show_more_button = wait_for_element(
+            driver,
+            By.CLASS_NAME,
+            "ShowMoreButton_showMoreBtn__z194i",
+            EC.element_to_be_clickable,
+            timeout=delay
+        )
+        if show_more_button:
             driver.execute_script("arguments[0].scrollIntoView(true);", show_more_button)
             show_more_button.click()
             time.sleep(delay)
@@ -72,28 +109,58 @@ def handle_show_more_button(driver, delay):
             break
 
 
-def scrape_course_page(driver, link, config):
-    """Scrape individual course page."""
+def scrape_course_page(driver, link):
+    """
+    Opens a course page in a new tab, extracts course data, then closes the tab.
+
+    :param driver: Selenium WebDriver instance.
+    :param link: URL of the course page to scrape.
+    :return: A dictionary containing scraped information about the course.
+    """
     driver.execute_script("window.open(arguments[0]);", link)
     driver.switch_to.window(driver.window_handles[-1])
 
-    wait_for_element(driver, By.CSS_SELECTOR, 'div[class*="FullPageDescription_wrapper__CEPjU"] > div', EC.presence_of_element_located)
-    wait_for_element(driver, By.CSS_SELECTOR, '[class^="TagLabel_labelContainer__"] > span', EC.presence_of_all_elements_located)
+    wait_for_element(
+        driver,
+        By.CSS_SELECTOR,
+        'div[class*="FullPageDescription_wrapper__CEPjU"] > div',
+        EC.presence_of_element_located
+    )
+    wait_for_element(
+        driver,
+        By.CSS_SELECTOR,
+        '[class^="TagLabel_labelContainer__"] > span',
+        EC.presence_of_all_elements_located
+    )
 
-    # Get page source and parse with BeautifulSoup
     html_source = driver.page_source
     soup = BeautifulSoup(html_source, 'lxml')
 
-    # Extract course data
     course_data = {
         "type": extract_elements('#full-page-header-type', soup),
-        "title": extract_elements('h1.FullPageHeader_fullPageHeader__title__DmVZ\\+ > span', soup),
-        "duration": extract_elements('#a11y-undefined-duration, #a11y-undefined-time', soup, unwanted_selector=".sr-only"),
-        "learners_amount": extract_elements('.LearnersAmount_learnersAmount__qttyB span[class^="ActivityFullPage_textClass__"]', soup),
-        "star_rating": extract_elements('#a11y-undefined-rating', soup, attribute='title'),
+        "title": extract_elements(
+            'h1.FullPageHeader_fullPageHeader__title__DmVZ\\+ > span',
+            soup
+        ),
+        "duration": extract_elements(
+            '#a11y-undefined-duration, #a11y-undefined-time',
+            soup,
+            unwanted_selector=".sr-only"
+        ),
+        "learners_amount": extract_elements(
+            '.LearnersAmount_learnersAmount__qttyB span[class^="ActivityFullPage_textClass__"]',
+            soup
+        ),
+        "star_rating": extract_elements(
+            '#a11y-undefined-rating', soup, attribute='title'
+        ),
         "star_num_ratings": extract_elements('.Stars_numRatings__us9ns', soup),
-        "description": extract_elements('.FullPageDescription_wrapper__CEPjU > div', soup),
-        "tags": extract_elements('[class^="TagLabel_labelContainer__"] > span', soup, single=False)
+        "description": extract_elements(
+            '.FullPageDescription_wrapper__CEPjU > div', soup
+        ),
+        "tags": extract_elements(
+            '[class^="TagLabel_labelContainer__"] > span', soup, single=False
+        )
     }
 
     driver.close()
@@ -102,48 +169,94 @@ def scrape_course_page(driver, link, config):
 
 
 def scraper(config):
+    """
+    Main scraping function that logs in, searches for courses, and extracts data.
+
+    :param config: Dictionary containing configuration parameters (e.g. credentials, URLs).
+    """
     logging.info("Scraper started.")
 
     with init_driver(config) as driver:
         driver.get(config["login_url"])
         logging.info(f"Navigated to {config['login_url']}.")
 
-        wait_and_interact(driver, By.CSS_SELECTOR, '[btntype="ibm"]', EC.element_to_be_clickable)
-        wait_and_interact(driver, By.ID, 'username', EC.presence_of_element_located, config["auth"]["username"],
-                          submit=True)
-        wait_and_interact(driver, By.ID, 'password', EC.presence_of_element_located, config["auth"]["password"],
-                          submit=True)
+        # Perform login.
+        try:
+            wait_and_perform_action(driver, By.CSS_SELECTOR, '[btntype="ibm"]', EC.element_to_be_clickable)
+            wait_and_perform_action(
+                driver,
+                By.ID,
+                'username',
+                EC.presence_of_element_located,
+                keys=config["auth"]["username"],
+                submit=True
+            )
+            wait_and_perform_action(
+                driver,
+                By.ID,
+                'password',
+                EC.presence_of_element_located,
+                keys=config["auth"]["password"],
+                submit=True
+            )
+        except Exception as e:
+            logging.error(f"Login failed: {e}")
+            return
 
         wait_for_element(driver, By.ID, 'search-input', EC.presence_of_element_located)
 
-        courses = []
+        courses, scraped_courses = [], set()
         search_sections = config.get("search_sections", {})
+
         for section, slug in search_sections.items():
-            url = f"{config["base_url"]}/search/{slug}/q={config["search_keyword"]}"
-            driver.get(url)
+            try:
+                url = f"{config["base_url"]}/search/{slug}/q={config["search_keyword"]}"
+                driver.get(url)
 
-            WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.CLASS_NAME, "ShowMoreButton_showMoreBtn__z194i"))
-            )
+                wait_for_element(
+                    driver,
+                    By.CLASS_NAME,
+                    "ShowMoreButton_showMoreBtn__z194i",
+                    EC.element_to_be_clickable
+                )
 
-            handle_show_more_button(driver, config["scrape_delay"])
+                click_show_more_button(driver, config["scrape_delay"])
 
+                courses_container = wait_for_element(
+                    driver,
+                    By.CLASS_NAME,
+                    "FocusOnShowMoreWrapper_wrapper__Ord-a",
+                    EC.presence_of_element_located
+                )
 
-            courses_container = driver.find_element(By.CLASS_NAME, "FocusOnShowMoreWrapper_wrapper__Ord-a")
-            courses = courses_container.find_elements(By.XPATH,
-                                                      '//div[contains(@class, "overflowContainer ItemCard_overflowContainer__tpWp9")]/div[contains(@class, "ItemCard_itemCardContainer__EJsD7")]/a[contains(@class, "ItemCard_linkContainer__jUUXI")]')
+                if courses_container:
+                    course_links = courses_container.find_elements(
+                        By.XPATH,
+                        (
+                            '//div[contains(@class, "overflowContainer ItemCard_overflowContainer__tpWp9")]'
+                            '/div[contains(@class, "ItemCard_itemCardContainer__EJsD7")]'
+                            '/a[contains(@class, "ItemCard_linkContainer__jUUXI")]'
+                        )
+                    )
+                    links = [course.get_attribute("href") for course in course_links if course.get_attribute("href")]
 
-            links = [course.get_attribute("href") for course in courses if course.get_attribute("href")]
-
-            for link in links:
-                course_data = scrape_course_page(driver, link, config)
-                driver.switch_to.window(driver.window_handles[0])
+                    for link in links:
+                        if link not in scraped_courses:
+                            course_data = scrape_course_page(driver, link)
+                            courses.append(course_data)
+                            scraped_courses.add(link)
+            except Exception as e:
+                logging.error(f"Error scraping section {section}: {e}")
 
     output_formats = config.get("output_formats", {})
-    if output_formats.get("csv"):
-        save_to_csv(courses, config.get["output_path"])
-    if output_formats.get("json"):
-        save_to_json(courses, config.get["output_path"])
+
+    if courses:
+        if output_formats.get("csv"):
+            csv_output_path = f"{config['output_path']}/{config['search_keyword']}_output"
+            save_to_csv(courses, csv_output_path)
+        if output_formats.get("json"):
+            json_output_path = f"{config['output_path']}/{config['search_keyword']}_output"
+            save_to_json(courses, json_output_path)
 
 
 if __name__ == '__main__':

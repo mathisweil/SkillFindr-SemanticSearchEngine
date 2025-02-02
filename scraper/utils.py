@@ -45,10 +45,16 @@ def init_driver(config):
     logging.info("Chrome WebDriver initialised.")
     return webdriver.Chrome(options=options)
 
+
 def save_to_csv(data, file_name):
-    """Saves the scraped data to a CSV file."""
+    """
+    Saves the given list of dictionaries to a CSV file.
+
+    :param data: A list of dictionaries containing the data to be saved.
+    :param file_name: The name of the output file without extension.
+    """
     try:
-        with open(f'{file_name}.csv', 'w', newline='') as csvfile:
+        with open(f'{file_name}.csv', 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=data[0].keys())
             writer.writeheader()
             writer.writerows(data)
@@ -58,12 +64,25 @@ def save_to_csv(data, file_name):
         logging.error(f"Error saving data to {file_name}.csv: {e}")
 
 
-def save_to_json(data, file_name):
-    """Saves the scraped data to a JSON file."""
-    try:
-        with open(f'{file_name}.json', 'w') as jsonfile:
-            json.dump(data, jsonfile, indent=4)
-        logging.info(f"Data successfully saved to {file_name}.json")
 
+def save_to_json(data, file_name):
+    """
+    Saves the given data to a JSON file.
+
+    :param data: The data to be saved in JSON format.
+    :param file_name: The name of the output file without extension.
+    """
+    try:
+        with open(f'{file_name}.json', 'w', encoding='utf-8') as jsonfile:
+            json.dump(data, jsonfile, ensure_ascii=False, indent=4)
+        logging.info(f"Data successfully saved to {file_name}.json")
     except Exception as e:
-        logging.error(f"Error saving data to {file_name}.json: {e}")
+        logging.error(f"Failed to save data to JSON: {e}")
+
+
+def clean_text(text):
+    if not text:
+        return ""
+    text = text.strip()
+    text = "\n".join([line.strip() for line in text.splitlines() if line.strip()])
+    return text
