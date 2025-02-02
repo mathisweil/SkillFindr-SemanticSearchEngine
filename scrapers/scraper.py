@@ -7,7 +7,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from utils import load_config, setup_logger, init_driver, save_to_csv, save_to_json, clean_text
+from utils.utils import init_driver, clean_text
+from utils.io_utils import save_to_csv, save_to_json
+
 
 
 def extract_elements(selector, soup, single=True, unwanted_selector=None, attribute=None):
@@ -257,9 +259,3 @@ def scraper(config):
         if output_formats.get("json"):
             json_output_path = f"{config['output_path']}/{config['search_keyword']}_output"
             save_to_json(courses, json_output_path)
-
-
-if __name__ == '__main__':
-    config_file = load_config()
-    setup_logger(config_file)
-    scraper(config_file)

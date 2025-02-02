@@ -36,7 +36,7 @@ If using Selenium:
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/ibm-skillsbuild-scraper.git
-   cd ibm-skillsbuild-scraper
+   cd ibm-skillsbuild-scrapers
    ```
 2. Install dependencies:
    ```bash
@@ -50,7 +50,7 @@ If using Selenium:
 ### Basic Command
 Run the scraper using:
 ```bash
-python scraper.py
+python scrapers.py
 ```
 
 ### Configuration
