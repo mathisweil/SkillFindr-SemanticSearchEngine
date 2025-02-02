@@ -7,8 +7,8 @@ def init_driver(config):
     options = webdriver.ChromeOptions()
 
     webdriver_args = config.get("webdriver_args", {})
-    if webdriver_args.get("headless"):
-        options.add_argument("--headless")
+    for webdriver_arg in webdriver_args:
+        options.add_argument(webdriver_arg)
 
     logging.info("Chrome WebDriver initialised.")
     return webdriver.Chrome(options=options)
