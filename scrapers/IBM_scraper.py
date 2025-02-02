@@ -2,6 +2,7 @@ import logging
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 
 from utils.selenium_utils import wait_for_element, wait_and_perform_action, click_show_more_button
 from parsers.course_parser import parse_course_page
@@ -77,12 +78,15 @@ class IBMScraper:
                 url = f"{self.config['base_url']}/search/{slug}/q={self.config['search_keyword']}"
                 self.driver.get(url)
 
-                wait_for_element(
-                    self.driver,
-                    By.CLASS_NAME,
-                    "ShowMoreButton_showMoreBtn__z194i",
-                    EC.element_to_be_clickable
+                element = WebDriverWait(self.driver, 10).until(
+                    EC.any_of(
+                        EC.presence_of_element_located((By.CLASS_NAME, 'SearchNoResults_container__XFV7d')),
+                        EC.presence_of_element_located((By.CLASS_NAME, 'FocusOnShowMoreWrapper_wrapper__Ord-a'))
+                    )
                 )
+
+                if 'SearchNoResults_container__XFV7d' in element.get_attribute("class"):
+                    continue
 
                 click_show_more_button(self.driver, self.config["scrape_delay"])
 

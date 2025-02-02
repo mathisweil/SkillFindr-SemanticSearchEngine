@@ -1,4 +1,3 @@
-import time
 import logging
 
 from selenium.webdriver.support.wait import WebDriverWait
@@ -63,6 +62,5 @@ def click_show_more_button(driver, delay):
         if show_more_button:
             driver.execute_script("arguments[0].scrollIntoView(true);", show_more_button)
             show_more_button.click()
-            time.sleep(delay)
         else:
             break
