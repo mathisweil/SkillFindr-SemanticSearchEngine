@@ -18,6 +18,7 @@ def extract_elements(selector, soup, single=True, unwanted_selector=None, attrib
             for elem in elements
         ] if elements else "N/A"
 
+
 def parse_course_page(html_source):
     soup = BeautifulSoup(html_source, 'lxml')
 

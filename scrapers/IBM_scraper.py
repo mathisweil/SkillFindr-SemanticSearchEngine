@@ -46,24 +46,25 @@ class IBMScraper:
         self.driver.execute_script("window.open(arguments[0]);", link)
         self.driver.switch_to.window(self.driver.window_handles[-1])
 
-        wait_for_element(
-            self.driver,
-            By.CSS_SELECTOR,
-            'div[class*="FullPageDescription_wrapper__CEPjU"] > div',
-            EC.presence_of_element_located
-        )
-        wait_for_element(
-            self.driver,
-            By.CSS_SELECTOR,
-            '[class^="TagLabel_labelContainer__"] > span',
-            EC.presence_of_all_elements_located
-        )
+        try:
+            wait_for_element(
+                self.driver,
+                By.CSS_SELECTOR,
+                'div[class*="FullPageDescription_wrapper__CEPjU"] > div',
+                EC.presence_of_element_located
+            )
+            wait_for_element(
+                self.driver,
+                By.CSS_SELECTOR,
+                '[class^="TagLabel_labelContainer__"] > span',
+                EC.presence_of_all_elements_located
+            )
 
-        html_source = self.driver.page_source
-        course_data = parse_course_page(html_source)
-
-        self.driver.close()
-        self.driver.switch_to.window(self.driver.window_handles[0])
+            html_source = self.driver.page_source
+            course_data = parse_course_page(html_source)
+        finally:
+            self.driver.close()
+            self.driver.switch_to.window(self.driver.window_handles[0])
         return course_data
 
 
