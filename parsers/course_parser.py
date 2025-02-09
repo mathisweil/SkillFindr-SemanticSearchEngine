@@ -26,6 +26,17 @@ def extract_elements(
 def parse_course_page(html_source, url):
     soup = BeautifulSoup(html_source, 'lxml')
 
+    desc_result = extract_elements(
+        '.FullPageDescription_wrapper__CEPjU > div', soup, clean_func=clean_description
+    )
+
+    if isinstance(desc_result, dict):
+        cleaned_description = desc_result.get("description", "")
+        languages = desc_result.get("languages", [])
+    else:
+        cleaned_description = desc_result
+        languages = []
+
     return {
         "course_url": url,
         "type": extract_elements('#full-page-header-type', soup, clean_func=clean_type),
@@ -50,9 +61,8 @@ def parse_course_page(html_source, url):
             '#a11y-undefined-rating', soup, attribute='title', clean_func=clean_star_rating
         ),
         "star_num_ratings": extract_elements('.Stars_numRatings__us9ns', soup, clean_func=clean_star_num_ratings),
-        "description": extract_elements(
-            '.FullPageDescription_wrapper__CEPjU > div', soup, clean_func=clean_description
-        ),
+        "description": cleaned_description,
+        "languages": languages,
         "tags": extract_elements(
             '[class^="TagLabel_labelContainer__"] > span', soup, single=False
         )

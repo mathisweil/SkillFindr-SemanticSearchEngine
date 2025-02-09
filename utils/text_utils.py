@@ -122,22 +122,69 @@ def clean_star_num_ratings(star_num_ratings):
     return int(digits) if digits else None
 
 
-def clean_description(description):
+def clean_description(description_text):
     """
-    Cleans the 'description' field by applying general cleaning
-    and additional domain-specific rules.
+    Cleans the description field and extracts language information if specified.
 
-    For example, if the description begins with boilerplate phrases such as
-    "About this learning activity", these are removed to improve the signal
-    for semantic search.
+    This function:
+      - Normalises whitespace.
+      - Removes boilerplate prefixes such as "About this learning activity".
+      - First, searches for a "Note:" segment that includes a language list.
+      - If found, only the languages from that segment are extracted.
+      - Otherwise, falls back to searching for explicit markers (e.g. "Languages:" or "available in ...").
+      - Removes the language segments from the description.
+      - Optionally strips trailing instructional text.
 
     Args:
-        description (str): The course description text.
+        description_text (str): The original description text.
 
     Returns:
-        str: The cleaned description.
+        dict: A dictionary with:
+              - "description": the cleaned description text.
+              - "languages": a list of extracted languages.
     """
-    description = clean_text(description)
-    # Remove a common boilerplate prefix, if present
-    description = re.sub(r'^(About this learning activity\s*)', '', description, flags=re.IGNORECASE)
-    return description
+    if not description_text or not isinstance(description_text, str):
+        return {"description": "", "languages": []}
+
+    cleaned_text = re.sub(r'\s+', ' ', description_text).strip()
+
+    cleaned_text = re.sub(r'(?i)^About this learning activity\s*', '', cleaned_text)
+
+    languages_found = []
+
+    note_pattern = re.compile(r'(?i)Note:\s*.*?available in\s*([^.]+)\.', re.DOTALL)
+    note_match = note_pattern.search(cleaned_text)
+    if note_match:
+        languages_found.append(note_match[1])
+        cleaned_text = note_pattern.sub('', cleaned_text)
+    else:
+        pattern1 = re.compile(r'(?i)(Languages?:)\s*([^.]+)')
+        pattern2 = re.compile(r'(?i)available in (?:these languages here:\s*)?([^.]+)')
+        for pattern in [pattern1, pattern2]:
+            matches = pattern.findall(cleaned_text)
+            for match in matches:
+                if isinstance(match, tuple):
+                    languages_found.append(match[1])
+                else:
+                    languages_found.append(match)
+            cleaned_text = pattern.sub('', cleaned_text)
+
+    cleaned_text = re.sub(
+        r'(?i)A version of this course is available in these languages here:.*?Description',
+        '',
+        cleaned_text
+    )
+
+    cleaned_text = re.sub(r'(?i)Language:\s*[^.]+(\.|$)', '', cleaned_text)
+
+    languages_list = []
+    for lang_str in languages_found:
+        lang_str = re.sub(r'\s+and\s+', ', ', lang_str, flags=re.IGNORECASE)
+        parts = [l.strip() for l in lang_str.split(',') if l.strip()]
+        languages_list.extend(parts)
+
+    languages_list = sorted(set(languages_list))
+
+    cleaned_text = re.sub(r'(?i)Select Enroll.*$', '', cleaned_text).strip()
+
+    return {"description": cleaned_text, "languages": languages_list}
