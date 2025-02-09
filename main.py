@@ -3,7 +3,7 @@ import logging
 from utils.config import load_config
 from scrapers.IBM_scraper import IBMScraper
 
-from utils.utils import init_driver
+from utils.selenium_utils import init_driver
 from utils.io_utils import save_to_csv, save_to_json
 
 

@@ -61,7 +61,7 @@ class IBMScraper:
             )
 
             html_source = self.driver.page_source
-            course_data = parse_course_page(html_source)
+            course_data = parse_course_page(html_source, link)
         finally:
             self.driver.close()
             self.driver.switch_to.window(self.driver.window_handles[0])

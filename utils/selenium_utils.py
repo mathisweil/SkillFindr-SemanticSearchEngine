@@ -1,9 +1,21 @@
 import logging
 
+from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+
+def init_driver(config):
+    """Initializes the Chrome WebDriver with options."""
+    options = webdriver.ChromeOptions()
+
+    webdriver_args = config.get("webdriver_args", {})
+    for webdriver_arg in webdriver_args:
+        options.add_argument(webdriver_arg)
+
+    logging.info("Chrome WebDriver initialised.")
+    return webdriver.Chrome(options=options)
 
 
 def wait_for_element(driver, by, value, condition, timeout=10):
