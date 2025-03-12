@@ -4,7 +4,7 @@ from utils.config import load_config
 from scrapers.IBM_scraper import IBMScraper
 
 from utils.selenium_utils import init_driver
-from utils.io_utils import save_to_csv, save_to_json
+from utils.data_processing import process_with_pandas
 
 
 if __name__ == '__main__':
@@ -22,8 +22,6 @@ if __name__ == '__main__':
         scraper = IBMScraper(driver, config)
         scraper.login()
 
-        if courses := scraper.scrape_courses():
-            if config.get("output_formats", {}).get("json"):
-                save_to_json(courses, f"{config['output_path']}/{config['search_keyword']}")
-            if config.get("output_formats", {}).get("csv"):
-                save_to_csv(courses, f"{config['output_path']}/{config['search_keyword']}")
+        courses = scraper.scrape_courses()
+
+        process_with_pandas(courses, f"{config['output_path']}/{config['search_keyword']}")
