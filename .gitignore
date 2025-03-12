@@ -18,7 +18,7 @@ Thumbs.db
 config.json
 
 # Outputs
-data/*
+processed_data/*
 
 # Test Files
 *.test
