@@ -1,4 +1,3 @@
-from datetime import datetime
 import re
 import html
 import unicodedata
@@ -7,19 +6,9 @@ import codecs
 import ftfy
 import pandas as pd
 import langcodes
+from pathlib import Path
 
 from utils.config import load_config
-
-
-def load_data():
-    """
-    Load configuration and JSON data from the raw output file.
-    Uses the current date in the filename.
-    """
-    config = load_config()
-    current_date = datetime.now().strftime("%Y-%m-%d")
-    file_path = f"../{config['raw_output_path']}/{config['output_filename']}_2025-03-12.json"
-    return config, pd.read_json(file_path)
 
 
 # List of boilerplate phrases to remove from text fields.
@@ -261,29 +250,35 @@ def extract_numeric(value) -> int:
 
 
 def main():
-    config, df = load_data()
+    config = load_config()
 
-    # Apply cleaning functions to DataFrame columns.
-    df["title"] = df["title"].apply(clean_title)
-    df["description"] = df["description"].apply(lambda x: clean_description(x) if isinstance(x, str) else None)
-    df["duration"] = df["duration"].apply(convert_duration)
-    df["learners_amount"] = df["learners_amount"].apply(extract_numeric)
-    df["star_rating"] = df["star_rating"].apply(
-        lambda x: float(re.search(r"(\d+(\.\d+)?)", str(x)).group(1))
-        if isinstance(x, str) and re.search(r"(\d+(\.\d+)?)", x)
-        else 0.0
-    )
-    df["star_num_ratings"] = df["star_num_ratings"].apply(extract_numeric)
-    df["languages"] = df["description"].apply(lambda x: extract_iso_languages(x) if isinstance(x, str) else None)
+    raw_dir = Path(f"../{config['raw_output_path']}")
+    processed_dir = Path(f"../{config['processed_output_path']}")
+    processed_dir.mkdir(parents=True, exist_ok=True)
 
-    # Sort DataFrame by learners amount and star rating in descending order.
-    df = df.sort_values(by=["learners_amount", "star_rating"], ascending=[False, False])
+    for file_path in raw_dir.glob("*.json"):
+        df = pd.read_json(file_path)
 
-    # Save processed data.
-    output_json_path = f"../{config['processed_output_path']}/{config['output_filename']}.json"
-    output_csv_path = f"../{config['processed_output_path']}/{config['output_filename']}.csv"
-    df.to_json(output_json_path, orient="records", indent=4)
-    df.to_csv(output_csv_path, index=False)
+        # Apply cleaning functions to DataFrame columns.
+        df["title"] = df["title"].apply(clean_title)
+        df["description"] = df["description"].apply(lambda x: clean_description(x) if isinstance(x, str) else None)
+        df["duration"] = df["duration"].apply(convert_duration)
+        df["learners_amount"] = df["learners_amount"].apply(extract_numeric)
+        df["star_rating"] = df["star_rating"].apply(
+            lambda x: float(re.search(r"(\d+(\.\d+)?)", str(x)).group(1))
+            if isinstance(x, str) and re.search(r"(\d+(\.\d+)?)", x)
+            else 0.0
+        )
+        df["star_num_ratings"] = df["star_num_ratings"].apply(extract_numeric)
+        df["languages"] = df["description"].apply(lambda x: extract_iso_languages(x) if isinstance(x, str) else None)
+
+        # Sort DataFrame by learners amount and star rating in descending order.
+        df = df.sort_values(by=["learners_amount", "star_rating"], ascending=[False, False])
+
+        stem = re.sub(r"_\d{4}-\d{2}-\d{2}$", "", file_path.stem)
+        output_base = processed_dir / stem
+        df.to_json(f"{output_base}.json", orient="records", indent=4)
+        df.to_csv(f"{output_base}.csv", index=False)
 
 
 if __name__ == "__main__":
