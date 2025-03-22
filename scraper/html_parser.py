@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
-from typing import Any, Union, List, Dict
+from typing import Any, Union, List, Dict, Optional
+
 
 def extract_elements(
     selector: str,
@@ -23,17 +24,33 @@ def extract_elements(
 
     if single:
         element = soup.select_one(selector)
-        return get_raw(element) if element else ""
+        return get_raw(element) if element else None
     else:
         elements = soup.select(selector)
         return [get_raw(elem) for elem in elements] if elements else []
 
 
-def parse_course_page(html_source: str, url: str, course_category: str) -> Dict[str, Any]:
+def parse_course_page(html_source: str, url: str, course_category: str) -> Optional[Dict[str, Union[str, None, List[str]]]]:
+    """
+        Parses course data from HTML and returns a structured dictionary.
+        Skips entries where the course URL is missing.
+
+        Args:
+            html_source: The HTML content of the page.
+            url: The URL of the course (must not be None).
+            course_category: The category for the course (e.g. 'cybersecurity').
+
+        Returns:
+            A dictionary of extracted course data, or None if the URL is invalid.
+        """
+
+    if not url or not url.strip():
+        return None
+
     soup = BeautifulSoup(html_source, 'lxml')
 
     return {
-        "course_url": url or "",
+        "course_url": url.strip(),
         "category": course_category,
         "type": extract_elements('#full-page-header-type', soup),
         "title": extract_elements('h1.FullPageHeader_fullPageHeader__title__DmVZ\\+ > span', soup),

@@ -11,7 +11,6 @@ from pathlib import Path
 from utils.config import load_config
 
 
-# List of boilerplate phrases to remove from text fields.
 BOILERPLATE = [
     # Completion & Progress Instructions
     "after you complete this activity",
@@ -143,37 +142,32 @@ def clean_description(text: str) -> tuple[str, list[str]]:
 
     text, languages = extract_iso_languages(text)
 
-    # Decode HTML entities and unicode escape sequences.
     text = html.unescape(text)
     try:
         text = codecs.decode(text, 'unicode_escape')
     except Exception:
-        pass  # Skip if already decoded.
+        pass
 
-    # Normalise unicode and fix encoding issues.
     text = unicodedata.normalize("NFKC", text)
     text = ftfy.fix_text(text)
     text = ftfy.fix_encoding(text)
     text = re.sub(r'[\u2020\u0304\u00a0]+', ' ', text)
 
-    # Remove URLs and long numeric strings.
     text = re.sub(r"http\S+|www\.\S+", "", text)
     text = re.sub(r"\d{5,}", "", text)
 
     text = re.sub(
         r"(languages?:|available in|here:|a version of this course is available in)\s*"
-        r"(([^.:;\n]|[\u00A0-\uFFFF])+)",  # Capture language names including Unicode
+        r"(([^.:;\n]|[\u00A0-\uFFFF])+)",
         " ",
         text,
         flags=re.IGNORECASE
     )
 
-    # Remove durations and boilerplate content.
     text = duration_pattern.sub(" ", text)
     text = boilerplate_pattern.sub(" ", text)
 
     text = re.sub(r"\s+", " ", text).strip()
-
     return text, languages
 
 
@@ -250,10 +244,8 @@ def clean_title(text: str) -> str:
     text = ftfy.fix_text(text)
     text = clean_text(text)
 
-    # Lowercase for consistency.
     text = text.lower()
 
-    # Remove specific boilerplate phrases from titles.
     boilerplate_phrases = [
         r"\(\s*earn a credential!?[\s]*\)",
         r"\(\s*earn a badge!?[\s]*\)",
@@ -262,7 +254,6 @@ def clean_title(text: str) -> str:
     for pattern in boilerplate_phrases:
         text = re.sub(pattern, "", text, flags=re.IGNORECASE)
 
-    # Final cleanup: remove excess whitespace and trailing punctuation.
     text = re.sub(r"\s+", " ", text).strip()
     return re.sub(r"[.,;:!?]+$", "", text)
 
@@ -335,8 +326,6 @@ def main():
         df["star_num_ratings"] = df["star_num_ratings"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
         df["embedding_input_combined"] = df.apply(build_combined_text, axis=1)
 
-
-        # Sort DataFrame by learners amount and star rating in descending order.
         df = df.sort_values(by=["learners_amount", "star_rating"], ascending=[False, False])
 
         stem = re.sub(r"_\d{4}-\d{2}-\d{2}$", "", file_path.stem)
