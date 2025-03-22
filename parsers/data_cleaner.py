@@ -111,6 +111,7 @@ BOILERPLATE = [
     "technical introduction to cybersecurity is ideal for individuals in technical roles",
     "you will need to register for a free account",
     "get a feel for cybersecurity as a career",
+    "and then select auto-translate to enable subtitles in a language of your choice from the drop-down",
 ]
 
 # Compile boilerplate regex pattern.
@@ -311,11 +312,18 @@ def main():
     for file_path in raw_dir.glob("*.json"):
         df = pd.read_json(file_path)
 
+        df["title_raw"] = df["title"]
         df["title"] = df["title"].apply(lambda x: clean_title(x) if isinstance(x, str) and x.strip() else "Untitled")
+
+        df["description_raw"] = df["description"]
         df[["description", "languages"]] = df["description"].apply(
             lambda x: pd.Series(
                 clean_description(x) if isinstance(x, str) and x.strip() else ("no description available", ["en"]))
         )
+
+        df["tags_raw"] = df["tags"]
+        df["tags"] = df["tags"].apply(lambda x: clean_tags(x) if isinstance(x, list) else [])
+
         df["duration"] = df["duration"].apply(lambda x: convert_duration(x) if isinstance(x, str) else 0)
         df["learners_amount"] = df["learners_amount"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
         df["star_rating"] = df["star_rating"].apply(
@@ -325,10 +333,6 @@ def main():
             else 0.0
         )
         df["star_num_ratings"] = df["star_num_ratings"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
-        df["tags"] = df["tags"].apply(lambda x: clean_tags(x) if isinstance(x, list) else [])
-        df["embedding_input_title"] = df["title"]
-        df["embedding_input_description"] = df["description"]
-        df["embedding_input_tags"] = df["tags"].apply(lambda tags: "; ".join(tags) if tags else "")
         df["embedding_input_combined"] = df.apply(build_combined_text, axis=1)
 
 
