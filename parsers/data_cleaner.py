@@ -24,6 +24,7 @@ BOILERPLATE = [
     "you will find short instructional content offerings",
     "you will be prompted to log in",
     "for first time users, your user id must be the email address linked to your ibmid",
+    "complete the following modules to earn an industry-recognized ibm skillsbuild digital credential",
     # Introductory/Descriptive
     "about this learning activity",
     "about this digital credential",
@@ -33,6 +34,7 @@ BOILERPLATE = [
     "presentation slides",
     "resources",
     "prerequisite: none",
+    "there is an updated version of this course in the following",
     # Subtitles / Language Settings
     "note: on the video toolbar",
     "go to settings",
@@ -43,6 +45,7 @@ BOILERPLATE = [
     "language of your choice",
     "from the drop-down",
     "this activity is available only in english",
+    "this newly designed experience is",
     # Legal Disclaimers
     "any presentation by the presenting lawyers",
     "should not be considered or construed as legal advice",
@@ -53,11 +56,13 @@ BOILERPLATE = [
     "badges:",
     "click enroll",
     "click the enroll me button",
+    "click here to take it",
     "select enroll",
     "select start tracking progress",
     "complete the courses in order",
     "courses: 3",
     "you agree to the following",
+    "to enroll in this learning plan and get started",
     # Introductory Fluff
     "have fun exploring",
     "curious about tech, but not sure where to focus",
@@ -116,18 +121,26 @@ boilerplate_pattern = re.compile(
 
 # Pattern to remove duration strings.
 duration_pattern = re.compile(
-    r"duration:\s*(complete the activities.*?learning credit!|\d+\s*(hours?|hrs?|h|mins?|minutes?|m)(,\s*\d+\s*(minutes?|mins?|m))?)",
+    r"(?:duration|expected duration)\s*:\s*"
+    r"(complete the activities.*?learning credit!|"
+    r"(?:this course will take you about\s*)?\d+\s*(hours?|hrs?|h|minutes?|mins?|m)"
+    r"(?:,\s*\d+\s*(minutes?|mins?|m))?)",
     flags=re.IGNORECASE
 )
 
 
-def clean_description(text: str) -> str:
+
+def clean_description(text: str) -> tuple[str, list[str]]:
     """
     Clean a description by decoding HTML, normalising unicode, removing URLs, long numeric strings,
     durations, and boilerplate phrases.
     """
     if not isinstance(text, str):
-        return text
+        return text, []
+
+    text = text.lower()
+
+    text, languages = extract_iso_languages(text)
 
     # Decode HTML entities and unicode escape sequences.
     text = html.unescape(text)
@@ -139,24 +152,59 @@ def clean_description(text: str) -> str:
     # Normalise unicode and fix encoding issues.
     text = unicodedata.normalize("NFKC", text)
     text = ftfy.fix_text(text)
-    text = text.replace('\u00a0', ' ')
-
-    # Lowercase for standardisation.
-    text = text.lower()
+    text = ftfy.fix_encoding(text)
+    text = re.sub(r'[\u2020\u0304\u00a0]+', ' ', text)
 
     # Remove URLs and long numeric strings.
     text = re.sub(r"http\S+|www\.\S+", "", text)
     text = re.sub(r"\d{5,}", "", text)
 
+    text = re.sub(
+        r"(languages?:|available in|here:|a version of this course is available in)\s*"
+        r"(([^.:;\n]|[\u00A0-\uFFFF])+)",  # Capture language names including Unicode
+        " ",
+        text,
+        flags=re.IGNORECASE
+    )
+
     # Remove durations and boilerplate content.
     text = duration_pattern.sub(" ", text)
     text = boilerplate_pattern.sub(" ", text)
 
-    # Clean up excess whitespace.
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text, languages
 
 
-def clean_text(text: str) -> str:
+def extract_iso_languages(text: str) -> tuple[str, list[str]]:
+    """
+    Extract ISO language codes from the text based on language mentions.
+    """
+    if not isinstance(text, str):
+        return text, []
+
+    modified_text = text
+
+    candidates = [candidate.strip(" .;:,") for candidate in re.split(r',|\band\b', text) if candidate.strip()]
+
+    iso_langs = set()
+    for candidate in candidates:
+        try:
+            language = langcodes.find(candidate)
+            if language and language.language:
+                iso_langs.add(language.language)
+                modified_text = re.sub(r'\b' + re.escape(candidate) + r'\b', '', modified_text, flags=re.IGNORECASE)
+        except Exception:
+            continue
+
+    if 'en' not in iso_langs:
+        iso_langs.add('en')
+
+    modified_text = re.sub(r'\s+', ' ', modified_text).strip()
+    return modified_text, list(iso_langs)
+
+
+def clean_text(text: str) -> str | None:
     """
     Remove HTML tags and excess whitespace from the input text.
     """
@@ -165,27 +213,6 @@ def clean_text(text: str) -> str:
     text = html.unescape(text)
     text = re.sub(r'<[^>]+>', '', text)
     return re.sub(r'\s+', ' ', text.strip())
-
-
-def extract_iso_languages(text: str) -> list:
-    """
-    Extract ISO language codes from the text based on language mentions.
-    """
-    match = re.search(r'languages?:\s*(.*)', text, re.IGNORECASE)
-    if not match:
-        return []
-    raw_langs = re.split(r',|\band\b', match.group(1), flags=re.IGNORECASE)
-    cleaned_langs = [lang.strip() for lang in raw_langs if lang.strip()]
-
-    iso_langs = []
-    for lang in cleaned_langs:
-        try:
-            language = langcodes.find(lang)
-            if language.language:
-                iso_langs.append(language.language)
-        except Exception:
-            continue
-    return iso_langs
 
 
 def convert_duration(duration: str) -> int:
@@ -239,6 +266,24 @@ def clean_title(text: str) -> str:
     return re.sub(r"[.,;:!?]+$", "", text)
 
 
+def clean_tags(tags) -> list[str]:
+    """
+    Cleans and normalises a list of tags.
+    Returns an empty list if tags is None or invalid.
+    """
+    if not isinstance(tags, list):
+        return []
+
+    cleaned = set()
+    for tag in tags:
+        if isinstance(tag, str):
+            normalised = tag.strip().lower()
+            if normalised:
+                cleaned.add(normalised)
+
+    return list(cleaned)
+
+
 def extract_numeric(value) -> int:
     """
     Extract numeric value from the input by removing non-digit characters.
@@ -247,6 +292,13 @@ def extract_numeric(value) -> int:
         return 0
     value = re.sub(r"[^\d]", "", str(value))
     return int(value) if value.isdigit() else 0
+
+
+def build_combined_text(row):
+    title = row.get("title", "")
+    description = row.get("description", "")
+    tags = "; ".join(row.get("tags", []))
+    return f"{title}. {description}. Tags: {tags}" if tags else f"{title}. {description}"
 
 
 def main():
@@ -259,18 +311,26 @@ def main():
     for file_path in raw_dir.glob("*.json"):
         df = pd.read_json(file_path)
 
-        # Apply cleaning functions to DataFrame columns.
-        df["title"] = df["title"].apply(clean_title)
-        df["description"] = df["description"].apply(lambda x: clean_description(x) if isinstance(x, str) else None)
-        df["duration"] = df["duration"].apply(convert_duration)
-        df["learners_amount"] = df["learners_amount"].apply(extract_numeric)
+        df["title"] = df["title"].apply(lambda x: clean_title(x) if isinstance(x, str) and x.strip() else "Untitled")
+        df[["description", "languages"]] = df["description"].apply(
+            lambda x: pd.Series(
+                clean_description(x) if isinstance(x, str) and x.strip() else ("no description available", ["en"]))
+        )
+        df["duration"] = df["duration"].apply(lambda x: convert_duration(x) if isinstance(x, str) else 0)
+        df["learners_amount"] = df["learners_amount"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
         df["star_rating"] = df["star_rating"].apply(
             lambda x: float(re.search(r"(\d+(\.\d+)?)", str(x)).group(1))
             if isinstance(x, str) and re.search(r"(\d+(\.\d+)?)", x)
+            else float(x) if isinstance(x, (int, float)) and not pd.isna(x)
             else 0.0
         )
-        df["star_num_ratings"] = df["star_num_ratings"].apply(extract_numeric)
-        df["languages"] = df["description"].apply(lambda x: extract_iso_languages(x) if isinstance(x, str) else None)
+        df["star_num_ratings"] = df["star_num_ratings"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
+        df["tags"] = df["tags"].apply(lambda x: clean_tags(x) if isinstance(x, list) else [])
+        df["embedding_input_title"] = df["title"]
+        df["embedding_input_description"] = df["description"]
+        df["embedding_input_tags"] = df["tags"].apply(lambda tags: "; ".join(tags) if tags else "")
+        df["embedding_input_combined"] = df.apply(build_combined_text, axis=1)
+
 
         # Sort DataFrame by learners amount and star rating in descending order.
         df = df.sort_values(by=["learners_amount", "star_rating"], ascending=[False, False])
