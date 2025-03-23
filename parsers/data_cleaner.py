@@ -8,6 +8,8 @@ import pandas as pd
 import langcodes
 from pathlib import Path
 
+from bs4 import BeautifulSoup
+
 from utils.config import load_config
 
 
@@ -24,6 +26,7 @@ BOILERPLATE = [
     "you will be prompted to log in",
     "for first time users, your user id must be the email address linked to your ibmid",
     "complete the following modules to earn an industry-recognized ibm skillsbuild digital credential",
+    "complete this course to earn the cybersecurity fundamentals badge",
     # Introductory/Descriptive
     "about this learning activity",
     "about this digital credential",
@@ -34,7 +37,7 @@ BOILERPLATE = [
     "resources",
     "prerequisite: none",
     "there is an updated version of this course in the following",
-    "there is an updated version of this course"
+    "there is an updated version of this course",
     # Subtitles / Language Settings
     "note: on the video toolbar",
     "go to settings",
@@ -84,17 +87,6 @@ BOILERPLATE = [
     "this course requires you register for an ibmid to access",
     "it is presented by edureka",
     # Miscellaneous
-    "cyber attacks",
-    "cybersecurity: on the defense",
-    "cybersecurity: on the offense",
-    "data encryption techniques",
-    "pii (personally identifiable information)",
-    "user authentication methods",
-    "user data tracking",
-    "secure internet protocols",
-    "introduction to online data security",
-    "describe cybersecurity, the cia triad",
-    "recognize the cybersecurity job market",
     "the topics include",
     "this is a curation of eight course units",
     "overview of data tools and languages",
@@ -129,47 +121,33 @@ duration_pattern = re.compile(
     flags=re.IGNORECASE
 )
 
+language_span_pattern = re.compile(
+    r"(languages\s*:|available in|here\s*:|a version of this course is available in)\s*((?:[^.:;\n]|[ -￿])+)",
+    flags=re.IGNORECASE
+)
 
+learners_pattern = re.compile(
+    r"(?:\b[a-z]+\s+)?learners?\s+can\s+complete\s+the\s+learning(?:\s+here:)?",
+    flags=re.IGNORECASE
+)
 
-def clean_description(text: str) -> tuple[str, list[str]]:
+def extract_languages_from_soup(soup: BeautifulSoup) -> list[str]:
     """
-    Clean a description by decoding HTML, normalising unicode, removing URLs, long numeric strings,
-    durations, and boilerplate phrases.
+    Extract language codes from HTML tags with a 'lang' attribute.
     """
-    if not isinstance(text, str):
-        return text, []
-
-    text = text.lower()
-
-    text, languages = extract_iso_languages(text)
-
-    text = html.unescape(text)
-    try:
-        text = codecs.decode(text, 'unicode_escape')
-    except Exception:
-        pass
-
-    text = unicodedata.normalize("NFKC", text)
-    text = ftfy.fix_text(text)
-    text = ftfy.fix_encoding(text)
-    text = re.sub(r'[\u2020\u0304\u00a0]+', ' ', text)
-
-    text = re.sub(r"http\S+|www\.\S+", "", text)
-    text = re.sub(r"\d{5,}", "", text)
-
-    text = re.sub(
-        r"(languages?:|available in|here:|a version of this course is available in)\s*"
-        r"(([^.:;\n]|[\u00A0-\uFFFF])+)",
-        " ",
-        text,
-        flags=re.IGNORECASE
-    )
-
-    text = duration_pattern.sub(" ", text)
-    text = boilerplate_pattern.sub(" ", text)
-
-    text = re.sub(r"\s+", " ", text).strip()
-    return text, languages
+    langs = set()
+    for tag in soup.find_all(attrs={"lang": True}):
+        lang_value = tag.get("lang")
+        if lang_value:
+            try:
+                language = langcodes.find(lang_value)
+                if language and language.language:
+                    langs.add(language.language.lower())
+                else:
+                    langs.add(lang_value.lower())
+            except Exception:
+                langs.add(lang_value.lower())
+    return list(langs)
 
 
 def extract_iso_languages(text: str) -> tuple[str, list[str]]:
@@ -180,24 +158,66 @@ def extract_iso_languages(text: str) -> tuple[str, list[str]]:
         return text, []
 
     modified_text = text
-
     candidates = [candidate.strip(" .;:,") for candidate in re.split(r',|\band\b', text) if candidate.strip()]
-
     iso_langs = set()
     for candidate in candidates:
         try:
             language = langcodes.find(candidate)
             if language and language.language:
-                iso_langs.add(language.language)
+                iso_langs.add(language.language.lower())
                 modified_text = re.sub(r'\b' + re.escape(candidate) + r'\b', '', modified_text, flags=re.IGNORECASE)
         except Exception:
             continue
 
-    if 'en' not in iso_langs:
-        iso_langs.add('en')
-
     modified_text = re.sub(r'\s+', ' ', modified_text).strip()
     return modified_text, list(iso_langs)
+
+
+def clean_description(text: str) -> tuple[str, list[str]]:
+    """
+    Clean a description by decoding HTML, normalising Unicode, removing URLs, long numeric strings,
+    durations, and boilerplate phrases.
+    """
+    if not isinstance(text, str):
+        return text, []
+
+    soup = BeautifulSoup(text, "html.parser")
+
+    for tag in soup(["script", "style", "header", "footer", "nav", "noscript"]):
+        tag.decompose()
+
+    languages_from_html = extract_languages_from_soup(soup)
+
+    text = soup.get_text(separator=" ")
+    text = html.unescape(text)
+    text = text.lower()
+
+    text, languages_from_text = extract_iso_languages(text)
+
+    try:
+        text = codecs.decode(text, 'unicode_escape')
+    except Exception:
+        pass
+    text = unicodedata.normalize("NFKC", text)
+    text = ftfy.fix_text(text)
+    text = ftfy.fix_encoding(text)
+    text = re.sub(r'[\u2020\u0304\u00a0]+', ' ', text)
+
+    text = re.sub(r"http\S+|www\.\S+", "", text)
+    text = re.sub(r"\d{5,}", "", text)
+
+    text = language_span_pattern.sub(" ", text)
+    text = duration_pattern.sub(" ", text)
+    text = boilerplate_pattern.sub(" ", text)
+    text = learners_pattern.sub(" ", text)
+
+    languages = set(languages_from_html).union(set(languages_from_text))
+    if "en" not in languages:
+        languages.add("en")
+
+    text = re.sub(r'([,.!?;:])\1+', r'\1', text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text, list(languages)
 
 
 def clean_text(text: str) -> str | None:
@@ -217,7 +237,7 @@ def convert_duration(duration: str) -> int:
     Returns None if the conversion is not possible.
     """
     if pd.isna(duration) or not isinstance(duration, str):
-        return None
+        return 0
 
     duration = duration.lower().strip()
     duration = re.sub(r"[^\w\s:]", "", duration)  # Remove punctuation.
