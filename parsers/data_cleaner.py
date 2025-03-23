@@ -106,13 +106,11 @@ BOILERPLATE = [
     "and then select auto-translate to enable subtitles in a language of your choice from the drop-down",
 ]
 
-# Compile boilerplate regex pattern.
 boilerplate_pattern = re.compile(
     r"|".join(rf"\s*{re.escape(phrase)}[\s\.,;:!?\u2026\u3002]*" for phrase in BOILERPLATE),
     flags=re.IGNORECASE
 )
 
-# Pattern to remove duration strings.
 duration_pattern = re.compile(
     r"(?:duration|expected duration)\s*:\s*"
     r"(complete the activities.*?learning credit!|"
@@ -140,7 +138,7 @@ def extract_languages_from_soup(soup: BeautifulSoup) -> list[str]:
         lang_value = tag.get("lang")
         if lang_value:
             try:
-                language = langcodes.find(lang_value)
+                language = langcodes.get(lang_value)
                 if language and language.language:
                     langs.add(language.language.lower())
                 else:
@@ -212,7 +210,7 @@ def clean_description(text: str) -> tuple[str, list[str]]:
     text = learners_pattern.sub(" ", text)
 
     languages = set(languages_from_html).union(set(languages_from_text))
-    if "en" not in languages:
+    if len(languages) == 0:
         languages.add("en")
 
     text = re.sub(r'([,.!?;:])\1+', r'\1', text)
@@ -248,7 +246,7 @@ def convert_duration(duration: str) -> int:
     if hr_match:
         minutes += int(hr_match.group(1)) * 60
 
-    min_match = re.search(r"(\d+)\s*(?:m(?:in(?:utes?)?)?)", duration)
+    min_match = re.search(r"(\d+)\s*m(?:in(?:utes?)?)?", duration)
     if min_match:
         minutes += int(min_match.group(1))
 
@@ -307,13 +305,6 @@ def extract_numeric(value) -> int:
     return int(value) if value.isdigit() else 0
 
 
-def build_combined_text(row):
-    title = row.get("title", "")
-    description = row.get("description", "")
-    tags = "; ".join(row.get("tags", []))
-    return f"{title}. {description}. Tags: {tags}" if tags else f"{title}. {description}"
-
-
 def main():
     config = load_config()
 
@@ -325,6 +316,8 @@ def main():
         df = pd.read_json(file_path)
 
         df["course_id"] = df["course_url"].apply(lambda url: url.split("/")[-1])
+        df = df[df["course_url"].notnull() & df["course_id"].notnull()]
+
         df["title_raw"] = df["title"]
         df["title"] = df["title"].apply(lambda x: clean_title(x) if isinstance(x, str) and x.strip() else "Untitled")
 
@@ -346,7 +339,6 @@ def main():
             else 0.0
         )
         df["star_num_ratings"] = df["star_num_ratings"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
-        df["embedding_input_combined"] = df.apply(build_combined_text, axis=1)
 
         df = df.sort_values(by=["learners_amount", "star_rating"], ascending=[False, False])
 

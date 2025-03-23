@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, text
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-query = "introduction to cloud security"
+query = "I want to learn more about artificial intelligence."
 query_vector = model.encode([query])[0].tolist()
 
 DATABASE_URL = "postgresql+psycopg2://mathisweil@localhost:5432/postgres"
@@ -15,7 +15,7 @@ query_vector_str = str(query_vector)  # e.g. '[0.12, 0.98, ...]'
 
 search_sql = text("""
 SELECT
-    id,
+    course_id,
     title,
     course_url,
     description,
@@ -29,7 +29,7 @@ with engine.connect() as conn:
     results = conn.execute(search_sql, {"query_vector": query_vector_str}).fetchall()
 
 context = "\n\n".join([
-    f"{row.title} — {row.description}" for row in results
+    f"{row.title} — {row.description} — {row.course_id}" for row in results
 ])
 
 print(context)
