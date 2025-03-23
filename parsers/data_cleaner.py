@@ -34,6 +34,7 @@ BOILERPLATE = [
     "resources",
     "prerequisite: none",
     "there is an updated version of this course in the following",
+    "there is an updated version of this course"
     # Subtitles / Language Settings
     "note: on the video toolbar",
     "go to settings",
@@ -296,13 +297,14 @@ def build_combined_text(row):
 def main():
     config = load_config()
 
-    raw_dir = Path(f"../{config['raw_output_path']}")
-    processed_dir = Path(f"../{config['processed_output_path']}")
+    raw_dir = Path(f"{config['raw_output_path']}")
+    processed_dir = Path(f"{config['processed_output_path']}")
     processed_dir.mkdir(parents=True, exist_ok=True)
 
     for file_path in raw_dir.glob("*.json"):
         df = pd.read_json(file_path)
 
+        df["course_id"] = df["course_url"].apply(lambda url: url.split("/")[-1])
         df["title_raw"] = df["title"]
         df["title"] = df["title"].apply(lambda x: clean_title(x) if isinstance(x, str) and x.strip() else "Untitled")
 

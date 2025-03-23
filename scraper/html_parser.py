@@ -7,20 +7,36 @@ def extract_elements(
     soup: BeautifulSoup,
     single: bool = True,
     unwanted_selector: Union[str, None] = None,
-    attribute: Union[str, None] = None
-) -> Union[str, List[str]]:
+    attribute: Union[str, None] = None,
+    raw_html: bool = False,
+) -> Union[str, List[str], None]:
     """
-    Extracts elements using a BeautifulSoup selector and returns their raw text or an attribute value,
-    with no additional cleaning.
+    Extracts elements using a BeautifulSoup selector and returns their raw HTML,
+    text, or an attribute value, with optional removal of unwanted nested elements.
+
+    Parameters:
+        selector (str): The CSS selector to use.
+        soup (BeautifulSoup): The parsed HTML soup.
+        single (bool): Whether to return a single result or a list.
+        unwanted_selector (str, optional): Selector for nested elements to remove before extraction.
+        attribute (str, optional): The attribute to extract (e.g., 'href'). If None, text is returned.
+        raw_html (bool): If True, returns inner HTML.
     """
 
     def get_raw(element: Any) -> str:
         if not element:
             return ""
+
         if unwanted_selector:
             for unwanted in element.select(unwanted_selector):
                 unwanted.decompose()
-        return element.get(attribute, "").strip() if attribute else element.get_text(strip=True)
+
+        if attribute:
+            return element.get(attribute, "").strip()
+        elif raw_html:
+            return "".join(str(child) for child in element.contents)
+        else:
+            return element.get_text(strip=True)
 
     if single:
         element = soup.select_one(selector)
@@ -59,6 +75,6 @@ def parse_course_page(html_source: str, url: str, course_category: str) -> Optio
         "learners_amount": extract_elements('#a11y-undefined-learners', soup, attribute='title'),
         "star_rating": extract_elements('#a11y-undefined-rating', soup, attribute='title'),
         "star_num_ratings": extract_elements('.Stars_numRatings__us9ns', soup),
-        "description": extract_elements('.FullPageDescription_wrapper__CEPjU > div', soup),
+        "description": extract_elements('.FullPageDescription_wrapper__CEPjU > div', soup, raw_html=True),
         "tags": extract_elements('[class^="TagLabel_labelContainer__"] > span', soup, single=False)
     }

@@ -1,17 +1,18 @@
 import json
+from pathlib import Path
+
 import pandas as pd
 from sqlalchemy import create_engine, text
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
+from utils.config import load_config
+
 # -------------------------
 # Configuration
 # -------------------------
 # Update with your PostgreSQL connection details.
-DATABASE_URL = "postgresql+psycopg2://username:password@host:port/dbname"
-
-# The JSON file containing your courses data.
-JSON_FILE = "courses.json"
+DATABASE_URL = "postgresql+psycopg2://mathisweil@localhost:5432/postgres"
 
 # Embedding model: Adjust model name if needed.
 MODEL_NAME = "all-MiniLM-L6-v2"  # This model outputs 384-dimensional vectors
@@ -19,10 +20,14 @@ MODEL_NAME = "all-MiniLM-L6-v2"  # This model outputs 384-dimensional vectors
 # -------------------------
 # Load Data
 # -------------------------
-with open(JSON_FILE, "r", encoding="utf-8") as f:
-    data = json.load(f)
+config = load_config()
 
-df = pd.DataFrame(data)
+# Define processed directory and file path
+processed_dir = Path(".") / config["processed_output_path"]
+file_path = processed_dir / "web_development.json"
+
+# Load the JSON file into a DataFrame
+df = pd.read_json(file_path)
 
 # -------------------------
 # Compute Embeddings
