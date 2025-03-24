@@ -1,7 +1,6 @@
 import logging
 from pathlib import Path
 
-import pandas as pd
 from datetime import datetime
 from contextlib import contextmanager
 from selenium.webdriver.common.by import By
@@ -10,6 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 from utils.config import load_config
 from utils.selenium_utils import init_driver, wait_for_element, wait_and_perform_action, click_show_more_button
+from utils.io_utils import save_data
 from scraper.html_parser import parse_course_page
 
 
@@ -140,68 +140,51 @@ class IBMScraper:
         Returns:
             list[dict]: A list of dictionaries containing course information.
         """
-        wait_for_element(self.driver, By.ID, 'search-input', EC.presence_of_element_located)
         courses: list[dict[str, any]] = []
+        try:
+            wait_for_element(self.driver, By.ID, 'search-input', EC.presence_of_element_located)
 
-        search_sections = self.config.get("search_sections", {})
-        for section, slug in search_sections.items():
-            try:
-                url = f"{self.config['base_url']}/search/{slug}/q={search_keyword['keyword']}"
-                self.driver.get(url)
-                logging.info(f"Navigated to {url}.")
-
-                element = WebDriverWait(self.driver, 10).until(
-                    EC.any_of(
-                        EC.presence_of_element_located((By.CLASS_NAME, 'SearchNoResults_container__XFV7d')),
-                        EC.presence_of_element_located((By.CLASS_NAME, 'FocusOnShowMoreWrapper_wrapper__Ord-a'))
-                    )
-                )
-                if 'SearchNoResults_container__XFV7d' in element.get_attribute("class"):
-                    logging.info(f"No search results for section: {section}")
-                    continue
-
-                click_show_more_button(self.driver, self.config["scrape_delay"])
-
-                links: list[str] = []
+            search_sections = self.config.get("search_sections", {})
+            for section, slug in search_sections.items():
                 try:
-                    container = self.driver.find_element(
-                        By.CLASS_NAME,
-                        "withSearch_resultsContainer__msvVY"
+                    url = f"{self.config['base_url']}/search/{slug}/q={search_keyword['keyword']}"
+                    self.driver.get(url)
+                    logging.info(f"Navigated to {url}.")
+
+                    element = WebDriverWait(self.driver, 10).until(
+                        EC.any_of(
+                            EC.presence_of_element_located((By.CLASS_NAME, 'SearchNoResults_container__XFV7d')),
+                            EC.presence_of_element_located((By.CLASS_NAME, 'FocusOnShowMoreWrapper_wrapper__Ord-a'))
+                        )
                     )
-                    links = self.__parse_course_links(container)
-                    logging.info(f"Found {len(links)} links for section: {section}")
-                except Exception:
-                    logging.info("No results container found.")
+                    if 'SearchNoResults_container__XFV7d' in element.get_attribute("class"):
+                        logging.info(f"No search results for section: {section}")
+                        continue
 
-                for link in links:
-                    if link not in self.scraped_courses:
-                        course_data = self.__scrape_course_page(link, search_keyword["category"])
-                        if course_data:
-                            courses.append(course_data)
-                        self.scraped_courses.add(link)
-            except Exception as e:
-                logging.error(f"Error scraping section {section}: {e}")
+                    click_show_more_button(self.driver, self.config["scrape_delay"])
+
+                    links: list[str] = []
+                    try:
+                        container = self.driver.find_element(
+                            By.CLASS_NAME,
+                            "withSearch_resultsContainer__msvVY"
+                        )
+                        links = self.__parse_course_links(container)
+                        logging.info(f"Found {len(links)} links for section: {section}")
+                    except Exception:
+                        logging.info("No results container found.")
+
+                    for link in links:
+                        if link not in self.scraped_courses:
+                            course_data = self.__scrape_course_page(link, search_keyword["category"])
+                            if course_data:
+                                courses.append(course_data)
+                            self.scraped_courses.add(link)
+                except Exception as e:
+                    logging.error(f"Error scraping section {section}: {e}")
+        except Exception as e:
+            logging.error(f"Failed scraping for keyword {search_keyword['keyword']}: {e}")
         return courses
-
-
-def save_courses_data(courses: list[dict[str, any]], config: dict[str, any], file_name: str) -> None:
-    """
-    Saves the scraped courses data to CSV and JSON files.
-
-    Args:
-        courses (list): List of dictionaries containing course information.
-        config (dict): Configuration dictionary with paths and filenames.
-        :param courses:
-        :param config:
-        :param file_name:
-    """
-    current_date = datetime.now().strftime("%Y-%m-%d")
-    df = pd.DataFrame(courses)
-    csv_filename = f"{config['raw_output_path']}/{file_name}_{current_date}.csv"
-    json_filename = f"{config['raw_output_path']}/{file_name}_{current_date}.json"
-    df.to_csv(csv_filename, index=False)
-    df.to_json(json_filename, orient="records", indent=4)
-    logging.info(f"Data successfully saved to CSV: {csv_filename} and JSON: {json_filename}")
 
 
 def main():
@@ -225,7 +208,11 @@ def main():
                 if not courses:
                     logging.warning(f"No courses to process for: {search_keyword['keyword']}.")
                 else:
-                    save_courses_data(courses, config, search_keyword["category"])
+                    current_date = datetime.now().strftime("%Y-%m-%d")
+                    csv_filename = f"{config['raw_output_path']}/{search_keyword["category"]}_{current_date}.csv"
+                    json_filename = f"{config['raw_output_path']}/{search_keyword["category"]}_{current_date}.json"
+
+                    save_data(courses, csv_filename, json_filename)
     except Exception as e:
         logging.error(f"An error occurred during scraping: {e}")
 

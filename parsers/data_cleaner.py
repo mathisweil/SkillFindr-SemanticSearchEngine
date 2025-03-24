@@ -11,6 +11,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 from utils.config import load_config
+from utils.io_utils import save_data
 
 
 BOILERPLATE = [
@@ -187,8 +188,7 @@ def clean_description(text: str) -> tuple[str, list[str]]:
     languages_from_html = extract_languages_from_soup(soup)
 
     text = soup.get_text(separator=" ")
-    text = html.unescape(text)
-    text = text.lower()
+    text = html.unescape(text).lower()
 
     text, languages_from_text = extract_iso_languages(text)
 
@@ -344,8 +344,7 @@ def main():
 
         stem = re.sub(r"_\d{4}-\d{2}-\d{2}$", "", file_path.stem)
         output_base = processed_dir / stem
-        df.to_json(f"{output_base}.json", orient="records", indent=4)
-        df.to_csv(f"{output_base}.csv", index=False)
+        save_data(df, f"{output_base}.csv", f"{output_base}.json")
 
 
 if __name__ == "__main__":

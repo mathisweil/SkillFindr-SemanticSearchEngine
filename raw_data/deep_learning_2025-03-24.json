@@ -1,0 +1,629 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-510",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Build Your First Chatbot",
+        "duration":"1 hr",
+        "learners_amount":"18319 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 691 learners in the past 12 months.",
+        "star_num_ratings":"691",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Welcome to <i>Build Your First Chatbot<\/i>. In this course, you will learn the steps to create conversational chatbots that can understand and respond to natural language. You will also understand the fundamentals of Natural Language Processing (NLP) and learn how to apply them to real-world scenarios.<\/p><p>\u00a0<\/p><p><a href=\"https:\/\/ole03.yourlearning.ibm.com\/mod\/scorm\/player.php?a=1521&amp;currentorg=articulate_rise&amp;scoid=4571&amp;sesskey=uCpu6ro1ZT&amp;display=popup&amp;mode=normal\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Untuk kursus dalam Bahasa, sikahkan menuju tautan berikut ini<\/a><\/p><p>\u00a0<\/p><p><strong>Learning objectives<\/strong><\/p><p>After completing this course, you should be able to:<\/p><ul><li>Build a conversational chatbot that offers options and suggestions.<\/li><li>Use pre-built conversations and custom conversations to generate chatbot dialog.\u00a0<\/li><\/ul><p>\u00a0<\/p><\/div>",
+        "tags":[
+            "Initiatives",
+            "AI2026",
+            "SDI Explore",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-504",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Use Generative AI for Software Development",
+        "duration":"1 hr",
+        "learners_amount":"22812 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 1487 learners in the past 12 months.",
+        "star_num_ratings":"1,487",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you\u2019ll learn how AI can help you write new code, switch code between programming languages, and fix common coding issues. You\u2019ll get a chance to practice using IBM watsonx in a simulation to generate code with the help of simple prompts.\u00a0<\/p><p>\u00a0<\/p><p><a href=\"https:\/\/ole03.yourlearning.ibm.com\/mod\/scorm\/player.php?a=1525&amp;currentorg=articulate_rise&amp;scoid=4579&amp;sesskey=uCpu6ro1ZT&amp;display=popup&amp;mode=normal\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Untuk kursus dalam Bahasa, sikahkan menuju tautan berikut ini<\/a><\/p><p><br\/><br\/>What you'll learn<\/p><ul><li>Describe how generative AI is used to write code<\/li><li>Identify common issues with AI-generated code<\/li><li>Use IBM watsonx in a simulation to generate code<\/li><\/ul><\/div>",
+        "tags":[
+            "Initiatives",
+            "AI2026",
+            "SDI Explore",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-567",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"IBM Granite Models for Software Development",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"1092 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 43 learners in the past 12 months.",
+        "star_num_ratings":"43",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this module, you\u2019ll discover how generative artificial intelligence is rewriting the rules of code creation. You\u2019ll learn about IBM Granite models and discover their different types and the benefits they bring to your coding journey. You\u2019ll also learn how to use IBM Granite models to troubleshoot code, allowing you to identify and fix issues faster. You\u2019ll discover the value of Granite models for software developers and be able to explain how to use them.<\/p><p><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this module, you should be able to:<\/p><ul><li>Identify the types of IBM Granite models used for code generation<\/li><li>Describe the benefits of using IBM Granite models for code generation<\/li><li>Identify the techniques to troubleshoot code<\/li><\/ul><p><br\/><strong>Lessons<\/strong><\/p><ol><li>IBM Granite models for code generation<\/li><li>Benefits of using IBM Granite models<\/li><li>Troubleshooting code using IBM Granite<\/li><li>Simulation: Troubleshooting code using IBM Granite<\/li><\/ol><\/div>",
+        "tags":[
+            "Initiatives",
+            "SDI Explore",
+            "AI2026",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-563",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Classifying Data Using IBM Granite",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"1776 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 96 learners in the past 12 months.",
+        "star_num_ratings":"96",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this module, you\u2019ll explore the role of generative artificial intelligence in simplifying tasks involving classifying data. You\u2019ll identify methods for selecting an IBM Granite model for classifying text-based data and examine various prompts to use in these models.<\/p><p><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this module, you should be able to:<\/p><ul><li>Summarize the role of generative AI in simplifying tasks involving classifying data<\/li><li>Choose an IBM Granite model for classifying text-based data<\/li><li>Compare prompts for classifying text-based data in IBM Granite models<\/li><\/ul><p><br\/><strong>Lessons<\/strong><\/p><ol><li>Classifying text-based data with generative AI<\/li><li>IBM Granite models for classifying data<\/li><li>Prompting IBM Granite for text classification<\/li><li>Simulation: Prompting IBM Granite models for text classification<\/li><\/ol><\/div>",
+        "tags":[
+            "Administrative",
+            "NotSearchable",
+            "Initiatives",
+            "SDI Explore",
+            "AI2026",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-571",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Ethical Considerations for Generative AI",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"46 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 4 learners in the past 12 months.",
+        "star_num_ratings":"4",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this module, you\u2019ll explore the fascinating and complex world of ethical considerations when creating content with generative AI. You\u2019ll learn about the pillars of transparency, accountability, and fairness. You\u2019ll discover ethical considerations and risks related to data inputs to AI tools and uncover the ethical implications of AI-generated output. Finally, you\u2019ll explore the IBM AI risk atlas, an online resource that helps users understand some of the risks of working with generative AI, foundation models, and machine learning models.<\/p><p><br\/><strong>What you will learn<\/strong><br\/>At the end of this course, you will be able to:<br\/>\u00a0<\/p><ul><li>Describe the ethical pillars of transparency, accountability, and fairness in the use of generative AI<\/li><li>Identify ethical considerations and risks related to data inputs in AI tools<\/li><li>Explain the ethical implications of managing AI-generated content<\/li><\/ul><p><br\/><strong>Lessons<\/strong><\/p><ol><li>Ethics in the use of generative AI<\/li><li>Managing the ethics of AI inputs for data<\/li><li>Managing the ethics of AI-generated content<\/li><li>Simulation: Exploring the IBM AI risk atlas<\/li><\/ol><\/div>",
+        "tags":[
+            "Initiatives",
+            "SDI Explore",
+            "AI2026",
+            "Academia",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-EKVXKVVEVEVV13NA",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"What is artificial intelligence?",
+        "duration":"45 mins",
+        "learners_amount":"69331 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2197 learners in the past 12 months.",
+        "star_num_ratings":"2,197",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Can a computer really think? Learn how experts answer this question, and explore concepts like machine learning and deep learning.<\/p><p><br\/>\u00a0<\/p><p><strong>Duration:<\/strong> Complete the activities in this course and earn 45 minutes of learning credit!<\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Explore Emerging Tech",
+            "Initiatives",
+            "SDI",
+            "SDI Explore",
+            "Learning Domain",
+            "Other - Emerging technologies",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "TryB4",
+            "All TryB4",
+            "Lightcast Skills Taxonomy",
+            "Artificial Intelligence Skill",
+            "Machine Learning Skill",
+            "Deep Learning Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-388",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Introduction to Generative AI",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"10797 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 173 learners in the past 12 months.",
+        "star_num_ratings":"173",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you\u2019ll learn about the history of AI, how deep learning plays a pivotal role in generative AI (gen-AI), and how gen-AI works and is applied to various industries. You will also learn how to create algorithms, and gain hands-on experience writing code using popular programming languages.\u00a0<br\/><br\/><strong>What you'll learn\u00a0<\/strong><br\/><br\/>After completing this course, you should be able to:<\/p><ul><li>Explain how generative artificial intelligence (gen-AI) works<\/li><li>Define what foundation models are and their role in machine learning<\/li><li>Understand how transformers models are used to solve various language-related tasks<\/li><li>Describe how prompt engineering improve generative AI models<\/li><li>Perform common programming tasks using Python's built-in functions and libraries<\/li><li>Create scripts and code for solving real-world problems and automating routine tasks<\/li><\/ul><\/div>",
+        "tags":[
+            "Initiatives",
+            "AI2026",
+            "SDI Deep Dive",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-298",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Mastering the Art of Prompting",
+        "duration":"1 hr",
+        "learners_amount":"140928 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 1810 learners in the past 12 months.",
+        "star_num_ratings":"1,810",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This is an activity-based course. You'll learn about AI language models and the rules to follow when giving instructions, or prompting, an AI language model. You'll walk-through a guided activity that demonstrates how to write effective prompts for an AI language model to help plan a travel itinerary. Finally, you'll participate in an activity to apply what you've learned to effectively write prompts for an AI language model to create your own custom music playlist.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<\/p><ul><li>Describe an AI language model<\/li><li>Explain how an AI language model understands and responds to humans<\/li><li>Identify the rules to follow to write effective prompts to generate focused and accurate results from an AI language model<\/li><li>List the steps to sign up for a ChatGPT account<\/li><li>Follow the steps to effectively write and refine a series of prompts for ChatGPT for a travel itinerary scenario<\/li><li>Demonstrate the steps to effectively write and refine a series of prompts for ChatGPT to create a custom music playlist<\/li><\/ul><p><br\/>Czech learners can complete the learning here: <a href=\"https:\/\/ole03.yourlearning.ibm.com\/mod\/scorm\/player.php?a=1175&amp;currentorg=articulate_rise&amp;scoid=3879&amp;sesskey=WimsJhFYGz&amp;display=popup&amp;mode=normal\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Um\u011bn\u00ed promptingu: Efektivn\u00ed pokyny pro jazykov\u00e9 modely AI<\/a><\/p><p><br\/><strong>Languages<\/strong>: English, Brazilian Portuguese, Czech, French, Japanese, Spanish<\/p><\/div>",
+        "tags":[
+            "Initiatives",
+            "AI2026",
+            "SDI Explore",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-XVZNEXKGDVQN2PD3",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Improve Your Resume Writing with Generative AI",
+        "duration":"40 mins",
+        "learners_amount":"32422 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 586 learners in the past 12 months.",
+        "star_num_ratings":"586",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this activity-based course, you'll complete a guided activity that demonstrates how to co-write or update your resume using generative AI.<\/p><p>It is recommended that prior to this course, you complete <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-298\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Master the Art of Prompting<\/a>\u00a0and\u00a0<a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/ALM-COURSE_3822944\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Create a Great Professional Resume.<\/a><br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<\/p><ul><li>Identify the rules to follow to write effective prompts to generate focused and accurate results from an AI language model<\/li><li>Follow the steps to effectively write and refine a series of prompts for generative AI for your resume<\/li><li>Demonstrate the steps to effectively write and refine your resume<\/li><\/ul><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Workforce readiness",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-ZKVJNXVZKMZXEWGN",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Artificial Intelligence in Practice",
+        "duration":"40 mins",
+        "learners_amount":"45149 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 1301 learners in the past 12 months.",
+        "star_num_ratings":"1,301",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>What's it all for? From communicating with chatbots, to piloting self-driving cars, to solving complex global problems, AI is solving problems everywhere.<br\/>\u00a0<\/p><p><strong>Duration:<\/strong> Complete the activities in this course and earn 40 minutes of learning credit!<\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Explore Emerging Tech",
+            "DigN Journey",
+            "New Collars",
+            "Initiatives",
+            "SDI",
+            "SDI Explore",
+            "Learning Domain",
+            "Other - Emerging technologies",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "Lightcast Skills Taxonomy",
+            "Communications Skill",
+            "Artificial Intelligence Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-344",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"What are Transformers?",
+        "duration":"15 mins",
+        "learners_amount":"350 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 17 learners in the past 12 months.",
+        "star_num_ratings":"17",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">What are Transformers (Machine Learning Model)? centers around transformers, a type of machine learning model which consists of an encoder and a decoder, and they operate on input and output sequences. It presents their purpose and discusses their strengths and limitations.<br\/><br\/>After completing this course, you should be able to:<ul><li>Explain sequence-to-sequence learning<\/li><li>Explain semi-supervised learning<\/li><li>Summarize the advantages of an attention mechanism<\/li><\/ul><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-342",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"What is prompt tuning?",
+        "duration":"15 mins",
+        "learners_amount":"1072 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 35 learners in the past 12 months.",
+        "star_num_ratings":"35",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Focuses on the concept of prompt tuning\u2014a technique used to adapt a pre-trained language model to specific tasks or domains without extensive retraining\u2014as a method to adapt Artificial Intelligence (AI) foundation models to new tasks without retraining the entire model. It presents different options for tailoring a pre-trained language model for specialization. \n<br\/>\n<br\/>\nAfter completing this course, you should be able to:\n<ul>\n<li>Describe fine tuning, prompt tuning, and prompt engineering<\/li>\n<li>Differentiate between soft prompts and hard prompts<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Initiatives",
+            "AI2026",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-346",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Can AI help climate change?",
+        "duration":"15 mins",
+        "learners_amount":"2115 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 67 learners in the past 12 months.",
+        "star_num_ratings":"67",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Can AI help Climate Change? addresses the intersection of artificial intelligence (AI) and climate change, focusing on the role of AI in developing new materials with a goal to mitigate climate change by developing low carbon technologies. AI can play a crucial role by speeding up and enhancing the scientific method. The integration of AI with the scientific method should accelerate material discovery and have a significant impact on addressing climate change. \n<br\/>\n<br\/>\nAfter completing this course, you should be able to: \n<ul>\n<li>Relate the challenges of performance, toxicity, stability, and cost that AI can overcome<\/li>\n<li>Outline how AI enhances the steps of the scientific method<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Initiatives",
+            "AI2026",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Expand your horizons - Sustainability",
+            "Learning Domain Primary",
+            "Sustainability"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-1AE76ADD4550",
+        "category":"deep_learning",
+        "type":"Webpage",
+        "title":"Deep Learning | IBM Cloud Education",
+        "duration":"10 mins",
+        "learners_amount":"1860 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 35 learners in the past 12 months.",
+        "star_num_ratings":"35",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Deep learning simulates the human brain, enabling systems that learn to identify objects and perform complex tasks with increasing accuracy\u2014all without human intervention.<br\/><br\/>\n This webpage covers:<\/p>\n<ul>\n<li>What is deep learning?<\/li>\n<li>Deep learning vs. machine learning<\/li>\n<li>How deep learning works<\/li>\n<li>Deep learning applications<\/li>\n<li>Deep learning hardware requirements<\/li>\n<li>Deep learning and IBM<\/li>\n<\/ul>This webpage is presented by IBM Cloud Education. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note:<\/strong> This activity is currently available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical Skills - Cloud",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Cloud computing",
+            "Lightcast Skills Taxonomy",
+            "Machine Learning Skill",
+            "Deep Learning Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-E81F74962665",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Deep Learning - Introduction \u00e0 l'apprentissage profond | EDUlib - MOOC",
+        "duration":"5 hrs",
+        "learners_amount":"28 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"fr\" translate=\"yes\">\u00c0 propos de ce MOOC \n<br\/>\n L'apprentissage profond (deep learning) est une technique d'apprentissage automatique (machine learning) qui a consid\u00e9rablement am\u00e9lior\u00e9 les r\u00e9sultats dans de nombreux domaines tels que la vision par ordinateur, la reconnaissance de la parole et la traduction automatique. Les techniques d'apprentissage profond permettent, \u00e0 l'aide de donn\u00e9es, de r\u00e9soudre de nombreux probl\u00e8mes dans de nombreux domaines de l'\u00e9conomie tels que la sant\u00e9, le transport, le commerce, la finance ainsi que l'\u00e9nergie. \n<br\/>\n D\u00e9velopp\u00e9 par <strong>IVADO<\/strong> et le <strong>MILA<\/strong>, ce cours d'une <strong>dur\u00e9e totale de 5 heures<\/strong> pr\u00e9sente les concepts fondamentaux de l'apprentissage profond \u00e0 travers <strong>5 modules de formation propos\u00e9s en fran\u00e7ais<\/strong>. \n<br\/>\n Le cours Introduction \u00e0 l'apprentissage profond a \u00e9t\u00e9 con\u00e7u pour ceux qui d\u00e9sirent: \n<ul>\n<li>Comprendre en quoi consiste l'apprentissage profond,<\/li>\n<li>Comprendre quels types de probl\u00e8mes peuvent \u00eatre r\u00e9solus \u00e0 l'aide de ces techniques,<\/li>\n<li>Se familiariser avec les concepts fondamentaux et m\u00e9thodes utilis\u00e9es en apprentissage profond.<\/li>\n<\/ul><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-3B98E6C653CD",
+        "category":"deep_learning",
+        "type":"Experiential",
+        "title":"IBM Watson Studio - Machine learning (ML) and deep learning (DL) made easy",
+        "duration":"30 mins",
+        "learners_amount":"83 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 56 learners in the past 12 months.",
+        "star_num_ratings":"56",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Explore multiple machine learning and deep learning capabilities of IBM Watson Studio.\n<br\/>\n<br\/>\nMachine learning and deep learning open the door to new capabilities that can not only improve forecasting and targeting, but can also enable new capabilities.\n<br\/>\n<br\/>\nIn this tutorial, you will explore the following key capabilities:\n<ul>\n<li>Learn how to pick the best model for churn prediction<\/li>\n<li>See how to take advantage of Watson services<\/li>\n<li>Create your own visual recognition model<\/li>\n<li>Use tools to create test and use deep learning models<\/li>\n<\/ul>\n<br\/><strong>Note<\/strong>: This tutorial is meant to be used with IBM Watson Studio. If you do not already have a running instance, you can try it for free. You will also need an IBM Cloud account.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/div>",
+        "tags":[
+            "Areas of Interest",
+            "Essential skills > Artificial intelligence (AI)",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "Popular Subjects",
+            "Artificial intelligence (AI)",
+            "Lightcast Skills Taxonomy",
+            "Deep Learning Skill",
+            "Machine Learning Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-6A355B43785F",
+        "category":"deep_learning",
+        "type":"Learning Plan",
+        "title":"Rutas Digitales: Fundamentos en Inteligencia Artificial para Negocios",
+        "duration":"About 27 hours",
+        "learners_amount":null,
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<div dir=\"ltr\" lang=\"es\" translate=\"yes\"><p>El estudiante obtendr\u00e1 conceptos fundamentales para la comprensi\u00f3n de la IA, tales como Machine Learning, Deep Learning y desarrollar\u00e1 soluciones empresariales a trav\u00e9s de IA Aplicada. Explorar\u00e1 los fundamentos y aplicaciones de la Inteligencia Artificial Generativa a trav\u00e9s de Watsonx.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-AA3A7B7D89B6",
+        "category":"deep_learning",
+        "type":"Learning Plan",
+        "title":"Rutas Digitales 1: Fundamentos en GenAI",
+        "duration":"About 15 hours",
+        "learners_amount":"18 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<div dir=\"ltr\" lang=\"es\" translate=\"yes\"><p>El estudiante obtendr\u00e1 conceptos fundamentales para la comprensi\u00f3n de la IA, tales como Machine Learning, Deep Learning y desarrollar\u00e1 soluciones empresariales a trav\u00e9s de IA Aplicada. Explorar\u00e1 los fundamentos y aplicaciones de la Inteligencia Artificial Generativa a trav\u00e9s de Watsonx.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-ABF979BAEDE1",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Build an image classification model",
+        "duration":"3 hrs",
+        "learners_amount":"4 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Build an American Sign Language alphabet classifier using PyTorch and GPU environments on Watson Studio.<\/p>\n<p>This code pattern explains how to classify an American Sign Language (ASL) alphabet using PyTorch and deep learning networks. It uses a pretrained model from the PyTorch models zoo and retrains the last part of the network.<\/p>\n<p>We recommend to familiarize with this technology\/services before attempting this project:<br\/>\n - Github CLI<br\/>\n - IBM Cloud dashboard and services<br\/>\n - Jupyter Notebooks<br\/>\n - Python<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-QPEEKVMMWPDG8Z95",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Solar Advocacy | Jeevitam",
+        "duration":"1 hr",
+        "learners_amount":"13 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2871 learners in the past 12 months.",
+        "star_num_ratings":"2,871",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The world is moving quickly towards the adoption of solar energy. India, as the founder of the International Solar Alliance (ISO), is keen to provide support, subsidies, and more to drive solar energy adoption. In this course, you can learn about this industry and how to be an advocate for solar adoption, which will have a deep and long-lasting impact on the environment.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Expand your horizons - Sustainability",
+            "Learning Domain Primary",
+            "Sustainability",
+            "Lightcast Skills Taxonomy",
+            "Advocacy Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-8608AF032C16",
+        "category":"deep_learning",
+        "type":"Webpage",
+        "title":"A beginner\u2019s guide to artificial intelligence, machine learning, and cognitive computing | IBM Developer",
+        "duration":"30 mins",
+        "learners_amount":"4355 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 44 learners in the past 12 months.",
+        "star_num_ratings":"44",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Get an overview of the history of artificial intelligence as well as the latest in neural network and deep learning approaches. Learn why, although AI and machine learning have had their ups and downs, new approaches like deep learning and cognitive computing have significantly raised the bar in these disciplines. \n<br\/>\n<br\/>\n This webpage is presented by IBM Developer. \n<br\/>\n<br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note:<\/strong> This activity is currently available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "Popular Subjects",
+            "Artificial intelligence (AI)",
+            "Lightcast Skills Taxonomy",
+            "Deep Learning Skill",
+            "Artificial Intelligence Skill",
+            "Machine Learning Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL01001G",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"InstructLab: Democratizing AI Models at Scale",
+        "duration":"8 hrs",
+        "learners_amount":"47 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Unlock the full potential of both Large Language Models (LLMs) and Small Language Models (SLMs) and transform your expertise into actionable insights. Have you ever felt that Language Models fall short in understanding your domain-specific knowledge? InstructLab bridges this gap, enabling you to contribute your expertise and enhance the model\u2019s capabilities. This course will guide you through the process of democratizing AI with InstructLab, providing a deep dive into the underlying technology and hands-on tutorials to get you started. By the end of this course, you\u2019ll be equipped to synthesize your domain specific data, fine-tune, align, and customize AI Language Models. Amplify your AI expertise, and earn a Credly digital badge to showcase your skills.<\/p>Get started with customizing AI Language Models (LLMs and SLMs) using InstructLab. Master key concepts, gain hands-on skills, and learn how to democratize AI through tutorials and earn a badge.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Initiatives",
+            "SDI",
+            "AI2026",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-AD79NYK2KEG",
+        "category":"deep_learning",
+        "type":"Video",
+        "title":"Artificial Intelligence In 5 Minutes | What Is Artificial Intelligence? | AI Explained | Simplilearn",
+        "duration":"5 mins 28 s",
+        "learners_amount":"11556 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 902 learners in the past 12 months.",
+        "star_num_ratings":"902",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This video on Artificial Intelligence introduces you to Artificial intelligence with a fun and simple approach. We will talk about what is artificial intelligence, how it's different from machine learning and deep learning, its features, types, and scope. We also look at some interesting applications of Artificial Intelligence. \n<br\/>\n<br\/>\nBy the end of this video, you will understand: \n<br\/>\n1. What is Artificial Intelligence? \n<br\/>\n2. Difference between Artificial intelligence, Machine Learning, and Deep Learning \n<br\/>\n3. Examples of Artificial Intelligence \n<br\/>\n4. Future of Artificial Intelligence \n<br\/>\n<br\/>\nThis video is presented by Simplilearn. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, <strong> <\/strong>select <strong>Subtitles<\/strong>, <strong> <\/strong>select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "Lightcast Skills Taxonomy",
+            "Machine Learning Skill",
+            "Deep Learning Skill",
+            "Artificial Intelligence Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-WNQKFPCPK1G",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"AI And Machine Learning Full Course | Artificial Intelligence & Machine Learning Course | Simplilearn",
+        "duration":"9 hrs 48 mins",
+        "learners_amount":"9279 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 137 learners in the past 12 months.",
+        "star_num_ratings":"137",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This complete Artificial Intelligence and Machine Learning full video course covers all the topics that you need to know to become a master in the field of AI and Machine Learning. You will learn about:\n<br\/>\n\u00a0\n<ul>\n<li>The basics of Machine Learning, the different types of Machine Learning, and the various applications of Machine Learning used in different industries.\u00a0<\/li>\n<li>The basics of artificial intelligence.<\/li>\n<li>The future of AI and listen to some of the industry experts to learn what they have to say about AI.<\/li>\n<li>The top 10 applications of AI in 2021.<\/li>\n<li>Machine Learning and Deep Learning and the different algorithms used to build AI models.<\/li>\n<\/ul>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "Lightcast Skills Taxonomy",
+            "Algorithms Skill",
+            "Machine Learning Skill",
+            "Deep Learning Skill",
+            "Artificial Intelligence Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-6A515FE867AE",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Le machine learning est-il l'avenir de l'homme ? | OpenClassrooms",
+        "duration":"30 mins",
+        "learners_amount":"1343 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 13 learners in the past 12 months.",
+        "star_num_ratings":"13",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"fr\" translate=\"yes\">Il y a quelques d\u00e9cennies, la notion d\u2019Intelligence Artificielle appartenait \u00e0 l\u2019univers de la science-fiction. Aujourd\u2019hui, nous entendons parler de Big Data, de Machine Learning, de Deep Learning, de robots pouvant ex\u00e9cuter des t\u00e2ches autrefois d\u00e9volues aux humains. C\u2019est sans aucun doute l\u2019aspect le plus spectaculaire de la transformation digitale. Le nouvel \u00e9pisode de ce cours pr\u00e9sente des applications concr\u00e8tes cr\u00e9\u00e9es par ces technologies, au service d\u2019usages marketing, culturels ou encore de gestion des agendas. \n<br\/>\n<br\/>\nCe MOOC est propos\u00e9 par OpenClassrooms. \n<br\/>\n\u00a0 \n<br\/>\nApr\u00e8s avoir suivi cette activit\u00e9, revenez sur cette page et s\u00e9lectionnez \" <strong>Marquer termin\u00e9<\/strong>\" afin de prendre en compte ce parcours. \n<br\/>\n<br\/>\nNote : cette activit\u00e9 est uniquement disponible en fran\u00e7ais.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-69B652315543",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Intelligence artificielle et objets connect\u00e9s | l'EPSAA et la Mairie de Paris",
+        "duration":"4 hrs",
+        "learners_amount":"608 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 8 learners in the past 12 months.",
+        "star_num_ratings":"8",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"fr\" translate=\"yes\">Explorant l\u2019Histoire, Luc Julia revient sur les grandes \u00e9tapes de l\u2019\u00e9mergence de l\u2019intelligence artificielle. Il cite la\u00a0Pascaline, cr\u00e9\u00e9e\u00a0en 1645, une machine d\u2019arithm\u00e9tique mise au point par Blaise Pascal qui marque le d\u00e9but de la computation. Cette machine permettait de faire des additions et des soustractions \u00e0 quatre chiffres en deux secondes, ce qui \u00e0 l\u2019\u00e9poque \u00e9tait extraordinaire. \u00ab C\u2019est la premi\u00e8re machine qui augmente l\u2019intelligence de l\u2019homme \u00bb, note Luc Julia. Il \u00e9voque ensuite Basile Bouchon qui, en 1725, invente le ruban perfor\u00e9,\u00a0qui a \u00e9t\u00e9 con\u00e7u pour programmer les machines \u00e0 tisser. 1956 est une autre date cl\u00e9, avec la tenue d\u2019une Conf\u00e9rence, au Dartmouth College (USA),\u00a0au cours de laquelle John McCarthy\u00a0emploie pour la premi\u00e8re fois le terme\u00a0d\u2019intelligence artificielle. Luc Julia d\u00e9finit ensuite la notion de\u00a0machine learning, des machines qui ont la capacit\u00e9 d\u2019apprendre, puis le\u00a0deep learning, \u00ab o\u00f9 la machine a l\u2019opportunit\u00e9 de d\u00e9finir des param\u00e8tres \u00bb, ce qui va mener \u00e0 la reconnaissance visuelle, de la parole, etc. \n<br\/>\n<br\/>\nCe MOOC est propos\u00e9 par l'EPSAA et la Mairie de Paris.\u00a0 \n<br\/>\n\u00a0 \n<br\/>\nApr\u00e8s avoir suivi cette activit\u00e9, revenez sur cette page et s\u00e9lectionnez \" <strong>Marquer termin\u00e9<\/strong>\" afin de prendre en compte ce parcours. \n<br\/>\n<br\/>\nNote : cette activit\u00e9 est uniquement disponible en fran\u00e7ais.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-14F84A415945",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Objectif IA : initiez-vous \u00e0 l'intelligence artificielle | OpenClassrooms",
+        "duration":"6 hrs",
+        "learners_amount":"1571 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 28 learners in the past 12 months.",
+        "star_num_ratings":"28",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"fr\" translate=\"yes\">L\u2019 \n<strong>intelligence artificielle ou l\u2019IA, <\/strong>vous en entendez parler \u00e0 la radio, \u00e0 la t\u00e9l\u00e9vision, et Internet propose des centaines de vid\u00e9os et d\u2019articles sur cette th\u00e9matique. Avec autant de sources d\u2019information, pas facile de s\u2019approprier le sujet !\u00a0\n<br\/>\n<br\/>Nous vous pr\u00e9sentons l\u2019intelligence artificielle de A \u00e0 Z, pour vous donner des cl\u00e9s de compr\u00e9hension et des pistes de r\u00e9flexion.\n<ul>\n<li>Qu\u2019est-ce que l\u2019intelligence artificielle ?<\/li>\n<li>Dans quelle mesure est-ce que nous interagissons avec elle dans notre vie quotidienne ?<\/li>\n<li>Quels sont les d\u00e9fis\u00a0et les opportunit\u00e9s associ\u00e9s \u00e0 cette r\u00e9volution ?<\/li>\n<\/ul>\n<br\/>Dans ce cours, nous r\u00e9pondrons \u00e0 toutes ces questions. Dans un premier temps, vous en apprendrez plus sur ce que recouvre vraiment l'intelligence artificielle. Vous identifierez\u00a0ensuite les changements que l'IA am\u00e8ne dans notre soci\u00e9t\u00e9. Enfin, vous rentrerez dans le fonctionnement d\u2019un projet d'intelligence artificielle et des disciplines\u00a0d\u2019IA les plus utilis\u00e9es : le Machine Learning et le Deep Learning.\n<br\/>\n<br\/>Ce MOOC est propos\u00e9 par OpenClassrooms.\n<br\/>\n<br\/>Apr\u00e8s avoir suivi cette activit\u00e9, revenez sur cette page et s\u00e9lectionnez \"\n<strong>Marquer termin\u00e9<\/strong>\" afin de prendre en compte ce parcours.\n<br\/>\n<br\/>Note : cette activit\u00e9 est uniquement disponible en fran\u00e7ais.<\/div>",
+        "tags":[
+            "Areas of Interest",
+            "Essential skills > Artificial intelligence (AI)",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-W7129G",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Accomplishing AI Privacy and Compliance with IBM Privacy Toolkits",
+        "duration":"4 hrs",
+        "learners_amount":"34 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course will give you an overview on the concept of AI privacy, which helps in building trust in AI, and explains how open source tools from IBM can help both assess the privacy risk of AI-based solutions, and help them adhere to any relevant privacy requirements. \u00a0Learners will start off with an overview of the AI Privacy concept, and then do a deep dive into three IBM open source tool kits: AI Privacy Toolkit, Differential Privacy Library and Adversarial Robustness Toolbox which help assess and create machine learning models that preserve the privacy of their training data and comply with relevant data protection regulations.<\/p>\n<p>\u00a0<\/p>\n<p><i><strong>This course has been developed in collaboration with the iToBoS project (<\/strong><\/i><a href=\"https:\/\/itobos.eu\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"><i><strong>https:\/\/itobos.eu\/<\/strong><\/i><\/a><i><strong>)<\/strong><\/i><\/p>This course will give you an overview on the concept of AI privacy, which helps in building trust in AI.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "Lightcast Skills Taxonomy",
+            "Artificial Intelligence Skill",
+            "Machine Learning Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL08025G",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"IBM Storage for AI and Big Data Introduction",
+        "duration":"4 hrs",
+        "learners_amount":"372 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 11 learners in the past 12 months.",
+        "star_num_ratings":"11",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course covers the foundations of Artificial Intelligence (AI) and Big Data and how they relate to IBM Spectrum Storage. Students are introduced the basic concepts of Machine Learning (ML), Deep Learning (DL), and popular ML frameworks, such as TensorFlow and Pytorch.<\/p>\n<p>\u00a0<\/p>\n<p>Following this overview, students will learn about the IBM Spectrum Storage offerings and how they provide support for AI and Big Data projects.<\/p>\n<p>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<\/p>\n<p>After completing the course, students will earn the IBM Spectrum Storage for AI and Big Data Fundamentals badge:\u00a0<a href=\"https:\/\/www.credly.com\/org\/ibm\/badge\/ibm-spectrum-storage-for-ai-and-big-data-fundamentals\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">https:\/\/www.credly.com\/org\/ibm\/badge\/ibm-spectrum-storage-for-ai-and-big-data-fundamentals<\/a><\/p>\n<p>\u00a0<\/p>\n<p>\u00a0<\/p>\n<p><strong>Agenda<\/strong>:<\/p>\n<p>\u00a0<\/p>\n<ul>\n<li>Unit 1: Introduction to AI<\/li>\n<li>Introduction to AI<\/li>\n<li>Checkpoint Quiz 1<\/li>\n<li>Machine Learning<\/li>\n<li>Checkpoint Quiz 2<\/li>\n<li>Deep Learning<\/li>\n<li>Checkpoint Quiz 3<\/li>\n<li>Types of Data<\/li>\n<li>Checkpoint Quiz 4<\/li>\n<li>Types of Machine Learning<\/li>\n<li>Checkpoint Quiz 5<\/li>\n<li>Unit 2: Open Source Technologies in Big Data and AI<\/li>\n<li>Machine Learning Process<\/li>\n<li>Checkpoint Quiz 6<\/li>\n<li>TensorFlow and Keras<\/li>\n<li>Checkpoint Quiz 7<\/li>\n<li>PyTorch<\/li>\n<li>Checkpoint Quiz 8<\/li>\n<li>Convolutional Architecture for Fast Feature Embedding (Caffe)<\/li>\n<li>Checkpoint Quiz 9<\/li>\n<li>Unit 3: IBM Storage products in Big Data and AI<\/li>\n<li>IBM Spectrum Scale Overview<\/li>\n<li>Checkpoint Quiz 10<\/li>\n<li>IBM Elastic Storage System Overview<\/li>\n<li>Checkpoint Quiz 11\u00a0I<\/li>\n<li>IBM Elastic Storage System Use Cases<\/li>\n<li>Checkpoint Quiz 12<\/li>\n<li>Cloud Object Storage: Introduction<\/li>\n<li>Checkpoint Quiz 13<\/li>\n<li>IBM Spectrum Discover<\/li>\n<li>Checkpoint Quiz 14<\/li>\n<\/ul>\n<p>\u00a0<\/p>\n<ul>\n<li>Badge quiz<\/li>\n<\/ul>This course covers the fundamentals of AI and Big Data and how they relate to the IBM Spectrum Storage suite.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Technical skills - Data",
+            "Lightcast Skills Taxonomy",
+            "Deep Learning Skill",
+            "PyTorch (Machine Learning Library) Skill",
+            "Artificial Intelligence Skill",
+            "TensorFlow Skill",
+            "Machine Learning Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-59E2188081D7",
+        "category":"deep_learning",
+        "type":"Learning Plan",
+        "title":"Call for Code for Racial Justice Resources",
+        "duration":"Weeks",
+        "learners_amount":"74 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 6 learners in the past 12 months.",
+        "star_num_ratings":"6",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Welcome! This learning plan provides the background and skills necessary to be ready to contribute to <a href=\"https:\/\/developer.ibm.com\/callforcode\/racial-justice\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Call for Code for Racial Justice<\/a> open source projects. In response to the murders of George Floyd, Ahmaud Arbery, Breonna Taylor, and too many others, Black IBMers had a vision to make use of technology to address social injustice. Their top ideas have been released as open source projects through the Linux Foundation.\n<br\/>\n<br\/>\nThis learning plan contains resources to help you learn about these projects and how you can start contributing to the technology solutions, even if you do not have a technical background. Use the resources found here to get inspired, grow your skills, and finds ways you can contribute, no matter your area of expertise.\n<ul>\n<li><strong>Learning activities<\/strong>: There are some required modules to make sure you know the basics about Call for Code for Racial Justice projects and open source contribution, but most modules are optional. You can explore general information about the program, technical materials, professional skills resources, or dive deep into information about one or more of our open source projects that interest you most.<\/li>\n<li><strong>Audience<\/strong>: Call for Code for Racial Justice invites problem solvers to contribute to technology solutions that directly benefit organizations doing grassroots work and local communities that need these solutions. Whatever your skills, there are valuable ways for you to participate. This learning plan is designed for anyone who is interested in how technology can be used to make a meaningful change and looking to gain skills to be ready to contribute.<\/li>\n<li><strong>Prerequisites<\/strong>: You do not need any previous programming or other experience to take this learning plan.<\/li>\n<li><strong>Duration<\/strong>: Varies. Depending on your interests and previous experience, you can complete the right combination of modules for you to build your skills.<\/li>\n<li><strong>Language<\/strong>: English<\/li>\n<\/ul>\n<br\/>\nRemember to:\n<ul>\n<li>Review the first section to learn about the <strong>program <\/strong>and explore more on the <strong>topics of racism, racial equity, and racial justice<\/strong>.<\/li>\n<li>Pay particular attention to details on joining the <strong>Call for Code for Racial Justice community<\/strong> to stay connected and benefit from community expertise and networking.<\/li>\n<li>Consider taking the <strong>Introduction to Open Source course<\/strong> if you\u2019re brand new to open source projects to learn about key concepts, tools, and processes that you need to start contributing to any open source project. You can earn a badge by completing this course!<\/li>\n<li>Check out the<strong> Design Thinking<\/strong> <strong>course <\/strong>to learn about techniques you should apply to keep your impacted users at the center of the solution you design. You can earn a badge by completing this course!<\/li>\n<li>Dive into the <strong>details <\/strong>about any of the<strong> <\/strong>seven <strong>Call for Code for Racial Justice open source projects<\/strong>.<\/li>\n<li>Learn about the <strong>technology building blocks<\/strong> used in our open source projects, if you are interested in making a technical contribution.<\/li>\n<\/ul>\n<br\/>\nThis plan is a starting point, and we encourage you to stay curious and explore additional resources as needed.\n<br\/>\n<br\/>\nSelect<strong> Start tracking progress<\/strong> to enroll in this learning plan and get started!<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Lightcast Skills Taxonomy",
+            "Detail Oriented Skill",
+            "Linux Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1567443069285",
+        "category":"deep_learning",
+        "type":"Channel",
+        "title":"Artificial Intelligence (AI)",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"2,203",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Artificial intelligence, or AI, is the ability of a machine to perform cognitive functions that are associated with human minds, such as perceiving, reasoning, learning, and problem solving. Explore these learning activities for foundational knowledge of AI concepts, sometimes referred to as cognitive computing. You'll be able to explain what artificial intelligence is and how it can be applied in the professional world. \n<br\/>\n<br\/>\n You have the option to complete the <strong>Artificial Intelligence Fundamentals <\/strong>courses to earn an IBM-recognized digital credential!<\/div>",
+        "tags":[
+            "Areas of Interest",
+            "Essential skills > Artificial intelligence (AI)",
+            "Popular Subjects",
+            "Collaboration"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1587648286930",
+        "category":"deep_learning",
+        "type":"Channel",
+        "title":"Objectif IA : initiez-vous \u00e0 l'intelligence artificielle | OpenClassrooms",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"28",
+        "description":"<div dir=\"ltr\" lang=\"fr\" translate=\"yes\">Ce cours est propos\u00e9 par l'Institut Montaigne, Think Tank ind\u00e9pendant des politiques publiques. Pour acc\u00e9der aux cours, une inscription \u00e0 OpenClassrooms (gratuite) est n\u00e9cessaire.\u00a0\n<br\/>\n<br\/>Dans ce cours, nous r\u00e9pondrons \u00e0 toutes ces questions. Dans un premier temps, vous en apprendrez plus sur ce que recouvre vraiment l'intelligence artificielle. Vous identifierez\u00a0ensuite les changements que l'IA am\u00e8ne dans notre soci\u00e9t\u00e9. Enfin, vous rentrerez dans le fonctionnement d\u2019un projet d'intelligence artificielle et des disciplines\u00a0d\u2019IA les plus utilis\u00e9es : le Machine Learning et le Deep Learning.\n<br\/>\n<br\/>\u00c0 la fin de ce cours, vous serez capable de :\u00a0\n<ul>\n<li>expliquer ce qu'est l'intelligence artificielle ;<\/li>\n<li>identifier ses d\u00e9fis et ses opportunit\u00e9s ;\u00a0<\/li>\n<li>d\u00e9crire\u00a0scientifiquement un projet d'IA et ses\u00a0sous-disciplines.\u00a0<\/li>\n<\/ul>\n<br\/>\n<strong>Pr\u00e9requis<\/strong>\u00a0: ce cours s\u2019adresse \u00e0 tous les citoyens qui s\u2019interrogent sur l\u2019intelligence artificielle, souhaitent s\u2019informer et s\u2019instruire. Aucun pr\u00e9requis n\u2019est n\u00e9cessaire\n<br\/>\n<br\/>*** N'oubliez pas de marquer cette activit\u00e9 comme \"Termin\u00e9e\" afin qu'elle soit prise en compte dans votre parcours ***<\/div>",
+        "tags":[
+
+        ]
+    }
+]

@@ -1,11 +1,229 @@
 course_url,category,type,title,duration,learners_amount,star_rating,star_num_ratings,description,tags
+https://skills.yourlearning.ibm.com/activity/ISG-DL70239G,network_security,eLearning,Overview of Network Strategies for the VPC Network,30 mins,31 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 3 learners in the past 12 months.,3,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This course covers the IBM Cloud VPC network infrastructure, including access control lists and security groups. This course will also cover the advantages of VPC interconnectivity and bare metal servers for VPC.</p>This course covers the IBM Cloud VPC network infrastructure, including access control lists and security groups. 
+<p>This course requires you register for an IBMid to access.</p></div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity']"
 https://skills.yourlearning.ibm.com/activity/ISG-SLA3536,network_security,eLearning,Adding a QNI appliance to the QRadar deployment,6 mins,,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">In this video, we demonstrate how to add an already installed IBM Security QRadar Network Insights appliance into a QRadar deployment and how to deploy the license key, so that it can provide a detailed analysis of network flows to extend the threat detection capabilities of QRadar.In this video, we demonstrate how to add an already installed IBM Security QRadar Network Insights appliance into a QRadar deployment and how to deploy the license key, so that 
 <p>This course requires you register for an IBMid to access.</p></div>",[]
 https://skills.yourlearning.ibm.com/activity/ISG-DL52807G,network_security,eLearning,Account Security,30 mins,6 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This course explains the threats associated with cloud-based solutions and explores how IBM Cloud® security features and other network protocols can be used to mitigate these threats. IBM Cloud infrastructure and services that assist organizations in meeting government and industry regulations are also explained.</p>This course explains the threats associated with cloud-based solutions and explores how IBM Cloud® security features and other network protocols can be used to mitigate these threats. 
 <p>This course requires you register for an IBMid to access.</p></div>",[]
 https://skills.yourlearning.ibm.com/activity/ISG-DL52924G,network_security,eLearning,IBM Cloud Security Services,30 mins,77 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 1 learner in the past 12 months.,1,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>In this course, you will review how to apply security compliance using various IBM Cloud® security services. You will use security services with App ID, certificate manager, data shield, HyTrust, and more. You will also review VMware security compliance solutions and network security solutions. You will apply the case study as you complete a series of knowledge checkpoints and activities throughout the course. </p>In this course, you will review how to apply security compliance using various IBM Cloud® security services. 
 <p>This course requires you register for an IBMid to access.</p></div>","['Learning Domain Primary', 'Cloud computing']"
+https://skills.yourlearning.ibm.com/activity/ISG-DL70238G,network_security,eLearning,Overview of Network Strategies for the Classic Network,54 mins,15 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 2 learners in the past 12 months.,2,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This course reviews the IBM classic network infrastructure, including network connections and security. Additionally, this course covers effective strategies to connect to IBM Cloud using Direct Link. Finally, this course differentiates between the IBM Cloud Gateway Appliance options to add security and network services at the edge of public or private cloud environments. </p>This course reviews the IBM classic network infrastructure, including network connections and security. Additionally, this course covers effective strategies to connect to IBM Cloud using Direct Link.
+<p>This course requires you register for an IBMid to access.</p></div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity']"
+https://skills.yourlearning.ibm.com/activity/URL-5BC6AF7340E7,network_security,eLearning,IBM Cybersecurity Analyst Professional Certificate,120 hrs,593 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 18 learners in the past 12 months.,18,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">What you'll learn:
+<ul>
+<li>Develop knowledge of cybersecurity analyst tools including data protection; endpoint protection; SIEM; and systems and network fundamentals.</li>
+<li>Learn about key compliance and threat intelligence topics important in today’s cybersecurity landscape.</li>
+<li>Gain skills for incident responses and forensics with real-world cybersecurity case studies.</li>
+</ul>Get hands-on experience to develop skills via industry specific and open source Security tools.</div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity']"
+https://skills.yourlearning.ibm.com/activity/ISG-DL70307G,network_security,eLearning,Security Considerations for SAP on IBM Cloud,48 mins,50 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 2 learners in the past 12 months.,2,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This course explores the importance of network isolation and includes options for ensuring the safety of SAP workloads on IBM Cloud, including security at the edge and data encryption options.</p>This course explores the importance of network isolation and includes options for ensuring the safety of SAP workloads on IBM Cloud, including security at the edge and data encryption options.
+<p>This course requires you register for an IBMid to access.</p></div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Technical Skills - Cloud', 'Learning Domain Primary', 'Cloud computing', 'Lightcast Skills Taxonomy', 'SAP Applications Skill']"
+https://skills.yourlearning.ibm.com/activity/PLAN-FD4A6451370B,network_security,Learning Plan,Cybersecurity Basics Learning Track | Equal Access for IBM Federal Ecosystem Partners of All Sizes,Days,57 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 10 learners in the past 12 months.,10,"<div dir=""ltr"" lang=""en"" translate=""yes"">This initial learning offering covers fundamentals for entry-level cyber activities and certification of network security expertise. Activities for the IBM Security Learning Academy introduce partners to more in-depth cybersecurity training and the Zero Trust environment as well as operational and advanced training on some of IBM's most powerful cyber tools. 
+<br/>
+<br/>
+ Select <strong>Start tracking progress</strong> to enroll in this learning plan and get started!</div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity', 'Lightcast Skills Taxonomy', 'Cyber Security Skill']"
 https://skills.yourlearning.ibm.com/activity/ISG-SLA4863,network_security,eLearning,Introducing QRadar Flows,30 mins,20 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>IBM Security QRadar flows represent network activity by normalizing IP addresses, ports, byte and packet counts, and other data, into flow records, which are records of network sessions between two hosts. Flows are a differentiating component in QRadar that provide detailed visibility into your network traffic. In this course, you learn the difference between QRadar events and flows. Learn about the packet header and payload: which information is available in the header and packet, and which technologies to use to investigate header and payload information.</p>Learn the difference between QRadar events and flows. Learn which information is available in the header and packet, and which technologies to use to investigate header and payload information.
 <p>This course requires you register for an IBMid to access.</p></div>",[]
 https://skills.yourlearning.ibm.com/activity/ISG-SLA7165,network_security,eLearning,Guardium selective and nonselective audit policy,6 mins,9 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">In this video about IBM Security¬Æ Guardium¬Æ, you learn the difference between selective and nonselective audit policies. In some cases, your data security requirements might focus on only a small set of commands. By setting your policy wisely, you can reduce the load on your network and your Guardium collectors. In this video about IBM Security¬Æ Guardium¬Æ, you learn the difference between selective and nonselective audit policies. In some cases, your data security requirements might focus on
 <p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/ISG-SLA6092,network_security,eLearning,QRadar foundations - Assets V2,54 mins,30 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 2 learners in the past 12 months.,2,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>The ability to identify and understand how assets are being used in your network is critical to security. Not just for detecting devices, but building a dataset of historical information about assets and being able to track asset information across your network as it changes.The goal of asset profiles is to bring all the information known about the assets in your network and update the data as new information is provided to QRadar. This allows administrators to more effectively report on, search, audit, and leverage rules to identify threats, vulnerabilities, and asset usage with relevant data.</p>
+<p>In this course, you learn how assets can be discovered and then dynamically updated by QRadar, including network information, running applications and services, active users, vulnerabilities, and more.</p>In this course, learn how assets can be discovered and then dynamically updated by QRadar, including network information, running applications and services, active users, vulnerabilities, and more.
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/ISG-DL70325G,network_security,eLearning,Professional SRE Principles,30 mins,20 learners have completed this activity in the past 12 months.,Average rating of 4 stars by 5 learners in the past 12 months.,5,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>The Professional SRE Principles badge is for learners who have learned how to manage incidents, develop a balanced action plan, and perform post incident reviews, along with monitoring and managing security threats, implementing encryption models and managing role-based access control on IBM Cloud. In addition, you have learned how to troubleshoot problems related to various network and server issues, manage virtual networks, configure name resolution and manage performance on IBM Cloud.</p>The Professional SRE Principles badge is for learners who have learned how to manage incidents, develop a balanced action plan, and perform post incident reviews, along with managing security threats.
+<p>This course requires you register for an IBMid to access.</p></div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity', 'Lightcast Skills Taxonomy', 'Troubleshooting (Problem Solving) Skill']"
+https://skills.yourlearning.ibm.com/activity/ISG-SLA6585,network_security,eLearning,Introduction to QRadar events,30 mins,21 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 1 learner in the past 12 months.,1,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>In this course, you learn the difference between QRadar events and flows. You learn about QRadar log sources, and the Log Source Management app. Finally, you learn about QRadar Device Service Modules (DSMs), and the DSM editor.</p>
+<p>In IBM Security QRadar, an Event is a message that is received by QRadar from a log source and then processed. Most log sources are devices on your network that create a log when actions occur and that log is then received by QRadar.</p>
+<p>Make sure you take the other event-related courses that are listed in Additional resources on this page.</p>Learn the difference between QRadar events and flows, log sources, the Log Source Management app, and QRadar Device Service.
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/ISG-SLA6498,network_security,eLearning,QRadar foundations - Network Hierarchy,30 mins,1 learner has completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>In this course, you learn about QRadar network hierarchy fundamentals. IBM Security QRadar uses the network hierarchy objects and groups to organize network activity and monitor groups or services in your network.When you develop your network hierarchy, consider the most effective method for viewing network activity. The network hierarchy does not need to resemble the physical deployment of your network. QRadar supports any network hierarchy that can be defined by a range of IP addresses. You can base your network on many different variables, including geographical or business units.</p>Learn about QRadar network hierarchy fundamentals. QRadar uses the network hierarchy objects and groups to organize network activity and monitor groups or services in your network.
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/ISG-SLA4197,network_security,eLearning,QRadar foundations - user management,1 hr 24 mins,13 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>Employees in every organization are granted different levels of clearance to access information and classified or restricted areas based on their job profiles, such as different network locations, applications, or data. This process includes users who manage and have access to IT security products that protect the organization's critical resources, such as QRadar. Every organization implements its own security policies to provide users with different permissions according to their roles. In this context, QRadar provides the ability to segment users' access based on a combination of factors, which can yield granular results. The information contained in QRadar includes network hierarchy and topology, assets, log and flow sources, event and flow data, offenses, scanning activity, management activity, and more. This course introduces QRadar user management foundations, where you learn about user accounts and the different methods to authenticate, and how to implement granular user controls, such as user roles, security profiles, domains, and tenants.</p>Employees in every organization are granted different levels of clearance to access information and classified or restricted areas based on their job profiles, such as different network locations, app
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/MDL-236,network_security,eLearning,Computer Networking Basics: How Computers Communicate,1 hr 15 mins,10472 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 252 learners in the past 12 months.,252,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">In this course, you’ll learn about the ways that computer networking touches areas of everyday life. You’ll examine how network connections help you send and receive information. You’ll explore different types of networks that cover personal, local, and wide areas, and you’ll discover the importance of network security.
+<br/>
+<br/><strong>What you’ll learn</strong>
+<br/>
+After completing this course, you should be able to:
+<ul>
+<li>Explain computer networking</li>
+<li>Recognize the differences between personal, local, and wide-area networks</li>
+<li>Explain the use of data to enable the internet to function as a network</li>
+<li>Recognize the importance of network security</li>
+<li>Describe the purpose of network addresses</li>
+<li>Describe the ways that applications use network communications</li>
+</ul></div>","['Badge Learning', 'Information Technology Fundamentals', 'Learning Domain', 'Technical skills - Information Technology']"
+https://skills.yourlearning.ibm.com/activity/URL-7DZR5UAAM0E,network_security,Video,What Is IoT? | What Is IoT Technology And How It Works | Internet Of Things Explained | Simplilearn,13 mins,2473 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 18 learners in the past 12 months.,18,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>Internet of Things is the next big thing. It is extending its power beyong just traditional computers or smart phones. It involves several physical devices interconnected and capable of transfering data over a network. The Internet of Things is actually a pretty simple concept, it means taking all the things in the world and connecting them to the internet. So, this video will help you get a good hang of IoT and its constitution. The topics include: </p>
+<ul>
+<li>Why IoT? </li>
+<li>Hardware used in IoT</li>
+<li>Connectivity blocks and protocols</li>
+<li>IoT device architecture </li>
+<li>IoT security standards and best practices</li>
+<li>Internet of Everything: Introduction</li>
+<li>Use cases of IoT - IoT for Fleet management</li>
+<li>Use cases of IoT - IoT for Financial services</li>
+<li>IoT revolution in industries</li>
+</ul>This video is presented by Simplilearn. 
+<br/>
+<br/>
+After you complete this activity, return to this page to select <strong>Mark complete</strong> for completion credit. 
+<br/>
+<br/><strong>Note</strong>: On the video toolbar, go to <strong>Settings</strong>, <strong> </strong>select <strong>Subtitles</strong>, <strong> </strong>select <strong>English</strong>, and then select <strong>Auto-Translate</strong> to enable subtitles in a language of your choice from the drop-down.</div>","['Learning Domain', 'Technical skills - Information Technology', 'Lightcast Skills Taxonomy', 'Management Skill']"
+https://skills.yourlearning.ibm.com/activity/URL-2D3A1BB5628E,network_security,Experiential,Using IBM QRadar SIEM | IBM Security Learning Academy,1 hr 30 mins,161 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 5 learners in the past 12 months.,5,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">IBM QRadar is a network security intelligence and analytics software that detects cybersecurity attacks and network breaches to take action before any considerable damage is done or begin to immediately respond to any critical data losses.
+<br/>
+<br/>
+The exercises in this lab provide a broad introduction to the features of QRadar SIEM. The exercises cover the following topics:
+<ul>
+<li>Navigating the web interface</li>
+<li>Reviewing the Pulse app</li>
+<li>Investigating a suspicious activity</li>
+<li>Using QRadar Analyst Workflow app to investigate offenses</li>
+<li>Creating a report</li>
+<li>Managing the network hierarchy</li>
+</ul>
+<br/><strong>Note</strong>: You will complete them on the IBM Security Learning Academy. It is free of charge. When enrolling, you will be prompted to log in. For first time users, your User ID must be the email address linked to your IBMid. If you don't have an IBMid, you will create one.
+<br/>
+<br/>
+Upon completion, be sure to return to this page to select <strong>Mark Complete</strong> for completion credit.
+<br/>
+<br/>
+ </div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity', 'Lightcast Skills Taxonomy', 'Cyber Security Skill', 'Workflow Management Skill', 'Security Information And Event Management (SIEM) Skill']"
+https://skills.yourlearning.ibm.com/activity/URL-RWGW-CGDIK0,network_security,Video,Cloud Computing Tutorial for Beginners | Cloud Computing Explained | Cloud Computing | Simplilearn,24 mins,682 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 75 learners in the past 12 months.,75,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>In simple words, cloud computing is the use of network of remote servers hosted on the internet to store, manage and process data rather than a local server. Organizations have moved to cloud platforms for better scalability, mobility, and security.<br/><br/>
+ This video will help you understand:</p>
+<ul>
+<li>Why cloud computing?</li>
+<li>What is cloud computing?</li>
+<li>Types of cloud computing?</li>
+<li>Cloud providers</li>
+<li>The lifecycle of a cloud computing solution</li>
+<li>Cloud computing with AWS</li>
+<li>A Demo of AWS EC2 and AWS S3</li>
+</ul>This video is presented by Simplilearn. 
+<br/>
+<br/>
+After you complete this activity, return to this page to select <strong>Mark complete</strong> for completion credit. 
+<br/>
+<br/><strong>Note</strong>: On the video toolbar, go to <strong>Settings</strong>, <strong> </strong>select <strong>Subtitles</strong>, <strong> </strong>select <strong>English</strong>, and then select <strong>Auto-Translate</strong> to enable subtitles in a language of your choice from the drop-down.</div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Technical Skills - Cloud', 'Learning Domain Primary', 'Cloud computing', 'Lightcast Skills Taxonomy', 'Amazon Web Services Skill']"
+https://skills.yourlearning.ibm.com/activity/URL-E9CE10CB13FD,network_security,Video,CompTIA Security+ Training Course,13 hrs 45 mins,110 learners have completed this activity in the past 12 months.,Average rating of 4 stars by 12 learners in the past 12 months.,12,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">* Identify common malware technologies and attack types<br/>* Install and configure hardware and software security technologies<br/>* Troubleshoot common security issues<br/>* Securely deploy mobile devices<br/>* Implement secure network architectures and systems design<br/>* Implement identity and access management controls<br/>* Explain organization security and business impact analysis concepts<br/>* Understand cryptography algorithms and public key infrastructure technologies<br/><br/>Presented by Professor Messer.<br/><br/>After you complete this activity, return to this page to select <strong>Mark complete</strong> for completion credit.</div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity', 'Lightcast Skills Taxonomy', 'Troubleshooting (Problem Solving) Skill', 'Algorithms Skill']"
+https://skills.yourlearning.ibm.com/activity/ISG-SLA5311,network_security,eLearning,Using IBM QRadar SIEM,1 hr 30 mins,22 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 1 learner in the past 12 months.,1,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>With IBM Security QRadar SIEM, you can minimize the time gap between when suspicious activity occurs and when you detect it. Attacks and policy violations leave their footprints in the log events and network flows of your IT deployment. QRadar can connect the dots and provides you insight by performing the following tasks:Alerts to suspected attacks and policy violations in the IT environment Provides deep visibility into network, user, and application activity Puts security-relevant data from various sources in context with each other Provides reporting templates to meet operational and compliance requirements Provides reliable, tamper-proof log storage for forensic investigations and evidentiary use The exercises in this lab provide a broad introduction to the features of QRadar SIEM. The exercises cover the following topics: Navigating the web interfaceReviewing the Pulse app Investigating a suspicious activityUse QRadar Analyst Workflow app to investigate offenses Creating a report Managing the network hierarchy</p>With IBM Security QRadar SIEM, you can minimize the time gap between when suspicious activity occurs and when you detect it. Attacks and policy violations leave their footprints in the log events a
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/URL-9817D4B0366D,network_security,eLearning,IBM QRadar SIEM Foundation Badge | IBM Security Learning Academy,14 hrs,133 learners have completed this activity in the past 12 months.,Average rating of 4 stars by 11 learners in the past 12 months.,11,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">Welcome to the learning offerings for the <strong> IBM QRadar SIEM Foundation badge</strong>. IBM QRadar is a network security intelligence and analytics software that detects cybersecurity attacks and network breaches to take action before any considerable damage is done or begin to immediately respond to any critical data losses.
+<br/>
+<br/>
+This is an IBM-issued and IBM-recognized skill badge that demonstrates learners have knowledge of various QRadar deployments architecture and key concepts such as user management, domains and tenants, assets, network hierarchy, flows, events, rules, offenses, reference data, data obfuscation, and reporting.
+<br/>
+<br/>
+All courses are free of charge and you will complete them on the IBM Security Learning Academy.
+<ul>
+<li>Click the <strong>Enroll </strong>button.</li>
+<li>Then, you will be prompted to log in. For first time users, your User ID must be the email address linked to your IBMid. If you don't have an IBMid, you will create one.</li>
+<li>When the course page displays, you will find information and a listing of all courses. Begin with the <em>Why QRadar SIEM?</em> course.</li>
+</ul>The online self-paced courses offer learning videos and lab exercises. You will get completion credit in the IBM Security Learning Academy. <strong>You must successfully complete each of the required courses and pass the quiz with a score of 80 percent or higher.</strong> When you complete all courses, the quiz is enabled.
+<br/>
+<br/>
+When you complete all courses, be sure to return to this Your Learning activity page to select <strong>Mark Complete</strong> for completion credit.
+<br/>
+<br/><strong>Note</strong>: The courses are available only in English. However, many of the learning videos offer closed captioning in several languages.
+<br/>
+<br/>
+The estimated duration is <strong>14 hours</strong>.</div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity', 'Lightcast Skills Taxonomy', 'Management Skill', 'Security Information And Event Management (SIEM) Skill', 'Cyber Security Skill']"
+https://skills.yourlearning.ibm.com/activity/URL-4E212FEC9342,network_security,Video,Professor Messer’s 220-1001 Core 1 CompTIA A+ Training Course,30 mins,382 learners have completed this activity in the past 12 months.,Average rating of 4 stars by 9 learners in the past 12 months.,9,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This video-based online course will provide you with the knowledge needed to prepare you for the 220-1001 Core 1 CompTIA A+ exam. CompTIA is the Computing Technology Industry Association. CompTIA’s A+ certification is one of the most popular IT certifications in the world.<br/><br/>
+ This course is designed to give you a strong foundation in technology. So whether you’re looking for your first job or whether you’re looking for a better job in IT, this course would apply to you.<br/><br/>
+ The course videos are broken into bit-sized chunks. All of the videos follow the CompTIA exam objectives.<br/><br/>
+ Each section in the course includes a series of videos on specific topics. The sections include:</p>
+<ul>
+<li>An Overview of the A+ Certification</li>
+<li>Mobile Devices</li>
+<li>Networking</li>
+<li>Hardware</li>
+<li>Virtualization and Cloud Computing</li>
+<li>Hardware and Network Troubleshooting</li>
+</ul>
+<p><br/>
+ You will also find transcribed text below the videos and video recordings of past study groups.<br/><br/>
+ This course is offered by <a href=""https://www.professormesser.com/"" rel=""noopener noreferrer nofollow"" target=""_blank"">Professor Messer</a>. The Professor Messer mission is to provide quality technology information and training, including specialized training courses for CompTIA A+, CompTIA Network+, and CompTIA Security+. Their training courses have become popular study resources for some of the IT industry’s most popular certifications.<br/><br/>
+ After you complete this activity, return to this page to select <strong>Mark complete</strong> to verify you checked out the course and enter the actual learning time you spent for your completion credit.<br/><br/><strong>Note</strong>: On the video toolbar, go to <strong>Settings</strong>, select <strong>Subtitles</strong>, select <strong>English</strong>, and then select <strong>Auto-Translate </strong>to enable subtitles in a language of your choice from the drop-down.</p></div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity']"
+https://skills.yourlearning.ibm.com/activity/ISG-SLA3714,network_security,eLearning,IBM QRadar DNS Analyzer - Overview,6 mins,2 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">This course is an overview of IBM QRadar DNS Analyzer, which provides insights into your local DNS traffic by identifying malicious activity, and allowing your security team to detect Domain Generated Algorithm (DGA), tunneling, or squatting domains that are accessed from within your network. The DNS Analyzer also provides options to filter any domains using deny lists and allow lists. The video defines prerequisites, and provides an architecture overview explaining how the application is integrated with IBM QRadar SIEM and IBM X-Force Exchange. Utilizing QNI flows, or logs with domain information from other devices, such as DNS servers, proxies, Apache web servers, or other BIND compatible devices, you can detect and monitor outbound network traffic to potentially malicious sites. With the DNS Analyzer dashboard and drill down capabilities, your team can identify DNS trends and investigate activity such as squatting attempts. The application is also integrated with the IBM QRadar Pulse and IBM QRadar User Behavior Analytics app.This course is an overview of IBM QRadar DNS Analyzer, which provides insights into your local DNS traffic by identifying malicious activity, and allowing your security team to detect D
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/PLAN-3E2A749669E2,network_security,Learning Plan,Information Technology Fundamentals (Earn a credential!),About 11 hours,6239 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 481 learners in the past 12 months.,481,"<div dir=""ltr"" lang=""en"" translate=""yes"">Are you ready to find out about the world of information technology (IT)? Learn about the history of computing and essential concepts about computer parts, network connections, hardware, software, computer security, and troubleshooting techniques. Then get hands-on practice troubleshooting a customer’s network issue, in a series of simulations, with a remote connectivity tool. Finish by gathering tips and resources that can help you launch a great career in IT support. 
+<br/>
+   
+<br/>
+ Complete the following required courses to earn an industry-recognized IBM SkillsBuild digital credential called <strong>Information Technology</strong> <strong>Fundamentals</strong>: 
+<ol>
+<li>Computer Basics</li>
+<li>Computer Networking Basics: How Computers Communicate</li>
+<li>Computing from Past to Present</li>
+<li>Security Basics</li>
+<li>Support Basics</li>
+<li>Troubleshooting for Hardware, Networks, and Software</li>
+<li>Support a Customer with a Network Issue</li>
+<li>Your Future in IT Support: The Job Landscape</li>
+</ol>  
+<br/><strong>What you’ll learn</strong>
+<br/>
+ After completing <em>Information Technology</em> <em>Fundamentals</em>, you should be able to: 
+<ul>
+<li>Identify computer basics, including the parts of a computer, the differences between local and cloud computing, and the importance of user identity and security on computer systems</li>
+<li>Identify personal, local, and wide-area networks, network security, network addresses, and network communications</li>
+<li>Identify milestones in the history of computing, the developments that allowed computers to become multifunctional,<strong> </strong>and<strong> </strong>hardware and software support for usability, accessibility, and security</li>
+<li>Recognize common ways to make computer hardware and software secure and ways IT professionals can protect users and systems from common security threats</li>
+<li>Describe troubleshooting and a basic troubleshooting methodology</li>
+<li>Explain techniques for troubleshooting and debugging hardware, networking, and software issues</li>
+<li>Collect information about a customer’s issue to form a theory, troubleshoot, and fix a network issue using a remote connectivity tool</li>
+<li>Recognize the job market, responsibilities and skill sets of IT support professionals, and resources and learning opportunities to explore</li>
+</ul>  
+<br/>
+ The knowledge and skills in these courses build on each other, so SkillsBuild recommends that you complete the courses in the order in which they are presented. 
+<br/>
+<br/><strong>Language</strong><strong>:</strong> English 
+<br/>
+<br/>
+ Select <strong>Enroll</strong> to enroll in this learning plan and get started! 
+<br/>
+  </div>","['Badge Learning', '000 All digital credentials', 'Information Technology Fundamentals', 'Fundamentals', 'All Fundamentals', 'Learning Domain', 'Technical skills - Information Technology', 'Learning Domain Primary', 'IT support', 'Lightcast Skills Taxonomy', 'Usability Skill', 'Computer Hardware Skill', 'Information Technology Skill', 'Troubleshooting (Problem Solving) Skill', 'Milestones (Project Management) Skill', 'Technical Support Skill']"
+https://skills.yourlearning.ibm.com/activity/ISG-SLA5325,network_security,eLearning,QRadar Use Case Manager app overview,30 mins,2 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">The IBM QRadar Use Case Manager app provides many options for filtering and searching rules in IBM Security QRadar. You can create custom views and reports of your rules based on a wide variety of criteria, and view relationships between rules and content packs, log sources, reference sets, and other data. In addition to the filtering and searching options, the Use Case Manager app lets you view and configure your coverage of the MITRE ATT&amp;CK framework. You can also view and add a number of recommended changes to your rules. Tuning recommendations, unique to your environment, are also available in the Use Case Manager app.  Follow guidance in the app to tune your rules that generate the most offences to reduce false-positives. You can update network hierarchy, building blocks, and server discovery based on recommendations. The Use Case Manager helps you to keep QRadar optimally configured to accurately detect threats throughout the attack chain. The IBM QRadar Use Case Manager app provides many options for filtering and searching rules in IBM Security QRadar. You can create custom views and reports of your rules based on 
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/channel/CNL_LCB_1598541497696,network_security,Channel,"Fortinet FCF and FCA (previously NSE 1, NSE 2, and NSE 3)",,,,68,"<div dir=""ltr"" lang=""en"" translate=""yes""><strong>NSE 1, NSE 2 and NSE 3 have been replaced by Fortinet Certified Fundamentals and Fortinet Certified Associate</strong>
+<br/>
+<br/><em>Note:<br/>
+ Due to high demand of the <u>old</u> NSE 1, 2 and 3, we have updated SkillsBuild offerings to the <u>new</u> FCF and FCA levels. Learners can complete their learning and certification for these two levels.<br/><br/>
+ Vouchers for levels other than FCF and FCA are <strong>NOT</strong> offered by SkillsBuild</em>
+<br/>
+ 
+<ol>
+<li><strong>Fortinet Certified Fundamentals (FCF) - </strong>To achieve an FCF certification in Cybersecurity, professionals must complete the online core course and one of the elective online courses. <a href=""https://skills.yourlearning.ibm.com/activity/PLAN-8BA559FB451B"" rel=""noopener noreferrer nofollow"" target=""_blank"">FCF Learning Plan</a>
+<ul>
+<li><u>Core Course</u>- Introduction to the Threat Landscape.</li>
+<li><u>Elective course selection </u>depends on your job role:  
+    <ul>
+<li>Getting Started in Cybersecurity is ideal for individuals in non-technical job positions that require a high-level understanding of the most important technical fundamentals of cybersecurity. Examples include security product sales people and company CEOs.</li>
+<li>Technical Introduction to Cybersecurity is ideal for individuals in technical roles that require a more in-depth understanding of the fundamentals of cybersecurity. This course is also ideal for people who are pursuing a technical role in cybersecurity.</li>
+</ul></li>
+</ul></li>
+<li><strong>The Fortinet Certified Associate (FCA) </strong>in Cybersecurity certification validates your ability to execute high-level operations on a FortiGate device. This curriculum covers the fundamentals of operating the most common FortiGate features.There is one certification within the FCA level.  Ideal for: Cybersecurity operators, network security administrators of small and medium sized networks, or those with an NSE 3 certification.
+  <ul>
+<li><a href=""https://skills.yourlearning.ibm.com/activity/PLAN-3B9FFEDE788B"" rel=""noopener noreferrer nofollow"" target=""_blank"">FCA Learning Plan</a></li>
+</ul></li>
+</ol>
+<br/>
+<br/>
+ </div>",[]
+https://skills.yourlearning.ibm.com/channel/CNL_LCB_1588493689559,network_security,Channel,SUV: Cyber + Linux,,,,1,"<div dir=""ltr"" lang=""en"" translate=""yes""><strong>1. Linux</strong>
+<br/>
+<strong>2. Cyber security</strong>
+<br/>
+<strong>a.       </strong>Vulnerabilities &amp; mitigation 
+<br/>
+<strong>b.      </strong>Secure coding, OWASP 
+<br/>
+<strong>c.       </strong>MITRE attack framework /NIST framework 
+<br/>
+<strong>d.      </strong>IOC , TTP, Wireshark 
+<br/>
+<strong>e.      </strong>Security monitor systems 
+<br/>
+<strong>f.        </strong>forge/clone web site (phishing) 
+<br/>
+<strong>g.      </strong>network layers in security perspective 
+<br/> </div>",[]
+https://skills.yourlearning.ibm.com/channel/CNL_LCB_1580409324694,network_security,Channel,Core Skills: Cybersecurity Analyst,,,,187,"<div dir=""ltr"" lang=""en"" translate=""yes""><p>Cybersecurity professionals have a passion for securing systems and protecting data and have a keen interest in information technology. Core skills for cybersecurity professionals include proficiency in implementing information security measures and controls; communicating and managing risks; working with tools to monitor network activity to identify vulnerable points; and engaging with colleagues to act on breaches and resolve cyber threats. Cybersecurity professionals have prerequisite knowledge in network administration and system administration.</p></div>",[]

@@ -1,13 +1,36 @@
 [
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-12D0B88BBD10",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Data analysis | Khan Academy",
+        "duration":"1 hr",
+        "learners_amount":"1680 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 155 learners in the past 12 months.",
+        "star_num_ratings":"155",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This is the<strong> Data analysis <\/strong>unit from an online, self-paced review course for Computer Science Principles. The unit introduces data analysis and the world of big data. Learn about storing data sets in files, spreadsheets, and databases, computing statistics like average and maximum, finding patterns like trends and correlations. Learn how big data can be used to improve algorithms like translation, image recognition, and recommendations.<br\/><br\/>\n You will find short instructional content offerings, videos, and sample quiz questions to practice what you've learned and \"level up\" on your skills.<br\/><br\/><strong>Note<\/strong>: It is designed to prepare for a U.S. college examination, however the computer science content is valuable more broadly.<br\/><br\/>\n The topics include:<\/p>\n<ul>\n<li>Data tools<\/li>\n<li>Big data<\/li>\n<li>Bias in machine learning<\/li>\n<\/ul>\n<p><br\/>\n The content is offered in English.<br\/><br\/>\n This learning activity is presented by Khan Academy.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Spreadsheets Skill",
+            "Computer Science Skill",
+            "Data Analysis Skill",
+            "Algorithms Skill",
+            "Machine Learning Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ALM-COURSE_3822994",
         "category":"data_analysis",
         "type":"eLearning",
         "title":"Digital Data Gathering, Analysis, and Presentation",
         "duration":"30 mins",
-        "learners_amount":"1387 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 43 learners in the past 12 months.",
-        "star_num_ratings":"43",
+        "learners_amount":"1437 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 45 learners in the past 12 months.",
+        "star_num_ratings":"45",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en-us\" translate=\"yes\"><p>In this module, you\u2019ll learn about the principles of digital data gathering, the process of data analysis, and effective data presentation.\u00a0This completes the journey from data collection to decision making.<\/p><p>\u00a0<\/p><p><strong>What you\u2019ll learn<\/strong><\/p><p>After completing this course, you should be able to:<\/p><ul><li>Define the data gathering process and methods<\/li><li>Describe the data analysis process<\/li><li>Identify the key methods of effective data presentation<\/li><\/ul><p>\u00a0<\/p><p><strong>Lessons<\/strong><\/p><ol><li>What is data gathering?<\/li><li>What is data analysis?<\/li><li>What is data presentation?<\/li><\/ol><\/div>",
         "tags":[
             "Badge Learning",
@@ -36,7 +59,7 @@
         "type":"eLearning",
         "title":"Data Analysis with Python - Coursera",
         "duration":"14 hrs",
-        "learners_amount":"1902 learners have completed this activity in the past 12 months.",
+        "learners_amount":"1867 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 26 learners in the past 12 months.",
         "star_num_ratings":"26",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Data Analysis with Python on Coursera pour Social Builder<\/p><\/div>",
@@ -56,7 +79,7 @@
         "type":"Video",
         "title":"Top 10 Data Analytics Tools 2020 | Best Tools for Data Analysis | Data Analytics Training | Edureka",
         "duration":"13 mins",
-        "learners_amount":"7790 learners have completed this activity in the past 12 months.",
+        "learners_amount":"7811 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 89 learners in the past 12 months.",
         "star_num_ratings":"89",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Get a basic understanding of some of the top tools used for data analysis.<\/p>\n<ol>\n<li>R and Python<\/li>\n<li>Microsoft Excel<\/li>\n<li>Tableau<\/li>\n<li>RapidMiner<\/li>\n<li>KNIME<\/li>\n<li>Power BI<\/li>\n<li>Apache Spark<\/li>\n<li>QlikView<\/li>\n<li>Talend<\/li>\n<li>Splunk<\/li>\n<\/ol>This video is presented by Edureka.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.\n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
@@ -76,46 +99,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-569905DA9552",
-        "category":"data_analysis",
-        "type":"eLearning",
-        "title":"Data Analysis and Visualization Foundations - Coursera",
-        "duration":"32 hrs",
-        "learners_amount":"425 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 3.5 stars by 19 learners in the past 12 months.",
-        "star_num_ratings":"19",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Data Analysis and Visualization Foundations on Coursera pour Social Builder<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Data",
-            "Lightcast Skills Taxonomy",
-            "Data Analysis Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-NKWWYDVYQEDQ1AE5",
-        "category":"data_analysis",
-        "type":"eLearning",
-        "title":"Data Analysis Fundamentals",
-        "duration":"1 hr",
-        "learners_amount":"2577 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 609 learners in the past 12 months.",
-        "star_num_ratings":"609",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course is designed to introduce you to data analysis. Data is everywhere and is an essential part of our lives. It\u2019s all about what you do with the data. You will learn about why data analysis is important, types of data, databases, data analysis process steps, types of data analysis, data visualization, and tools commonly used to manage and visualize data. You will also learn the answers to some frequently asked questions about the career and life of a data analyst.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Data",
-            "Lightcast Skills Taxonomy",
-            "Data Analysis Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-1E1158D2904C",
         "category":"data_analysis",
         "type":"Video",
         "title":"Steps in data processing | IBM SkillsBuild",
         "duration":"3 mins",
-        "learners_amount":"1226 learners have completed this activity in the past 12 months.",
+        "learners_amount":"1231 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 40 learners in the past 12 months.",
         "star_num_ratings":"40",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This short video outlines steps on how to gather data for analysis.<\/p><\/div>",
@@ -124,12 +113,32 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-177B9DBEECCD",
+        "category":"data_analysis",
+        "type":"Guidance",
+        "title":"IBM SkillsBuild: Main Career Pathways",
+        "duration":"30 mins",
+        "learners_amount":"233 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 12 learners in the past 12 months.",
+        "star_num_ratings":"12",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this replay, Usame Samim, a content manager for IBM SkillsBuild, offers an overview of the cybersecurity, data analysis, and web development learning pathways available to learners.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill",
+            "Cyber Security Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-06A93DC900EB",
         "category":"data_analysis",
         "type":"eLearning",
         "title":"Principles of Data Literacy",
         "duration":"6 hrs",
-        "learners_amount":"1183 learners have completed this activity in the past 12 months.",
+        "learners_amount":"1184 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 30 learners in the past 12 months.",
         "star_num_ratings":"30",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This no-code course introduces the foundational how\u2019s and why\u2019s of data. How do statistics help us make conclusions from data? Why is good design critical for communicating data stories through data viz? What are the different kinds of analysis we can perform on a dataset? This course will help you feel empowered to answer these questions (and more!) and work with data with confidence.\n<br\/>\n<br\/>\nThis course is presented by Codecademy. You will need to register for a free account.<\/div>",
@@ -154,6 +163,24 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:BDU+ML0109EN+V1",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Machine Learning - Dimensionality Reduction",
+        "duration":"15 hrs",
+        "learners_amount":"14 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Welcome to this machine learning course on Dimensionality Reduction. Dimensionality Reduction is a category of unsupervised machine learning techniques used to reduce the number of features in a dataset. Dimension reduction can also be used to group similar variables together. In this course, you will learn the theory behind dimension reduction, and get some hands-on practice using Principal Components Analysis (PCA) and Exploratory Factor Analysis (EFA) on survey data. The code used in this course is prepared for you in R.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Lightcast Skills Taxonomy",
+            "R (Programming Language) Skill",
+            "Machine Learning Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:BDU+RP0105EN+V1",
         "category":"data_analysis",
         "type":"eLearning",
@@ -173,14 +200,34 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-YR2WWQYIVKM",
+        "category":"data_analysis",
+        "type":"Video",
+        "title":"Data Science vs Big Data vs Data Analytics | Simplilearn",
+        "duration":"1 min 40 s",
+        "learners_amount":"1576 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 1155 learners in the past 12 months.",
+        "star_num_ratings":"1,155",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this video, we will differentiate between the Data Science, Big Data, and Data Analytics, based on what it is, where it is used, the skills you need to become a professional in the field, and the salary prospects in each field. \n<br\/>\n<br\/>\nThis video is presented by Simplilearn. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: This activity is available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill",
+            "Data Analysis Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-ZWASDVPPFFW",
         "category":"data_analysis",
         "type":"Video",
         "title":"Data Analytics For Beginners | Introduction To Data Analytics | Data Analytics Using R | Simplilearn",
         "duration":"51 mins",
-        "learners_amount":"6142 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 136 learners in the past 12 months.",
-        "star_num_ratings":"136",
+        "learners_amount":"6189 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 138 learners in the past 12 months.",
+        "star_num_ratings":"138",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This video for beginners covers all the basics and the concepts that will help you start learning data analytics. You will learn about the following:<\/p>\n<ul>\n<li>What is data analytics?\u00a0<\/li>\n<li>Steps involved in the data analytics process<\/li>\n<li>Tools used for data analytics<\/li>\n<li>Data analytics applications<\/li>\n<li>Companies using data analytics<\/li>\n<li>Case study<\/li>\n<li>Demo<\/li>\n<\/ul>\n<p>\u00a0<br\/>\n This video is presented by Simplilearn.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/><br\/><strong>Note<\/strong>: This video is available in English.<\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -189,6 +236,103 @@
             "Data",
             "Lightcast Skills Taxonomy",
             "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-5HLBV1WKBMO",
+        "category":"data_analysis",
+        "type":"Video",
+        "title":"How to Become a Data Analyst in 2020 | 365 Data Science",
+        "duration":"8 mins 31 s",
+        "learners_amount":"1671 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 145 learners in the past 12 months.",
+        "star_num_ratings":"145",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this video, we\u2019ll talk about becoming a data analyst in 2020! More specifically, we\u2019ll look at who the data analyst is, what they do, how they fare in terms of salaries, and what skills and academic background you need to become one. \n<br\/>\n<br\/>\nThis video is presented by 365 Data Science. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, <strong> <\/strong>select <strong>Subtitles<\/strong>, <strong> <\/strong>select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-5279FAD51A73",
+        "category":"data_analysis",
+        "type":"Document",
+        "title":"Learn about a career in data science",
+        "duration":"5 mins",
+        "learners_amount":"26455 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 81 learners in the past 12 months.",
+        "star_num_ratings":"81",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Data science is a rapidly-growing field with plenty of opportunities for curious minds. What industries focus most on data science, what technical skills might be in demand, and what interesting jobs are in this field? The answer to these questions, plus a few more facts, are included in the following infographic.\n<br\/>\n<br\/>\nAlso available in <a href=\"https:\/\/ibm.box.com\/s\/i7gtzb6ogy2gopiesqsy6qybz9mro8kp\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Spanish<\/a>, <a href=\"https:\/\/ibm.box.com\/s\/nw6lad8rpw3zo8j6zgo2u7nmoob4u41z\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">French<\/a>, and <a href=\"https:\/\/ibm.box.com\/s\/z8plwsi2jhl5fm5w1kb94xy06py3620s\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Brazilian Portuguese<\/a>.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.\n<br\/>\n<br\/>\n\u00a0<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:IBM+GPXX08RAEN+V1",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Building a Machine Learning Pipeline For NLP",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Natural language processing (NLP) is a part of artificial intelligence concerned with understanding written text. Sentiment analysis is an important part of NLP that identifies the emotional tone behind a body of text and is used in customer reviews and survey responses, online and social media. In this project, you will determine the sentiment of movie reviews as positive, negative, and neutral with the rule-based method, then use Machine Learning. You will use pandas to load and analyze data and sklearn to process and classify the text and work with other libraries like NLTK.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-765F60671193",
+        "category":"data_analysis",
+        "type":"Webpage",
+        "title":"11 Benefits of Cloud Computing (With Main Purposes) | Indeed Career Guide",
+        "duration":"10 mins",
+        "learners_amount":"273 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 6 learners in the past 12 months.",
+        "star_num_ratings":"6",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Many companies need to access and store large amounts of data daily to operate successfully. Companies that use cloud computing systems can manage software systems and allow employees, managers, and owners to access data remotely. Understanding what cloud computing provides can let companies experience benefits like increased productivity, cost savings and more accurate data insight.\n<br\/>\n<br\/>\nIn this article, you will learn about the benefits of cloud computing and the different purposes that this process fulfills.\n<br\/>\n<br\/>\nThis article is presented by <a href=\"https:\/\/www.indeed.com\/career-advice\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Indeed Career Guide<\/a>.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.\n<br\/>\n<br\/><strong>Note<\/strong>: This activity is available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cloud computing",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-ETN5DGANB5U",
+        "category":"data_analysis",
+        "type":"Video",
+        "title":"What does a data analyst actually do? | Silicon Republic",
+        "duration":"3 mins 9 s",
+        "learners_amount":"312 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 13 learners in the past 12 months.",
+        "star_num_ratings":"13",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Dave Elkington, CEO of InsideSales.com, explains the role of data analysts, and why cleaning up data sets takes up the vast majority of their time. Then, algorithms and computer science play a minor role.<br\/><br\/>\n This video is presented by Silicon Republic.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/><br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, <strong> <\/strong>select <strong>Subtitles<\/strong>, <strong> <\/strong>select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Algorithms Skill",
+            "Data Analysis Skill",
+            "Computer Science Skill"
         ]
     },
     {
@@ -214,8 +358,8 @@
         "title":"Introduction to Human Trafficking",
         "duration":"1 hr 40 mins",
         "learners_amount":"66 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 4 learners in the past 12 months.",
-        "star_num_ratings":"4",
+        "star_rating":"Average rating of 5 stars by 16 learners in the past 12 months.",
+        "star_num_ratings":"16",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Human trafficking is one of the fastest-growing crimes worldwide. This course is designed to provide introductory concepts about human trafficking to increase your knowledge.<\/p>\n<br\/>\n<p>The course covers:<\/p>\n<ul>\n<li>What is human trafficking?<\/li>\n<li>Types of human trafficking<\/li>\n<li>Causes and risk factors that can contribute to being exploited by human trafficking<\/li>\n<li>Examples of human trafficking in industries around the world<\/li>\n<li>Recruitment and control methods of victims<\/li>\n<li>The scale and business of human trafficking<\/li>\n<li>International measures and instruments<\/li>\n<li>The importance and value of data in the fight against human trafficking<\/li>\n<li>A case study about the Traffik Analysis Hub<\/li>\n<\/ul>\n<p><\/p>\n<br\/>\n<p><strong>Duration:<\/strong> This course is approximately 1 hour, 40 minutes.<\/p>\n<br\/><\/div>",
         "tags":[
             "Learning Domain",
@@ -239,6 +383,21 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-FA6A93EF4CEC",
+        "category":"data_analysis",
+        "type":"Learning Plan",
+        "title":"Find Your Feet: Tech Talk",
+        "duration":"About 1 week",
+        "learners_amount":"5 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><em>In 2024, the technological landscape continues to evolve at a rapid pace, with several emerging technologies poised to revolutionize various industries. One prominent area of advancement is artificial intelligence (AI) and machine learning, which are being increasingly integrated into everyday life, from personalized virtual assistants to autonomous vehicles. Quantum computing is another frontier garnering attention, promising unprecedented processing power and the ability to solve complex problems that are currently beyond the reach of classical computers. Additionally, the Internet of Things (IoT) continues to expand, connecting devices and enabling data-driven insights to enhance efficiency and convenience in both consumer and industrial settings. Furthermore, advancements in green tech, such as sustainable practices and data analysis, hold the potential to transform the world by offering tailored solutions against climate change. As these and other emerging technologies continue to develop, they are reshaping industries, challenging traditional paradigms, and opening up new possibilities for innovation and progress.<\/em>\n<br\/>\n\u00a0<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Other - Emerging technologies"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA1897",
         "category":"data_analysis",
         "type":"eLearning",
@@ -253,19 +412,113 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-EDZ_JYPOM8U",
+        "category":"data_analysis",
+        "type":"Video",
+        "title":"Introduction to Data Science | 365 Data Science",
+        "duration":"30 mins",
+        "learners_amount":"4267 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 3.5 stars by 299 learners in the past 12 months.",
+        "star_num_ratings":"299",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This video will begin by clarifying the similarities and differences between the terms: Business Analytics, Data Analytics, Data Science, Business Intelligence, and Machine Learning. \n<br\/>\n<br\/>\nThen, we\u2019ll focus on helping you digest the definitions you need to know in an effective way. \n<br\/>\n<br\/>\nBy the end, you will be more than capable of being able to relate and apply varies expressions and buzzwords to the areas of data science they belong to! We hope this video helps you broaden your perspective. We\u2019re also positive it will make the jumble of disciplines a little clearer and will assist you in choosing the best career path to enter the data science field! \n<br\/>\n<br\/>\nThis video is presented by 365 Data Science. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: This activity is available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Business Intelligence Skill",
+            "Data Analysis Skill",
+            "Machine Learning Skill",
+            "Data Science Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-258",
         "category":"data_analysis",
         "type":"eLearning",
         "title":"Introduction to Tableau Desktop",
         "duration":"1 hr",
-        "learners_amount":"13655 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 344 learners in the past 12 months.",
-        "star_num_ratings":"344",
+        "learners_amount":"13663 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 345 learners in the past 12 months.",
+        "star_num_ratings":"345",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Are you a new user of Tableau Desktop, eager to start building visualizations?\u00a0<\/p>\n<p>In this module, you'll do that and more. You'll get a quick grasp of the fundamentals, learning the key phases of the data workflow in Tableau Desktop: connecting, analyzing, and sharing. Then you'll focus on each phase and complete it yourself: connecting to data, analyzing it using essential charts, and creating an interactive dashboard for sharing your views.<\/p>\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<p><\/p>\n<p>At the end of this module, you will be able to:<\/p>\n<ul>\n<li>Describe the iterative Tableau Desktop workflow of connecting to, analyzing, and sharing your data.<\/li>\n<li>Connect to and preview data in Tableau Desktop.<\/li>\n<li>Describe the key areas of the Tableau Desktop workspace.<\/li>\n<li>Build a bar chart and a cross tab in the workspace.<\/li>\n<li>Use visualizations to answer questions about data.<\/li>\n<li>Bring views together in an interactive dashboard.<\/li>\n<li>Describe options for sharing your analysis.<\/li>\n<\/ul><\/div>",
         "tags":[
             "Lightcast Skills Taxonomy",
             "Workflow Management Skill",
             "Tableau (Business Intelligence Software) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-260",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Sharing and Collaborating in Tableau Cloud",
+        "duration":"30 mins",
+        "learners_amount":"32 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p><\/p>\n<p>So far, you've learned how to create views and data insights to share with your team. Now, your team wants to access the views and explore the data further to get additional insights. Tableau Cloud gives you several options for doing that.\u00a0<\/p>\n<p>In this module, you will learn how to share views with your colleagues via a link in an email message or other applications, and also how to embed views directly into web pages, wikis, and web applications for colleagues to interact with.\u00a0<\/p>\n<p>\u00a0You'll discover the benefits of the comments feature as well. Use it to collaborate with colleagues as you examine data in shared visualizations.\u00a0 <br\/><\/p>\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<p><\/p>\n<p>At the end of this module, you will be able to:<\/p>\n<ul>\n<li>Share your views with others via email.<\/li>\n<li>Share your views with people over chat messaging or other applications.<\/li>\n<li>Embed a view in web pages.<\/li>\n<li>Comment on a view and tag others.<\/li>\n<li>Delete a comment in the view.<\/li>\n<li>Include a snapshot of the view in the comment.<\/li>\n<\/ul>\n<br\/>\n<p><\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cloud computing",
+            "Lightcast Skills Taxonomy",
+            "Tableau (Business Intelligence Software) Skill",
+            "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-259",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Introducing Tableau Prep Builder",
+        "duration":"30 mins",
+        "learners_amount":"22 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p><\/p>\n<p>What is Tableau Prep Builder, who is it for, and when is it useful?<\/p>\n<p>Have you ever been deep in analysis and then realized that your data is \"dirty\" with inconsistencies and needs to be cleaned before you can continue?\u00a0<\/p>\n<p>Or, are you trying to publish data for others and want to reshape it first so it will be easier for others to analyze?<\/p>\n<p>Tableau Prep Builder is a visual data preparation tool you can use to clean and prepare data for these situations and more. This module describes Tableau Prep Builder, explains why you'd use it, and how to best use it with other Tableau products.<\/p>\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<p><\/p>\n<p>At the end of this module, you will be able to:<\/p>\n<ul>\n<li>Define and describe the purpose of data preparation.\u00a0<\/li>\n<li>Describe how data preparation fits into the analytic process.\u00a0<\/li>\n<li>Identify the major benefits of Tableau Prep Builder.\u00a0<\/li>\n<li>Describe how Tableau Prep Builder is integrated with other Tableau products.\u00a0<\/li>\n<li>Summarize when to use Tableau Prep Builder as opposed to Tableau Desktop.\u00a0\u00a0<\/li>\n<li>Identify some common roles\/personas who would use Tableau Prep Builder.\u00a0<\/li>\n<li>Describe examples of how Tableau Prep Builder is used by people in these roles.\u00a0<\/li>\n<li>Describe typical scenarios where you could use Tableau Prep Builder.<\/li>\n<\/ul>\n<br\/>\n<p><\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Lightcast Skills Taxonomy",
+            "Tableau (Business Intelligence Software) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-564",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Summarizing Data Using IBM Granite",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"1394 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 43 learners in the past 12 months.",
+        "star_num_ratings":"43",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this module, you\u2019ll explore the role of generative AI in text-based data summarization. Next, you\u2019ll learn about various IBM Granite models for text summarization and how you can choose the right model for your needs. Finally, you\u2019ll explore how to prompt IBM Granite models to summarize text.<\/p><p><br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this module, you should be able to:<\/p><ul><li>Apply generative AI to tasks that simplify data analysis<\/li><li>Choose an IBM Granite model for data summarization<\/li><li>Explain how to prompt IBM Granite models to summarize data<br\/>\u00a0<\/li><\/ul><p><strong>Lessons<\/strong><\/p><ol><li>Summarizing text-based data with generative AI<\/li><li>IBM Granite models for summarizing data<\/li><li>Prompting IBM Granite for text summarization<\/li><li>Simulation: Prompting IBM Granite models for text summarization<\/li><\/ol><\/div>",
+        "tags":[
+            "Initiatives",
+            "SDI Explore",
+            "AI2026",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-319A1E02AD80",
+        "category":"data_analysis",
+        "type":"Learning Plan",
+        "title":"Digital Literacy (Earn a credential!)",
+        "duration":"About 4 hours",
+        "learners_amount":"711 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 142 learners in the past 12 months.",
+        "star_num_ratings":"142",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Individuals need skills to live, learn, and work in a society where communication and access to information is increasing through digital technologies like internet platforms, social media, and mobile devices. Being digitally literate gives you power to identify and use digital technologies safely and efficiently, equips you with correct data, and enables you to achieve success in academic and professional spaces.<\/p>\n<p>\u00a0<\/p>\n<p>Complete the following required modules to earn an industry-recognized IBM SkillsBuild digital credential called <strong>Digital Literacy<\/strong>:<\/p>\n<ul>\n<li>Introduction to Digital Literacy<\/li>\n<li>Basic Computer Skills<\/li>\n<li>Navigating the Internet<\/li>\n<li>Digital Communications and Collaboration<\/li>\n<li>Managing Projects in a Digital Environment<\/li>\n<li>Online Security<\/li>\n<li>Digital Data Gathering, Analysis and Presentation<\/li>\n<li>Software Engineering and Coding<\/li>\n<li>Applying Artificial Intelligence<\/li>\n<li>Digital Literacy and Accessing Future Careers<\/li>\n<\/ul>\n<p>\u00a0<\/p>\n<p><strong>What you\u2019ll learn<\/strong><\/p>\n<p>After completing the <i><strong>Digital Literacy\u00a0<\/strong>course<\/i>, you should be able to:<\/p>\n<ul>\n<li>Define digital literacy and identify the importance of being digitally literate for personal and professional growth<\/li>\n<li>Identify the basic tools used in digital devices and how to use a web browser<\/li>\n<li>Describe digital processes and tools to communicate, collaborate, and manage projects<\/li>\n<li>Apply strategies to ensure your online security and define data gathering processes<\/li>\n<li>Define AI and describe the best practices for using AI tools<\/li>\n<\/ul>\n<p>\u00a0<\/p>\n<p>The knowledge and skills in these modules build on each other, so SkillsBuild recommends that you complete the modules in the order in which they are presented.<\/p>\n<p><br\/><strong>Language:<\/strong> English<\/p>\n<p>\u00a0<\/p>\n<p>Select <strong>Enroll<\/strong> to enroll in this learning plan and get started!<\/p><\/div>",
+        "tags":[
+
         ]
     },
     {
@@ -284,15 +537,15 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-215",
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-216",
         "category":"data_analysis",
         "type":"eLearning",
-        "title":"Introduction to Data Concepts",
-        "duration":"1 hr 15 mins",
-        "learners_amount":"70363 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 2194 learners in the past 12 months.",
-        "star_num_ratings":"2,194",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will become familiar with fundamental data concepts such as types of data, big data, the typical steps in the data analytics process, and data visualization.\n<br\/>\n<br\/>\n<p><strong>What you\u2019ll learn<\/strong><br\/><\/p>\n<p>After completing this course, you should be able to:<br\/><\/p>\n<p><\/p>\n<ul>\n<li>Explain the importance of data in a digital world<br\/><\/li>\n<li>Differentiate between unstructured and structured data<br\/><\/li>\n<li>Identify the purpose of a database<br\/><\/li>\n<li>Differentiate between quantitative and qualitative data<br\/><\/li>\n<li>Describe the five V\u2019s of big data<br\/><\/li>\n<li>Describe the four types of data analytics<br\/><\/li>\n<li>Explain the work involved in each step of the data analysis process<br\/><\/li>\n<li>Identify the purpose of a data visualization<br\/><\/li>\n<li>Recognize different charts to display data visualizations in the best way<br\/><\/li>\n<\/ul>\n<p><\/p><\/div>",
+        "title":"Data Science in Our World",
+        "duration":"2 hrs",
+        "learners_amount":"55529 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 964 learners in the past 12 months.",
+        "star_num_ratings":"964",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will learn about the field of data science, including widely adopted methodologies, an example project as it moves through the steps of a data science methodology, the application of data science in our world, and the role of data scientists and their colleagues.\n<br\/>\n<br\/>\n<p><strong>What you\u2019ll learn<\/strong><br\/><\/p>\n<p>After completing this course, you should be able to:<br\/><\/p>\n<p><\/p>\n<ul>\n<li>Define data science<br\/><\/li>\n<li>Recognize the importance of being curious to solve problems with data<br\/><\/li>\n<li>Differentiate between the fields of data analytics and data science<br\/><\/li>\n<li>Identify three widely adopted data science methodologies<br\/><\/li>\n<li>Explore a data project scenario and identify key tasks as it moves through a methodology<br\/><\/li>\n<li>Recognize industries and applications of data science that help solve problems and discover innovations<br\/><\/li>\n<li>Compare the roles and characteristics of a data analyst, data scientist, and data engineer<br\/><\/li>\n<\/ul>\n<p><\/p><\/div>",
         "tags":[
             "Badge Learning",
             "Data Fundamentals",
@@ -301,7 +554,31 @@
             "Learning Domain Primary",
             "Data",
             "Lightcast Skills Taxonomy",
-            "Data Analysis Skill"
+            "Data Analysis Skill",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-218",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Your Future in Data: The Job Landscape",
+        "duration":"50 mins",
+        "learners_amount":"57076 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 779 learners in the past 12 months.",
+        "star_num_ratings":"779",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will learn about the data job market and projections, the responsibilities and skill sets of a data analyst and data scientist, and resources and learning opportunities so you can explore more.\n<br\/>\n<br\/>\n<p><strong>What you\u2019ll learn<\/strong><br\/><\/p>\n<p>After completing this course, you should be able to:<br\/><\/p>\n<p><\/p>\n<ul>\n<li>Recognize the global demand for data analysts and data scientists in the job market<br\/><\/li>\n<li>Recognize the future of the field of data analytics<br\/><\/li>\n<li>Identify industries in which data professionals work<br\/><\/li>\n<li>Identify the primary responsibilities of a data analyst and data scientist<br\/><\/li>\n<li>Identify the skills that data professionals need<br\/><\/li>\n<li>Identify the tools to know when starting out in the field<br\/><\/li>\n<li>Identify resources to learn more and stay up to date in the field of data science<br\/><\/li>\n<\/ul>\n<p><\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Data Fundamentals",
+            "Learning Domain",
+            "Workplace skills - Workforce readiness",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill",
+            "Data Science Skill"
         ]
     },
     {
@@ -310,7 +587,7 @@
         "type":"eLearning",
         "title":"Advanced Google Analytics | Google Analytics Academy",
         "duration":"4 hrs",
-        "learners_amount":"181 learners have completed this activity in the past 12 months.",
+        "learners_amount":"183 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 5 learners in the past 12 months.",
         "star_num_ratings":"5",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Advanced Google Analytics walks you through how data gets collected and processed into readable reports. You'll learn how to use configurations like Custom Dimensions, Custom Metrics, and Event Tracking to collect data that's specific to your business. The course will also demonstrate more advanced analysis techniques using segmentation, channel reports, audience reports, and custom reports, as well as marketing strategies like remarketing and Dynamic Remarketing that show ads to customers who have visited your website.<br\/><br\/>This course is offered by Google Analytics Academy. You will need to register to Google Analytics Academy.<br\/><br\/>The course is available in Chinese (Simplified and Traditional), Czech, Dutch, English, French, German, Indonesian, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish, and Vietnamese. You can use the language selector in the bottom right corner of the course page to switch languages.<br\/><br\/>After you complete this course, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/>\u00a0<\/div>",
@@ -320,12 +597,35 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-MKRZNDRZRGNJ2MXV",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Data Science in the Real World",
+        "duration":"20 mins",
+        "learners_amount":"34883 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 1065 learners in the past 12 months.",
+        "star_num_ratings":"1,065",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Explore what it's like to be a data scientist. From an overview of job opportunities to interviews with people currently working in data analysis, you'll get a feel for this exciting career.<\/p>\n<br\/>\n<p><strong>Duration:<\/strong> Complete the activities in this course and earn 20 minutes of learning credit!<\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Explore Emerging Tech",
+            "Learning Domain",
+            "Other - Emerging technologies",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill",
+            "Data Analysis Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-367",
         "category":"data_analysis",
         "type":"eLearning",
         "title":"Conducting UX Research",
         "duration":"2 hrs",
-        "learners_amount":"4868 learners have completed this activity in the past 12 months.",
+        "learners_amount":"4860 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 129 learners in the past 12 months.",
         "star_num_ratings":"129",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you\u2019ll learn the importance of research in creating a user-centered design. You\u2019ll explore various user experience (UX) research methods and techniques. You\u2019ll also learn the importance of user personas in UX design and the ways to create them based on the research conducted and the data collected. Furthermore, you\u2019ll learn the ways to conduct a competitive and comparative analysis by evaluating and comparing a product or service against its competitors in the market. Finally, you\u2019ll review an example UX case study that conducted research and created user personas.<br\/><br\/>\u00a0<\/p><p><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<br\/>\u00a0<\/p><ul><li>Describe the value of user research in UX design<\/li><li>Explain the purpose and importance of hypotheses in UX\u00a0research<\/li><li>Identify the methods and techniques used to conduct UX\u00a0research<\/li><li>Describe the purpose and importance of data synthesis<\/li><li>Explain the various frameworks to synthesize UX research data<\/li><li>Explain the purpose, importance, and key components of user\u00a0personas<\/li><li>Describe the process of creating a user persona<\/li><li>Describe the process of utilizing user personas throughout the UX\u00a0design process<\/li><li>Explain competitive and comparative analysis<\/li><li>Identify the steps and common frameworks to conduct a\u00a0competitive and comparative analysis<\/li><li>Review an example UX case study to make conclusions about\u00a0researching users, creating user personas, and researching\u00a0competitors<\/li><\/ul><\/div>",
@@ -336,6 +636,94 @@
             "Technical skills - User experience design (UX Design)",
             "Learning Domain Primary",
             "UX design"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-fb223048-98c1-448f-a7cf-bee98f63d455",
+        "category":"data_analysis",
+        "type":"Digital Credential",
+        "title":"Digital Literacy",
+        "duration":"Hours",
+        "learners_amount":"754 learners have earned this digital credential.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This credential earner has the foundational knowledge to navigate the digital world, including computer use, internet navigation, and digital communication. The individual can research, create, share, and present information effectively, responsibly, and safely in digital environments. The earner understands key concepts in artificial intelligence, software engineering, and data analysis, and recognizes their importance for productivity and success in academic and professional contexts.<\/p>\n<p>\u00a0<\/p>\n<p><strong>Complete the learning here:<\/strong> <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-319A1E02AD80\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Digital Literacy<\/a><\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1567178224443",
+        "category":"data_analysis",
+        "type":"Channel",
+        "title":"Data and Analytics",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"1,017",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">What is big data and how can analyzing data help transform businesses? Making sense of large, diverse data sets allows businesses to make better decisions, with increased speed and confidence. Complete these activities to gain an appreciation of the business benefits of collecting and analyzing data.\n<br\/>\n<br\/>\nYou have the option to complete the <strong>Data Fundamentals<\/strong> courses to earn an IBM-recognized digital credential!<\/div>",
+        "tags":[
+            "Areas of Interest",
+            "Essential skills > Data and analytics",
+            "Learning Domain",
+            "Technical skills - Data"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1592251313526",
+        "category":"data_analysis",
+        "type":"Channel",
+        "title":"Core Skills: Data Analyst",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"1,017",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Data analysts are critical thinkers who use their abilities to obtain insight from data to resolve technical real-life problems. Core skills for data analysts include using prescribed analytical techniques and tools to collect, clean, manage, and analyze data; identifying insights to solve business problems; and visualizing data to successfully communicate results in a clear way to stakeholders. Data analysts have prerequisite knowledge in basic mathematics and statistics as well as business acumen.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1603308254059",
+        "category":"data_analysis",
+        "type":"Channel",
+        "title":"Computer Science Principles | Khan Academy",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"7",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This is a curation of eight course units offered by <a href=\"https:\/\/www.khanacademy.org\/computing\/ap-computer-science-principles\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Khan Academy<\/a> to help build your knowledge and skills about computer science principles.<br\/><br\/>\n It is a review course that includes 800+ practice questions, plus instructional articles and videos covering the topics of digital information, the Internet, cybersecurity, programming, algorithms, simulations, and data analysis.<br\/><br\/><strong>Note<\/strong>: It is designed to prepare for a U.S. college examination, however the computer science content is valuable more broadly.<br\/><br\/>\n The content is offered in English.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1591118402230",
+        "category":"data_analysis",
+        "type":"Channel",
+        "title":"How It Works: Emerging Technology",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"295",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This collection of videos provides you with quick introductions to the latest transformational technologies and how they work, including artificial intelligence, blockchain, cloud computing, data analysis, digital engagement, the Internet of Things (IoT), cybersecurity, and quantum computing.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1591373775528",
+        "category":"data_analysis",
+        "type":"Channel",
+        "title":"Career Exploration Ideas",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"24",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This collection of learning activities is designed to help if you are thinking about your future and want to explore ideas about different careers that are in demand, such as those related to web development, data analysis, artificial intelligence (AI), blockchain, cybersecurity, and more. They provide high level information about various roles, skills needed, how to start in the field, and people's experiences in the work environment.<\/p><\/div>",
+        "tags":[
+
         ]
     }
 ]

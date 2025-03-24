@@ -57,3 +57,24 @@ context = "\n\n".join([
 ])
 
 print(context)
+
+
+bm25_sql = text("""
+SELECT
+    course_id,
+    title,
+    course_url,
+    description,
+    ts_rank_cd(embedding_input_combined, plainto_tsquery(:query)) AS rank
+FROM courses
+WHERE embedding_input_combined @@ plainto_tsquery(:query)
+ORDER BY rank DESC
+LIMIT 5;
+""")
+
+with engine.connect() as conn:
+    results = conn.execute(bm25_sql, {"query": query}).fetchall()
+
+print("\nBM25-style results:")
+for row in results:
+    print(f"{row.title} - {row.course_url} (Rank: {row.rank})")

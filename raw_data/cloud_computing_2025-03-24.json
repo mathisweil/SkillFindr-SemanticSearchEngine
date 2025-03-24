@@ -5,7 +5,7 @@
         "type":"eLearning",
         "title":"What is cloud computing?",
         "duration":"45 mins",
-        "learners_amount":"36381 learners have completed this activity in the past 12 months.",
+        "learners_amount":"36462 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 2606 learners in the past 12 months.",
         "star_num_ratings":"2,606",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Cloud computing involves much more than off-site servers! Learn different ways that data can be stored and managed with the newest cloud technology.<\/p>\n<p><\/p>\n<p><strong>Duration:<\/strong> Complete the activities in this course and earn 45 minutes of learning credit!<\/p><\/div>",
@@ -20,51 +20,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-MKRZNDPPDGYW19ZV",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"How is cloud computing used?",
-        "duration":"25 mins",
-        "learners_amount":"31898 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 1419 learners in the past 12 months.",
-        "star_num_ratings":"1,419",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Cloud offers important benefits for corporations and their customers. Learn practical applications for cloud, and get great tips on a getting started in a cloud career.<\/p>\n<p><\/p>\n<p><strong>Duration:<\/strong> Complete the activities in this course and earn 25 minutes of learning credit!<\/p><\/div>",
-        "tags":[
-            "Badge Learning",
-            "Explore Emerging Tech",
-            "Learning Domain",
-            "Other - Emerging technologies",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:IBMDEVELOPERSKILLSNETWORK+CC0103EN+V3",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"IBM Cloud Essentials V3",
-        "duration":"8 hrs",
-        "learners_amount":"185 learners have completed this activity in the past 12 months.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Get hands-on experience with IBM Cloud, Cloud Foundry, and best practices for agile and test-driven development.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing",
-            "Lightcast Skills Taxonomy",
-            "Agile Methodology Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-2B15AA3C96BD",
         "category":"cloud_computing",
         "type":"Classroom",
         "title":"Cloud Computing Masterclass",
         "duration":"2 hrs",
-        "learners_amount":"168 learners have completed this activity in the past 12 months.",
+        "learners_amount":"171 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 5 learners in the past 12 months.",
         "star_num_ratings":"5",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this masterclass you will learn about:<\/p>\n<ul>\n<li>Introduction to Cloud Computing<\/li>\n<li>Cloud Computing Services Model and deployments<\/li>\n<li>Hands-on on Cloud<\/li>\n<\/ul>\n<p>You can continue learning about Cloud Computing and Journey to cloud with<strong> free courses and getting digital credentials through IBM Skills Build, Collegue Students section<\/strong>: <a href=\"https:\/\/skillsbuild.org\/es\/college-students\/digital-credentials\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">https:\/\/skillsbuild.org\/es\/college-students\/digital-credentials<\/a><\/p>\n<ul>\n<li><strong>Cloud Computing Fundamentals:<\/strong> <a href=\"https:\/\/www.ibm.com\/academic\/topic\/cloud?ach_id=a97d681b-ef48-4d70-b3e8-9fd87894e3a1\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">https:\/\/www.ibm.com\/academic\/topic\/cloud?ach_id=a97d681b-ef48-4d70-b3e8-9fd87894e3a1<\/a><\/li>\n<li>\n<p><strong>Journey to Cloud,<\/strong> training courses.<\/p>\n<p>\u00a0<\/p><\/li>\n<\/ul><\/div>",
@@ -83,7 +44,7 @@
         "type":"eLearning",
         "title":"Introduction to Cloud Computing",
         "duration":"1 hr 15 mins",
-        "learners_amount":"6049 learners have completed this activity in the past 12 months.",
+        "learners_amount":"6072 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 237 learners in the past 12 months.",
         "star_num_ratings":"237",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn how computers communicate and how that communication enables the cloud technologies you use every day. You\u2019ll explore the components that cloud computing utilizes and how they work together to benefit users and businesses alike. Finally, you\u2019ll discover some new scenarios that advancements in the cloud will offer in the future.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\n<br\/>\nAfter completing this course, you should be able to: \n<ul>\n<li>Describe how local servers and the internet enable computers to share information<\/li>\n<li>Define cloud computing and describe its characteristics<\/li>\n<li>Identify the problems that cloud computing solves<\/li>\n<li>Explain how technology advances impact the cloud<\/li>\n<\/ul><\/div>",
@@ -102,11 +63,32 @@
         "type":"Webpage",
         "title":"Mobile cloud computing",
         "duration":"10 mins",
-        "learners_amount":"330 learners have completed this activity in the past 12 months.",
+        "learners_amount":"331 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 32 learners in the past 12 months.",
         "star_num_ratings":"32",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Learn more about mobile cloud computing and how mobile apps are delivered remotely over the Internet. \n<br\/>\n<br\/><strong>Note:<\/strong> This activity is currently available only in English.<\/div>",
         "tags":[
+            "Learning Domain",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-302",
+        "category":"cloud_computing",
+        "type":"eLearning",
+        "title":"Understanding Cloud Computing Services",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"4106 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 94 learners in the past 12 months.",
+        "star_num_ratings":"94",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll get an overview of how the cloud supports and powers new technologies like artificial intelligence (AI) and the Internet of Things (IoT). You\u2019ll learn about the four main types of cloud service models and two types of software approaches when it comes to cloud solutions: proprietary and open source. You\u2019ll get to explore the services offered by major cloud providers: IBM Cloud, Microsoft Azure, and Amazon Web Services. And finally, you\u2019ll learn through some scenarios about the advantages and value businesses and individuals can expect when they use the various cloud service models.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to: \n<ul>\n<li>Describe the characteristics of cloud service models, including IaaS, SaaS, PaaS, and DBaaS<\/li>\n<li>Differentiate between proprietary and open source approaches for developing cloud solutions<\/li>\n<li>Identify the services of the major cloud providers and what differentiates them<\/li>\n<li>Identify scenarios where different cloud service models are appropriate to use and recognize the value that businesses can expect from them<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Cloud Computing Fundamentals",
+            "Initiatives",
+            "AI2026",
             "Learning Domain",
             "Technical Skills - Cloud",
             "Learning Domain Primary",
@@ -148,7 +130,7 @@
         "type":"eLearning",
         "title":"Cloud Computing - Introducci\u00f3n y Fundamentos",
         "duration":"1 hr 8 mins",
-        "learners_amount":"14 learners have completed this activity in the past 12 months.",
+        "learners_amount":"15 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 3 learners in the past 12 months.",
         "star_num_ratings":"3",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Curso de Cloud Computing - Introducci\u00f3n y Fundamentos. Introducci\u00f3n a la computaci\u00f3n en la nube.\u00a0<\/p><\/div>",
@@ -157,6 +139,20 @@
             "Technical Skills - Cloud",
             "Learning Domain Primary",
             "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52800G",
+        "category":"cloud_computing",
+        "type":"eLearning",
+        "title":"Cloud Computing Characteristics, History, and Trends",
+        "duration":"30 mins",
+        "learners_amount":"13 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course reviews the history, key characteristics, and fundamental concepts of cloud computing.<\/p>This course reviews the history, key characteristics, and fundamental concepts of cloud computing.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
         ]
     },
     {
@@ -172,37 +168,6 @@
         "tags":[
             "Learning Domain Primary",
             "Cloud computing"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-EDD75AC0F392",
-        "category":"cloud_computing",
-        "type":"Document",
-        "title":"Learn about a career in cloud computing",
-        "duration":"5 mins",
-        "learners_amount":"520 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 24 learners in the past 12 months.",
-        "star_num_ratings":"24",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Cloud computing technologies and services are everywhere. What industries focus most on cloud computing, what technical skills might be in demand, and what the interesting jobs are in this field? Answers to these questions, plus a few more facts, are included in the following infographic.\n<br\/>\n<br\/>\nAlso available in <a href=\"https:\/\/ibm.box.com\/s\/0e1fn4syschlr5u68nborju1w7gp1ajp\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Spanish<\/a>, <a href=\"https:\/\/ibm.box.com\/s\/hqqgo9bete0l6ljltzpuwacx35agovcy\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">French<\/a>, and <a href=\"https:\/\/ibm.box.com\/s\/fcs0mkv0v73ngo947s8il5fnsbrl7ay4\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Brazilian Portuguese<\/a>.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52800G",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Cloud Computing Characteristics, History, and Trends",
-        "duration":"30 mins",
-        "learners_amount":"12 learners have completed this activity in the past 12 months.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course reviews the history, key characteristics, and fundamental concepts of cloud computing.<\/p>This course reviews the history, key characteristics, and fundamental concepts of cloud computing.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
-        "tags":[
-
         ]
     },
     {
@@ -243,7 +208,7 @@
         "type":"eLearning",
         "title":"Your Future in Cloud Computing: The Job Landscape",
         "duration":"1 hr",
-        "learners_amount":"3425 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3449 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 61 learners in the past 12 months.",
         "star_num_ratings":"61",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn about the cloud computing job market, the skills that cloud engineers need to be successful, and how cloud engineers interact with other job roles on a team. You\u2019ll also discover resources and learning opportunities so you can explore more.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to: \n<ul>\n<li>Identify industries in which cloud computing professionals work<\/li>\n<li>Recognize the global demand for cloud computing professionals in the job market<\/li>\n<li>Recognize the future of the cloud computing field<\/li>\n<li>Identify common roles in the cloud computing field<\/li>\n<li>Explain the primary responsibilities of different job roles<\/li>\n<li>Identify the skills that cloud computing professionals need<\/li>\n<li>Identify the resources to learn more and stay up to date in the field of cloud computing<\/li>\n<\/ul><\/div>",
@@ -263,7 +228,7 @@
         "type":"Video",
         "title":"Definition and Essential Characteristics of Cloud Computing | Cognitive Class",
         "duration":"6 mins",
-        "learners_amount":"101 learners have completed this activity in the past 12 months.",
+        "learners_amount":"100 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 35 learners in the past 12 months.",
         "star_num_ratings":"35",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this video from Cognitive Class, learn what cloud computing is, and how a cloud model is composed of five essential characteristics, three deployment models, and three service models. \n<br\/>\n<br\/>\nThis video is presented by Cognitive Class. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, <strong> <\/strong>select <strong>Subtitles<\/strong>, <strong> <\/strong>select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
@@ -282,7 +247,7 @@
         "type":"eLearning",
         "title":"An Introduction to Cloud Computing",
         "duration":"20 mins",
-        "learners_amount":"360 learners have completed this activity in the past 12 months.",
+        "learners_amount":"358 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 25 learners in the past 12 months.",
         "star_num_ratings":"25",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Cloud computing has grown in importance in business and technology as companies move their applications and business processes to the cloud. With this topic, you'll learn what cloud computing technology is and why businesses are adopting the cloud. You'll also learn the language behind cloud computing types and deployment models, and home and business applications of cloud computing technology.<\/p>\n<br\/>\n<p><strong>Duration:<\/strong> Complete the activities in this course and earn 20 minutes of learning credit!<\/p><\/div>",
@@ -311,31 +276,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-765F60671193",
-        "category":"cloud_computing",
-        "type":"Webpage",
-        "title":"11 Benefits of Cloud Computing (With Main Purposes) | Indeed Career Guide",
-        "duration":"10 mins",
-        "learners_amount":"274 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 6 learners in the past 12 months.",
-        "star_num_ratings":"6",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Many companies need to access and store large amounts of data daily to operate successfully. Companies that use cloud computing systems can manage software systems and allow employees, managers, and owners to access data remotely. Understanding what cloud computing provides can let companies experience benefits like increased productivity, cost savings and more accurate data insight.\n<br\/>\n<br\/>\nIn this article, you will learn about the benefits of cloud computing and the different purposes that this process fulfills.\n<br\/>\n<br\/>\nThis article is presented by <a href=\"https:\/\/www.indeed.com\/career-advice\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Indeed Career Guide<\/a>.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.\n<br\/>\n<br\/><strong>Note<\/strong>: This activity is available only in English.<\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing",
-            "Lightcast Skills Taxonomy",
-            "Data Analysis Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52824G",
         "category":"cloud_computing",
         "type":"eLearning",
         "title":"Edge Solutions on Cloud",
         "duration":"30 mins",
-        "learners_amount":"43 learners have completed this activity in the past 12 months.",
+        "learners_amount":"44 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 5 learners in the past 12 months.",
         "star_num_ratings":"5",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explores Edge computing and how Edge computing might leverage IBM Cloud\u00ae.<\/p>This course explores Edge computing and how Edge computing might leverage IBM Cloud\u00ae.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
@@ -367,7 +313,7 @@
         "type":"Webpage",
         "title":"IBM Cloud Developer Center",
         "duration":"10 mins",
-        "learners_amount":"269 learners have completed this activity in the past 12 months.",
+        "learners_amount":"268 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 26 learners in the past 12 months.",
         "star_num_ratings":"26",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Discover technical resources for building and developing your apps in the IBM Cloud. \n<br\/>\n<br\/><strong>Note: <\/strong>This activity is currently available only in English.<\/div>",
@@ -376,6 +322,20 @@
             "Technical Skills - Cloud",
             "Learning Domain Primary",
             "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-3CD39552C435",
+        "category":"cloud_computing",
+        "type":"Learning Plan",
+        "title":"City and Guilds: Journey into Tech",
+        "duration":"About 4 hours",
+        "learners_amount":"55 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 6 learners in the past 12 months.",
+        "star_num_ratings":"6",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Follow us for a journey into tech, covering the basic topics you need to know to work as an IT Support Specialist, Cybersecurity Specialist, and Cloud Computing.<\/p><\/div>",
+        "tags":[
+
         ]
     },
     {
@@ -416,25 +376,10 @@
         "type":"eLearning",
         "title":"IBM Cloud Storage Options",
         "duration":"30 mins",
-        "learners_amount":"28 learners have completed this activity in the past 12 months.",
+        "learners_amount":"29 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
         "star_num_ratings":"1",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explores the high-level concepts of IBM Cloud\u00ae storage offerings, advantages, and use cases.<\/p>This course explores the high-level concepts of IBM Cloud\u00ae storage offerings, advantages, and use cases.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
-        "tags":[
-            "Learning Domain Primary",
-            "Cloud computing"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52808G",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Cloud Services and DevSecOps",
-        "duration":"30 mins",
-        "learners_amount":"34 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
-        "star_num_ratings":"2",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course reviews and contrasts the differences between DevOps and DevSecOps. Continuous Delivery is also explained.<\/p>This course reviews and contrasts the differences between DevOps and DevSecOps. Continuous Delivery is also explained.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
         "tags":[
             "Learning Domain Primary",
             "Cloud computing"
@@ -509,21 +454,6 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52809G",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Cloud Database, Integration, and Analytics",
-        "duration":"30 mins",
-        "learners_amount":"112 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 3 learners in the past 12 months.",
-        "star_num_ratings":"3",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explores the databases that are available on IBM Cloud\u00ae. It also explores the services available for analytics and the services that are used to connect apps together.<\/p>This course explores the databases that are available on IBM Cloud\u00ae. It also explores the services available for analytics and the services that are used to connect apps together.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
-        "tags":[
-            "Learning Domain Primary",
-            "Cloud computing"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-C110087G",
         "category":"cloud_computing",
         "type":"eLearning",
@@ -544,6 +474,21 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52809G",
+        "category":"cloud_computing",
+        "type":"eLearning",
+        "title":"Cloud Database, Integration, and Analytics",
+        "duration":"30 mins",
+        "learners_amount":"112 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 3 learners in the past 12 months.",
+        "star_num_ratings":"3",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explores the databases that are available on IBM Cloud\u00ae. It also explores the services available for analytics and the services that are used to connect apps together.<\/p>This course explores the databases that are available on IBM Cloud\u00ae. It also explores the services available for analytics and the services that are used to connect apps together.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52805G",
         "category":"cloud_computing",
         "type":"eLearning",
@@ -559,21 +504,6 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70485G",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"VPC on IBM Cloud",
-        "duration":"30 mins",
-        "learners_amount":"42 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
-        "star_num_ratings":"1",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This interactive course introduces you to the key concepts of Virtual Private Cloud (VPC). You will also learn about the benefits of VPC Virtual Server instances, subnets and IP address features of VPC. This course concludes by exploring how to build scalability and high availability into VPC architectures.<\/p>This interactive course introduces you to the key concepts of Virtual Private Cloud (VPC). \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
-        "tags":[
-            "Learning Domain Primary",
-            "Cloud computing"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52816G",
         "category":"cloud_computing",
         "type":"eLearning",
@@ -583,6 +513,21 @@
         "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
         "star_num_ratings":"2",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces basic cloud networking components and explains how those components work together to form secure and robust cloud networks.<\/p>This course introduces basic cloud networking components and explains how those components work together to form secure and robust cloud networks.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70485G",
+        "category":"cloud_computing",
+        "type":"eLearning",
+        "title":"VPC on IBM Cloud",
+        "duration":"30 mins",
+        "learners_amount":"42 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This interactive course introduces you to the key concepts of Virtual Private Cloud (VPC). You will also learn about the benefits of VPC Virtual Server instances, subnets and IP address features of VPC. This course concludes by exploring how to build scalability and high availability into VPC architectures.<\/p>This interactive course introduces you to the key concepts of Virtual Private Cloud (VPC). \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
         "tags":[
             "Learning Domain Primary",
             "Cloud computing"
@@ -643,7 +588,7 @@
         "type":"eLearning",
         "title":"Introduction to the Cloud Architect Role",
         "duration":"30 mins",
-        "learners_amount":"44 learners have completed this activity in the past 12 months.",
+        "learners_amount":"45 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 3 learners in the past 12 months.",
         "star_num_ratings":"3",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will be introduced to the cloud architect role, which includes gathering and documenting functional and non-functional requirements for a cloud solution.<\/p>Introduction to the cloud architect role, which includes gathering and documenting functional and non-functional requirements for a cloud solution.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
@@ -658,7 +603,7 @@
         "type":"eLearning",
         "title":"IBM Cloud DevSecOps Essentials",
         "duration":"30 mins",
-        "learners_amount":"30 learners have completed this activity in the past 12 months.",
+        "learners_amount":"32 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 2 learners in the past 12 months.",
         "star_num_ratings":"2",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The Essentials of DevSecOps and IBM Cloud\u00ae badge is for learners who have learned underlying DevSecOps concepts including principles, practices, delivery pipelines and the use of toolchains. This achievement is a stepping stone to earning the IBM Cloud DevSecOps Specialty certification.<\/p>This achievement is a stepping stone to earning the IBM Cloud DevSecOps Specialty certification.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
@@ -687,21 +632,6 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52914G",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Designing Cloud Native Architecture",
-        "duration":"30 mins",
-        "learners_amount":"27 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 2 learners in the past 12 months.",
-        "star_num_ratings":"2",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces you to application architecture. You will learn about cloud native, event driven, and modern integration architecture and how they can be implemented.<\/p>This course introduces you to application architecture. You will learn about cloud native, event driven, and modern integration architecture and how they can be implemented.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
-        "tags":[
-            "Learning Domain Primary",
-            "Cloud computing"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52801G",
         "category":"cloud_computing",
         "type":"eLearning",
@@ -711,6 +641,21 @@
         "star_rating":"Average rating of 5 stars by 4 learners in the past 12 months.",
         "star_num_ratings":"4",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explores the Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) models. It also explains the public, private, hybrid, and multicloud deployment models.<\/p>This course explores the Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) models. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52914G",
+        "category":"cloud_computing",
+        "type":"eLearning",
+        "title":"Designing Cloud Native Architecture",
+        "duration":"30 mins",
+        "learners_amount":"28 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces you to application architecture. You will learn about cloud native, event driven, and modern integration architecture and how they can be implemented.<\/p>This course introduces you to application architecture. You will learn about cloud native, event driven, and modern integration architecture and how they can be implemented.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
         "tags":[
             "Learning Domain Primary",
             "Cloud computing"
@@ -868,28 +813,6 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:IBMDEVELOPERSKILLSNETWORK+CC0201EN+V1",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Introduction to Containers, Kubernetes, and OpenShift V2",
-        "duration":"3 hrs",
-        "learners_amount":"416 learners have completed this activity in the past 12 months.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces the core concepts of Containers and Kubernetes and explains how containers differ from virtual machines. It also covers the importance of containers in cloud computing as well as the emerging ecosystem of related technologies such as Docker, Kubernetes, OpenShift, Istio and Knative.<\/p><\/div>",
-        "tags":[
-            "Administrative",
-            "Searchable",
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing",
-            "Lightcast Skills Taxonomy",
-            "Kubernetes Skill",
-            "Docker (Software) Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-1008C1FA329C",
         "category":"cloud_computing",
         "type":"eLearning",
@@ -912,7 +835,7 @@
         "type":"Webpage",
         "title":"Business continuity in pandemics: Building location-agnostic work platforms | IBM Institute for Business Value",
         "duration":"20 mins",
-        "learners_amount":"174 learners have completed this activity in the past 12 months.",
+        "learners_amount":"172 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 4 learners in the past 12 months.",
         "star_num_ratings":"4",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">The most adaptable, resilient businesses tap into cloud-based work environments that support \u201cwork anywhere\u201d without sacrificing efficiency, productivity, or quality. \n<br\/>\n<br\/>\nThis\u00a0report is presented by IBM Institute for Business Value. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select\u00a0 <strong>Mark complete<\/strong>\u00a0for completion credit.\u00a0 \n<br\/>\n<br\/><strong>Note<\/strong>: This activity is available only in\u00a0English.<\/div>",
@@ -946,7 +869,7 @@
         "type":"eLearning",
         "title":"IBM Cloud Integration Use Cases",
         "duration":"30 mins",
-        "learners_amount":"7 learners have completed this activity in the past 12 months.",
+        "learners_amount":"8 learners have completed this activity in the past 12 months.",
         "star_rating":null,
         "star_num_ratings":null,
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explores use cases for integration on IBM Cloud\u00ae, including API Connect, APP Connect, IBM Messaging Options, IBM Event Streams, and IBM MQ.<\/p>This course explores use cases for integration on IBM Cloud\u00ae, including API Connect, APP Connect, IBM Messaging Options, IBM Event Streams, and IBM MQ.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
@@ -985,21 +908,6 @@
         "tags":[
             "Learning Domain",
             "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70369G",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Essentials of IBM Cloud Professional Developer",
-        "duration":"30 mins",
-        "learners_amount":"266 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 9 learners in the past 12 months.",
-        "star_num_ratings":"9",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The Essentials of IBM Cloud Professional Developer \u00a0badge is for learners who have acquired foundational knowledge of IBM Cloud features and benefits for Developers, the fundamental concepts of Continuous Delivery, IBM Cloud Schematics, and the use of DevOps toolchains and Tekton pipelines on IBM Cloud. This achievement is a stepping stone to earning the IBM Cloud Professional Developer certification.<\/p>The Essentials of IBM Cloud Professional Developer badge is for learners who have acquired foundational knowledge of IBM Cloud features and benefits for Developers.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
-        "tags":[
             "Learning Domain Primary",
             "Cloud computing"
         ]
@@ -1070,25 +978,6 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-192",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Introduction to the IBM Cloud Advocate",
-        "duration":"6 mins",
-        "learners_amount":"120 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 15 learners in the past 12 months.",
-        "star_num_ratings":"15",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This section introduces learners to the course and provides an overview of the content, the specific learning objectives, and the role of an IBM Cloud Advocate.\u00a0<br\/><\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing",
-            "Lightcast Skills Taxonomy",
-            "Advocacy Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-196",
         "category":"cloud_computing",
         "type":"eLearning",
@@ -1104,6 +993,25 @@
             "Technical Skills - Cloud",
             "Learning Domain Primary",
             "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-192",
+        "category":"cloud_computing",
+        "type":"eLearning",
+        "title":"Introduction to the IBM Cloud Advocate",
+        "duration":"6 mins",
+        "learners_amount":"121 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 15 learners in the past 12 months.",
+        "star_num_ratings":"15",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This section introduces learners to the course and provides an overview of the content, the specific learning objectives, and the role of an IBM Cloud Advocate.\u00a0<br\/><\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cloud computing",
+            "Lightcast Skills Taxonomy",
+            "Advocacy Skill"
         ]
     },
     {
@@ -1163,7 +1071,7 @@
         "type":"eLearning",
         "title":"IBM Cloud Container Services",
         "duration":"30 mins",
-        "learners_amount":"40 learners have completed this activity in the past 12 months.",
+        "learners_amount":"42 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 3 learners in the past 12 months.",
         "star_num_ratings":"3",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces two container orchestration software options: IBM Cloud\u00ae Kubernetes Service (IKS) and Red Hat\u00ae OpenShift\u00ae on IBM Cloud. It also includes a brief introduction to Red Hat OpenShift and Kubernetes application exposure services.<\/p>This course introduces two container orchestration software options: IBM Cloud\u00ae Kubernetes Service (IKS) and Red Hat\u00ae OpenShift\u00ae on IBM Cloud. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
@@ -1216,7 +1124,7 @@
         "type":"eLearning",
         "title":"IBM Cloud for SAP Specialty Accelerator",
         "duration":"1 hr",
-        "learners_amount":"30 learners have completed this activity in the past 12 months.",
+        "learners_amount":"31 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 1 learner in the past 12 months.",
         "star_num_ratings":"1",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The IBM Cloud for SAP Specialty Accelerator badge is for jam participants who have professional-level knowledge of how and when to run SAP on IBM Cloud. This achievement is a step towards earning the IBM Cloud for SAP Specialty certification.<\/p>The IBM Cloud for SAP Specialty Accelerator badge is for jam participants who have professional-level knowledge of how and when to run SAP on IBM Cloud. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
@@ -1245,28 +1153,6 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:IBMDEVELOPERSKILLSNETWORK+CC0150EN+V1",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Building Cloud Native and Multicloud Applications",
-        "duration":"6 hrs",
-        "learners_amount":"11 learners have completed this activity in the past 12 months.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, we will cover the core concepts and practices of building and running Cloud Native applications and how to run these applications in a multicloud environment. We will cover technologies and practices including; microservices, DevOps, CI\/CD, Docker, Kubernetes, and OpenShift.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing",
-            "Lightcast Skills Taxonomy",
-            "DevOps Skill",
-            "CI\/CD Skill",
-            "Kubernetes Skill",
-            "Docker (Software) Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70500G",
         "category":"cloud_computing",
         "type":"eLearning",
@@ -1288,8 +1174,8 @@
         "title":"Application Services on IBM Cloud",
         "duration":"12 mins",
         "learners_amount":"57 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 6 learners in the past 12 months.",
-        "star_num_ratings":"6",
+        "star_rating":"Average rating of 4 stars by 4 learners in the past 12 months.",
+        "star_num_ratings":"4",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces the learner to application services on IBM cloud including Application Programming Interface (API) Connect, App Connect, Message Queue (MQ), Continuous Delivery and Event Streams.<br\/><\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -1307,7 +1193,7 @@
         "type":"eLearning",
         "title":"IBM Professional Cloud Developer Overview",
         "duration":"30 mins",
-        "learners_amount":"18 learners have completed this activity in the past 12 months.",
+        "learners_amount":"19 learners have completed this activity in the past 12 months.",
         "star_rating":null,
         "star_num_ratings":null,
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course welcomes the user, gives tips on an optimal learning environment, gives instructions on using the navigational tools, and expectations of the course. At the end of this course, learners should have a better understanding of the IBM Professional Cloud Developer Role and the IBM Cloud Developer learning path.<\/p>This course welcomes the user, gives tips on an optimal learning environment, gives instructions on using the navigational tools, and expectations of the course.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
@@ -1322,7 +1208,7 @@
         "type":"eLearning",
         "title":"IBM Cloud Technical Advocate Concepts",
         "duration":"30 mins",
-        "learners_amount":"28 learners have completed this activity in the past 12 months.",
+        "learners_amount":"29 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 1 learner in the past 12 months.",
         "star_num_ratings":"1",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This badge earner has developed a fundamental knowledge of IBM Cloud networking components, IBM Cloud compute offerings (including container solutions), and IBM Cloud storage offerings (including back up, recovery, and replication solutions).\u00a0<\/p>\n<p>This achievement is a steppingstone to earning the IBM Cloud Technical Advocate certification.<\/p>The IBM Cloud Technical Advocate Concepts badge represents your achievement in completing the learning associated with IBM Cloud storage offerings, back up, recovery, and replication solutions.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
@@ -1381,25 +1267,6 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-305",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Developing and Deploying Software in the Cloud",
-        "duration":"1 hr 10 mins",
-        "learners_amount":"3399 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 55 learners in the past 12 months.",
-        "star_num_ratings":"55",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will learn about developing and deploying software in the cloud. You\u2019ll discover how cloud developers can use DevOps to quickly develop and deploy scalable, reliable, and cost-effective software. And you\u2019ll explore different methods of cloud orchestration to manage and automate cloud applications. In the last module, you\u2019ll get a chance to put what you\u2019ve learned into practice by deploying a web app to the cloud in a simulation.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to: \n<ul>\n<li>Describe the process to develop software in the cloud<\/li>\n<li>Explain the purpose and benefits of cloud orchestration<\/li>\n<li>Build a Docker container and deploy it to the cloud<\/li>\n<\/ul><\/div>",
-        "tags":[
-            "Badge Learning",
-            "Cloud Computing Fundamentals",
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70501G",
         "category":"cloud_computing",
         "type":"eLearning",
@@ -1435,7 +1302,7 @@
         "type":"Webpage",
         "title":"IBM Cloud Learn Hub",
         "duration":"30 mins",
-        "learners_amount":"234 learners have completed this activity in the past 12 months.",
+        "learners_amount":"233 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 5 learners in the past 12 months.",
         "star_num_ratings":"5",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">The <strong>IBM Cloud Learn Hub<\/strong> website provides education about cloud topics, technologies, and strategies. Explore and read about topics such as: \n<ul>\n<li>Private cloud<\/li>\n<li>Public cloud<\/li>\n<li>Virtual private cloud<\/li>\n<li>Platform-as-a-Service (Paas)<\/li>\n<li>Microservices<\/li>\n<li>Hybrid cloud<\/li>\n<li>Application modernization<\/li>\n<li>Multicloud<\/li>\n<li>Infrastructure-as-a-Service (IaaS)<\/li>\n<\/ul>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: This activity is available only in English.<\/div>",
@@ -1456,8 +1323,8 @@
         "title":"IBM Cloud Advocate Essentials",
         "duration":"30 mins",
         "learners_amount":"8 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 3.5 stars by 6 learners in the past 12 months.",
-        "star_num_ratings":"6",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The IBM Cloud Advocate Essentials badge represents your achievement in completing the learning associated with the essential elements of the cloud including its definition, its history and evolution, the primary characteristics and benefits of the cloud, cloud adoption and migration, virtualization, cloud service and deployment models, the IBM Cloud platform and interface, the structure of IBM Cloud, IBM Cloud regulatory and compliance standards, IBM Cloud account types, support plans and Identity and Access Management.\u00a0This achievement is a steppingstone to earning the IBM Cloud Advocate certification.<\/p>This achievement is a steppingstone to earning the IBM Cloud Advocate certification.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -1474,7 +1341,7 @@
         "type":"eLearning",
         "title":"Understanding Cloud Deployment Models",
         "duration":"1 hr 15 mins",
-        "learners_amount":"3738 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3756 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 68 learners in the past 12 months.",
         "star_num_ratings":"68",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn about modern mainframe computers and how a business can host an infrastructure on premises or in the cloud. You\u2019ll explore the steps businesses take to decide, plan, and make the move to the cloud. You\u2019ll learn about different cloud deployment models and the advantages they bring to businesses. And finally, you\u2019ll explore some scenarios to better understand when a public, private, or hybrid cloud deployment is appropriate for a business.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<ul><li>Describe the features of on-premises hosting<\/li><li>Identify considerations when moving to the cloud<\/li><li>Describe cloud migration plans, steps to deploy to the cloud, and solution optimization<\/li><li>Explain the advantages of public, private, and hybrid cloud solutions<\/li><li>Identify considerations and situations for deploying public, private, and hybrid clouds<\/li><\/ul><br\/><strong>Prerequisites<\/strong><br\/>Before starting this course, you will need knowledge of:<ul><li>The basics of computer networking<\/li><li>The ways cloud computing differs from traditional computing<\/li><li>Different cloud service models<\/li><li>Data centers and how they function in a cloud environment<\/li><\/ul><br\/>You can gain this knowledge by completing the <em>Introduction to Cloud Computing <\/em>and<em> Understanding Cloud Computing Services <\/em>courses in the <strong>Cloud Computing Fundamentals<\/strong> learning plan.<\/div>",
@@ -1510,7 +1377,7 @@
         "type":"eLearning",
         "title":"Virtualization on the Cloud",
         "duration":"2 hrs",
-        "learners_amount":"3482 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3497 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 71 learners in the past 12 months.",
         "star_num_ratings":"71",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will learn about virtualization and the benefits it brings to cloud computing. You\u2019ll explore different virtualization technologies and when to use them. You\u2019ll discover the advantages that microservices offer to a cloud application and how microservices use APIs to communicate. In the final module, you\u2019ll get a chance to put what you\u2019ve learned into practice by using a simulation to create a container and run a web app inside it.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to: \n<ul>\n<li>Explain the purpose and benefits of virtual resources<\/li>\n<li>Describe the purpose and function of using containers in the cloud<\/li>\n<li>Describe the purpose and function of using microservices in the cloud<\/li>\n<li>Identify key features of application programming interfaces (APIs)<\/li>\n<li>Recognize use cases and best practices for virtualization in cloud computing<\/li>\n<li>Create, install an application, and test a Docker container<\/li>\n<\/ul><\/div>",
@@ -1521,26 +1388,6 @@
             "Technical Skills - Cloud",
             "Learning Domain Primary",
             "Cloud computing"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-260",
-        "category":"cloud_computing",
-        "type":"eLearning",
-        "title":"Sharing and Collaborating in Tableau Cloud",
-        "duration":"30 mins",
-        "learners_amount":"32 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
-        "star_num_ratings":"1",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p><\/p>\n<p>So far, you've learned how to create views and data insights to share with your team. Now, your team wants to access the views and explore the data further to get additional insights. Tableau Cloud gives you several options for doing that.\u00a0<\/p>\n<p>In this module, you will learn how to share views with your colleagues via a link in an email message or other applications, and also how to embed views directly into web pages, wikis, and web applications for colleagues to interact with.\u00a0<\/p>\n<p>\u00a0You'll discover the benefits of the comments feature as well. Use it to collaborate with colleagues as you examine data in shared visualizations.\u00a0 <br\/><\/p>\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<p><\/p>\n<p>At the end of this module, you will be able to:<\/p>\n<ul>\n<li>Share your views with others via email.<\/li>\n<li>Share your views with people over chat messaging or other applications.<\/li>\n<li>Embed a view in web pages.<\/li>\n<li>Comment on a view and tag others.<\/li>\n<li>Delete a comment in the view.<\/li>\n<li>Include a snapshot of the view in the comment.<\/li>\n<\/ul>\n<br\/>\n<p><\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing",
-            "Lightcast Skills Taxonomy",
-            "Data Analysis Skill",
-            "Tableau (Business Intelligence Software) Skill"
         ]
     },
     {
@@ -1561,48 +1408,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-50F5617C181D",
-        "category":"cloud_computing",
-        "type":"Video",
-        "title":"Red Hat OpenStack Technical Overview",
-        "duration":"2 hrs",
-        "learners_amount":"171 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 15 learners in the past 12 months.",
-        "star_num_ratings":"15",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><strong>An overview of Red Hat OpenStack Platform<\/strong>\n<br\/>\n<br\/>\nRed Hat OpenStack Technical Overview (CL010) is a series of on-demand, online videos to help you better understand the basics of cloud computing and Red Hat\u00ae OpenStack\u00ae Platform. Several online demonstrations and use cases are included. \n<br\/>\n<br\/>\nThrough online, on-demand videos you will learn about: \n<ul>\n<li>Cloud computing<\/li>\n<li>Red Hat OpenStack Platform<\/li>\n<li>Compute, storage, and network in relation to Red Hat OpenStack Platform<\/li>\n<li>High availability with Red Hat OpenStack Platform<\/li>\n<li>Deploying Red Hat OpenStack Platform<\/li>\n<\/ul>\n<br\/><strong>Note: <\/strong>You can view all videos or only the ones that interest you. There are no hands-on labs or course completion recognition associated with this course. \n<br\/>\n<br\/><strong>Audience: <\/strong>IT leaders, administrators, engineers, architects, and anyone else seeking a high-level understanding of Red Hat OpenStack Platform capabilities. \n<br\/>\n<br\/><strong>Languages: <\/strong>English (as well as closed-captioned for English), Japanese, French, German, Chinese, Spanish, Korean, and Italian. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
-        "tags":[
-
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-4C2C1AC7B6CB",
-        "category":"cloud_computing",
-        "type":"Video",
-        "title":"Developing Cloud-Native Applications with Microservices Architectures",
-        "duration":"2 hrs 25 mins",
-        "learners_amount":"193 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 8 learners in the past 12 months.",
-        "star_num_ratings":"8",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><strong>Identify the proper frameworks and tools to build your microservices architecture<\/strong>\n<br\/>\nDeveloping Cloud-Native Applications with Microservices Architectures (DO092) is a series of on-demand, online videos that will teach you how to combine different frameworks and tools into a microservices architecture that fits your organizational needs. You\u2019ve no doubt heard about the microservices architecture, but understanding and executing it can be a bit of a challenge. Through a series of videos, this course will introduce microservices, review multiple microservices frameworks and runtimes, and show you techniques to deploy them through a hassle-free DevOps pipeline. We\u2019ll discuss containers, Docker, Spring Boot, NodeJS, .NET, OpenShift, Jenkins, Vert.x, Kubernetes, and much more. \n<br\/>\n<br\/><strong>Audience: <\/strong>Java\u2122 developers and anyone interested in OpenShift and Kubernetes. \n<br\/>\n<br\/><strong>Prerequisites: <\/strong>Understanding of software and IT system architecture. \n<br\/>\n<br\/><strong>Languages:<\/strong> English (as well as closed-captioned for English), Japanese, French, German, Chinese, Spanish, Korean, and Italian. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical Skills - Cloud",
-            "Learning Domain Primary",
-            "Cloud computing",
-            "Lightcast Skills Taxonomy",
-            "Docker (Software) Skill",
-            "DevOps Skill",
-            "Jenkins Skill",
-            "Kubernetes Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-291",
         "category":"cloud_computing",
         "type":"eLearning",
         "title":"Make an Impact with Hybrid Cloud",
         "duration":"1 hr 30 mins",
-        "learners_amount":"3232 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3224 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 74 learners in the past 12 months.",
         "star_num_ratings":"74",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Hybrid cloud securely combines private and public storage of vast data libraries, simultaneously helping organizations control their data costs while reducing their IT\u2019s carbon emissions.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to:\n<ul>\n<li>Describe key differences between private, public, and hybrid cloud computing<\/li>\n<li>Select software development issues that hybrid cloud can address<\/li>\n<li>Identify ways that hybrid cloud can promote green computing<\/li>\n<li>Organize the steps of a green IT implementation<\/li>\n<li>Describe key sustainability applications of hybrid cloud<\/li>\n<\/ul><\/div>",
@@ -1613,6 +1424,39 @@
             "Technical Skills - Cloud",
             "Learning Domain Primary",
             "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-0670eb7c-fa74-4d6f-bdb9-afec58770170",
+        "category":"cloud_computing",
+        "type":"Skill Credential",
+        "title":"Fundamentals of Sustainability and Technology",
+        "duration":"Hours",
+        "learners_amount":"3317 learners have earned this digital credential.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This credential earner demonstrates knowledge of how data analytics, artificial intelligence (AI), and hybrid cloud computing are revolutionizing ways that humans support each other, while protecting Earth\u2019s resources. The individual has a conceptual understanding of how to select and apply advanced technologies to sustainability issues, and is familiar with the skills required for success in various technology roles.<\/p>\n<p>\u00a0<\/p>\n<p><strong>Complete the learning here:\u00a0<\/strong><a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-BE0E24A0BA5C\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Fundamentals of Sustainability and Technology<\/a><\/p>\n<p>\u00a0<\/p>\n<p><strong>Language:<\/strong> English, Arabic, Brazilian Portuguese, French, Hindi, Japanese, Spanish<\/p><\/div>",
+        "tags":[
+            "Fundamentals",
+            "All Fundamentals",
+            "Learning Domain",
+            "Technical skills - Data",
+            "Technical skills - Artificial Intelligence",
+            "Expand your horizons - Sustainability"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-ce897036-6f39-4466-863f-0aa873f82213",
+        "category":"cloud_computing",
+        "type":"Digital Credential",
+        "title":"Explore Emerging Tech",
+        "duration":"Hours",
+        "learners_amount":"37671 learners have earned this digital credential.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Badges earners have an understanding of six emerging technologies that power today's jobs: AI, blockchain, cloud computing, cybersecurity, data and analytics, and the Internet of Things. Individuals know foundational concepts, terminology, and how technologies are applied to solve problems in organizations and business. Badge earners can use this knowledge to explore careers in tech.<\/p>\n<p>\u00a0<\/p>\n<p><strong>Languages:<\/strong> English, German, French, Spanish, Brazilian Portuguese, Korean, Polish, Italian, Turkish, Traditional Chinese, Arabic, Hindi, Ukrainian, and Japanese<\/p>\n<p>\u00a0<\/p>\n<p><strong>Complete the learning here:<\/strong> <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-EB2D3DA31CF9\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Explore Emerging Tech<\/a><\/p><\/div>",
+        "tags":[
+
         ]
     },
     {
@@ -1645,6 +1489,20 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1709736181875",
+        "category":"cloud_computing",
+        "type":"Channel",
+        "title":"Microlearning | IBM SkillsBuild",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"66",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This channel is a collection of short learning activities that will introduce learners to topics like artificial intelligence, cybersecurity, data analytics, cloud computing, and data analytics. At the conclusion of each activity, there is a suggested course to explore next.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1722526678731",
         "category":"cloud_computing",
         "type":"Channel",
@@ -1652,7 +1510,7 @@
         "duration":null,
         "learners_amount":null,
         "star_rating":null,
-        "star_num_ratings":"971",
+        "star_num_ratings":"972",
         "description":"<div dir=\"ltr\" lang=\"fr\" translate=\"yes\"><p>Ces 9 formations vous permettent de d\u00e9velopper des comp\u00e9tences techniques essentielles sur les technologies du monde d'aujourd'hui. D\u00e9couvrez l'IA et sa puissance, d\u00e9couvrez comment prot\u00e9ger vos donn\u00e9es contre les hackers, comprenez le fonctionnement des cryptomonnaies et des blockchains, et explorez le cloud computing qui change la fa\u00e7on dont les entreprises fonctionnent\u00a0<\/p><\/div>",
         "tags":[
 

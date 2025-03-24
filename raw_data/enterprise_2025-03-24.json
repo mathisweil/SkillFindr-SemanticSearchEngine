@@ -1,0 +1,632 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-76C00B1274AE",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Get Started with Enterprise IT",
+        "duration":"10 mins",
+        "learners_amount":"40 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 6 learners in the past 12 months.",
+        "star_num_ratings":"6",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Explore the field of enterprise-class IT and learn in demand skills!\n<br\/>\n<br\/>\nBehind the scenes, enterprise IT powers the applications our world has come to rely upon \u2013 everything from credit card transactions, ATMs, mobile banking, stock market trades to airline reservations and retail transactions. Fortune 100 companies are looking for talent with fundamental enterprise computing skills.\n<br\/>\n<br\/>\nCould this be a career for you?\n<br\/>\n<br\/>\nExplore the videos and check out the bite-sized free learning path to determine if this is the field for you and get started on your journey with enterprise IT.<\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-8950DE68E642",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Getting started with enterprise grade AI",
+        "duration":"5 hrs",
+        "learners_amount":"607 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 13 learners in the past 12 months.",
+        "star_num_ratings":"13",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">AI can execute tasks in arenas where learning and judgment is called for, including self-driving cars, insurance, HR, trading, accounting,\u00a0and healthcare.<br\/>\n An accelerated embrace of AI is set to fundamentally change the job marketplace. According to the World Economic Forum, by 2022, AI in the workplace is expected to create 133 million new roles and displace 75 million existing\u00a0job roles.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-6XS639G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Introduction to Data Fabric for the Enterprise",
+        "duration":"3 hrs",
+        "learners_amount":"8 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course aims to deconstruct the term data fabric and help you identify the key challenges of data today. You will also analyze the business benefits of creating a data fabric solution. Through taking this course you will better understand how IBM delivers a data fabric solution and be able to identify the building blocks of IBM\u2019s data fabric architecture. This ultimately will be important for you to evaluate the services within the Cloud Pak for Data platform that form a data fabric solution. This course also provides practical hands-on exercises to help you get started with data fabric on the Cloud Pak for Data as a Service platform.<\/p>This course guides you through the key capabilities and tools that are related to the Data Fabric solution on IBM Cloud Pak for Data.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA718",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Enterprise License Activation in Directory Suite",
+        "duration":"30 mins",
+        "learners_amount":"3 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This video guides you through the process of enterprise license activation in Directory Suite. After the successful installation and basic configuration of the Directory Suite, you can purchase a Standard or Enterprise level license in order to get additional features.<\/p>This video guides you through the process of enterprise license activation in Directory Suite. After the successful installation and basic configuration of the Directory Suite, you can \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-RKGVNQNQZJQYW3DB",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"An Introduction to Enterprise Computing | IBM",
+        "duration":"15 mins",
+        "learners_amount":"1536 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 139 learners in the past 12 months.",
+        "star_num_ratings":"139",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>What are mainframes? What is IBM Z? Who uses IBM Z? Have you used IBM Z? These questions and more are answered in this short course, designed to introduce you to the world of enterprise computing.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Information Technology",
+            "Lightcast Skills Taxonomy",
+            "Mainframe Computing Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL09154G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"IBM App Connect Enterprise as a Service - Essentials",
+        "duration":"24 hrs",
+        "learners_amount":"2 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces you to the purpose and benefits of integration and the use of IBM App Connect Enterprise as a Service. You will learn practical skills by building an integration and an API in IBM App Connect Enterprise as a Service on AWS.This essentials course is designed for users who are new to application integration or experienced in integration but new to IBM App Connect.<\/p>This course introduces you to the purpose and benefits of integration and the use of IBM App Connect Enterprise as a Service.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-054EC4028651",
+        "category":"enterprise",
+        "type":"Document",
+        "title":"Discover Why an Enterprise Computing Career Might Be for You | IBM",
+        "duration":"20 mins",
+        "learners_amount":"229 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 9 learners in the past 12 months.",
+        "star_num_ratings":"9",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Examine if an enterprise computing is a career for you. Check out this custom study called \"Fulfill Your Aspirations With An Enterprise Computing Career\" by Forrester and commissioned by IBM. \n<br\/>\n\u00a0<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Information Technology"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL10020G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Technical Introduction to IBM App Connect Enterprise",
+        "duration":"8 hrs",
+        "learners_amount":"4 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you learn how IBM App Connect Enterprise enables information that is packaged as messages to flow between different business applications, ranging from large traditional systems through autonomous devices such as sensors and pipelines. You also learn how IBM App Connect Enterprise constructs message flow applications to transport and transform data.\u00a0<\/p>\n<p>\u00a0<\/p>\n<p>The course also explains how to control the flow of data by using various processing nodes. Topics include an overview of mapping, testing, securing, and monitoring message flows. The course also provides techniques used to expand the capabilities of message flow applications by making them aware of the runtime environments in which they operate.<\/p>This course introduces you to the essential concepts that are centered on designing, developing, and deploying and managing IBM App Connect Enterprise integration solutions.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-BECFAD8E7F61",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Enterprise Design Thinking Co-Creator (Course and Badge) | IBM",
+        "duration":"3 hrs",
+        "learners_amount":"19663 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 336 learners in the past 12 months.",
+        "star_num_ratings":"336",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Enterprise Design Thinking is IBM's approach to applying design thinking at the speed and scale a modern enterprise demands. It helps teams not only form intent, but deliver outcomes; outcomes that advance the state of the art and improve the lives of the people they serve.\n<br\/>\n<br\/>\nWhether you're just starting out on your design thinking journey or searching for resources to expand your expertise, Enterprise Design Thinking is the perfect place to start. Complete this course and receive your <strong>Co-Creator <\/strong>badge through this online curriculum! You'll also get access to the tools you need to practice human-centered design every day.\u00a0\n<br\/>\n<br\/><strong>Prerequisite<\/strong>:\u00a0 In order to begin, you must have already completed the course and badge for <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-F2C2D663869E\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Enterprise Design Thinking Practitioner<\/a>.\n<br\/>\n<br\/>\nOnce you\u2019ve received the Practitioner Badge, you\u2019ll unlock this series of practice-based modules. These activities will help you work on methods like identifying stakeholders, creating a research plan, and testing ideas. In order to collect your Co-Creator Badge, you must complete these modules with <strong>a partner or your team<\/strong>.\n<br\/>\n<br\/><strong>Important:<\/strong> This course is offered on a separate website, so to access it you will need to sign up for an IBMid. Signup is easy, and there is no cost.\n<br\/>\n\u00a0\n<br\/>\nWhen you finish this course, you'll be shown how to collect your IBM Enterprise Design Thinking Co-Creator badge. Also, remember to to return here and click the <strong>Mark complete<\/strong> button so that you'll remember you've completed this course!\n<br\/>\n<br\/>\nBadge information is available on <a href=\"https:\/\/info.credly.com\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Credly<\/a>.\n<br\/>\n<br\/>\nIt is estimated you will complete this over 3 to 6 weeks.\n<br\/>\n<br\/><strong>Note:<\/strong> This activity is currently available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Learning Domain Primary",
+            "Professional skills",
+            "Lightcast Skills Taxonomy",
+            "Research Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-0A8FD57F7491",
+        "category":"enterprise",
+        "type":"Video",
+        "title":"Leadership Practices, Enterprise Enablement and Cultural Change to Engage a Virtual Workforce | IBM Think Digital",
+        "duration":"28 mins",
+        "learners_amount":"228 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 5 learners in the past 12 months.",
+        "star_num_ratings":"5",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this recorded webinar presented by IBM Think Digital, you will learn how to enhance employee engagement and productivity, re-skill your workforce faster, and reimagine ways of working. \n<br\/>\n<br\/>\nThis webinar is presented by\u00a0IBM Think Digital.\u00a0 \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select\u00a0 <strong>Mark complete<\/strong>\u00a0for completion credit.\u00a0 \n<br\/>\n<br\/><strong>Note<\/strong>: This activity is available only in\u00a0English (with German, French, Japanese, Chinese, and Spanish subtitles).<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Learning Domain Primary",
+            "Professional skills",
+            "Lightcast Skills Taxonomy",
+            "Leadership Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-F2C2D663869E",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Enterprise Design Thinking Practitioner (Course and Badge) | IBM",
+        "duration":"2 hrs",
+        "learners_amount":"31971 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 514 learners in the past 12 months.",
+        "star_num_ratings":"514",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Enterprise Design Thinking is IBM's approach to applying design thinking at the speed and scale a modern enterprise demands. It helps teams not only form intent, but deliver outcomes; outcomes that advance the state of the art and improve the lives of the people they serve.\n<br\/>\n<br\/>\nWhether you're just starting out on your design thinking journey or searching for resources to expand your expertise, Enterprise Design Thinking is the perfect place to start. Complete this course and receive your <strong>Practitioner <\/strong>badge through this online curriculum! You'll also get access to the tools you need to practice human-centered design every day.\u00a0\n<br\/>\n<br\/><strong>Important:<\/strong> This course is offered on a separate website, so to access it you will need to sign up for an IBMid. Signup is easy, and there is no cost.\n<br\/>\n\u00a0\n<br\/>\nWhen you finish this course, you'll be shown how to collect your IBM Enterprise Design Thinking Practitioner badge. Also, remember to to return here and click the <strong>Mark complete<\/strong> button so that you'll remember you've completed this course!\n<br\/>\n<br\/>\nBadge information is available on <a href=\"https:\/\/info.credly.com\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Credly<\/a>.\n<br\/>\n<br\/><strong>Note:<\/strong> This activity is currently available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Learning Domain Primary",
+            "Professional skills"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-33283F12E68D",
+        "category":"enterprise",
+        "type":"Webpage",
+        "title":"IBM Careers | IBM.com",
+        "duration":"10 mins",
+        "learners_amount":"371 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 10 learners in the past 12 months.",
+        "star_num_ratings":"10",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Search for job opportunities using \"mainframe\" and \"IBM Z\" as search terms, and check out the skills needed for career in enterprise computing.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:BDU+BD0137EN+V1",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Solr 101",
+        "duration":"3 hrs",
+        "learners_amount":"2 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course teaches you the basics of how to use Solr. Solr (pronounced \"solar\") is an open source enterprise search platform, written in Java, from the Apache Lucene project.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "Java (Programming Language) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70533G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Implementation Considerations",
+        "duration":"1 hr",
+        "learners_amount":"25 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you should learn about implementation considerations such as enterprise account management, Financial Services validation, and how DevSecOps and Code Risk Analyzer can be used as solutions for regulated workloads.<\/p>This course covers implementation considerations such as enterprise account management, FS validation, and how DevSecOps and Code Risk Analyzer can be used as solutions.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-201",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Account Types",
+        "duration":"6 mins",
+        "learners_amount":"54 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 6 learners in the past 12 months.",
+        "star_num_ratings":"6",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course reviews the IBM Cloud account types, Lite, pay-go, subscription and enterprise.<br\/><\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-EFF7B4A887F8",
+        "category":"enterprise",
+        "type":"Webpage",
+        "title":"IBM Design Thinking Toolkit",
+        "duration":"15 mins",
+        "learners_amount":"22128 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 1362 learners in the past 12 months.",
+        "star_num_ratings":"1,362",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">The toolkit provides a quick resource to help you get started with design thinking. Learn more about IBM's approach and how you can incorporate these design thinking activities into your workflow. (You'll learn more about these in the Enterprise Design Thinking Practitioner course too!). \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Learning Domain Primary",
+            "Professional skills",
+            "Lightcast Skills Taxonomy",
+            "Workflow Management Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL110210G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"IBM z\/OS Security Essentials",
+        "duration":"4 hrs",
+        "learners_amount":"7 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course covers core principles like confidentiality, integrity, and availability, alongside key z\/OS features such as RACF (Resource Access Control Facility) and SAF (System Authorization Facility). Explore profiles, user attributes, the Protect All switch, auditing tools like IBM zSecure, and z\/OS cryptographic capabilities, including hardware-assisted encryption.\u00a0<\/p>An entry-level course intended for beginners in the field of Enterprise Security looking to add a z\/OS context to their expertise. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL10017G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Application Integration Essentials",
+        "duration":"2 hrs",
+        "learners_amount":"15 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Through concise, impactful videos, you refresh your knowledge of core integration concepts that enable you to engage more effectively with clients and align with their goals and challenges. Enhance your communication skills, build trust, and confidently navigate the complexities of enterprise integration.\u00a0<\/p>\n<p>\u00a0<\/p>\n<p>This course equips you with the insights needed to drive successful outcomes and elevate your strategic approach to the next level.<\/p>Master the fundamentals of enterprise integration with this comprehensive course. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL19005G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"IBM OpenPages: Technical Essentials",
+        "duration":"3 hrs",
+        "learners_amount":"4 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course offers a comprehensive exploration of the features, functions, and capabilities of IBM OpenPages, an integrated environment that is designed to manage governance, risk, and compliance (GRC) challenges across the enterprise. This course also delves into the intricacies of IBM OpenPages, exploring the modular domain-specific solutions through detailed explanations and practical demonstrations. By the end of this course, you gain the essential knowledge and skills to unlock the full potential of IBM OpenPages and get started with it.<\/p>This course offers a comprehensive exploration of the features, functions, and capabilities of IBM OpenPages.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:IBM+GPXX0E8TEN+V1",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Improve Customer Support with AI-powered Voice Services",
+        "duration":"50 mins",
+        "learners_amount":"66 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this guided project, you will create a voice-enabled pizza-ordering application using embeddable AI and deploy it with Flask. Learn how to use Flask to deploy machine-learning models, allowing anyone to interact with them through an intuitive user interface and see the results for themselves. Don't let the challenge of training AI hold you back - our cutting-edge embeddable AI libraries can be seamlessly integrated into your enterprise applications.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA5683",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Configuring Verify Access as multi-factor authentication (MFA) client in Verify",
+        "duration":"30 mins",
+        "learners_amount":"2 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This lab provides step-by-step instructions to configure IBM Security Verify Access as multifactor authentication (MFA) client for an IBM Security Verify tenant. This integration allows Verify Access to provide advanced authentication methods to the protected enterprise resources. During the integration process, Verify Access is automatically registered as a MFA client in your Verify tenant. Additionally, a set of Info Map rules and authentication mechanisms are created in Verify Access to call the MFA REST API in Verify.<\/p>This lab provides step-by-step instructions to configure IBM Security Verify Access as multifactor authentication (MFA) client for an IBM Security Verify tenant.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL33004G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"An Introduction to IBM App Connect for Manufacturing 3.0",
+        "duration":"8 hrs",
+        "learners_amount":"22 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course is for anyone wanting to learn for the first time about the capabilities of IBM App Connect for Manufacturing, which builds on IBM App Connect Enterprise to support the manufacturing industry.<\/p>\n<p>You gain a good understanding of the concepts and use of IBM App Connect for Manufacturing. You also gain practical hands-on experience through exercises to install IBM App Connect for Manufacturing for Developers and develop, deploy, and run applications to use IBM App Connect for Manufacturing in a simulated OPC UA manufacturing environment.<\/p>\n<p>This course is based on\u00a0IBM App Connect for Manufacturing 3.0 with IBM App Connect Enterprise 12.0.<\/p>Learn the concepts and features of IBM App Connect for Manufacturing with hands-on exercises to create and test an OPC UA manufacturing solution.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-XVZZPNVPDXDN388B",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Electric Vehicle Charging Infrastructure | Jeevitam",
+        "duration":"1 hr 5 mins",
+        "learners_amount":"39 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 4 learners in the past 12 months.",
+        "star_num_ratings":"4",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The massive investment in electric vehicles (EVs) and EV infrastructure serves as an opportunity for people to seek better employment. With FAME-2, the number of executives required is increasing and companies are particularly keen to employ people in the field of EV charging infrastructure.<br\/><br\/>\n  The course covers:<\/p>\n<ul>\n<li>Charging stations and their infrastructure<\/li>\n<li>Common work opportunities in the EV infrastructure space<\/li>\n<li>How the Government of India is supporting the EV industry<\/li>\n<li>The purpose and benefits of customer relationship management (CRM) and enterprise asset management (EAM)<\/li>\n<li>Benefits and types of market segmentation<\/li>\n<li>Techniques to help build customer relationships<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "Customer Relationship Management Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL0060501G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"ABO Essentials 101: Unveil ABO and its benefits",
+        "duration":"1 hr",
+        "learners_amount":"5 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 3 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This is the first course of the ABO Essentials series which includes four courses and one lab in total.<\/p>\n<p>\u00a0<\/p>\n<p>You'll uncover invaluable high-level product insights in this course. Discover the intricate workings of IBM Automatic Binary Optimizer for z\/OS (ABO) and its modernization strategy, gaining a comprehensive technical overview that unveils its functionalities. Explore the seamless integration of ABO with Enterprise COBOL, uncovering innovative strategies to enhance performance. Delve into optimization techniques, empowering you to maximize ABO's potential and efficiency. Explore the ABO pricing model with tailored fit pricing (TFP).<\/p>Start your journey with IBM Automatic Binary Optimizer for z\/OS (ABO), which is a product that can improve the performance of already compiled COBOL program modules. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL25243G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"MRO Inventory Optimization Integration with SAP",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"17 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>MRO IO relies on the regular exchange of master and transaction data from the Enterprise Resource Planning (ERP), and in return provides optimized Material Requirements Planning (MRP) recommendations for loading back into the ERP. Connectors provide a program to extract data from the ERP into text files, in a format that is compatible with MRO IO's data APIs.<\/p>\n<p>This course discusses the purpose of connectors, how to install them, versions of SAP the connectors support, and the type of footprint they leave behind in the SAP environment.<\/p>This course discusses the purpose of connectors in MRO IO-SAP integration, how to install them, versions of SAP the connectors support, the type of footprint they leave behind in the SAP environment.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-735724680A3B",
+        "category":"enterprise",
+        "type":"Video",
+        "title":"IBM SkillsBuild Presents: How to Become a Cybersecurity Professional",
+        "duration":"56 mins",
+        "learners_amount":"3773 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 269 learners in the past 12 months.",
+        "star_num_ratings":"269",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p><strong>About this event: <\/strong> Cybersecurity skills are in high demand in many countries around the world and there are multiple professions in the fields. Many examples show that the cybersecurity field is well suited for a career change. But who is suitable for it and where is the best place to start?<br\/><br\/>\n  In this recorded webinar, you will:<\/p>\n<ul>\n<li>Learn from the personal stories of an army career changer into cybersecurity and a founder of a social enterprise redefining inclusion and integration of migrants and refugees through industry-led education in cybersecurity.<\/li>\n<li>Explore the typical working day of a cybersecurity professional.<\/li>\n<li>Get insights into the skills needed to become a cybersecurity professional.<\/li>\n<li>Understand first steps into cybersecurity learning.<\/li>\n<li>Find out what makes the difference when employers are looking for cybersecurity professionals.<\/li>\n<\/ul>\n<br\/><strong>Language<\/strong>: English \n<br\/>\n<br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "Cyber Security Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-FC8E8650BA51",
+        "category":"enterprise",
+        "type":"Video",
+        "title":"Introduction to CICS | IBM Redbooks",
+        "duration":"1 hr",
+        "learners_amount":"88 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 22 learners in the past 12 months.",
+        "star_num_ratings":"22",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Without knowing it, you\u2019ve probably interacted with CICS already today. Perhaps you checked your bank balance or bought a bagel for breakfast? CICS is used by enterprises to provide the services that the world depends on, but you may have never even heard of it before.\n<br\/>\n\u00a0\n<br\/>\nThis video-based course introduces CICS, an unparalleled mixed language application server. We explore what an application server is, what it provides to developers and what distinguishes CICS as a mixed language application server. Through the use of a illustrative application, we explain how CICS can provide shared programming contexts such as reliability, scalability, security and monitoring to applications written in a variety of programming languages - from Java Enterprise Edition to COBOL.\n<br\/>\n<br\/>\nThe content is offered in English.\n<br\/>\n<br\/>\nThis learning activity is presented by IBM Redbooks\u00ae and authored by William Yates and David Harris.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "Customer Information Control System (CICS) Skill",
+            "COBOL (Programming Language) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL25239G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"MRO Inventory Optimization Technical Essentials",
+        "duration":"4 hrs",
+        "learners_amount":"28 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>MRO Inventory Optimization is a fully managed cloud inventory platform that is designed to store and analyze vast amounts of MRO inventory stock data. By collecting MRO inventory data from Enterprise Asset Management (EAM) and Enterprise Resource Planning (ERP) systems, MRO IO uses advanced industry-specific algorithms and analytics to intelligently optimize MRO inventories. IBM MRO Inventory Optimization seamlessly integrates with EAM and ERP systems, including IBM Maximo EAM, SAP, and so on.<\/p>\n<p>\u00a0<\/p>\n<p>This 4-hour course explores how data required for inventory optimization is extracted from client ERP systems, how the data is uploaded to MRO IO for processing, and the various data processing tools used in the process. It also explains the architecture of MRO IO and aims to teach technical practitioners certain key concepts, such as Single Sign-On, data transfer, and automation in the data upload process. The course also includes demos on how to add\/manage users and trigger Periodic Update.<\/p>This course explores how data required for inventory optimization is extracted from client ERP systems, how the data is uploaded to MRO IO for processing, and the various data processing tool\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL09850G",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Instana on z\/OS Essentials",
+        "duration":"3 hrs 30 mins",
+        "learners_amount":"3 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will learn the features and components of Instana on z\/OS, its typical user scenarios, how to install and configure the primary components, integrate the product with other Z AIOps products, the supported transaction flows and required installation and configuration for tracking CICS-related transactions.<\/p>\n<p>The Instana on z\/OS Essential course begins by introducing the concept of observability and how it applies to IBM Z. Examples and use cases are provided to show how observability solutions differ from traditional monitoring solutions, and the challenges faced by organizations to integrate their z\/OS workloads and infrastructure into their enterprise-wide observability solutions, like Instana.<\/p>\n<p>The course then focuses on Instana's mainframe observability capabilities detailing how to integrate application trace capabilities to enable complete end-to-end tracking of an individual transaction. It will focus on deployment patterns and supported transaction tracking flows. It will also show how integration with other solutions within the IBM Z AIOps portfolio is possible, including OMEGAMON and Z ChatOps.<\/p>This is a fundamental course for Instana on z\/OS, and intended for those who want to have a basic knowledge of IBM Instana Observability on z\/OS.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA6411",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Guardium TechBook",
+        "duration":"9 hrs",
+        "learners_amount":"12 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">The Guardium TechBook consists of several video presentations on key topics that provide a current technical foundation for IBM Security Guardium Data Protection. These are the topics that are covered: Architecture, Deployment &amp; Automation Enterprise Load Balancer Overview Data Monitoring Options Guardium Universal Connectors GIM and S-TAP Installation Assistance\u00a0 Data Protection Deployment Recommendations Reporting and Audit Process Policy and Data Management Policy Rule TaggingAnalytics Administration &amp; PerformanceGuardium Deployment Health Dashboard Reducing Alert Fatigue Best Practices Guardium z\/OS The Guardium TechBook consists of several video presentations on key topics that provide a current technical foundation for IBM Security Guardium Data Protection. These are the topics t\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-F4C245977E51",
+        "category":"enterprise",
+        "type":"eLearning",
+        "title":"Team Essentials for AI (Course and Badge) | IBM",
+        "duration":"3 hrs",
+        "learners_amount":"265 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 17 learners in the past 12 months.",
+        "star_num_ratings":"17",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Enterprise Design Thinking is IBM's approach to applying design thinking at the speed and scale a modern enterprise demands. It helps teams not only form intent, but deliver outcomes; outcomes that advance the state of the art and improve the lives of the people they serve.<br\/><br\/>\n Learn <strong>IBM\u2019s AI Essentials Framework<\/strong> from experts, see an example in practice, and gather the resources you need to get started on your own project today.<br\/><br\/>\n Complete this course and receive your <strong>Team Essentials for AI<\/strong> badge through this online curriculum!<br\/><br\/><strong>Prerequisite<\/strong>:\u00a0 In order to begin, you must have already completed the course and badge for <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-F2C2D663869E\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Enterprise Design Thinking Practitioner<\/a>.<br\/><br\/>\n Once you\u2019ve received the Practitioner Badge, you can explore what it means to design artificial intelligence systems <strong>as a team<\/strong>, guided by a clear intent and a focus on people. This course will give you the framework and tools you need to recognize responsible AI design, align your team, and work with data sources to start building an AI solution today.<br\/><br\/><strong>Important:<\/strong> This course is offered on a separate website, so to access it you will need to sign up for an IBMid. Signup is easy, and there is no cost.<br\/>\n \u00a0<br\/>\n When you finish this course, you'll be shown how to collect your Team Essentials for AI badge. Also, remember to to return here and click the <strong>Mark complete<\/strong> button so that you'll remember you've completed this course!<br\/><br\/>\n Badge information is available on <a href=\"https:\/\/www.youracclaim.com\/org\/ibm\/badge\/enterprise-design-thinking-team-essentials-for-ai\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Acclaim<\/a>.<br\/><br\/><strong>Note:<\/strong> This activity is currently available only in English.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "Lightcast Skills Taxonomy",
+            "Artificial Intelligence Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-A759832FBD3D",
+        "category":"enterprise",
+        "type":"Book\/Article",
+        "title":"IBM z\/OS Communications Server TCP\/IP Implementation | IBM Redbooks",
+        "duration":"7 hrs",
+        "learners_amount":"128 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 7 learners in the past 12 months.",
+        "star_num_ratings":"7",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">For more than 50 years, IBM\u00ae mainframes have supported an extraordinary portion of the world\u2019s computing work, providing centralized corporate databases and mission-critical enterprise-wide applications. <strong>IBM System Z<\/strong>\u00ae, the latest generation of the IBM distinguished family of mainframe systems, has come a long way from its IBM System\/360 heritage. Likewise, its <strong>IBM z\/OS<\/strong>\u00ae operating system is far superior to its predecessors in providing, among many other capabilities, world-class and state-of-the-art support for the <strong>TCP\/IP Internet Protocol suite<\/strong>.\n<br\/>\n<br\/>\nTCP\/IP is a large and evolving collection of communication protocols that are managed by the Internet Engineering Task Force (IETF), an open, volunteer organization. Because of its openness, the TCP\/IP protocol suite has become the foundation for the set of technologies that form the basis of the Internet. The convergence of IBM mainframe capabilities with Internet technology, connectivity, and standards (particularly TCP\/IP) is dramatically changing the face of information technology and driving requirements for even more secure, scalable, and highly available mainframe TCP\/IP implementations.\n<br\/>\n<br\/>\nThe <em>IBM z\/OS Communications Server TCP\/IP Implementation<\/em> series provides understandable, step-by-step guidance for enabling the most commonly used and important functions of z\/OS Communications Server TCP\/IP.\n<br\/>\n<br\/>\nThis IBM Redbooks\u00ae publication provides useful implementation scenarios and configuration recommendations for many of the TCP\/IP standard applications that z\/OS Communications Server supports.\n<br\/>\n<br\/>\nThe content is offered in English.\n<br\/>\n<br\/>\nThis learning activity is presented by IBM Redbooks and authored by Bill White, Octavio Ferreira, Teresa Missawa, and Teddy Sudewo.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Information Technology",
+            "Lightcast Skills Taxonomy",
+            "Information Technology Skill",
+            "Mainframe Computing Skill",
+            "z\/OS Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-50F5617C181D",
+        "category":"enterprise",
+        "type":"Video",
+        "title":"Red Hat OpenStack Technical Overview",
+        "duration":"2 hrs",
+        "learners_amount":"171 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 15 learners in the past 12 months.",
+        "star_num_ratings":"15",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><strong>An overview of Red Hat OpenStack Platform<\/strong>\n<br\/>\n<br\/>\nRed Hat OpenStack Technical Overview (CL010) is a series of on-demand, online videos to help you better understand the basics of cloud computing and Red Hat\u00ae OpenStack\u00ae Platform. Several online demonstrations and use cases are included. \n<br\/>\n<br\/>\nThrough online, on-demand videos you will learn about: \n<ul>\n<li>Cloud computing<\/li>\n<li>Red Hat OpenStack Platform<\/li>\n<li>Compute, storage, and network in relation to Red Hat OpenStack Platform<\/li>\n<li>High availability with Red Hat OpenStack Platform<\/li>\n<li>Deploying Red Hat OpenStack Platform<\/li>\n<\/ul>\n<br\/><strong>Note: <\/strong>You can view all videos or only the ones that interest you. There are no hands-on labs or course completion recognition associated with this course. \n<br\/>\n<br\/><strong>Audience: <\/strong>IT leaders, administrators, engineers, architects, and anyone else seeking a high-level understanding of Red Hat OpenStack Platform capabilities. \n<br\/>\n<br\/><strong>Languages: <\/strong>English (as well as closed-captioned for English), Japanese, French, German, Chinese, Spanish, Korean, and Italian. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-c98fdc5c-b5f5-4c00-bd61-2db0efabedde",
+        "category":"enterprise",
+        "type":"Digital Credential",
+        "title":"Enterprise Design Thinking Practitioner",
+        "duration":null,
+        "learners_amount":"20591 learners have earned this digital credential.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The earner has acquired knowledge of applying Enterprise Design Thinking and its value. As a Practitioner, the badge earner finds opportunities to try it out in their every day work.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1652120855561",
+        "category":"enterprise",
+        "type":"Channel",
+        "title":"Is a Career in Enterprise Computing for You?",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"101",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Could you be an enterprise computing professional? Check out these videos and activities to learn more about a career in this space.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Information Technology"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_REC_TOPIC-ENTERPRISE_COMPUTING",
+        "category":"enterprise",
+        "type":"Channel",
+        "title":"Technology skills: Enterprise computing recommendations",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"7",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>These recommendations are generated with Watson for the Technology skills: Enterprise computing interest area. People with a similar learning history or demographic profile tended to take these activities from this interest area.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_REC_TOPIC-ENTERPRISE_COMPUTING_PROFESSIONAL",
+        "category":"enterprise",
+        "type":"Channel",
+        "title":"Job roles: Enterprise computing professional recommendations",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"9",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>These recommendations are generated with Watson for the Job roles: Enterprise computing professional interest area. People with a similar learning history or demographic profile tended to take these activities from this interest area.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1652115986346",
+        "category":"enterprise",
+        "type":"Channel",
+        "title":"Enterprise Computing",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"101",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The mainframe is still in wide use with today's businesses and will be around for some time to come thanks to IBM, Red Hat, and Linux. Learn what a mainframe is and why it's important for the future of enterprise computing.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Information Technology"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1697483291425",
+        "category":"enterprise",
+        "type":"Channel",
+        "title":"IBM Z Xplore (Earn a credential!)",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"26",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">New to IBM Z? It is a family name that\u2019s used by IBM for all of its z\/Architecture mainframe computers. IBM Z is a platform used in the world's most critical businesses. The <a href=\"https:\/\/www.ibm.com\/z\/resources\/zxplore\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"><strong>IBM Z Xplore<\/strong><\/a><strong> learning experience<\/strong> is a great place for you to learn new skills as you begin your journey with IBM Z systems and enterprise computing. These learning opportunities are open to all at no cost. And you can earn a digital credential! You can begin considering a career pathway to becoming an IBM Z System Administrator.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Information Technology"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1652117315987",
+        "category":"enterprise",
+        "type":"Channel",
+        "title":"IBM Z Learning Opportunities",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"26",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn about enterprise computing basics and gain hands-on experience with z\/OS and Linux through IBM Z Xplore. Earn industry recognized badges while completing\u00a0IBM Z learning activities, strengthening your skills, and being a part of the IBM Z Xplore community. You can also explore IBM Z code patterns and tutorials to further your education.\u00a0<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Information Technology"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1611844632634",
+        "category":"enterprise",
+        "type":"Channel",
+        "title":"VetJobs SAP Level 2",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">SAP<strong>\u00a0<\/strong>is the leader in enterprise applications, one of the number one providers of business software solutions towards better work and data management in organizations across industries. SAP training offers individuals the opportunity to earn an S\/4 HANA certification; to companies, the certification is an industry mark of excellence that ensures quality and competence.\u00a0 In addition to the certification, there are key skills which these companies look for which show the capabilities of the individual and the value they will bring to the company.\u00a0 These skills are complementary to the SAP certification.\u00a0\u00a0\u00a0\u00a0 \n<br\/>\n<br\/>The following SAP Channel bundles together a segment of these complimentary skills for SAP professionals that will help them thrive, innovate, secure meaningful work in the digital world, and continued career progression.\u00a0\u00a0 \n<br\/>\n<br\/><strong>After the course is completed-let us help take you a step further<\/strong>: \n<ul>\n<li>Want to learn more about Agile and more advanced IT courses. Look for our upcoming channels.<\/li>\n<\/ul><\/div>",
+        "tags":[
+
+        ]
+    }
+]

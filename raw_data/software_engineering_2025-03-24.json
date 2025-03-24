@@ -5,9 +5,9 @@
         "type":"eLearning",
         "title":"Software Engineering and Coding",
         "duration":"25 mins",
-        "learners_amount":"1416 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 50 learners in the past 12 months.",
-        "star_num_ratings":"50",
+        "learners_amount":"1459 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 54 learners in the past 12 months.",
+        "star_num_ratings":"54",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en-us\" translate=\"yes\"><p>In this module, you\u2019ll learn about the principles of software engineering. You\u2019ll also explore the significance of writing,\u00a0updating, modifying, and reusing code.\u00a0<\/p><p>\u00a0<\/p><p><strong>What you\u2019ll learn<\/strong><\/p><ul><li>Define the difference between writing code and software engineering <\/li><li>Describe the significance of updating, modifying, and reusing code<\/li><\/ul><p>\u00a0<\/p><p><strong>Lessons<\/strong><\/p><ol><li>What is software engineering?<\/li><li>What is writing code?<\/li><li>Code reuse and updates<\/li><\/ol><\/div>",
         "tags":[
             "Badge Learning",
@@ -32,37 +32,14 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:COGNITIVECLASS+DA0101EN+V1",
-        "category":"software_engineering",
-        "type":"eLearning",
-        "title":"Data Analysis with Python",
-        "duration":"3 hrs",
-        "learners_amount":"4454 learners have completed this activity in the past 12 months.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course you will learn about: Data Acquisition How to Obtain Basic Insight From a Dataset Data<\/p><\/div>",
-        "tags":[
-            "Badge Learning",
-            "Applied Data Science with Python",
-            "Learning Domain",
-            "Other - Software engineering and programming",
-            "Technical skills - Data",
-            "Learning Domain Primary",
-            "Data",
-            "Lightcast Skills Taxonomy",
-            "Python (Programming Language) Skill",
-            "Data Analysis Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-4CD69A78EB59",
         "category":"software_engineering",
         "type":"Webpage",
         "title":"The GitHub Blog | GitHub.com",
         "duration":"10 mins",
-        "learners_amount":"26185 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 173 learners in the past 12 months.",
-        "star_num_ratings":"173",
+        "learners_amount":"26557 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 176 learners in the past 12 months.",
+        "star_num_ratings":"176",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>As GitHub is all about collaboration and sharing, this GitHub blog is a collection of updates and ideas from software programmers from across the globe. Explore this blog to find updates, bug fixes, and GitHub highlights. You can also post your ideas!<br\/><br\/>\n It is offered by GitHub and the blogs are available in English.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -75,9 +52,9 @@
         "type":"Webpage",
         "title":"Git Cheat Sheet \u2013 50 Git Commands You Should Know | freeCodeCamp.org",
         "duration":"5 mins",
-        "learners_amount":"11764 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 163 learners in the past 12 months.",
-        "star_num_ratings":"163",
+        "learners_amount":"11922 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 130 learners in the past 12 months.",
+        "star_num_ratings":"130",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This cheat sheet provides a library of 50 Git commands that are most commonly used by the software collaborators.<br\/><br\/>\n It is offered by freeCodeCamp.org and authored by Fabio Pacific. It is available in English.<br\/><br\/>\n After you check out the resource, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -92,7 +69,7 @@
         "type":"eLearning",
         "title":"Python for Programmers",
         "duration":"6 hrs",
-        "learners_amount":"5386 learners have completed this activity in the past 12 months.",
+        "learners_amount":"5342 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 87 learners in the past 12 months.",
         "star_num_ratings":"87",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">A quick primer on Python fundamentals for programmers. This course is dedicated to programmers who are already familiar with the world of programming and are looking to become acquainted with the Python programming language. We designed this course to be a series of short, interactive articles that you can skim, dive into, or even skip. We did this so that you can use this course to both learn Python and to check as a reference guide. You'll learn the basic syntax, how to work with arrays, object-oriented programming, and more.\n<br\/>\n<br\/>\nThis course is presented by Codecademy. You will need to register for a free account.\n<br\/>\n<br\/>\n\u00a0<\/div>",
@@ -100,65 +77,6 @@
             "Learning Domain",
             "Other - Software engineering and programming",
             "Technical skills - Data"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:COGNITIVECLASS+DV0101EN+V2",
-        "category":"software_engineering",
-        "type":"eLearning",
-        "title":"Data Visualization with Python",
-        "duration":"3 hrs",
-        "learners_amount":"2776 learners have completed this activity in the past 12 months.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Data visualization is the graphical representation of data in order to interactively and efficiently convey insights to clients, customers, and stakeholders in general. It is a way to summarize your findings and display it in a form that facilitates interpretation and can help in identifying patterns or trends. In this course you will learn how to create interesting graphics and charts and customize them to make them more effective and more pleasing to your audience.<br\/><br\/><strong>Note on grading - please read:<\/strong><br\/><br\/><strong>Review questions are worth\u00a050% of the mark, and the final exam is worth 50%. The course passing grade is\u00a070%.<\/strong><ul><li><strong>Review Questions:<\/strong><ul><li>Have no time limit. This should encourage participants to go back to material previously explained to find the correct answer.<\/li><li>Multiple choice questions have\u00a0two chances while True\/False questions only have one\u00a0chance.<\/li><li>Review questions are marked\u00a0<strong>per question<\/strong>. As soon as you answer a particular question, when the \u201cFinal check\u201d button appears, it means you will have no more chances after clicking that button, and your answer will be immediately marked and cannot be changed (ever). You will be able to see your grade progress at any time using the \u201cProgress\u201d tab.<\/li><\/ul><\/li><\/ul><ul><li><strong>Final Exam:<\/strong><ul><li>Has a 1-hour time limit<\/li><li>Like Review Questions, as you click on \u201cFinal check\u201d per question, you will be marked.<\/li><\/ul><\/li><\/ul><\/div>",
-        "tags":[
-            "Badge Learning",
-            "Applied Data Science with Python",
-            "Learning Domain",
-            "Other - Software engineering and programming",
-            "Technical skills - Data",
-            "Learning Domain Primary",
-            "Data",
-            "Lightcast Skills Taxonomy",
-            "Python (Programming Language) Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:COGNITIVECLASS+PY0101EN+V3",
-        "category":"software_engineering",
-        "type":"eLearning",
-        "title":"Python for Data Science",
-        "duration":"20 hrs",
-        "learners_amount":"4445 learners have completed this activity in the past 12 months.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This introduction to Python will kickstart your learning of Python for data science, as well as programming in general. This beginner-friendly Python course will take you from zero to programming in Python in a matter of hours. Upon its completion, you'll be able to write your own Python scripts. If you want to learn Python from scratch, this free course is for you.<br\/><br\/><strong>Note on grading - please read:<\/strong><br\/><br\/>Review questions are worth\u00a050% of the mark, and the final exam is worth 50%. The course passing grade is\u00a0<strong>70%<\/strong>.<ul><li><strong>Review Questions:<\/strong><ul><li>Have no time limit. This should encourage participants to go back to material previously explained to find the correct answer.<\/li><li>Multiple choice questions have\u00a0two chances while True\/False questions only have one\u00a0chance.<\/li><li>Review questions are marked\u00a0<strong>per question<\/strong>. As soon as you answer a particular question, when the \u201cFinal check\u201d button appears, it means you will have no more chances after clicking that button, and your answer will be immediately marked and cannot be changed (ever). You will be able to see your grade progress at any time using the \u201cProgress\u201d tab.<\/li><\/ul><\/li><\/ul><ul><li><strong>Final Exam:<\/strong><ul><li>Has a 1-hour time limit<\/li><li>Like Review Questions, as you click on \u201cFinal check\u201d per question, you will be marked.<\/li><\/ul><\/li><\/ul><\/div>",
-        "tags":[
-            "Badge Learning",
-            "Applied Data Science with Python",
-            "Learning Domain",
-            "Other - Software engineering and programming",
-            "Technical skills - Data",
-            "Learning Domain Primary",
-            "Data",
-            "Lightcast Skills Taxonomy",
-            "Data Science Skill",
-            "Python (Programming Language) Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1719388200633",
-        "category":"software_engineering",
-        "type":"Channel",
-        "title":"WeThinkCode_ Training and Development Center | WTC Team",
-        "duration":null,
-        "learners_amount":null,
-        "star_rating":null,
-        "star_num_ratings":"10",
-        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Explore WeThinkCode_ on IBM SkillsBuild for top-tier coding education and career readiness. Join us to unlock your potential in tech and prepare for future-fit skills. Start your journey today towards a successful career in software engineering.<\/p><\/div>",
-        "tags":[
-
         ]
     }
 ]

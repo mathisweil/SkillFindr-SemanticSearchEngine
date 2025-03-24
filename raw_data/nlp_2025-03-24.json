@@ -1,0 +1,43 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-214",
+        "category":"nlp",
+        "type":"eLearning",
+        "title":"Natural Language Processing and Computer Vision",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"136409 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 1389 learners in the past 12 months.",
+        "star_num_ratings":"1,389",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">You might already know that some artificial intelligence systems can understand human language, identify visual images, and even create original art. But do you know how these systems do it? In this course, you\u2019ll explore the theory of natural language and vision processing, and learn how these technologies drive real-world mechanisms such as chatbots and photo analysis.<br\/><br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<br\/>\u00a0<ul><li>Define natural language processing<\/li><li>Explain how AI uses natural language processing to derive meaning from text<\/li><li>Explain the classification problem and its solutions<\/li><li>Describe how a chatbot understands, reasons, learns, and interacts with users<\/li><li>Distinguish between intents, entities, and dialogs<\/li><li>Identify appropriate uses for chatbots<\/li><li>Identify real-world uses for natural language processing (NLP)<\/li><li>Describe how AI classifies images to derive meaning from them<\/li><li>Describe how a convolutional neural network(CNN) analyzes an image<\/li><li>Describe how a generative adversarial network (GAN) creates a credible image<\/li><li>Identify real-world uses for computer vision<\/li><\/ul><br\/><strong>Czech learners can complete the learning here:<\/strong>\u00a0<a href=\"https:\/\/ole03.yourlearning.ibm.com\/mod\/scorm\/player.php?a=1011&amp;currentorg=articulate_rise&amp;scoid=3551&amp;sesskey=Xbq2rj0qOp&amp;display=popup&amp;mode=normal\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Zpracov\u00e1n\u00ed p\u0159irozen\u00e9ho jazyka a po\u010d\u00edta\u010dov\u00e9 vid\u011bn\u00ed<\/a><br\/><br\/><strong>Traditional Chinese learners can complete the learning here:\u00a0<\/strong><a href=\"https:\/\/ole03.yourlearning.ibm.com\/mod\/scorm\/player.php?a=988&amp;currentorg=articulate_rise&amp;scoid=3505&amp;sesskey=87xemTiuMx&amp;display=popup&amp;mode=normal\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">\u81ea\u7136\u8a9e\u8a00\u8655\u7406\u7a0b\u5e8f\u548c\u96fb\u8166\u8996\u89ba<\/a><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Artificial Intelligence Fundamentals",
+            "Initiatives",
+            "AI2026",
+            "SDI Explore",
+            "SDI",
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence",
+            "Lightcast Skills Taxonomy",
+            "Artificial Intelligence Skill",
+            "Natural Language Processing Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:IBMSKILLSNETWORK+GPXX01V6EN+V1",
+        "category":"nlp",
+        "type":"eLearning",
+        "title":"How do people feel about a product? Use AI to get the answer",
+        "duration":"1 hr",
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Natural language processing (NLP) is an exciting machine learning application; IBM's Watson NLP library can greatly ease the development and deployment of NLP as part of your application. Amazon's 5-star rating system lacks feedback for both users and buyers. What about using NLP for helpful information? In this project, we will develop an application to classify Amazon users' emotions using Watson NLP. After conducting this project, developers will know how to build a web scraping, emotion classification embedded application.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence"
+        ]
+    }
+]

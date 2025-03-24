@@ -1,42 +1,13 @@
 [
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-8749C02A78EC",
-        "category":"web_development",
-        "type":"Learning Plan",
-        "title":"Web Development Fundamentals (Earn a credential!)",
-        "duration":"About 12 hours",
-        "learners_amount":"15698 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 1271 learners in the past 12 months.",
-        "star_num_ratings":"1,271",
-        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Would you like opportunities to express yourself creatively on the internet? Web development is an exciting, growing field in tech. Learn the basics about the languages, tools, and processes to develop websites. Then, get hands-on practice creating an interactive task list web page in a series of simulations. Finish by gathering tips and resources that can help you launch a great career in web development.\u00a0\u00a0<br\/>\n \u00a0\u00a0<br\/>\n Complete the following required courses to earn an industry-recognized IBM SkillsBuild digital credential called <strong>Web Development Fundamentals<\/strong>:<\/p>\n<ol>\n<li>Web Development Basics\u00a0<\/li>\n<li>Developing Sites for the Web\u00a0\u00a0<\/li>\n<li>Introduction to HTML and CSS<\/li>\n<li>Bringing Websites to Life with JavaScript<\/li>\n<li>Website Testing and Deployment\u00a0<\/li>\n<li>Develop an Interactive Task List Web Page\u00a0<\/li>\n<li>Your Future in Web Development: The Job Landscape\u00a0\u00a0<\/li>\n<\/ol>\n<p>\u00a0\u00a0<br\/><strong>What you\u2019ll learn<\/strong>\u00a0\u00a0<br\/>\n After completing <i>Web Development Fundamentals<\/i>, you should be able to:\u00a0<\/p>\n<ul>\n<li>Identify basic computer functions, types of programming languages, the main steps to develop a website, and fundamentals about front-end and back-end development<\/li>\n<li>Explain the features and functions of HTML, CSS, and JavaScript and how the languages interact<\/li>\n<li>Identify the phases in the software development lifecycle, and the waterfall and agile approaches to web development<\/li>\n<li>Identify common HTML elements, HTML attributes, coding organization techniques, the CSS box model, best practices for writing HTML and CSS, and key features of an integrated development environment (IDE)<\/li>\n<li>Identify the basic structure of JavaScript code, techniques to include JavaScript in HTML, how JavaScript enables dynamic websites, and popular database functions to store and work with website data using MySQL<\/li>\n<li>Identify different types of website testing, the value of automated testing, version control systems, the main steps to publish a website, continuous delivery and continuous deployment, DevOps, responsive design, cloud computing for web development and deployment, and the methods and tools used to test and automate the deployment of websites<\/li>\n<li>Develop an interactive web page using HTML, CSS, and JavaScript, and perform a simple functional test on a web page<\/li>\n<li>Recognize the job market, responsibilities and skill sets of web development professionals, and resources and learning opportunities to explore<\/li>\n<\/ul>\n<p><br\/>\n \u00a0\u00a0<br\/>\n The knowledge and skills in these courses build on each other, so SkillsBuild recommends that you complete the courses in the order in which they are presented.\u00a0\u00a0<br\/>\n \u00a0\u00a0<br\/><strong>Language:<\/strong> English, Arabic, Brazilian Portuguese, French, Spanish<br\/>\n \u00a0\u00a0<br\/>\n Select <strong>Enroll<\/strong> to enroll in this learning plan and get started!\u00a0\u00a0<\/p><\/div>",
-        "tags":[
-            "Badge Learning",
-            "000 All digital credentials",
-            "Web Development Fundamentals",
-            "Fundamentals",
-            "All Fundamentals",
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "HyperText Markup Language (HTML) Skill",
-            "Agile Methodology Skill",
-            "Software Development Life Cycle Skill",
-            "DevOps Skill",
-            "JavaScript (Programming Language) Skill",
-            "Web Development Skill",
-            "Front End (Software Engineering) Skill",
-            "Cascading Style Sheets (CSS) Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-GEFUOMZRGXO",
         "category":"web_development",
         "type":"Video",
         "title":"Web development for beginners: What does a web developer do? | Ecourse Review",
         "duration":"4 mins 58 s",
-        "learners_amount":"2807 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 39 learners in the past 12 months.",
-        "star_num_ratings":"39",
+        "learners_amount":"2813 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 69 learners in the past 12 months.",
+        "star_num_ratings":"69",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Learn about entering the field of web development. Web developers are in high demand. This video covers basic web development concepts, various web developer roles, and the activities that a web developer typically performs. \n<br\/>\n<br\/>\nThis video is presented by Ecourse Review. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, <strong> <\/strong>select <strong>Subtitles<\/strong>, <strong> <\/strong>select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
         "tags":[
             "Learning Domain",
@@ -51,9 +22,9 @@
         "type":"eLearning",
         "title":"Web Development Basics",
         "duration":"1 hr 40 mins",
-        "learners_amount":"54727 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 2186 learners in the past 12 months.",
-        "star_num_ratings":"2,186",
+        "learners_amount":"55238 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2193 learners in the past 12 months.",
+        "star_num_ratings":"2,193",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn about basic computer functions and programming languages. You\u2019ll get an overview of web development, including the scope of the two sides of web development: front-end and back-end. And you\u2019ll learn about the difference between the internet and the World Wide Web.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<ul><li>Describe the basic functions of a computer<\/li><li>Differentiate between hardware and software<\/li><li>Describe the types of programming languages<\/li><li>Explain how a computer reads code<\/li><li>Differentiate between web design and web development<\/li><li>Identify website components<\/li><li>Explain the main steps in the web development process<\/li><li>Differentiate between client-side and server-side processes<\/li><li>Identify the focus areas and common languages for front-end development<\/li><li>Identify the focus areas and common languages for back-end development<\/li><li>Differentiate between the World Wide Web and the internet<\/li><li>Explain how the cloud benefits web development<\/li><\/ul><\/div>",
         "tags":[
             "Badge Learning",
@@ -61,8 +32,8 @@
             "Learning Domain",
             "Technical skills - Web Development",
             "Lightcast Skills Taxonomy",
-            "Web Development Skill",
-            "Front End (Software Engineering) Skill"
+            "Front End (Software Engineering) Skill",
+            "Web Development Skill"
         ]
     },
     {
@@ -71,9 +42,9 @@
         "type":"eLearning",
         "title":"Your Future in Web Development: The Job Landscape",
         "duration":"1 hr",
-        "learners_amount":"23199 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 606 learners in the past 12 months.",
-        "star_num_ratings":"606",
+        "learners_amount":"23307 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 608 learners in the past 12 months.",
+        "star_num_ratings":"608",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn about the web development job market, the skills web developers need to be successful, and how web developers interact with other job roles on a team. You\u2019ll also find resources and learning opportunities so you can explore more.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<ul><li>Identify industries in which web developers work<\/li><li>Recognize the global demand for web development professionals in the job market<\/li><li>Recognize the future of the web development field<\/li><li>Identify common roles and specialties in the web development field<\/li><li>Explain the primary responsibilities of different web development roles<\/li><li>Identify the skills that web developers need<\/li><li>Distinguish between different roles on a web development team<\/li><li>Identify resources to learn more and stay up to date in the field of web development<\/li><\/ul><\/div>",
         "tags":[
             "Badge Learning",
@@ -89,7 +60,7 @@
         "type":"eLearning",
         "title":"Fundamentos de Desarrollo Web",
         "duration":"5 hrs",
-        "learners_amount":"4522 learners have completed this activity in the past 12 months.",
+        "learners_amount":"4531 learners have completed this activity in the past 12 months.",
         "star_rating":null,
         "star_num_ratings":null,
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Fundamentos en los que se basa la programaci\u00f3n de p\u00e1ginas WEB. Diferencias entre programaci\u00f3n front-end, back-end y fullstack.<\/p><\/div>",
@@ -104,9 +75,9 @@
         "type":"eLearning",
         "title":"HTML Iframes",
         "duration":"2 hrs 30 mins",
-        "learners_amount":"26730 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 188 learners in the past 12 months.",
-        "star_num_ratings":"188",
+        "learners_amount":"27031 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 190 learners in the past 12 months.",
+        "star_num_ratings":"190",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>HTML\u00a0Iframes-\u00a0An HTML iframe is used to display a web page within a web page,\u00a0Iframes Syntax,\u00a0Iframes Set Height and Width,\u00a0<\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -121,27 +92,10 @@
         "type":"eLearning",
         "title":"Learn by doing: HTML!",
         "duration":"50 mins",
-        "learners_amount":"24694 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 369 learners in the past 12 months.",
-        "star_num_ratings":"369",
+        "learners_amount":"25058 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 371 learners in the past 12 months.",
+        "star_num_ratings":"371",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn HTML autonomously: first take a tutorial then get cracking at these small exploratory exercises, intended to get you up to speed in HTML.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "HyperText Markup Language (HTML) Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-36FCD9EC0EE1",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"HTML Forms",
-        "duration":"2 hrs 30 mins",
-        "learners_amount":"25917 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 143 learners in the past 12 months.",
-        "star_num_ratings":"143",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>\u00a0<\/p>\n<p>HTML\u00a0Forms, form elements, Input types,\u00a0<br\/>\u00a0<\/p><\/div>",
         "tags":[
             "Learning Domain",
             "Technical skills - Web Development",
@@ -155,9 +109,9 @@
         "type":"eLearning",
         "title":"Fundamentos de Internet",
         "duration":"3 hrs",
-        "learners_amount":"6752 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 1787 learners in the past 12 months.",
-        "star_num_ratings":"1,787",
+        "learners_amount":"6756 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Principios b\u00e1sicos del funcionamiento de internet y de la WWW. Conceptos como nodo, paquetes, puertos, latencia, etc...<\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -165,37 +119,20 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-32CE0D1286BB",
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-36FCD9EC0EE1",
         "category":"web_development",
         "type":"eLearning",
-        "title":"CSS Introduction",
-        "duration":"1 hr 30 mins",
-        "learners_amount":"31564 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 266 learners in the past 12 months.",
-        "star_num_ratings":"266",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>\u00a0<\/p>\n<p>CSS\u00a0Introduction<br\/>\u00a0<\/p><\/div>",
+        "title":"HTML Forms",
+        "duration":"2 hrs 30 mins",
+        "learners_amount":"26223 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 167 learners in the past 12 months.",
+        "star_num_ratings":"167",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>\u00a0<\/p>\n<p>HTML\u00a0Forms, form elements, Input types,\u00a0<br\/>\u00a0<\/p><\/div>",
         "tags":[
             "Learning Domain",
             "Technical skills - Web Development",
             "Lightcast Skills Taxonomy",
-            "Cascading Style Sheets (CSS) Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-RKEMERVPMPMY1DGX",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Learn by doing: CSS!",
-        "duration":"3 hrs 45 mins",
-        "learners_amount":"26453 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 252 learners in the past 12 months.",
-        "star_num_ratings":"252",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Series of small coding challenges to muscle your CSS coding skills!<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "Cascading Style Sheets (CSS) Skill"
+            "HyperText Markup Language (HTML) Skill"
         ]
     },
     {
@@ -204,7 +141,7 @@
         "type":"eLearning",
         "title":"HTML5 Exercises",
         "duration":"30 mins",
-        "learners_amount":"24857 learners have completed this activity in the past 12 months.",
+        "learners_amount":"25208 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 39 learners in the past 12 months.",
         "star_num_ratings":"39",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><a href=\"https:\/\/bundles.yourlearning.ibm.com\/skills\/ngo\/#\/ZKRYRGZNXDMX6D2K\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Open <strong>HTML5 Exercises<\/strong> Activity<\/a><\/div>",
@@ -216,14 +153,48 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-RKEMERVPMPMY1DGX",
+        "category":"web_development",
+        "type":"eLearning",
+        "title":"Learn by doing: CSS!",
+        "duration":"3 hrs 45 mins",
+        "learners_amount":"26903 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 253 learners in the past 12 months.",
+        "star_num_ratings":"253",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Series of small coding challenges to muscle your CSS coding skills!<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Web Development",
+            "Lightcast Skills Taxonomy",
+            "Cascading Style Sheets (CSS) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-32CE0D1286BB",
+        "category":"web_development",
+        "type":"eLearning",
+        "title":"CSS Introduction",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"31958 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 266 learners in the past 12 months.",
+        "star_num_ratings":"266",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>\u00a0<\/p>\n<p>CSS\u00a0Introduction<br\/>\u00a0<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Web Development",
+            "Lightcast Skills Taxonomy",
+            "Cascading Style Sheets (CSS) Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-EKVDPYPKGMKV155G",
         "category":"web_development",
         "type":"eLearning",
         "title":"CSS Exercises",
         "duration":"3 hrs",
-        "learners_amount":"27218 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 303 learners in the past 12 months.",
-        "star_num_ratings":"303",
+        "learners_amount":"27666 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 215 learners in the past 12 months.",
+        "star_num_ratings":"215",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><a href=\"https:\/\/bundles.yourlearning.ibm.com\/skills\/ngo\/#\/EKVDPYPKGMKV155G\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Open <strong>CSS Exercises<\/strong> Activity<\/a><\/div>",
         "tags":[
             "Learning Domain",
@@ -233,66 +204,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-3DD4B2B3FAFA",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Introduction to JavaScript and React 6\/6",
-        "duration":"1 hr 30 mins",
-        "learners_amount":"183 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 14 learners in the past 12 months.",
-        "star_num_ratings":"14",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>JavaScript For Loop.<br\/>Loops can execute a block of code a number of times.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "JavaScript (Programming Language) Skill",
-            "React.js Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-DA9E33D73606",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Introduction to JavaScript and React 4\/6",
-        "duration":"2 hrs",
-        "learners_amount":"81 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 11 learners in the past 12 months.",
-        "star_num_ratings":"11",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course focuses on component state, event handlers<br\/>\u00a0<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "JavaScript (Programming Language) Skill",
-            "React.js Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-8B98F5FA88F2",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Introduction to JavaScript and React 5\/6",
-        "duration":"1 hr",
-        "learners_amount":"108 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 15 learners in the past 12 months.",
-        "star_num_ratings":"15",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>JavaScript if else and else if<br\/>Conditional statements are used to perform different actions based on different conditions.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "JavaScript (Programming Language) Skill",
-            "React.js Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-C7A7D3A202BC",
         "category":"web_development",
         "type":"eLearning",
         "title":"Understanding the Web",
         "duration":"4 hrs",
-        "learners_amount":"28 learners have completed this activity in the past 12 months.",
+        "learners_amount":"29 learners have completed this activity in the past 12 months.",
         "star_rating":null,
         "star_num_ratings":null,
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>You'll discover the history of the web, different programming languages and frameworks, and what role developers play in the whole game! You'll be able to better understand the world of web development, and you'll be able to get yourself started on that career path if you like.<\/p><\/div>",
@@ -301,30 +218,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-74D4424121E3",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Full-stack web developers and back-end developers - Coursera",
-        "duration":"12 hrs",
-        "learners_amount":"5051 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 3.5 stars by 25 learners in the past 12 months.",
-        "star_num_ratings":"25",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn the basics to be come a full stack developer with CSS and HTML. Sur Coursera pour Social Builder<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "Cascading Style Sheets (CSS) Skill",
-            "HyperText Markup Language (HTML) Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-B1F678FC85DB",
         "category":"web_development",
         "type":"Webpage",
         "title":"CSS Reference | w3schools",
         "duration":"15 mins",
-        "learners_amount":"3509 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3547 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 32 learners in the past 12 months.",
         "star_num_ratings":"32",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Check out and bookmark this online resource for a complete reference on CSS properties.\n<br\/>\n<br\/>\nThis resource is presented by w3schools. It is offered in many languages by Google.\n<br\/>\n<br\/>\nAfter you check out this resource, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/div>",
@@ -341,7 +240,7 @@
         "type":"Experiential",
         "title":"Code your own Flappy Bird game | code.org",
         "duration":"1 hr",
-        "learners_amount":"2621 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2630 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 89 learners in the past 12 months.",
         "star_num_ratings":"89",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn programming concepts while building your own version of the Flappy Bird game.<br\/><br\/>\n This activity is presented by code.org.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
@@ -351,30 +250,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-37B1AD3F2E31",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Introduction to JavaScript and React 2\/6",
-        "duration":"1 hr",
-        "learners_amount":"6148 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 117 learners in the past 12 months.",
-        "star_num_ratings":"117",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>A <strong>computer program<\/strong> is a list of \"instructions\" to be \"executed\" by a computer.<br\/>In a programming language, these programming instructions are called <strong>statements<\/strong>.<br\/>A <strong>JavaScript program<\/strong> is a list of programming <strong>statements<\/strong>.<br\/>\u00a0<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "JavaScript (Programming Language) Skill",
-            "React.js Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-033AA2537AD5",
         "category":"web_development",
         "type":"Webpage",
         "title":"Which programming language should I learn first? | CarlCheo.com",
         "duration":"5 mins",
-        "learners_amount":"2279 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2288 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 60 learners in the past 12 months.",
         "star_num_ratings":"60",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This infographic walks you through a series of questions to help you determine which programming language fits your objectives.<br\/><br\/>\n This article is presented by CarlCheo.com.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
@@ -388,7 +269,7 @@
         "type":"eLearning",
         "title":"Fundamentos de programaci\u00f3n",
         "duration":"5 hrs",
-        "learners_amount":"5613 learners have completed this activity in the past 12 months.",
+        "learners_amount":"5618 learners have completed this activity in the past 12 months.",
         "star_rating":null,
         "star_num_ratings":null,
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Aprende los principios en los que se basan los principales lenguajes de programaci\u00f3n m\u00e1s usados actualmente, sus diferencias, ventajas e inconvenientes de cada tipo. Sabremos lo que son los lenguajes compilados, los interpretados y el modo en que trabajan.<\/p><\/div>",
@@ -403,7 +284,7 @@
         "type":"eLearning",
         "title":"Fundamentos de GIT y GITHUB",
         "duration":"5 hrs",
-        "learners_amount":"4675 learners have completed this activity in the past 12 months.",
+        "learners_amount":"4681 learners have completed this activity in the past 12 months.",
         "star_rating":null,
         "star_num_ratings":null,
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>En este curso el estudiante aprender\u00e1 la filosof\u00eda y el modo de trabajo del repositorio de control de versiones de software m\u00e1s usado en la actualidad, GitHub.<\/p><\/div>",
@@ -415,30 +296,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-23A8A189D7F5",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Introduction to JavaScript and React 1\/6",
-        "duration":"3 hrs 30 mins",
-        "learners_amount":"5399 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 54 learners in the past 12 months.",
-        "star_num_ratings":"54",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Familiarize ourselves with the React-library, which we will be using to write the code that runs in the browser. We will also look at some features of JavaScript that are important for understanding React.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "React.js Skill",
-            "JavaScript (Programming Language) Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-17524700C6E8",
         "category":"web_development",
         "type":"Webpage",
         "title":"HTML Element Reference | w3schools",
         "duration":"10 mins",
-        "learners_amount":"2670 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2691 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 28 learners in the past 12 months.",
         "star_num_ratings":"28",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Check out and bookmark this online resource for a complete reference on HTML elements and tags.<br\/><br\/>\n This resource is presented by w3schools. It is offered in many languages by Google.<br\/><br\/>\n After you check out this resource, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
@@ -455,7 +318,7 @@
         "type":"Learning Plan",
         "title":"DC - CDA - Parcours d\u2019approfondissement : Sprint 1 : Front End",
         "duration":"About 19 hours",
-        "learners_amount":"170 learners have completed this activity in the past 12 months.",
+        "learners_amount":"171 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 3 learners in the past 12 months.",
         "star_num_ratings":"3",
         "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><br\/>\n Ce que vous decouvrirez : \n<br\/>\n Elements de base : \n<br\/>\n - Learn About Being a Front End Developer | Indeed Career Guide \n<br\/>\n - Web Development Fundamentals (Earn a credential!) \n<br\/>\n HTML : \n<br\/>\n - Build Your First Web Pages With HTML and CSS | OpenClassrooms \n<br\/>\n - HTML Tutorial | w3schools \n<br\/>\n CSS : \n<br\/>\n - Learn CSS Tutorial | w3schools \n<br\/>\n<br\/>\n<br\/>\n \u00a0<\/div>",
@@ -487,7 +350,7 @@
         "type":"Video",
         "title":"HTML Full Course - Build a Website Tutorial | freeCodeCamp.org",
         "duration":"2 hrs 2 mins 32 s",
-        "learners_amount":"3043 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3063 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 50 learners in the past 12 months.",
         "star_num_ratings":"50",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn the basics of HTML5 and web development in this awesome and engaging videofor beginners.<br\/><br\/>\n This video is presented by freeCodeCamp.org.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<br\/><br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate <\/strong>to enable subtitles in a language of your choice from the drop-down.<\/p><\/div>",
@@ -500,27 +363,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-FCFCC25FD8A9",
-        "category":"web_development",
-        "type":"Webpage",
-        "title":"Learn About Being a Web Developer | Indeed Career Guide",
-        "duration":"10 mins",
-        "learners_amount":"11008 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 328 learners in the past 12 months.",
-        "star_num_ratings":"328",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Web developers are responsible for writing code to create a website, both at the front end and the back end. The front end includes the website users see and the back end is the side that delivers information to the front end. In this article, learn about the typical role, salary, requirements, and skills needed for web developers as well as the work environment and more.<br\/><br\/>\n This article is presented by Indeed Career Guide.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-718973C05E69",
         "category":"web_development",
         "type":"eLearning",
         "title":"Learn CSS Tutorial | w3schools",
         "duration":"9 hrs",
-        "learners_amount":"22302 learners have completed this activity in the past 12 months.",
+        "learners_amount":"22660 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 119 learners in the past 12 months.",
         "star_num_ratings":"119",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Learn the basics of Cascading Style Sheets (CSS) with these hands-on tutorials. It offers hundreds of well-organized CSS examples. With the online editor, you can edit the CSS and select a button to view the result! Try it out as you learn and also access valuable resources.\n<br\/>\n<br\/>\nThis course is presented by w3schools. It is offered in many languages by Google. You will need to register for a free account.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/div>",
@@ -532,12 +380,27 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-FCFCC25FD8A9",
+        "category":"web_development",
+        "type":"Webpage",
+        "title":"Learn About Being a Web Developer | Indeed Career Guide",
+        "duration":"10 mins",
+        "learners_amount":"11052 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 315 learners in the past 12 months.",
+        "star_num_ratings":"315",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Web developers are responsible for writing code to create a website, both at the front end and the back end. The front end includes the website users see and the back end is the side that delivers information to the front end. In this article, learn about the typical role, salary, requirements, and skills needed for web developers as well as the work environment and more.<br\/><br\/>\n This article is presented by Indeed Career Guide.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Web Development"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-6ACAF737B683",
         "category":"web_development",
         "type":"eLearning",
         "title":"A Beginner\u2019s Guide to Using WordPress | Envato Tuts+",
         "duration":"2 hrs 30 mins",
-        "learners_amount":"2242 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2254 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 20 learners in the past 12 months.",
         "star_num_ratings":"20",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>WordPress is one of the most powerful content management systems (CMS) available. It\u2019s versatile, constantly updated, and totally free. You can use it to create simple blogs, large complex websites, and anything in between.<br\/><br\/>\n Learn how to use WordPress from start to finish in this course. It's the only WordPress beginner's guide you'll ever need.<br\/><br\/>\n This course is presented by Envato Tuts+.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
@@ -552,7 +415,7 @@
         "type":"eLearning",
         "title":"HTML Tutorial | w3schools",
         "duration":"8 hrs",
-        "learners_amount":"3215 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3263 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 16 learners in the past 12 months.",
         "star_num_ratings":"16",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn the basics of HTML with these hands-on tutorials. It offers hundreds of well-organized HTML examples. With the online editor, you can edit the HTML and select a button to view the result! Try it out as you learn and also access valuable resources.<br\/><br\/>\n This course is presented by w3schools. It is offered in many languages by Google. You will need to register for a free account.<br\/><br\/>\n After you complete this activity, return to this page to select<strong> Mark complete<\/strong> for completion credit.<\/p><\/div>",
@@ -569,9 +432,9 @@
         "type":"Video",
         "title":"HTML Tutorial For Beginners | Learn HTML In 30 Minutes | Edureka",
         "duration":"29 mins",
-        "learners_amount":"24168 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 192 learners in the past 12 months.",
-        "star_num_ratings":"192",
+        "learners_amount":"24452 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 194 learners in the past 12 months.",
+        "star_num_ratings":"194",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This tutorial video will introduce you to HTML and tags so you know how to create your first web page.<br\/><br\/>\n It is presented by Edureka.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/><br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -581,12 +444,29 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-1RS2ND1RYYC",
+        "category":"web_development",
+        "type":"Video",
+        "title":"CSS Tutorial - Zero to Hero (Complete Course) | freeCodeCamp.org",
+        "duration":"6 hrs 18 mins",
+        "learners_amount":"25487 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 111 learners in the past 12 months.",
+        "star_num_ratings":"111",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn CSS from the \"ground up\" in this video-based course for beginners. You can pace your learning to review sections and return to pick up where you left off.<br\/><br\/>\n This video is presented by freeCodeCamp.org. It is offered in English.<br\/><br\/>\n After you complete this activity, return to this page to select<strong> Mark complete<\/strong> for completion credit.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Web Development",
+            "Lightcast Skills Taxonomy",
+            "Cascading Style Sheets (CSS) Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-MDLN5-ZSQQI",
         "category":"web_development",
         "type":"Video",
         "title":"HTML In 10 Minutes | HTML Tutorial For Beginners | Simplilearn",
         "duration":"9 mins 14 s",
-        "learners_amount":"6996 learners have completed this activity in the past 12 months.",
+        "learners_amount":"7050 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 154 learners in the past 12 months.",
         "star_num_ratings":"154",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this video, you will learn the basic concepts of HTML and its various tags. You will see how to code a simple web page using HTML and CSS, so you get a practical perspective on developing a webpage.<br\/><br\/>\n This video is presented by Simplilearn. It is available in English.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/>\n \u00a0<\/p><\/div>",
@@ -604,7 +484,7 @@
         "type":"Video",
         "title":"Introduction to Programming | Eli the Computer Guy",
         "duration":"32 mins",
-        "learners_amount":"2492 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2503 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 86 learners in the past 12 months.",
         "star_num_ratings":"86",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This video introduces programming languages, types of programmers, terminology, and more.\n<br\/>\n<br\/>\nThis video is presented by Eli the Computer Guy.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.\n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate <\/strong>to enable subtitles in a language of your choice from the drop-down.<\/div>",
@@ -618,7 +498,7 @@
         "type":"Video",
         "title":"What is Programming? | Khan Academy",
         "duration":"2 mins 1 s",
-        "learners_amount":"3260 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3272 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 99 learners in the past 12 months.",
         "star_num_ratings":"99",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This short video discusses the very basics of programming, including how it makes you command your computer.<br\/><br\/>\n This video is presented by Khan Academy.<br\/><br\/>\n After you complete this activity, return to this page to select<strong> Mark complete<\/strong> for completion credit.<br\/><br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/p><\/div>",
@@ -627,29 +507,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-1RS2ND1RYYC",
-        "category":"web_development",
-        "type":"Video",
-        "title":"CSS Tutorial - Zero to Hero (Complete Course) | freeCodeCamp.org",
-        "duration":"6 hrs 18 mins",
-        "learners_amount":"25040 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 111 learners in the past 12 months.",
-        "star_num_ratings":"111",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn CSS from the \"ground up\" in this video-based course for beginners. You can pace your learning to review sections and return to pick up where you left off.<br\/><br\/>\n This video is presented by freeCodeCamp.org. It is offered in English.<br\/><br\/>\n After you complete this activity, return to this page to select<strong> Mark complete<\/strong> for completion credit.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "Cascading Style Sheets (CSS) Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-094C6CC797E5",
         "category":"web_development",
         "type":"eLearning",
         "title":"JavaScript Tutorial | w3schools",
         "duration":"11 hrs",
-        "learners_amount":"6852 learners have completed this activity in the past 12 months.",
+        "learners_amount":"6944 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 74 learners in the past 12 months.",
         "star_num_ratings":"74",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn the basics of JavaScript with these hands-on tutorials. It offers hundreds of well-organized JavaScript examples. Test yourself with exercises to try it out as you learn and also access valuable resources.<br\/><br\/>\n This course is presented by w3schools. It is offered in many languages by Google. You will need to register for a free account.<br\/><br\/>\n After you complete this activity, return to this page to select<strong> Mark complete<\/strong> for completion credit.<\/p><\/div>",
@@ -666,7 +529,7 @@
         "type":"eLearning",
         "title":"Get to know HTML Learn HTML Basics",
         "duration":"30 mins",
-        "learners_amount":"283 learners have completed this activity in the past 12 months.",
+        "learners_amount":"282 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 9 learners in the past 12 months.",
         "star_num_ratings":"9",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Create HTML pages<br\/>HTML structures to build web pages<br\/>Understand how to create tags within HTML<br\/>Use HTML elements select them and style them<br\/>\u00a0<\/p><\/div>",
@@ -678,12 +541,30 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-51AF1482839B",
+        "category":"web_development",
+        "type":"Experiential",
+        "title":"Basic HTML and HTML5 | freeCodeCamp",
+        "duration":"3 hrs",
+        "learners_amount":"26919 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 122 learners in the past 12 months.",
+        "star_num_ratings":"122",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Try out freeCodeCamp's HTML coding challenges! They will walk you through web development step-by-step.<br\/><br\/>\n In this course, you'll build a cat photo app to learn some of the most common HTML elements \u2014 the building blocks of any web page.<br\/><br\/>\n This hands-on programming course is presented by freeCodeCamp. You can sign-up for a free account to track your progress.<br\/><br\/>\n It is available in English and Spanish.<br\/><br\/>\n After you complete this activity, return to this page to select<strong> Mark complete<\/strong> for completion credit.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Web Development",
+            "Lightcast Skills Taxonomy",
+            "HTML5 Skill",
+            "HyperText Markup Language (HTML) Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-EB67BD5D33E6",
         "category":"web_development",
         "type":"eLearning",
         "title":"Learn CSS | Codecademy",
         "duration":"20 hrs",
-        "learners_amount":"2650 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2668 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 27 learners in the past 12 months.",
         "star_num_ratings":"27",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will learn the many aspects of styling web pages! You\u2019ll be able to set up the correct file structure, edit text and colors, and create attractive layouts. With these skills, you\u2019ll be able to customize the appearance of your web pages to suit your every need. Learn how to style and visually organize HTML with CSS. This course covers version 3 of CSS.<br\/><br\/>\n This course is presented by Codecademy. You will need to register for a free account.<br\/><br\/><strong>Language<\/strong>: English<br\/><strong>Prerequisite<\/strong>: A basic knowledge of HTML<br\/><strong>Level<\/strong>: Intermediate<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/p><\/div>",
@@ -696,52 +577,14 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-EAA89F6480FA",
-        "category":"web_development",
-        "type":"Webpage",
-        "title":"Learn About Being a Front End Developer | Indeed Career Guide",
-        "duration":"5 mins",
-        "learners_amount":"3740 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 3.5 stars by 319 learners in the past 12 months.",
-        "star_num_ratings":"319",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Front-end developers use coding languages like HTML, CSS and JavaScript to implement visual elements into web applications that users see and interact with. In this article, learn about the typical role, salary, requirements, skills, and steps to become a front end web developer.\n<br\/>\n<br\/>\nThis article is presented by Indeed Career Guide.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "JavaScript (Programming Language) Skill",
-            "Cascading Style Sheets (CSS) Skill",
-            "Front End (Software Engineering) Skill",
-            "HyperText Markup Language (HTML) Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-51AF1482839B",
-        "category":"web_development",
-        "type":"Experiential",
-        "title":"Basic HTML and HTML5 | freeCodeCamp",
-        "duration":"3 hrs",
-        "learners_amount":"26557 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 122 learners in the past 12 months.",
-        "star_num_ratings":"122",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Try out freeCodeCamp's HTML coding challenges! They will walk you through web development step-by-step.<br\/><br\/>\n In this course, you'll build a cat photo app to learn some of the most common HTML elements \u2014 the building blocks of any web page.<br\/><br\/>\n This hands-on programming course is presented by freeCodeCamp. You can sign-up for a free account to track your progress.<br\/><br\/>\n It is available in English and Spanish.<br\/><br\/>\n After you complete this activity, return to this page to select<strong> Mark complete<\/strong> for completion credit.<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "HyperText Markup Language (HTML) Skill",
-            "HTML5 Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-IA0FSOGTRAW",
         "category":"web_development",
         "type":"Video",
         "title":"What is JavaScript? | JavaScript Tutorial for Beginners | Edureka",
         "duration":"17 mins",
-        "learners_amount":"14224 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 209 learners in the past 12 months.",
-        "star_num_ratings":"209",
+        "learners_amount":"14336 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 210 learners in the past 12 months.",
+        "star_num_ratings":"210",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This tutorial video will introduce you to the origin of JavaScript, what it is, its benefits, and what it can do. You will see examples so you can learn the fundamentals of JavaScript.<br\/><br\/>\n It is presented by Edureka.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/><br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/p><\/div>",
         "tags":[
             "Learning Domain",
@@ -756,7 +599,7 @@
         "type":"Video",
         "title":"Git Tutorial For Beginners 2022 | Learn Git in 2 hrs | Simplilearn",
         "duration":"2 hrs 30 mins",
-        "learners_amount":"14739 learners have completed this activity in the past 12 months.",
+        "learners_amount":"14841 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 221 learners in the past 12 months.",
         "star_num_ratings":"221",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This beginner video will help you learn about one of the most popular version control systems. You will understand the basics of Git, followed by installing Git on Windows. You will learn about GitHub and look at the difference between Git and GitHub. You will look at some of the essential Git commands. Then, you will learn about Git merge conflict and how to resolve it. \n<br\/>\n<br\/>\n This video is presented by Simplilearn. \n<br\/>\n<br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
@@ -773,7 +616,7 @@
         "type":"eLearning",
         "title":"Learn HTML | Codecademy",
         "duration":"9 hrs",
-        "learners_amount":"3641 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3657 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 35 learners in the past 12 months.",
         "star_num_ratings":"35",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will learn the basics of HTML5 so you can start building and editing web pages. You will learn all the common HTML tags used to structure HTML pages, the skeleton of all websites. You will also be able to create HTML tables to present tabular data efficiently.<br\/><br\/>\n This course is presented by Codecademy. You will need to register for a free account.<br\/><br\/><strong>Language<\/strong>: English<br\/><strong>Prerequisite<\/strong>: None<br\/><strong>Level<\/strong>: Beginner<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
@@ -781,8 +624,8 @@
             "Learning Domain",
             "Technical skills - Web Development",
             "Lightcast Skills Taxonomy",
-            "HTML5 Skill",
-            "HyperText Markup Language (HTML) Skill"
+            "HyperText Markup Language (HTML) Skill",
+            "HTML5 Skill"
         ]
     },
     {
@@ -791,7 +634,7 @@
         "type":"Video",
         "title":"Learn JavaScript - Full Course for Beginners | freeCodeCamp.org",
         "duration":"3 hrs 26 mins",
-        "learners_amount":"8980 learners have completed this activity in the past 12 months.",
+        "learners_amount":"9074 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 135 learners in the past 12 months.",
         "star_num_ratings":"135",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn JavaScript from the \"ground up\" in this video-based course for beginners. You can pace your learning to review sections and return to pick up where you left off.<br\/><br\/>\n This video is presented by freeCodeCamp.org.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/><br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/p><\/div>",
@@ -808,7 +651,7 @@
         "type":"eLearning",
         "title":"Learn JavaScript | Codecademy",
         "duration":"30 hrs",
-        "learners_amount":"14800 learners have completed this activity in the past 12 months.",
+        "learners_amount":"14899 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 169 learners in the past 12 months.",
         "star_num_ratings":"169",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will learn the you will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. The concepts covered in these lessons lay the foundation for using JavaScript in any environment. You interact with JavaScript code all the time \u2014 you just might not realize it. It powers dynamic behavior on websites (like this one) and plays an important role in many fields, like front- and back-end engineering, game and mobile development, virtual reality, and more. In this course, you\u2019ll learn JavaScript fundamentals that will be helpful as you dive deeper into more advanced topics.\n<br\/>\n<br\/>\nThis course is presented by Codecademy. You will need to register for a free account\n<br\/>\n<br\/><strong>Language<\/strong>: English\n<br\/><strong>Prerequisite<\/strong>: None\n<br\/><strong>Level<\/strong>: Beginner\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
@@ -825,49 +668,12 @@
         "type":"Video",
         "title":"Why you should learn to code | Code.org",
         "duration":"5 mins 44 s",
-        "learners_amount":"3980 learners have completed this activity in the past 12 months.",
+        "learners_amount":"3990 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 246 learners in the past 12 months.",
         "star_num_ratings":"246",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This video titled \u201cWhat most schools don\u2019t teach\u201d features Bill Gates, Mark Zuckerberg, Jack (Twitter), Elena (Clothia.com), and many other celebrated coding pioneers who talk about the importance of programming, the benefits, and how learning to program has shaped the journey of their lives.\n<br\/>\n<br\/>\nThis video is presented by Code.org.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.\n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
         "tags":[
 
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-CB42CBF66331",
-        "category":"web_development",
-        "type":"Webpage",
-        "title":"Glosario de comandos para HTML, CSS y JavaScript",
-        "duration":"30 mins",
-        "learners_amount":"37 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
-        "star_num_ratings":"2",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\u00a0<\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "JavaScript (Programming Language) Skill",
-            "Cascading Style Sheets (CSS) Skill",
-            "HyperText Markup Language (HTML) Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-0B9DF12E2F9D",
-        "category":"web_development",
-        "type":"Experiential",
-        "title":"CSS: make an horizontal menu on codepen.io",
-        "duration":"30 mins",
-        "learners_amount":"181 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 13 learners in the past 12 months.",
-        "star_num_ratings":"13",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This exercise starts with all the html you need to create a navigation menu : an unordered list with a few links. You have to style it so that it looks exactly like the provided image.\n<br\/>\n<br\/>\n<strong>How to proceed<\/strong>\n<ol>\n<li>Create an account for yourself on codepen.io (it's free and useful for your future career!)<\/li>\n<li>Then, fork the exercise (<a href=\"http:\/\/recordit.co\/14UclCF0E4\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">see this video<\/a> if you need help )<\/li>\n<li>you are tasked to go to the exercise and style this list so that it looks exactly like\u00a0the provided image, showing a navigation\u00a0menu that is horizontal, using only CSS.<\/li>\n<li>Done? Don't forget to hit the \"Save\" button on top so you can communicate it or show off to your friends and family :-)<\/li>\n<\/ol><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "Cascading Style Sheets (CSS) Skill",
-            "HyperText Markup Language (HTML) Skill"
         ]
     },
     {
@@ -889,12 +695,30 @@
         ]
     },
     {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-0B9DF12E2F9D",
+        "category":"web_development",
+        "type":"Experiential",
+        "title":"CSS: make an horizontal menu on codepen.io",
+        "duration":"30 mins",
+        "learners_amount":"184 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 13 learners in the past 12 months.",
+        "star_num_ratings":"13",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This exercise starts with all the html you need to create a navigation menu : an unordered list with a few links. You have to style it so that it looks exactly like the provided image.\n<br\/>\n<br\/>\n<strong>How to proceed<\/strong>\n<ol>\n<li>Create an account for yourself on codepen.io (it's free and useful for your future career!)<\/li>\n<li>Then, fork the exercise (<a href=\"http:\/\/recordit.co\/14UclCF0E4\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">see this video<\/a> if you need help )<\/li>\n<li>you are tasked to go to the exercise and style this list so that it looks exactly like\u00a0the provided image, showing a navigation\u00a0menu that is horizontal, using only CSS.<\/li>\n<li>Done? Don't forget to hit the \"Save\" button on top so you can communicate it or show off to your friends and family :-)<\/li>\n<\/ol><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Web Development",
+            "Lightcast Skills Taxonomy",
+            "Cascading Style Sheets (CSS) Skill",
+            "HyperText Markup Language (HTML) Skill"
+        ]
+    },
+    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-55C0364AB015",
         "category":"web_development",
         "type":"Video",
         "title":"IBM SkillsBuild Presents: How to Become a Web Developer",
         "duration":"57 mins",
-        "learners_amount":"2896 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2905 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 81 learners in the past 12 months.",
         "star_num_ratings":"81",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><strong>About this event: <\/strong>The skills of web developers are in high demand in many countries around the world and are considered to be the entry point to software development. Many examples show that this profession is well suited for a career change. But who is suitable for it and where is the best place to start?\n<br\/>\n<br\/>\n In this recorded webinar, you will: \n<ul>\n<li>Learn from the personal stories of a career changer into web development and a founder of a non-profit coding school<\/li>\n<li>Explore the typical working day of a web developer<\/li>\n<li>Understand the skills needed to become a web developer<\/li>\n<li>Get insights into learning how to code<\/li>\n<li>Find out what makes the difference when employers are looking for web developers<\/li>\n<\/ul>\n<br\/><strong>Language<\/strong>: English\n<br\/>\n<br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
@@ -902,8 +726,8 @@
             "Learning Domain",
             "Technical skills - Web Development",
             "Lightcast Skills Taxonomy",
-            "Web Development Skill",
-            "Software Development Skill"
+            "Software Development Skill",
+            "Web Development Skill"
         ]
     },
     {
@@ -912,7 +736,7 @@
         "type":"eLearning",
         "title":"Learn Programming with JavaScript | OpenClassrooms",
         "duration":"15 hrs",
-        "learners_amount":"6733 learners have completed this activity in the past 12 months.",
+        "learners_amount":"6829 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 81 learners in the past 12 months.",
         "star_num_ratings":"81",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This course is designed to teach you the fundamentals of the <strong>JavaScript programming language<\/strong>\u00a0and to give you lots of practice along the way!\n<br\/>\n<br\/>\nWe'll look at:\n<ul>\n<li>How to\u00a0<strong>structure and group information<\/strong>\u00a0in your app\u00a0with data types.<\/li>\n<li>How to\u00a0<strong>use programming logic<\/strong>\u00a0so your app\u00a0does what you want it to.<\/li>\n<li>How to\u00a0<strong>manage errors<\/strong>\u00a0and make your app\u00a0<strong>communicate.<\/strong><\/li>\n<li>How to write readable code so you can more easily\u00a0<strong>modify, maintain, and share your apps.\u00a0<\/strong><\/li>\n<\/ul>\n<br\/><strong>Language<\/strong>: English, and some components are offered in French\n<br\/><strong>Prerequisites<\/strong>: A general knowledge of object-oriented programming terminology (classes, objects, functions, methods, etc.), which you can acquire by completing the <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-02F93BB6ABC1\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Think like a computer: the logic of programming course<\/a>.\n<br\/><strong>Learning outcomes:<\/strong>\n<ul>\n<li>Use data and data types in JavaScript.<\/li>\n<li>Manage program logic in JavaScript (conditions, loops, and errors).<\/li>\n<li>Write clean and maintainable code using methods in JavaScript.<\/li>\n<\/ul>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/div>",
@@ -929,9 +753,9 @@
         "type":"eLearning",
         "title":"HTML Essential Training",
         "duration":"2 hrs 45 mins",
-        "learners_amount":"21596 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 167 learners in the past 12 months.",
-        "star_num_ratings":"167",
+        "learners_amount":"21875 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 168 learners in the past 12 months.",
+        "star_num_ratings":"168",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Hypertext Markup Language (HTML) is the foundation of website and web application development. It allows you to ensure that your content is understood by both segments of your audience: the people who watch, read, or listen to your content, and the computers that display it. In this course, learn how to craft excellent HTML with the pieces that HTML itself has to offer. Instructor Jen Simmons highlights all of the fundamental concepts you need to use HTML thoughtfully. She focuses on semantic markup: tagging content as what it is, and not just for formatting, convention, or convenience. This has far-reaching impact for those who consume the web differently; it ensures that when a screen reader or a system (like a search engine) consumes a page, it knows exactly what it contains and how to categorize that information.<br\/>Learning Objectives:<\/p><ul><li>The basic syntax of HTML elements<\/li><li>Formatting content<\/li><li>Displaying images<\/li><li>Creating links<\/li><li>Global HTML attributes<\/li><li>Building navigation<\/li><li>Structuring content<\/li><li>Building forms<\/li><li>Creating tables<\/li><\/ul><\/div>",
         "tags":[
             "Learning Domain",
@@ -946,7 +770,7 @@
         "type":"eLearning",
         "title":"Create web page layouts with CSS | OpenClassrooms",
         "duration":"10 hrs",
-        "learners_amount":"20151 learners have completed this activity in the past 12 months.",
+        "learners_amount":"20501 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 81 learners in the past 12 months.",
         "star_num_ratings":"81",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course on layouts, we'll explore\u00a0<strong>basic properties<\/strong>\u00a0that can really make your elements pop, like\u00a0<strong>spacing, borders, and custom styles<\/strong>\u00a0for mobile and tablet screens. You'll also discover\u00a0<strong>CSS Grid<\/strong>\u00a0and\u00a0<strong>Flexbox<\/strong>, two powerful CSS systems for arranging elements in rows, columns, or both! Lastly, you'll cover some\u00a0<strong>legacy layout techniques<\/strong>\u00a0you might see in older codebases so that you feel prepared for all possible styling situations.\u00a0\u00a0\n<br\/>\n<br\/>\nThis course is presented by OpenClassrooms. You will need to register for a free account.\n<br\/>\n<br\/><strong>Language<\/strong>: English, and some components are offered in French\n<br\/><strong>Prerequisite<\/strong>: A basic knowledge of HTML\n<br\/><strong>Learning outcomes<\/strong>:\u00a0\n<ul>\n<li>Define the components of the box model and how they are used in layouts<\/li>\n<li>Adjust element properties to achieve a desired appearance<\/li>\n<li>Explain how to create layouts with CSS Grid (using CSS Grid properties)\u00a0<\/li>\n<li>Recognize how to incorporate CSS Grid browser compatibility into your page design\u00a0<\/li>\n<li>Identify how to use Flexbox properties<\/li>\n<li>Create a simple layout using Flexbox\u00a0<\/li>\n<\/ul>\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/div>",
@@ -964,7 +788,7 @@
         "type":"eLearning",
         "title":"Learn the Command Line in Terminal | OpenClassrooms",
         "duration":"4 hrs",
-        "learners_amount":"2195 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2202 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 18 learners in the past 12 months.",
         "star_num_ratings":"18",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><strong>Terminal <\/strong>is one of the most important applications on your computer. If you ever want to be a\u00a0coder or work in a tech team as a designer, product manager, or other tech role, you'll have a big advantage if you're already comfortable with basic commands. But anyone who uses a computer will benefit from becoming comfortable with this\u00a0essential tool!\n<br\/>\n<br\/>\nIn this course, you'll explore <strong>simple but crucial commands <\/strong>to navigate your computer's files and folders, search for content, and even create brand-new files from Terminal.\u00a0\n<br\/>\n<br\/>\nThis eLearning course is created by OpenClassrooms. You will need to register for a free account.\n<br\/>\n<br\/><strong>Language<\/strong>: English, and some components are offered in French\n<br\/><strong>Prerequisites<\/strong>: None\n<br\/><strong>Learning outcomes<\/strong>:\n<ul>\n<li>Understand the role of the command line<\/li>\n<li>Use basic commands and search for system content in Terminal<\/li>\n<li>Create a website structure from the command line<\/li>\n<li>Create a non-website structure on the command line<\/li>\n<li>Perform a series of commands in Terminal<\/li>\n<\/ul>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/div>",
@@ -979,7 +803,7 @@
         "type":"eLearning",
         "title":"Think like a computer: the logic of programming | OpenClassrooms",
         "duration":"4 hrs",
-        "learners_amount":"2253 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2264 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 28 learners in the past 12 months.",
         "star_num_ratings":"28",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This course is designed to <strong>demystify the logic used in computer programming<\/strong> and give you the <strong>confidence<\/strong> you need to take your first steps towards a career in development. By using concrete, everyday examples, you'll be able to focus on learning <strong>the most frequently used concepts<\/strong> without getting lost in a sea of jargon. You'll discover that coding isn't as complex as people make it out to be, and that anyone can learn it - including you!\u00a0\n<br\/>\n<br\/>\nThis course is presented by OpenClassrooms. You will need to register for a free account.\n<br\/>\n<br\/><strong>Language<\/strong>: English, and some components are offered in French\n<br\/><strong>Prerequisite<\/strong>: None\n<br\/><strong>Learning outcomes<\/strong>:\n<ul>\n<li>Identify how computers use objects in programming.<\/li>\n<li>Understand how computers use logic to make decisions and run programs.<\/li>\n<li>Explain how functions work in programming.<\/li>\n<li>Recognize how data is stored in computer programming.<\/li>\n<\/ul>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
@@ -993,7 +817,7 @@
         "type":"eLearning",
         "title":"HTML: Tables",
         "duration":"1 hr 25 mins",
-        "learners_amount":"196 learners have completed this activity in the past 12 months.",
+        "learners_amount":"198 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 8 learners in the past 12 months.",
         "star_num_ratings":"8",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Sometimes you need to share data, and not just visualizations, directly with other people. HTML tables make this easy. While they have a complex history of use and misuse, HTML tables are great at their key purpose: presenting data. In this course, learn how to create table structures that fit your data precisely, are easy to style, and work well for sharing. Instructor Jen Kramer covers the essential skills you need to learn to display and format tabular data on the web. Watch and learn how to build tables with HTML, style tables with CSS, and make your tables accessible to users with disabilities on all types of devices.<br\/>Learning Objectives:<\/p><ul><li>Adding content to tables<\/li><li>Defining table headers<\/li><li>Styling borders<\/li><li>Alternating table row colors<\/li><li>Grouping columns<\/li><li>Styling table borders, headers, and footers<\/li><li>Making tables responsive<\/li><\/ul><p>Instructor<br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/jen-kramer\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Jen Kramer <\/a><br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/jen-kramer\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Teaches web design and development <\/a><\/p><\/div>",
@@ -1026,7 +850,7 @@
         "type":"eLearning",
         "title":"The Internet | Khan Academy",
         "duration":"1 hr 30 mins",
-        "learners_amount":"91 learners have completed this activity in the past 12 months.",
+        "learners_amount":"90 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 7 learners in the past 12 months.",
         "star_num_ratings":"7",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This is <strong>The Internet<\/strong> unit from an online, self-paced review course for Computer Science Principles. This unit covers how the Internet works. Learn about the physical layer (Ethernet, Fiber, WiFi), the protocols (IP, TCP, UDP, DNS, HTTP), the World Wide Web, and the digital divide. \u00a0<br\/><br\/>\n You will find short instructional content offerings, videos, and sample quiz questions to practice what you've learned and \"level up\" on your skills.<br\/><br\/><strong>Note<\/strong>: It is designed to prepare for a U.S. college examination, however the computer science content is valuable more broadly.<br\/><br\/>\n The topics include:<\/p>\n<ul>\n<li>Introducing the Internet<\/li>\n<li>Connecting networks<\/li>\n<li>Addressing the Internet<\/li>\n<li>Routing with redundancy<\/li>\n<li>Transporting packets<\/li>\n<li>Web protocols<\/li>\n<li>Scalable systems<\/li>\n<li>The Internet protocol suite<\/li>\n<li>Open protocol development<\/li>\n<li>The digital divide<\/li>\n<\/ul>\n<p><br\/>\n The content is offered in English.<br\/><br\/>\n This learning activity is presented by Khan Academy.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete <\/strong>for completion credit.<\/p><\/div>",
@@ -1052,9 +876,9 @@
             "Technical skills - Web Development",
             "Lightcast Skills Taxonomy",
             "Application Programming Interface (API) Skill",
-            "Java (Programming Language) Skill",
+            "Customer Information Control System (CICS) Skill",
             "Communications Skill",
-            "Customer Information Control System (CICS) Skill"
+            "Java (Programming Language) Skill"
         ]
     },
     {
@@ -1081,7 +905,7 @@
         "type":"eLearning",
         "title":"Build Your First Web Pages With HTML and CSS | OpenClassrooms",
         "duration":"10 hrs",
-        "learners_amount":"2932 learners have completed this activity in the past 12 months.",
+        "learners_amount":"2956 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 32 learners in the past 12 months.",
         "star_num_ratings":"32",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Are you interested in making web pages? Look no further! In this course, you will learn how to use <strong>HTML5 <\/strong>and <strong>CSS3<\/strong>, the two types of code upon which all websites are based.<br\/><br\/>\n You don't need to have any programming skills yet in order to take this course! HTML and CSS are great entry points to the world of code and are necessary languages for any developer or web designer to know.\u00a0Create your page's content with HTML, and make it look great with CSS. You'll learn all about these two languages and how they work together to render all your favorite websites.<br\/><br\/>\n This course is presented by OpenClassrooms. You will need to register for a free account.<br\/><br\/><strong>Language<\/strong>: English, and some components are offered in French<br\/><strong>Prerequisite<\/strong>: None<br\/><strong>Learning outcomes<\/strong>:<\/p>\n<ul>\n<li>Build a first web page with HTML and CSS<\/li>\n<li>Distinguish between HTML and CSS and identify their separate uses<\/li>\n<li>Identify and apply correct syntax for common HTML elements<\/li>\n<li>Explain how semantic HTML tags are used to structure a web page<\/li>\n<li>Use tags and attributes to identify key information within a page<\/li>\n<li>Identify and use correct CSS syntax<\/li>\n<li>Apply CSS to HTML elements<\/li>\n<\/ul>\n<p><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
@@ -1098,52 +922,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-08D6D135B771",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Fundamentals of Web apps",
-        "duration":"3 hrs",
-        "learners_amount":"23371 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 110 learners in the past 12 months.",
-        "star_num_ratings":"110",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><ul>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#http-get\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">HTTP GET<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#traditional-web-applications\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Traditional web applications<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#running-application-logic-on-the-browser\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Running application logic on the browser<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#event-handlers-and-callback-functions\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Event handlers and Callback functions<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#document-object-model-or-dom\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Document Object Model or DOM<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#manipulating-the-document-object-from-console\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Manipulating the document-object from console<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#css\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">CSS<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#loading-a-page-containing-java-script-revised\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Loading a page containing JavaScript - revised<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#forms-and-http-post\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Forms and HTTP POST<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#ajax\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">AJAX<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#single-page-app\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Single page app<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#javascript-libraries\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Javascript-libraries<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#full-stack-web-development\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Full stack -web development<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#javascript-fatigue\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Javascript fatigue<\/a><\/li>\n<\/ul><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "JavaScript (Programming Language) Skill",
-            "Cascading Style Sheets (CSS) Skill",
-            "Web Development Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-97241E9ADCC8",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Building Great Forms with HTML and CSS",
-        "duration":"6 hrs 59 mins",
-        "learners_amount":"132 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 4 learners in the past 12 months.",
-        "star_num_ratings":"4",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>While creating forms with HTML and CSS is a core web development skill, making great forms requires a lot more than the basics. Emily Kay brings her years of experience working with customers and developers to explain how to create forms people will find useful and even enjoyable. Learn how to set up a basic form and add buttons, toggle switches, date pickers, and more. Become well-versed in form-specific CSS techniques and tricks, and add JavaScript to catapult your forms to the next level. Emily takes you through four start-to-finish projects featuring the most popular types of web forms: login, booking, payment, and search forms. Plus, learn how to incorporate accessibility and form validation and build a post-submission success page to let users know their entries have been accepted.<br\/><br\/>Note: Usability and layout considerations differ based on device and platform. All of the forms built in this course work equally well on mobile devices and desktops as well as all of the modern browsers.<br\/>Learning Objectives:<\/p><ul><li>Setting up a basic HTML form<\/li><li>GET and POST methods<\/li><li>Working with labels<\/li><li>Using the new input types and attributes<\/li><li>Creating buttons<\/li><li>Styling labels and inputs with CSS<\/li><li>Floating labels<\/li><li>Creating a login or registration form<\/li><li>Creating a booking form<\/li><li>Creating a payment form<\/li><li>Creating search forms<\/li><li>Creating cross-device and platform-friendly forms<\/li><li>Making sure forms are accessible<\/li><li>Validating form data<\/li><li>Creating a success page for form submission<\/li><\/ul><p>Instructor<br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/emily-kay\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Emily Kay <\/a><br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/emily-kay\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Web Developer and Graphic Designer <\/a><\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "JavaScript (Programming Language) Skill",
-            "HyperText Markup Language (HTML) Skill",
-            "Cascading Style Sheets (CSS) Skill",
-            "Usability Skill",
-            "Web Development Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-83CAB61424AC",
         "category":"web_development",
         "type":"eLearning",
         "title":"HTML: Images and Figures",
         "duration":"1 hr 2 mins",
-        "learners_amount":"130 learners have completed this activity in the past 12 months.",
+        "learners_amount":"131 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 5 stars by 6 learners in the past 12 months.",
         "star_num_ratings":"6",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The web offers more and more ways to make your graphics accessible, reliably placed, and a smooth fit for a variety of different screens. It's not just IMG anymore. In this course, join J. David Eisenberg as he provides a comprehensive exploration of the many ways to present graphics on web pages. Learn about different image formats\u2014including GIF, PNG, and JPEG\u2014and discover how to adjust and style images using CSS. Plus, learn about the principles of responsive design, how to use the figure and figcaption elements to caption images, and more.<br\/>Learning Objectives:<\/p><ul><li>Using the img element<\/li><li>Resizing images<\/li><li>Obtaining images for your website<\/li><li>Image formats and when to use them<\/li><li>Styling images with CSS<\/li><li>Adjusting borders, margins, and padding<\/li><li>Adding background images<\/li><li>Testing screen resolutions<\/li><li>Autonumbering figures with CSS<\/li><\/ul><\/div>",
@@ -1161,7 +945,7 @@
         "type":"eLearning",
         "title":"Crafting Meaningful HTML",
         "duration":"2 hrs 22 mins",
-        "learners_amount":"69 learners have completed this activity in the past 12 months.",
+        "learners_amount":"70 learners have completed this activity in the past 12 months.",
         "star_rating":null,
         "star_num_ratings":null,
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">HTML is a powerful tool kit that gives your code superpowers, if you choose to use them. Thanks to the built-in behaviors in HTML, you can reduce the amount of explicit code you need. Structure your documents so that they work well as well as look good, and you can make your content available to more people and more programs. In this course, Jen Kramer shows you how to craft semantic, meaningful HTML, demystifying essential HTML tags and attributes along the way. She helps you make sure your pages (including elements like navigation) are properly structured and sectioned, and shows how to use the language's unique features for representing quotes, figures, dates, and times.<br\/>Learning Objectives:<ul><li>Structuring documents<\/li><li>Identifying headings and paragraphs<\/li><li>Adding semantic navigation<\/li><li>Working with ordered, unordered, and definition lists<\/li><li>Adding links and emphasized text<\/li><li>Adding images, quotes, and line breaks<\/li><li>Identifying semantic problems<\/li><\/ul>Instructor<br\/>Jen Kramer<br\/>Teaches web design and development<\/div>",
@@ -1178,7 +962,7 @@
         "type":"eLearning",
         "title":"HTML5: Structure, Syntax, and Semantics",
         "duration":"3 hrs 34 mins",
-        "learners_amount":"70 learners have completed this activity in the past 12 months.",
+        "learners_amount":"71 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4.5 stars by 11 learners in the past 12 months.",
         "star_num_ratings":"11",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Gain a deeper understanding of HTML5, and learn how to create richer, more meaningful webpages with HTML5 structural tags and enhanced semantic markup. In this course, senior author James Williamson presents an overview of HTML5, demystifies the language's new tags and attributes, and discusses how browsers parse and display HTML5 content. He'll help you make sure your pages (including elements like navigation) are properly structured and sectioned, and show how to use HTML5's unique features for representing quotes, figures, and dates and times. You'll also discover how to extend meaning and make content more accessible with comments, meta- and microdata, and ARIA roles\u2014elements which lead to better experiences for website visitors and development colleagues alike.<br\/>Learning Objectives:<\/p><ul><li>What are web semantics?<\/li><li>Understanding HTML5 content models<\/li><li>Supporting older browsers<\/li><li>Structuring and defining HTML5 documents<\/li><li>Using headings<\/li><li>Building navigation<\/li><li>Nesting and grouping content<\/li><li>Working with HTML5 lists<\/li><li>Defining link relationships<\/li><li>Writing comments<\/li><li>Working with meta tags<\/li><li>Using microdata<\/li><\/ul>Instructor<br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/james-williamson\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">James Williamson <\/a><br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/james-williamson\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Adobe Certified Instructor <\/a><\/div>",
@@ -1190,33 +974,12 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-CF870460EAE5",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Learning Web Audio and Video with HTML and CSS",
-        "duration":"1 hr 29 mins",
-        "learners_amount":"117 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 5 stars by 3 learners in the past 12 months.",
-        "star_num_ratings":"3",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Need to share video or audio on your sites, but dropping it on YouTube or a podcasting engine isn't an option? Native web technologies\u2014HTML, CSS, and JavaScript\u2014provide direct support for audio and video, letting you incorporate media and fully customize the playback experience. This introductory course with instructor Joseph Labrecque helps you build interactive audio and video into your websites and applications. First review the basics of HTML5 media elements and their attributes. Then discover how to embed media, support fallbacks, and adjust size, volume, and other important settings. Next, learn how to customize interfaces to standardize the look and functionality of your player across different browsers. Plus, find out how to make the user experience fully interactive with the HTML5 Media API.<br\/>Learning Objectives:<\/p><ul><li>Linking to media<\/li><li>Embedding media<\/li><li>Modifying your document for audio and video<\/li><li>Specifying audio sources<\/li><li>Specifying video height and width<\/li><li>Ensuring accessibility<\/li><li>Creating playback controls<\/li><li>Styling playback controls<\/li><li>Working with the HTML5 Media API<\/li><\/ul><p>Instructor<br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/joseph-labrecque\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Joseph Labrecque <\/a><br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/joseph-labrecque\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Senior Interactive Software Engineer, Adobe Educator, Studio Head <\/a><\/p><\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "Cascading Style Sheets (CSS) Skill",
-            "HTML5 Skill",
-            "Application Programming Interface (API) Skill",
-            "Software Engineering Skill",
-            "HyperText Markup Language (HTML) Skill"
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-9B69362DAD33",
         "category":"web_development",
         "type":"eLearning",
         "title":"HTML and CSS",
         "duration":"4 hrs 28 mins",
-        "learners_amount":"415 learners have completed this activity in the past 12 months.",
+        "learners_amount":"418 learners have completed this activity in the past 12 months.",
         "star_rating":"Average rating of 4 stars by 60 learners in the past 12 months.",
         "star_num_ratings":"60",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Cascading Style Sheets (CSS) is a stylesheet language that allows you to control the appearance of your webpages. In this hands-on course, Christina Truong demonstrates the concepts that form the foundation of CSS, explaining what you need to know to tweak existing CSS and write your own. Christina explains how to add colors and other design elements to take your webpages beyond just black text on a white background. She shows how to use selectors, how the box model defines the spacing and sizing of page elements, and how to style text and manage basic layouts with Flexbox and Grid. She also covers working with advanced selectors, creating fluid layouts, and determining when to use the float and position properties. Plus, at the end of the course, you'll walk away with an actual project\u2014an online r\u00e9sum\u00e9 page.<br\/>Learning Objectives:<\/p><ul><li>Writing basic selectors<\/li><li>Setting properties<\/li><li>Cascade and inheritance<\/li><li>Setting a font family, font size, text color, and more<\/li><li>Working with the box model<\/li><li>Leveraging Grid and Flexbox<\/li><li>Using the float and position properties<\/li><li>Working with advanced selectors<\/li><li>Creating fluid layouts<\/li><\/ul><p>Instructor<br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/christina-truong\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Christina Truong <\/a><br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/christina-truong\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Educator, Front-End Developer <\/a><\/p><\/div>",
@@ -1224,78 +987,28 @@
             "Learning Domain",
             "Technical skills - Web Development",
             "Lightcast Skills Taxonomy",
-            "Front End (Software Engineering) Skill",
             "Cascading Style Sheets (CSS) Skill",
+            "Front End (Software Engineering) Skill",
             "HyperText Markup Language (HTML) Skill"
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-265",
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-E50C4767C428",
         "category":"web_development",
         "type":"eLearning",
-        "title":"Website Testing and Deployment",
-        "duration":"2 hrs 10 mins",
-        "learners_amount":"39168 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 650 learners in the past 12 months.",
-        "star_num_ratings":"650",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will explore how developers thoroughly test website code before enabling public access to their sites. You\u2019ll discover how teams use version control systems to speed up the delivery of new features and functionality to their users. And you\u2019ll learn about the tools and processes developers use to streamline and simplify the deployment of their websites to their servers or the cloud.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<ul><li>Identify different types of website testing and the areas to test<\/li><li>Describe the advantages of automated testing<\/li><li>Explain version control systems for web development<\/li><li>Identify the steps to publish a website<\/li><li>Differentiate between continuous delivery and continuous deployment<\/li><li>Describe the purpose, benefits, and workflow process in the DevOps lifecycle<\/li><li>Describe responsive design and its importance<\/li><li>Explain delivering web content as a website and delivering web content in a web application<\/li><li>Differentiate between containers and virtual machines<\/li><li>Identify methods and common tools to test and automate the deployment of websites<\/li><li>Explain cloud computing for web development and deployment<\/li><li>Explain containerization for website development and deployment<\/li><\/ul><\/div>",
+        "title":"HTML: Structured Semantic Data",
+        "duration":"1 hr 34 mins",
+        "learners_amount":"90 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 4 learners in the past 12 months.",
+        "star_num_ratings":"4",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Web development focuses on creating highly visual content, but many crawlers ignore the layouts and imagery that give human readers context. To aid Google Search and other bots, you can use structured semantic data. This invisible but critical metadata determines how your sites appear online and can help boost your search rankings. In this course, Jen Kramer shows how to add data structured for machine readers to pages also intended for humans. Learn how to describe content in schemas, use meta tags, and leverage tools like the Structured Data Markup Helper and Structured Data Testing Tool\u2014both from Google\u2014to add microdata and JSON-LD code to your pages. In chapter three, Jen provides several structured data examples as well as a challenge to test your ability to provide rich search results.<br\/>Learning Objectives:<\/p><ul><li>Describing elements with schemas<\/li><li>Embedding schemas in schemas<\/li><li>Using the Structured Data Markup Helper<\/li><li>Making up a document with microdata<\/li><li>Making up a document with JSON-LD<\/li><li>Testing your structured markup<\/li><\/ul><p>Instructor<br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/jen-kramer\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Jen Kramer <\/a><br\/><a href=\"https:\/\/www.linkedin.com\/learning\/instructors\/jen-kramer\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Teaches web design and development <\/a><\/p><\/div>",
         "tags":[
-            "Badge Learning",
-            "Web Development Fundamentals",
             "Learning Domain",
             "Technical skills - Web Development",
+            "Technical skills - Data",
             "Lightcast Skills Taxonomy",
-            "DevOps Skill",
-            "Web Development Skill",
-            "Workflow Management Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-266",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Develop an Interactive Task List Web Page",
-        "duration":"1 hr 50 mins",
-        "learners_amount":"21917 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 424 learners in the past 12 months.",
-        "star_num_ratings":"424",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll practice building an interactive task list web page in a series of simulations. You\u2019ll develop code files that lay out the structure of a web page with HTML, add styles with CSS, develop interactions with JavaScript, and then test that your web page functions as expected.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<ul><li>Identify the tools and skills to develop a web page<\/li><li>Review requirements and a wireframe diagram to help inform web development<\/li><li>Use Visual Studio Code (VS Code) as an integrated development environment (IDE) tool to set up project files and develop a web page<\/li><li>Create a basic HTML structure to lay out a web page<\/li><li>Use CSS to add styles to a web page<\/li><li>Use JavaScript to create interactive elements on a web page\u00a0\u00a0\u00a0<\/li><li>Perform a simple functional test on a web page<\/li><\/ul><\/div>",
-        "tags":[
-            "Badge Learning",
-            "Web Development Fundamentals",
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "Cascading Style Sheets (CSS) Skill",
             "HyperText Markup Language (HTML) Skill",
-            "JavaScript (Programming Language) Skill",
-            "Wireframing Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-262",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Developing Sites for the Web",
-        "duration":"1 hr 40 mins",
-        "learners_amount":"45793 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 969 learners in the past 12 months.",
-        "star_num_ratings":"969",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn how web developers create websites. You will learn about common web development languages including HTML, CSS, and JavaScript, and how they have evolved. You will also learn about the software development lifecycle and ways that an agile approach improves web development.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<ul><li>Identify the purpose of web browsers<\/li><li>Describe markup languages and the challenges they can overcome<\/li><li>Explain the structure, functions, and evolution of HTML<\/li><li>Identify improvements that HTML5 introduced<\/li><li>Explain the features and functions of CSS<\/li><li>Explain the features and functions of JavaScript<\/li><li>Identify the ways JavaScript interacts with CSS and HTML<\/li><li>Identify phases in the software development lifecycle (SDLC)<\/li><li>Differentiate between waterfall and agile approaches to development<\/li><li>Highlight the scrum framework<\/li><\/ul><\/div>",
-        "tags":[
-            "Badge Learning",
-            "Web Development Fundamentals",
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "Cascading Style Sheets (CSS) Skill",
-            "HyperText Markup Language (HTML) Skill",
-            "Scrum (Software Development) Skill",
-            "Software Development Life Cycle Skill",
-            "JavaScript (Programming Language) Skill",
-            "Systems Development Life Cycle Skill",
-            "Agile Methodology Skill",
-            "HTML5 Skill"
+            "Web Development Skill"
         ]
     },
     {
@@ -1304,9 +1017,9 @@
         "type":"eLearning",
         "title":"Introduction to HTML and CSS",
         "duration":"2 hrs",
-        "learners_amount":"42717 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 808 learners in the past 12 months.",
-        "star_num_ratings":"808",
+        "learners_amount":"43208 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 809 learners in the past 12 months.",
+        "star_num_ratings":"809",
         "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will learn about the basic structure of an HTML document and common elements to build a web page. You\u2019ll explore HTML attributes and understand the importance of organizing information. In addition, you will gain insight into CSS and explore the CSS box model. Finally, you will learn about the best practices web developers use for writing HTML and CSS.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<ul><li>Describe how web developers use HTML elements to build a web page<\/li><li>Identify and explain common HTML elements<\/li><li>Define HTML attributes and uses<\/li><li>Identify and explain common attributes<\/li><li>Identify coding organization techniques that benefit web developers and users<\/li><li>Describe methods and techniques to apply CSS to HTML<\/li><li>Describe the CSS box model and the components of CSS boxes<\/li><li>Describe best practices for writing HTML and CSS<\/li><li>Describe key features of an integrated development environment (IDE) that help improve workflow for web developers<\/li><\/ul><\/div>",
         "tags":[
             "Badge Learning",
@@ -1320,117 +1033,6 @@
         ]
     },
     {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-A61FF30025B4",
-        "category":"web_development",
-        "type":"Document",
-        "title":"Equal Access Toolkit by IBM",
-        "duration":"30 mins",
-        "learners_amount":"267 learners have completed this activity in the past 12 months.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><strong>Design, build, and test like an accessibility expert.<\/strong> This Toolkit is designed to inspire and guide you as you imagine and build delightful and inclusive experiences.<br\/><br\/>Although nearly <a href=\"https:\/\/www.cdc.gov\/ncbddd\/disabilityandhealth\/infographic-disability-impacts-all.html\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">1 in 4 adults<\/a> in the U.S. face some type of disability, an industry sample has found that in 2020 <a href=\"https:\/\/webaim.org\/projects\/million\/#facts\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">over 98 percent of home pages<\/a> had a detectable accessibility error. Accessibility can be forgotten or left until too late in the process when it is difficult to retrofit the site or application. Knowledge, discipline, and tools are all essential to building in accessibility throughout a development process.<br\/>That's why IBM created an open source offering and design toolkit that give designers and developers the tools they need to make their websites and applications accessible.<br\/><a href=\"https:\/\/www.ibm.com\/able\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">The Equal Access Toolkit and Checker<\/a> are tools for developers and testers to use to embed accessibility directly into their workflow.<ul><li>The <a href=\"https:\/\/www.ibm.com\/able\/toolkit\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">IBM Equal Access Toolkit<\/a> is a public set of guidelines that deliver phase-based guidance about accessibility to all members of a team creating an enterprise offering.<\/li><li>The <a href=\"https:\/\/www.ibm.com\/able\/toolkit\/tools\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Accessibility Checker<\/a> is part of an open suite of automation tools. It is a browser extension that allows developers or auditors to evaluate a web-based component or solution for accessibility issues.<\/li><\/ul>Specifically the project offers:<ul><li>Clear guidance on what\u2019s needed at each stage of development, from initial research through planning, design, development, verification and launch.<\/li><li>A prioritized breakdown of accessibility requirements at each stage<\/li><li>Test automation<\/li><li>Browser-based accessibility checking with powerful navigation and built-in help that supports learning exactly the right information, at exactly the right time<\/li><\/ul>Ensuring all team members are responsible for accessibility<br\/>All of the tools are built on the same rules engine that is kept up to date to meet the latest accessibility standards and share guidance elements so that all team members can be responsible for accessibility. Each guideline comes in bite-sized snippets to highlight where team members should focus their attention and get the most value at the most efficient pace.<br\/>The toolkit enables product teams to create accessible tools along the way without the need for an accessibility expert or formal education. At the same time, designers and developers can fill in gaps as they go without a loss of continuity.<\/div>",
-        "tags":[
-            "Learning Domain",
-            "Technical skills - IT Project Management",
-            "Lightcast Skills Taxonomy",
-            "Workflow Management Skill",
-            "Auditing Skill",
-            "Automation Skill",
-            "Planning Skill",
-            "Research Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-264",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Bringing Websites to Life with JavaScript",
-        "duration":"2 hrs",
-        "learners_amount":"40921 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 611 learners in the past 12 months.",
-        "star_num_ratings":"611",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn how web developers use JavaScript with HTML to create dynamic websites. You\u2019ll examine JavaScript syntax and how variables, functions, expressions, and events operate in JavaScript code. You\u2019ll explore how web developers use data in websites and MySQL code to work with the data. You\u2019ll also learn about Node.js and the advantages of using frameworks and libraries.<br\/><br\/><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<ul><li>Explain JavaScript syntax<\/li><li>Identify techniques web developers use to include JavaScript in HTML<\/li><li>Compare and contrast different programming models<\/li><li>Explain how to use code objects<\/li><li>Explain how variables, functions, expressions, operators, and events operate in JavaScript code for dynamic websites<\/li><li>Define common types of data<\/li><li>Identify the four primary database functions<\/li><li>Recognize simple MySQL syntax to create a database and work with data<\/li><li>Explain the purpose and function of Node.js<\/li><\/ul><br\/><strong>Prerequisites<\/strong><br\/>Before starting this course, you will need knowledge of:<ul><li>The basic functions of a computer and the layers of computer architecture<\/li><li>The structure of HTML, CSS, and JavaScript<\/li><\/ul><br\/>You can gain this knowledge by completing the <em>Web Development Basics<\/em> and <em>Developing Sites for the Web<\/em> courses in the <strong>Web Development Fundamentals<\/strong> learning plan.<\/div>",
-        "tags":[
-            "Badge Learning",
-            "Web Development Fundamentals",
-            "Learning Domain",
-            "Technical skills - Web Development",
-            "Lightcast Skills Taxonomy",
-            "Web Development Skill",
-            "Cascading Style Sheets (CSS) Skill",
-            "HyperText Markup Language (HTML) Skill",
-            "JavaScript (Programming Language) Skill"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-375",
-        "category":"web_development",
-        "type":"eLearning",
-        "title":"Working Collaboratively with Teams on UX Design Projects",
-        "duration":"1 hr 30 mins",
-        "learners_amount":"4117 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4 stars by 56 learners in the past 12 months.",
-        "star_num_ratings":"56",
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Effective collaboration with teams and stakeholders is key to successful UX design projects. In this course, you\u2019ll learn about cross-functional teams and their benefits. You\u2019ll discover the different roles on a UX design project team and the best practices to effectively collaborate with them. You\u2019ll identify the project team\u2019s role in making the user experience (UX) design adaptable to coding, including handing off design artifacts for development. Furthermore, you\u2019ll learn how UX designers review a developed product. Finally, you\u2019ll review an example case study that shows the project team members, their methods to collaborate, the design artifacts to be handed off, and the final review\u2019s feedback for the UX design project of a plant-selling e-commerce website.<br\/><br\/>\u00a0<\/p><p><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<br\/>\u00a0<\/p><ul><li>Describe a cross-functional team and its benefits<\/li><li>Differentiate between the roles on a UX design project team<\/li><li>Explain the best practices to communicate and collaborate\u00a0effectively as a UX design project team<\/li><li>Explain a developer\u2019s role through the overall stages of a UX\u00a0design project<\/li><li>Recognize the significance of communication between the design\u00a0and development teams<\/li><li>Describe the design artifacts to hand off for development<\/li><li>Explain the importance and criteria for reviewing and testing a\u00a0developed digital product<\/li><li>Explain the project standards and guidelines to document for a\u00a0UX design project<\/li><li>Describe the important considerations to properly manage files\u00a0and versions<\/li><li>Review an example UX design case study to make conclusions\u00a0about listing the project team members for the project,\u00a0identifying the ways to collaborate and the design artifacts to\u00a0hand off to the development team, and reviewing the final digital\u00a0product<\/li><\/ul><\/div>",
-        "tags":[
-            "Badge Learning",
-            "User Experience Design Fundamentals",
-            "Learning Domain",
-            "Technical skills - User experience design (UX Design)",
-            "Learning Domain Primary",
-            "UX design"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-3749C72117E2",
-        "category":"web_development",
-        "type":"Learning Plan",
-        "title":"User Experience Design Fundamentals (Earn a credential!)",
-        "duration":"About 12 hours",
-        "learners_amount":"2292 learners have completed this activity in the past 12 months.",
-        "star_rating":"Average rating of 4.5 stars by 234 learners in the past 12 months.",
-        "star_num_ratings":"234",
-        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Are you passionate about creating exceptional user experiences? UX design is a dynamic and in-demand field that focuses on crafting digital products that are intuitive, user-friendly, and visually appealing. Learn about design concepts and the UX design process, from conducting research to creating wireframes and prototypes to conducting usability tests and implementing feedback. Through an example UX design case study, apply your learning of UX design principles and practices. Finish by gathering tips and resources that can help you launch a great career in UX Design.\u00a0<br\/><br\/>\n Complete the following required courses to earn an industry-recognized IBM SkillsBuild digital credential called <strong>User Experience Design Fundamentals<\/strong>:<strong>\u00a0<\/strong><\/p>\n<ol>\n<li>Introduction to UX Design<\/li>\n<li>Conducting UX Research<\/li>\n<li>Building a Story-based Design<\/li>\n<li>Wireframing and Prototyping<\/li>\n<li>Conducting Usability Tests and Gathering Feedback<\/li>\n<li>Working Collaboratively with Teams on UX Design Projects<\/li>\n<li>Your Future in UX Design: The Job Landscape\u00a0<\/li>\n<\/ol>\n<p><br\/><strong>What you\u2019ll learn<\/strong>\u00a0<br\/>\n After completing <i>User Experience Design Fundamentals<\/i>, you should be able to:<\/p>\n<ul>\n<li>Explain user experience (UX) design and the qualities required to be a great UX designer<\/li>\n<li>Identify the methods and techniques to conduct UX research and create user personas<\/li>\n<li>Explain the value and process to create user stories, user journeys, and user flows, and solution sketches<\/li>\n<li>Differentiate between information architecture (IA) and a site map<\/li>\n<li>Explain the purpose and application of the different fidelities of wireframes<\/li>\n<li>Explain the value and techniques of prototyping<\/li>\n<li>Explain the goals, essential elements, and process to conduct usability tests and incorporate feedback to improve and finalize UX designs<\/li>\n<li>Identify the roles on a UX design project team and explain the benefits of working on a cross-functional team<\/li>\n<li>Identify the design artifacts to hand off for development<\/li>\n<li>Review an example UX design case study for a website redesign project to make conclusions about applying UX design principles and techniques<\/li>\n<li>Recognize the job market, responsibilities, and skill sets of roles in the UX design field, and resources and learning opportunities to explore<\/li>\n<\/ul>\n<p>\u00a0\u00a0<br\/>\n The knowledge and skills in these courses build on each other, so SkillsBuild recommends that you complete the courses in the order in which they are presented.\u00a0<br\/><br\/><strong>Language:<\/strong> English, Brazilian Portuguese, French, Spanish<br\/>\n \u00a0\u00a0<br\/>\n Select <strong>Enroll <\/strong>to enroll in this learning plan and get started!<\/p><\/div>",
-        "tags":[
-            "Badge Learning",
-            "000 All digital credentials",
-            "User Experience Design Fundamentals",
-            "Learning Domain",
-            "Technical skills - User experience design (UX Design)",
-            "Learning Domain Primary",
-            "UX design"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-ce744ad1-ca21-498e-a9ea-8c01f792977d",
-        "category":"web_development",
-        "type":"Digital Credential",
-        "title":"Web Development Fundamentals",
-        "duration":"Hours",
-        "learners_amount":"44569 learners have earned this digital credential.",
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This credential earner demonstrates knowledge of web development concepts, processes to develop, deploy, and test websites, and the tools and programming languages that web developers use. The individual has a conceptual understanding of how to develop an interactive website using HTML, CSS, and JavaScript in a simulated integrated development environment (IDE). The earner is aware of the job outlook in web development and is familiar with the skills required for success in various roles.<\/p>\n<p>\u00a0<\/p>\n<p><strong>Complete the learning here:<\/strong> <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-8749C02A78EC\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Web Development Fundamentals<\/a><\/p>\n<p>\u00a0<\/p>\n<p><strong>Languages:<\/strong> English, Arabic, Brazilian Portuguese, French, Spanish<\/p><\/div>",
-        "tags":[
-            "Fundamentals",
-            "All Fundamentals"
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-7a6704ec-591e-4b92-8be7-0cb7ad97bae0",
-        "category":"web_development",
-        "type":"Digital Credential",
-        "title":"IBM SkillsBuild Software Engineering for Web Developers Certificate",
-        "duration":"Months",
-        "learners_amount":null,
-        "star_rating":null,
-        "star_num_ratings":null,
-        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This credential earner has advanced web development skills and is proficient in HTML, CSS, JavaScript, Node.js, React.js, and MVC. The individual can build interactive web pages, integrate with MySQL and MongoDB, implement testing, and use cloud technologies for development and deployment. Through this curriculum, assessments, and experiential learning, the earner has developed workplace and career management skills and industry knowledge, preparing for a web developer career across industries.<\/p><\/div>",
-        "tags":[
-
-        ]
-    },
-    {
         "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1616447372894",
         "category":"web_development",
         "type":"Channel",
@@ -1438,50 +1040,8 @@
         "duration":null,
         "learners_amount":null,
         "star_rating":null,
-        "star_num_ratings":"1,250",
+        "star_num_ratings":"1,252",
         "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Web development is the practice of developing websites and web apps that live on the internet. It is a growing field with great career trajectory. Explore these learning activities to learn the basics about programming, understand its applications, try your hand at it, and perhaps consider a career in web development.\n<br\/>\n<br\/>\nYou have the option to complete the <strong>Web Development Fundamentals<\/strong> courses to earn an IBM-recognized digital credential!<\/div>",
-        "tags":[
-
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1616526732054",
-        "category":"web_development",
-        "type":"Channel",
-        "title":"Web Development: Learn HTML",
-        "duration":null,
-        "learners_amount":null,
-        "star_rating":null,
-        "star_num_ratings":"1,250",
-        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Every web developer must have an understanding of HTML, CSS, and JavaScript. Let's focus on <strong>HTML<\/strong>. HTML stands for Hypertext Markup Language. It is the standard markup language for creating web pages. HTML is the beginning of everything you need to know to create engaging web pages!\n<br\/>\n<br\/>\nExplore these learning activities to learn the basics of HTML and get some practice so you can become skilled in HTML programming.\n<br\/>\n<br\/>\nYou have the option to complete the <strong>Web Development Fundamentals<\/strong> courses to earn an IBM-recognized digital credential!<\/div>",
-        "tags":[
-
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1616451613577",
-        "category":"web_development",
-        "type":"Channel",
-        "title":"Web Development: Learn Cascading Style Sheets (CSS)",
-        "duration":null,
-        "learners_amount":null,
-        "star_rating":null,
-        "star_num_ratings":"1,250",
-        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Every web developer must have an understanding of HTML, CSS, and JavaScript. Let's focus on <strong>CSS<\/strong>. CSS stands for Cascading Style Sheets. It is a programming language used to style a web page. CSS describes how the HTML elements should display on screen, paper, or in other media. CSS saves a lot of work because it can control the layout of multiple web pages, all at once.\n<br\/>\n<br\/>\nExplore these learning activities to learn the basics of CSS and get some practice so you can become skilled in using CSS to style web pages.\n<br\/>\n<br\/>\nYou have the option to complete the <strong>Web Development Fundamentals<\/strong> courses to earn an IBM-recognized digital credential!<\/div>",
-        "tags":[
-
-        ]
-    },
-    {
-        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1616532512410",
-        "category":"web_development",
-        "type":"Channel",
-        "title":"Web Development: Learn JavaScript",
-        "duration":null,
-        "learners_amount":null,
-        "star_rating":null,
-        "star_num_ratings":"1,250",
-        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Every web developer must have an understanding of HTML, CSS, and JavaScript. Let's focus on <strong>JavaScript<\/strong>. JavaScript is the world's most popular programming language. It is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites.\n<br\/>\n<br\/>\nExplore these learning activities to learn the basics of JavaScript and get some practice so you can become skilled in JavaScript programming.\n<br\/>\n<br\/>\nYou have the option to complete the <strong>Web Development Fundamentals<\/strong> courses to earn an IBM-recognized digital credential!<\/div>",
         "tags":[
 
         ]
@@ -1494,7 +1054,7 @@
         "duration":null,
         "learners_amount":null,
         "star_rating":null,
-        "star_num_ratings":"1,250",
+        "star_num_ratings":"1,252",
         "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">GitHub is where millions of developers shape the future of software, together. It offers a cloud-based Git repository hosting service as well as version control. Explore these learning activities to get started with GitHub, understand its value to programmers, and build your skills as a GitHub user. \n<br\/>\n<br\/>\n You have the option to complete the <strong>Web Development Fundamentals<\/strong> courses to earn an IBM-recognized digital credential!<\/div>",
         "tags":[
 
@@ -1508,7 +1068,7 @@
         "duration":null,
         "learners_amount":null,
         "star_rating":null,
-        "star_num_ratings":"2,171",
+        "star_num_ratings":"2,178",
         "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>These recommendations are generated with Watson for the Essential skills: Web development interest area. People with a similar learning history or demographic profile tended to take these activities from this interest area.<\/p><\/div>",
         "tags":[
 

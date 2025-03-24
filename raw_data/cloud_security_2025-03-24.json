@@ -1,0 +1,824 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-C5FEA8B64B14",
+        "category":"cloud_security",
+        "type":"Video",
+        "title":"Cloud security | IBM SkillsBuild",
+        "duration":"4 mins",
+        "learners_amount":"112 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 7 learners in the past 12 months.",
+        "star_num_ratings":"7",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Cloud security is the collection of practices, technologies, and policies designed to make using cloud services safer.\u00a0 Watch this short video to give you a better understanding of cloud security and its essentialness for ensuring the confidentiality, integrity, and availability of data and services hosted in cloud environments.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-199",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Security Measures and Security Options in IBM Cloud",
+        "duration":"12 mins",
+        "learners_amount":"61 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 8 learners in the past 12 months.",
+        "star_num_ratings":"8",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces the learner to the security measures and security options within IBM Cloud including readiness, encryption and shared responsibility.<br\/><\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70503G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Architecture Considerations for IBM Cloud Security",
+        "duration":"30 mins",
+        "learners_amount":"12 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces architects to the key functions of the cloud security framework, endpoint security management services, IBM Cloud support for FedRAMP High Security requirements, security features of a VPC design, IBM Cloud access management, and security monitoring dashboards. Finally, this course will review some troubleshooting access issues.<\/p>This course introduces architects to the key functions of the cloud security framework.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-210",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Security and Monitoring Services",
+        "duration":"12 mins",
+        "learners_amount":"55 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 8 learners in the past 12 months.",
+        "star_num_ratings":"8",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces the learner to IBM Cloud security and monitoring services including monitoring, logging, the Activity Tracker, and IBMs Security Compliance Center.<br\/><\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-JI8IKPJICSM",
+        "category":"cloud_security",
+        "type":"Video",
+        "title":"What is Cloud Security? | IBM Technology",
+        "duration":"10 mins",
+        "learners_amount":"392 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 14 learners in the past 12 months.",
+        "star_num_ratings":"14",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Check out this lightboard video with Nataraj Nagaratnam from IBM Cloud as he maps out what cloud security is and explains how important it is for enterprises to incorporate it into their business operations.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.\n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, <strong> <\/strong>select <strong>Subtitles<\/strong>, <strong> <\/strong>select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "Cloud Security Skill",
+            "Business Operations Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-306",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Introduction to Data Management and Security in the Cloud",
+        "duration":"2 hrs",
+        "learners_amount":"3272 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 56 learners in the past 12 months.",
+        "star_num_ratings":"56",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will learn about the importance of cloud data security. You'll learn ways to identify vulnerabilities in cloud data security and describe the essential features of identity and access management (IAM). You'll explore the delivery of databases using the cloud with the database as a service (DBaaS) cloud model. And you'll learn about how to ensure cloud database integrity and security using data governance and data compliance. In the last module, you\u2019ll get a chance to put what you\u2019ve learned into practice by using a simulation to create an IBM Cloudant database and review the settings in the database.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to: \n<ul>\n<li>Explain why cloud data security is important<\/li>\n<li>Identify ways to mitigate different types of vulnerabilities in cloud data security<\/li>\n<li>Describe the features of identity and access management (IAM)<\/li>\n<li>Explain database as a service (DBaaS) and the benefits that it provides<\/li>\n<li>Identify ways cloud databases support data governance and data compliance<\/li>\n<li>Create an IBM Cloudant database and review its security settings<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Cloud Computing Fundamentals",
+            "Learning Domain",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA7169",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Security Expert Lecture Series: QRadar on Cloud",
+        "duration":"48 mins",
+        "learners_amount":"3 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course Drayton Graham, Senior Security Partner Technical Specialist, provides an overview and demonstration of IBM Security\u00ac\u00c6 QRadar\u00ac\u00c6 on Cloud.In this course Drayton Graham, Senior Security Partner Technical Specialist, provides an overview and demonstration of IBM Security\u00ac\u00c6 QRadar\u00ac\u00c6 on Cloud.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-C110075G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Monitoring and Managing Security Threats on IBM Cloud",
+        "duration":"30 mins",
+        "learners_amount":"24 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 4 learners in the past 12 months.",
+        "star_num_ratings":"4",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will learn an overview of monitoring and managing security threats on IBM Cloud. This course discusses the various security options that are available in IBM Cloud and how to apply code patterns to a solution.<\/p>This course identifies how to monitor and manage security threats on IBM Cloud. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cybersecurity"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-C110076G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Implementing and Managing Security Policies on IBM Cloud",
+        "duration":"42 mins",
+        "learners_amount":"17 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course teaches you how to deploy, configure, and enable IBM Cloud security policy solutions. In addition, as IBM Cloud Site Reliability Engineers (SRE), this course enhances your knowledge on IBM Cloud security policies including compliance, data security, privacy, and access management.<\/p>This course articulates how to implement and manage security policies on IBM Cloud. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "Security Policies Skill",
+            "Management Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA6771",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"How to monitor and protect Cloud Databases - Delivering Data Security for the Cloud",
+        "duration":"48 mins",
+        "learners_amount":"2 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Learn how to monitor and protect cloud databases using IBM Guardium in this event replay video from Master Skills University 2022.Learn how to monitor and protect cloud databases using IBM Guardium in this event replay video from Master Skills University 2022.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52922G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Applying IBM Cloud Security Best Practices",
+        "duration":"30 mins",
+        "learners_amount":"7 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will explore security best practices for IBM Cloud\u00ae. You review how to establish security practices. You review how to create secure accounts and grant users authorized access to resources while maintaining a secure environment. You also review cloud native security best practices and how to establish security throughout the entire development cycle. You apply what you already know about security best practices to meet client needs in a series of knowledge check points and activities based on the curriculum case study.<\/p>In this course, you will explore security best practices for IBM Cloud\u00ae. You review how to establish security practices. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70519G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Security and Compliance Center",
+        "duration":"12 mins",
+        "learners_amount":"5 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you should be able to learn how to integrate the IBM Cloud\u00ae Security and Compliance Center (SCC) with DevSecOps.<\/p>In this course, you should be able to learn how to integrate the IBM Cloud\u00ae Security and Compliance Center (SCC) with DevSecOps.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52806G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Services",
+        "duration":"30 mins",
+        "learners_amount":"94 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explains what types of services are included in the IBM Cloud\u00ae Catalog, including compute resources, container services, storage and database services, artificial intelligence and machine learning services, and security services.<\/p>This course explains what types of services are included in the IBM Cloud\u00ae Catalog, including compute resources, container services, storage and database services, and artificial intelligence.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70240G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Security and Compliance Services",
+        "duration":"2 hrs 12 mins",
+        "learners_amount":"36 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 5 learners in the past 12 months.",
+        "star_num_ratings":"5",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces Security and Compliance Services for IBM Cloud VMware Solutions. You will explore offerings that are available to ensure secure and compliant workloads, working with IBM's Security and Compliance Center, and typical use cases for the various security and compliance offerings.<\/p>This course introduces Security and Compliance Services for IBM Cloud VMware Solutions. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52802G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Introduction to IBM Cloud",
+        "duration":"30 mins",
+        "learners_amount":"65 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course examines the basic IBM Cloud\u00ae components, including the IBM Cloud platform, IBM Cloud platform security, and IBM Cloud hosting options.<\/p>This course examines the basic IBM Cloud\u00ae components, including the IBM Cloud platform, IBM Cloud platform security, and IBM Cloud hosting options.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70361G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Data Security",
+        "duration":"30 mins",
+        "learners_amount":"42 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 2 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course covers the various methods through which IBM Cloud can be used to secure an application. The course includes an overview of several IBM Cloud services and products, as well as information on security and governance requirements necessary for ensuring application security.\u00a0<\/p>This course covers the various methods through which IBM Cloud can be used to secure an application.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70353G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Features and Benefits",
+        "duration":"30 mins",
+        "learners_amount":"29 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course covers the fundamentals of IBM Cloud\u00ae features and benefits. This course also covers the benefits, features, and services needed to identify the best development and security practices to be successful on IBM Cloud.<\/p>This course covers the fundamentals of IBM Cloud\u00ae features and benefits.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70459G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Security Policies and Monitoring Threats",
+        "duration":"1 hr",
+        "learners_amount":"1 learner has completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explores IBM Cloud security and our security framework, Security Information and Event Management, and how SREs can effectively monitor security issues.<\/p>This course explores IBM Cloud security and our security framework, Security Information and Event Management, and how SREs can effectively monitor security issues.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52926G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Security and Compliance Goals",
+        "duration":"30 mins",
+        "learners_amount":"2 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will review cloud security and compliance goals. You will review the importance of cloud security and applying DevSecOps best practices. You will also how to deploy private endpoints in the cloud. You will apply the case study through a series of knowledge check points and activities.\u00a0<\/p>In this course, you will review cloud security and compliance goals. You will review the importance of cloud security and applying DevSecOps best practices.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70502G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Capabilities of Cloud Internet Services",
+        "duration":"30 mins",
+        "learners_amount":"3 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces Cloud Internet Services. You will learn about the capabilities and components that will enhance your workflow through security, reliability and performance when using IBM cloud.<\/p>This course introduces Cloud Internet Services. You will learn about the capabilities and components that will enhance your workflow through security, reliability and performance when using IBM cloud.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70504G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Encryption and Key Management Services",
+        "duration":"30 mins",
+        "learners_amount":"72 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces IBM Cloud Encryption and Key Management Services. To begin, you will review an introduction to data encryption by reviewing a couple of overall use cases. Then, you learn more about the benefits, functionality, and use cases for IBM Cloud Data Shield, Key Protect, App ID, Activity Tracker, IBM Cloud Hardware Security, IBM Cloud Hyper Protect Crypto Services, IBM Cloud Hyper Protect Virtual Servers, IBM Cloud Hyper Protect DBaaS, including solutions for PostgreSQL and MongoDB.<\/p>This course introduces IBM Cloud Encryption and Key Management Services.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70370G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Principles of IBM Cloud Professional Developer",
+        "duration":"30 mins",
+        "learners_amount":"15 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The Principles of IBM Cloud Professional Developer \u00a0badge is for learners who have learned the principles of application security, secure key management, and data security associated with development on IBM Cloud and use of IBM Cloud Kubernetes Service, IBM Cloud Code Engine and Red Hat OpenShift on IBM Cloud. This achievement is a stepping stone to earning the IBM Cloud Professional Developer certification.<\/p>The Principles of IBM Cloud Professional Developer badge is for learners who have learned the principles of application security, secure key management, and data security associated with development.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52832G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Technical Advocate Foundations",
+        "duration":"30 mins",
+        "learners_amount":"17 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The badge earner has developed fundamental knowledge of essential elements of the cloud, including cloud history, cloud service and deployment models, cloud use cases, cloud architecture, the IBM Cloud catalog, IBM Cloud documentation, and security compliance.\u00a0<\/p>\n<p>This achievement is a steppingstone to earning the IBM Cloud Technical Advocate certification.\u00a0<\/p>The IBM Cloud Technical Advocate Foundations badge represents your achievement in completing the learning associated with the essential elements of the cloud.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA5179",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Verify Cloud Identity Single Sign-On",
+        "duration":"12 mins",
+        "learners_amount":"11 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this video series by Jon Harry, you will learn how to add an application for Single Sign-On from IBM Security Verify (Cloud Identity) using the Verify Administration Console. With IBM Security Verify, enterprise applications that don't support federation can still be integrated for single sign-on, and administrators don't need to be experts in federation protocols to configure single sign-on to hundreds of popular SaaS applications.In this video series by Jon Harry, you will learn how to add an application for Single Sign-On from IBM Security Verify (Cloud Identity) using the Verify Administration Console. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52799G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Cloud Job Role Videos",
+        "duration":"30 mins",
+        "learners_amount":"37 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course provides an awareness of a few of the different job roles users of IBM Cloud\u00ae have. Videos describe how different job roles interact with IBM Cloud in slightly different ways to design, create, and support services and applications on IBM Cloud. Videos focus on the IBM Cloud Architect, IBM Cloud Developer, IBM Cloud Security Engineer, IBM Cloud Site Reliability Engineer, and the IBM Cloud Sales Engineer job roles.<\/p>This course provides an awareness of a few of the different job roles users of IBM Cloud\u00ae have. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Workforce readiness",
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52815G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Storage Security Options",
+        "duration":"30 mins",
+        "learners_amount":"6 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explains how role-based access control (RBAC) is used to secure solutions built on IBM Cloud\u00ae, the encryption options available on IBM Cloud, including the encryption options for storage when utilizing IBM Cloud VMware Solutions.\u00a0<\/p>This course explains how role-based access control (RBAC) is used to secure solutions built on IBM Cloud\u00ae, the encryption options available on IBM Cloud, including the encryption options for storage.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLATW200",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Verify (SaaS): User Introduction",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"30 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Do you want to learn how IBM Security Verify can secure your data and boost workplace productivity or delight your customers? In this course you learn about Identity and Access Management (IAM) and why it is an essential part of the workplace and consumer space. Learn how Verify software as a service can help your organization succeed.<\/p>Improve your knowledge about IAM and take a first step in learning the IBM Security Verify user interface. Realize the importance of using an IAM solution to guard your data and boost productivity.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70332G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Security Engineer Accelerator Badge",
+        "duration":"30 mins",
+        "learners_amount":"23 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The IBM Cloud Security Engineer Accelerator badge is for jam participants who have a fundamental knowledge of cloud security and are interested in developing skills to support the security of their organizations cloud presence. This achievement is a stepping stone to earning the IBM Cloud Security Engineer certification.<\/p>The IBM Cloud Security Engineer Accelerator badge is for jam participants who have a fundamental knowledge of cloud security.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "Cloud Security Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-C110089G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Troubleshoot inter service connectivity on IBM Cloud",
+        "duration":"30 mins",
+        "learners_amount":"24 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will learn how to troubleshoot inter service connectivity for Transit Gateways, Private and Service Endpoints, ACLs and Security Groups.<\/p>This course identifies the methods to troubleshoot inter service connectivity, as well as the limitations and user case for each type. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "Troubleshooting (Problem Solving) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007080G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Linux on IBM LinuxONE",
+        "duration":"3 hrs",
+        "learners_amount":"48 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course is for Linux Systems Administrators, Architects and Developers who are already familiar with Linux components and everyday tasks, but need a primer on how to best take advantage of the IBM LinuxONE platform. This includes working with the hardware, software, facilities, and processes unique to IBM LinuxONE.\u00a0 It is comprised of videos, links to online resources, and a final test for a badge.\u00a0<\/p>You'll learn about the hardware, architecture, networking, storage, and AI, Security, and Cloud capabilities which are available to make your applications perform their best.\u00a0 \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Artificial Intelligence",
+            "Lightcast Skills Taxonomy",
+            "Linux Skill",
+            "Artificial Intelligence Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70514G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Testing and Security",
+        "duration":"36 mins",
+        "learners_amount":"7 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you explore various toolchain testing strategies including shift-left test, peer code review, contract-driven, and test-driven. You will also review testing support in IBM Cloud\u00ae Continuous Delivery, use of Vulnerability Advisor, use of Code Risk Analyzer, and security testing at the application layer.\u00a0<\/p>In this course, you explore various toolchain testing strategies including shift-left test, peer code review, contract-driven, and test-driven. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52937G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Introduction to IBM Cloud Advanced Architect",
+        "duration":"30 mins",
+        "learners_amount":"24 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Welcome to the Advanced Certification Curriculum for the IBM Cloud\u00ae Architect job role.<\/p>\n<p>An IBM Certified Cloud Architect helps define the client's technical requirements and converts them into the architecture and design for a cloud solution on IBM Cloud. The Cloud Architect can define the scope and vision for projects that deliver customized solutions using knowledge of IBM platforms. In this curriculum, you will have an opportunity to apply those skills to presented client scenarios designing cloud solutions, compute options, security, observability and monitoring, and cloud migration. \u00a0\u00a0<\/p>Welcome to the Advanced Certification Curriculum for the IBM Cloud\u00ae Architect job role.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70355G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Schematics",
+        "duration":"30 mins",
+        "learners_amount":"28 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course covers the fundamentals of IBM Cloud\u00ae Schematics. This course includes the features and key capabilities of IBM Cloud Schematics, benefits for the developer, and use cases. This course also briefly mentions security and compliance as it pertains to IBM Cloud Schematics.\u00a0<\/p>This course covers the fundamentals of IBM Cloud\u00ae Schematics. This course includes the features and key capabilities of IBM Cloud Schematics, benefits for the developer, and use cases.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70360G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Container Security",
+        "duration":"30 mins",
+        "learners_amount":"12 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course covers the fundamentals of creating a cloud-based application. This course includes information on microservices architecture, containerization, Kubernetes, and DevOps practices. In addition, this course covers how to deploy containerized applications on IBM Cloud using Red Hat OpenShift, and how to secure and manage those applications using various tools and techniques, including service accounts, access policies, and key management.\u00a0<\/p>This course covers the fundamentals of creating a cloud-based application.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL06010G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Power10 Technical Fundamentals",
+        "duration":"2 hrs",
+        "learners_amount":"25 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course covers the technical fundamentals of IBM Power10 processor and servers.<\/p>\n<p>\u00a0<\/p>\n<p>Power10 processor-based servers use the capabilities of the latest Power10 processor technology to deliver unprecedented security, reliability, and manageability for your cloud and cognitive strategy that provides industry-leading price and performance for your mission-critical workloads.<\/p>\n<p>\u00a0<\/p>\n<p>Servers IBM Power S1014, S1022s, S1022, S1024, E1050 and E1080 are covered.\u00a0<\/p>This course covers the technical fundamentals of IBM Power10 processor and servers. Servers IBM Power S1014, S1022s, S1022, S1024, E1050 and E1080 are covered. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52936G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Advanced Architect Options",
+        "duration":"30 mins",
+        "learners_amount":"8 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The IBM Cloud Advanced Architect Options badge is for learners who have a fundamental knowledge of applying IBM Cloud security best practices, IBM and client responsibilities for cloud resources, applying security compliance using various IBM Cloud security services, designing a VMware dedicated cluster, applying DevSecOps best practices, and configuring an IBM Cloud Monitoring instance. This achievement is a steppingstone to earning the IBM Cloud Advanced Architect certification.<\/p>This achievement is a steppingstone to earning the IBM Cloud Advanced Architect certification.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70486G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Architectural Overview: IBM Cloud Container Platforms",
+        "duration":"54 mins",
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course introduces the IBM Cloud Container Platforms. You will learn about the built-in security features of the IBM Cloud Kubernetes service and the common security threats that can be present in a cluster. You will learn about cluster networking for both classic and VPC networking applications. You will learn about the IBM Cloud Container Registry and how it is used for high availability of servers.\u00a0<\/p>This course introduces the IBM Cloud Container Platforms and the architectural benefits and application of IBM Cloud Container Platform Offerings.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-237",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Computing from Past to Present",
+        "duration":"2 hrs 15 mins",
+        "learners_amount":"8515 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 184 learners in the past 12 months.",
+        "star_num_ratings":"184",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn about milestone events in the history of computing. You will discover why key concepts like accessibility and security have become essential qualities of information technology.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to:\n<ul>\n<li>Describe milestone changes in computing over time<\/li>\n<li>Compare and contrast programs and modern applications<\/li>\n<li>Recognize the changes that the cloud is making to modern computing<\/li>\n<li>Define accessibility<\/li>\n<li>Recognize computer security fundamentals<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Information Technology Fundamentals",
+            "Learning Domain",
+            "Technical skills - Information Technology",
+            "Lightcast Skills Taxonomy",
+            "Information Technology Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-235",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Computer Basics",
+        "duration":"1 hr 20 mins",
+        "learners_amount":"26988 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 789 learners in the past 12 months.",
+        "star_num_ratings":"789",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn key concepts from computer parts and networking to security, support, and user identification. Discover the core computing area of the field of information technology (IT).\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to:\n<ul>\n<li>Describe what a computer is<\/li>\n<li>Identify the parts of a computer<\/li>\n<li>Compare and contrast local and cloud computing<\/li>\n<li>Explain the relationship between computer hardware and software<\/li>\n<li>Describe user identification and security<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Information Technology Fundamentals",
+            "Learning Domain",
+            "Technical skills - Information Technology",
+            "Lightcast Skills Taxonomy",
+            "Computer Hardware Skill",
+            "Information Technology Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA6740",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Configuring Guardium Data Protection Universal Connector for Oracle",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"8 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this lab, you learn how to create an Oracle user for IBM Security Guardium Universal Connector and configure the Universal Connector with Oracle Unified Audit.\u00a0The lab guide includes appendixes that document how to enable Unified Audit on an Oracle instance and on AWS RDS Oracle. Universal Connectors provide an agentless method for collecting activity and auditing log data from various cloud and on-premises data sources. The framework is easy to set up and configure, simple to maintain, and normalizes collected data, making it consumable for security applications. In this lab, you learn how to create an Oracle user for IBM Security Guardium Universal Connector and configure the Universal Connector with Oracle Unified Audit.\u00a0The lab guide inc\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA5622",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Configuring Verify Access as identity source for Verify SaaS",
+        "duration":"42 mins",
+        "learners_amount":"57 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 3 learners in the past 12 months.",
+        "star_num_ratings":"3",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This lab provides step-by-step instructions to integrate an on-premises Verify Access system to your IBM Security Verify tenant. You use Verify Access as a SAML Identity Provider to authenticate against a corporate LDAP directory and then assert the identity information to IBM Security Verify. IBM Security Verify offers Single Sign-On (SSO) capability to SaaS (Software as a Service) and cloud applications such as Microsoft Office 365, Google Apps, Workday, and Salesforce. You can configure Verify Access as an identity source for Verify. This connectivity enables Verify Access users to single sign-on to Verify, and then further single sign-on to SaaS applications.<\/p>This lab provides step-by-step instructions to integrate an on-premises Verify Access system to your IBM Security Verify tenant.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70224G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Satellite Flash Cards and Study Guides",
+        "duration":"2 hrs",
+        "learners_amount":"17 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The IBM Cloud Satellite study preparation content consists of study guides and flash cards the correlate with the online training courses in the IBM Cloud Satellite curriculum. These study materials provide the learner with content that will enable them to prepare for the certification examination. Content and practice questions focus on topics such as motivation for using IBM Cloud Satellite, the infrastructure requirements, setting up an IBM Cloud Satellite location, security for IBM Cloud Satellite, and deploying and debugging workloads on IBM Cloud Satellite locations.<\/p>The IBM Cloud Satellite study preparation content consists of study guides and flash cards the correlate with the online training courses in the IBM Cloud Satellite curriculum.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cybersecurity"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70498G",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Object Storage Capabilities and Options on IBM Cloud",
+        "duration":"30 mins",
+        "learners_amount":"3 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will review IBM Cloud storage, a highly available, durable, and secure platform for storing unsecured data. You will learn about storage classes, resiliency options, and encrypting data with the use of encryption keys for high security including what key protect and hypo protect crypto services have to offer. You\u2019ll explore immutable object storage and retention policies, how to use Aspera high-speed transfer, how to store large objects, and both the customer and IBM\u2019s responsibilities when using IBM Cloud Object Storage.<\/p>In this course, you will review IBM Cloud storage, a highly available, durable, and secure platform for storing unsecured data.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-8NJNUQSH4BS",
+        "category":"cloud_security",
+        "type":"Video",
+        "title":"Introducing the 2020 Red Hat Certified Professional of the Year | Red Hat",
+        "duration":"2 mins 41 s",
+        "learners_amount":"291 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 18 learners in the past 12 months.",
+        "star_num_ratings":"18",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Red Hat recognizes Red Hat Certified Professionals who demonstrate ingenuity, hard work, and expertise by making a difference in their organizations and in the community. <strong>Fabrice Harbulot<\/strong> has been named the 2020 Red Hat Certified Professional of the Year. Harbulot holds 14 different Red Hat certifications, including Red Hat Certified Architect (RHCA\u00ae) in Infrastructure Level VII. He is most proud of the RHCA credential, which represents Red Hat\u2019s highest level of certification. \u201cBecoming a Red Hat Certified Architect was the defining moment in my career,\u201d he said. Fabrice has developed skills and experience in cloud, DevOps, security, and high-availability systems. He has put that knowledge to work as a <strong>senior Linux systems engineer and technical leader with IBM<\/strong>, as well as a <strong>Linux administrator for Steria and Canal+ Group<\/strong>.<br\/><br\/>\n Hear from Fabrice Harbulot about his experiences in this video presented by Red Hat.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/><br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, <strong> <\/strong>select <strong>Subtitles<\/strong>, <strong> <\/strong>select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "DevOps Skill",
+            "Systems Engineering Skill",
+            "Linux Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/AB-097AFAD6221A",
+        "category":"cloud_security",
+        "type":"Video",
+        "title":"Zero Trust | IBM Security Learning Academy",
+        "duration":"5 hrs 15 mins",
+        "learners_amount":"125 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 6 learners in the past 12 months.",
+        "star_num_ratings":"6",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Zero trust is a philosophy and a strategy. More than a security strategy, it is an IT strategy done securely. A zero trust framework provides advanced protection from cyberthreats. This approach wraps security around every user, every device, every connection \u2014 every time.\n<br\/>\n<br\/>\nThis is series of short learning activities presented by the IBM Security Learning Academy.\n<br\/>\n<br\/>\nSee how to apply zero trust to help resolve top security challenges. A zero trust approach aims to wrap security around every user, every device, every connection \u2014 every time.\n<br\/>\n<br\/>\nIBM is focused on 4 zero trust business initiatives:\n<ul>\n<li>Zero trust for insider threat<\/li>\n<li>Zero trust for privacy<\/li>\n<li>Zero trust for hybrid cloud<\/li>\n<li>Zero trust for remote workforce<\/li>\n<\/ul>\n<br\/>\nAll courses contain videos that are organized by the categories you see below. They are free of charge. You will complete them in the IBM Security Learning Academy.\n<ul>\n<li>Select a category to view a description of the courses.<\/li>\n<li>Select a course to read its description.<\/li>\n<li>Click the <strong>Enroll me <\/strong>button.<\/li>\n<li>Then, you will be prompted to log in. For first time users, your User ID must be the email address linked to your IBMid. If you don't have an IBMid, you will create one.<\/li>\n<li>You will get completion credit in the IBM Security Learning Academy.<\/li>\n<\/ul>\n<br\/>\nHave fun exploring!\n<br\/>\n<br\/>\n&gt; When you complete all courses, be sure to return to page to select <strong>Mark Complete<\/strong> for completion credit on IBM SkillsBuild.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA3712",
+        "category":"cloud_security",
+        "type":"eLearning",
+        "title":"Configuration and benefits of an AWS log source in QRadar",
+        "duration":"12 mins",
+        "learners_amount":"5 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Amazon Web Services (AWS)\u00a0CloudTrail is a service that enables operational and risk auditing of your AWS account. It collects\u00a0audit events from Amazon S3 buckets and a Log group in the AWS CloudWatch Logs.\u00a0CloudTrail allows you to continuously monitor your AWS account activity including actions taken through the Management Console, AWS SDKs, command line, and other services. QRadar connects through Amazon Web Services' API to retrieve the CloudTrail events,\u00a0providing event parsing that not only allows for monitoring of your AWS account activity, but also for newly created rules to alert on possible AWS Security violations. AWS-related saved searches are used for reporting, which allows for analyzing trends on policy and user\/group changes, and more. In this video, you learn\u00a0how to configure QRadar to retrieve logs from an AWS cloud environment source. Two use cases demonstrate how useful this integration can be to your cloud security posture.Amazon Web Services (AWS)\u00a0CloudTrail is a service that enables operational and risk auditing of your AWS account. It collects\u00a0audit events from Amazon S3 buckets and a L\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-2EC3A305F2C3",
+        "category":"cloud_security",
+        "type":"Learning Plan",
+        "title":"Cloud Computing Fundamentals (Earn a credential!)",
+        "duration":"About 10 hours",
+        "learners_amount":"2575 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 199 learners in the past 12 months.",
+        "star_num_ratings":"199",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Computer and information technology (IT) jobs are in demand and the cloud market is growing. The cloud is driving technological innovation and serving as the foundation for business innovation. Are you ready for this and the future ahead? Learn the basics of cloud computing, service models, deployment models, software, and the many ways businesses benefit from cloud technology. Then, get practice working with cloud computing in a series of simulations to build and deploy\u00a0a Docker container and create and review the security settings for an IBM Cloudant database. Finish by gathering tips and resources that can help you launch a great career in cloud computing. \n<br\/>\n<br\/>\n Complete the following required courses to earn an industry-recognized IBM SkillsBuild digital credential called <strong>Cloud Computing Fundamentals<\/strong>:\u00a0 \n<ol>\n<li>Introduction to Cloud Computing\u00a0\u00a0<\/li>\n<li>Understanding Cloud Computing Services\u00a0\u00a0<\/li>\n<li>Understanding Cloud Deployment Models\u00a0\u00a0<\/li>\n<li>Virtualization in the Cloud\u00a0<\/li>\n<li>Developing and Deploying Software in the Cloud\u00a0\u00a0<\/li>\n<li>Introduction to Data Management and Security in the Cloud\u00a0\u00a0<\/li>\n<li>Your Future in Cloud Computing: The Job Landscape\u00a0\u00a0<\/li>\n<\/ol>\n<br\/><strong>What you\u2019ll learn<\/strong>\u00a0 \n<br\/>\n After completing <em>Cloud Computing Fundamentals<\/em>, you should be able to:\u00a0 \n<ul>\n<li>Define cloud computing, describe its characteristics, explain how local servers and the internet enable computers to share information, and identify problems that cloud computing solves<\/li>\n<li>Identify the characteristics of various cloud service models, proprietary and open source cloud solutions, services offered by the major cloud providers, and the value of cloud services to businesses<\/li>\n<li>Describe on-premises hosting, cloud migration plans, and cloud deployment models, including public, private, and hybrid cloud solutions<\/li>\n<li>Describe virtual resources, containers in the cloud, microservices in the cloud, application programming interfaces (APIs), and best practices for virtualization in cloud computing<\/li>\n<li>Create, install an application, and test a Docker container<\/li>\n<li>Describe the process to develop software in the cloud and the benefits of cloud orchestration<\/li>\n<li>Build and deploy a Docker container to the cloud<\/li>\n<li>Identify the importance of cloud security, vulnerabilities in cloud data security, features of identity and access management (IAM), database as a service (DBaaS) and its benefits, and the ways cloud databases support data governance and compliance<\/li>\n<li>Create and review the security settings of an IBM Cloudant database<\/li>\n<li>Recognize the job market, responsibilities and skill sets of cloud computing professionals, and resources and learning opportunities to explore<\/li>\n<\/ul>\n<br\/>\n The knowledge and skills in these courses build on each other, so SkillsBuild recommends that you complete the courses in the order in which they are presented.\u00a0 \n<br\/>\n \u00a0 \n<br\/><strong>Language:<\/strong> English\u00a0 \n<br\/>\n \u00a0 \n<br\/>\n Select <strong>Enroll<\/strong> to enroll in this learning plan and get started!\u00a0\u00a0<\/div>",
+        "tags":[
+            "Badge Learning",
+            "000 All digital credentials",
+            "Cloud Computing Fundamentals",
+            "Badge Learning - Academia",
+            "000 All digital credentials - Academia",
+            "Fundamentals",
+            "All Fundamentals",
+            "Learning Domain",
+            "Technical Skills - Cloud",
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-a66f704e-e0ef-4e8c-80a8-e127cd4c6007",
+        "category":"cloud_security",
+        "type":"Digital Credential",
+        "title":"Working in a Digital World: Essential Skills",
+        "duration":"Hours",
+        "learners_amount":"1336 learners have earned this digital credential.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Essential skills represent the industry knowledge and modern ways of working that professionals need to be successful in a digital innovation economy. This badge earner knows how to use and apply agile and design thinking methodologies and practices, and is aware of the key technologies that power today\u2019s jobs, including cloud computing, artificial intelligence, data and analytics, blockchain, and security.<\/p>\n<p>\u00a0<\/p>\n<p><strong>Language:<\/strong> Japanese<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-fd600bd9-7565-458c-b5d2-7b5b8b856eeb",
+        "category":"cloud_security",
+        "type":"Digital Credential",
+        "title":"Cloud Computing Fundamentals",
+        "duration":"Hours",
+        "learners_amount":"4623 learners have earned this digital credential.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This credential earner demonstrates knowledge of cloud computing, including cloud services, deployment models, virtualization, orchestration, and cloud security. The individual is aware of cloud benefits for users and businesses. The individual has a conceptual understanding of how to create a container, deploy a web app to the cloud, and analyze security in a simulated environment. The earner is aware of the job outlook in cloud computing and the skills required for success in various roles.<\/p>\n<p>\u00a0<\/p>\n<p><strong>Complete the learning here<\/strong>: <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-2EC3A305F2C3\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Cloud Computing Fundamentals<\/a><\/p>\n<p>\u00a0<\/p>\n<p><strong>Languages<\/strong>: English<\/p><\/div>",
+        "tags":[
+            "Fundamentals",
+            "All Fundamentals"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1617909184204",
+        "category":"cloud_security",
+        "type":"Channel",
+        "title":"VetJobs & Covered6 Cyber Basics",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"17",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Want to get into cybersecurity? Gain insight into landing a role in the most in-demand field. Interested in learning basic fundamentals? This channel gives you the foundations of Cyber, common practices, in addition to understanding the basics of cloud technology, cloud platforms and models. Also, get access to our CompTIA Security+ training course.\n<br\/>\n<br\/>This channel gives you the opportunity to earning a FREE Cybersecurity Fundamentals badge.\n<br\/>\n<br\/><strong>After this course is completed - l<\/strong><strong>et us help take you a step further:<\/strong>\n<ul>\n<li>Interested in an opportunity to earning a FREE Cybersecurity Fundamentals badge?<\/li>\n<li>Interested in more advanced Cyber related coursing?<\/li>\n<\/ul><strong>Reach out to your Counselor for questions and\/or further assistance<\/strong><strong>.<\/strong><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1590778379043",
+        "category":"cloud_security",
+        "type":"Channel",
+        "title":"Open Source Software",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"551",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Open source software allows for companies, projects, and enterprises to adopt a community-backed development model, where diverse communities of developers come together to solve problems, develop new technologies, and create better software. Open development models are the driving force behind much of the innovation we are seeing today around cloud computing, automation, artificial intelligence, big data, and machine learning. IT professionals with open source skills are in demand more than ever.<br\/><br\/>\n Start with Red Hat, the largest Open Source company in the world, by taking these courses to learn the fundamentals of Red Hat's open source products. Building skills in open source can lead to a career in Linux system administration, engineering, DevOps, cloud computing, networking, storage, security, and more.\u00a0<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1551384685793",
+        "category":"cloud_security",
+        "type":"Channel",
+        "title":"Essential Skills",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"625",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Essential skills represent the industry knowledge and modern ways of working that professionals need to be successful in a digital innovation economy. Learn how to use and apply agile and design thinking methodologies and practices, and be aware of the key technologies that power today\u2019s jobs. These technologies include cloud computing, artificial intelligence, data and analytics, the Internet of Things (IoT), blockchain, and security. \n<br\/>\n<br\/><strong>Note<\/strong>: Please choose one learning plan in your language to earn the badge.<\/div>",
+        "tags":[
+
+        ]
+    }
+]

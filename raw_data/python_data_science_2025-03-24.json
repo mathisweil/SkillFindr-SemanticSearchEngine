@@ -1,0 +1,137 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-B6CBEFCA2BFD",
+        "category":"python_data_science",
+        "type":"Learning Plan",
+        "title":"Applied Data Science with Python",
+        "duration":"Days",
+        "learners_amount":"2451 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 238 learners in the past 12 months.",
+        "star_num_ratings":"238",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Welcome to the <strong>Applied Data Science with Python learning plan<\/strong>! \n<ul>\n<li>You will learn how to code in Python for data science, then analyze and visualize data with Python with packages like scikit-learn, matplotlib, and bokeh.<\/li>\n<li>There are guided lectures and labs, to provide you with hands-on experience tackling interesting data problems.<\/li>\n<li>This is an action-packed learning plan for data science enthusiasts who want to work with real world problems using Python.<\/li>\n<\/ul>\n<br\/><strong>Courses<\/strong>: 3\n<br\/><strong>Badges<\/strong>: 4\n<br\/><strong>Language<\/strong>: English\n<br\/>\n<br\/>\nCome along and start your learning plan of <strong>three courses<\/strong> to receive a series of <strong>IBM-issued badges<\/strong> <strong> <\/strong>that culminate in earning the <strong>Applied Data Science with Python - Level 2 badge<\/strong>.\n<br\/>\n\u00a0 \n<ol>\n<li>Select <strong>Start tracking progress<\/strong> to enroll in this learning plan and get started!<\/li>\n<li>Start with the <em>Get the details!<\/em> resource to discover if this program is right for you and to learn all about the courses and badges.<\/li>\n<li>Complete the courses in order.<\/li>\n<li>Follow the steps to claim the <strong>Applied Data Science with Python - Level 2 badge<\/strong>.<\/li>\n<\/ol>\n<ul><\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Applied Data Science with Python",
+            "000 All digital credentials",
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Python (Programming Language) Skill",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:COGNITIVECLASS+PY0101EN+V3",
+        "category":"python_data_science",
+        "type":"eLearning",
+        "title":"Python for Data Science",
+        "duration":"20 hrs",
+        "learners_amount":"4408 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This introduction to Python will kickstart your learning of Python for data science, as well as programming in general. This beginner-friendly Python course will take you from zero to programming in Python in a matter of hours. Upon its completion, you'll be able to write your own Python scripts. If you want to learn Python from scratch, this free course is for you.<br\/><br\/><strong>Note on grading - please read:<\/strong><br\/><br\/>Review questions are worth\u00a050% of the mark, and the final exam is worth 50%. The course passing grade is\u00a0<strong>70%<\/strong>.<ul><li><strong>Review Questions:<\/strong><ul><li>Have no time limit. This should encourage participants to go back to material previously explained to find the correct answer.<\/li><li>Multiple choice questions have\u00a0two chances while True\/False questions only have one\u00a0chance.<\/li><li>Review questions are marked\u00a0<strong>per question<\/strong>. As soon as you answer a particular question, when the \u201cFinal check\u201d button appears, it means you will have no more chances after clicking that button, and your answer will be immediately marked and cannot be changed (ever). You will be able to see your grade progress at any time using the \u201cProgress\u201d tab.<\/li><\/ul><\/li><\/ul><ul><li><strong>Final Exam:<\/strong><ul><li>Has a 1-hour time limit<\/li><li>Like Review Questions, as you click on \u201cFinal check\u201d per question, you will be marked.<\/li><\/ul><\/li><\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Applied Data Science with Python",
+            "Learning Domain",
+            "Other - Software engineering and programming",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Python (Programming Language) Skill",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:COGNITIVECLASS+DA0101EN+V1",
+        "category":"python_data_science",
+        "type":"eLearning",
+        "title":"Data Analysis with Python",
+        "duration":"3 hrs",
+        "learners_amount":"4412 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 805 learners in the past 12 months.",
+        "star_num_ratings":"805",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course you will learn about: Data Acquisition How to Obtain Basic Insight From a Dataset Data<\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Applied Data Science with Python",
+            "Learning Domain",
+            "Other - Software engineering and programming",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Python (Programming Language) Skill",
+            "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:COGNITIVECLASS+DV0101EN+V2",
+        "category":"python_data_science",
+        "type":"eLearning",
+        "title":"Data Visualization with Python",
+        "duration":"3 hrs",
+        "learners_amount":"2732 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Data visualization is the graphical representation of data in order to interactively and efficiently convey insights to clients, customers, and stakeholders in general. It is a way to summarize your findings and display it in a form that facilitates interpretation and can help in identifying patterns or trends. In this course you will learn how to create interesting graphics and charts and customize them to make them more effective and more pleasing to your audience.<br\/><br\/><strong>Note on grading - please read:<\/strong><br\/><br\/><strong>Review questions are worth\u00a050% of the mark, and the final exam is worth 50%. The course passing grade is\u00a070%.<\/strong><ul><li><strong>Review Questions:<\/strong><ul><li>Have no time limit. This should encourage participants to go back to material previously explained to find the correct answer.<\/li><li>Multiple choice questions have\u00a0two chances while True\/False questions only have one\u00a0chance.<\/li><li>Review questions are marked\u00a0<strong>per question<\/strong>. As soon as you answer a particular question, when the \u201cFinal check\u201d button appears, it means you will have no more chances after clicking that button, and your answer will be immediately marked and cannot be changed (ever). You will be able to see your grade progress at any time using the \u201cProgress\u201d tab.<\/li><\/ul><\/li><\/ul><ul><li><strong>Final Exam:<\/strong><ul><li>Has a 1-hour time limit<\/li><li>Like Review Questions, as you click on \u201cFinal check\u201d per question, you will be marked.<\/li><\/ul><\/li><\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Applied Data Science with Python",
+            "Learning Domain",
+            "Other - Software engineering and programming",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Python (Programming Language) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-7A12E1671674",
+        "category":"python_data_science",
+        "type":"Learning Plan",
+        "title":"Python for Machine Learning: Unlocking the Power of Artificial Intelligence",
+        "duration":"About 23 hours",
+        "learners_amount":"176 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 26 learners in the past 12 months.",
+        "star_num_ratings":"26",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Are you fascinated by the potential of artificial intelligence (AI) and eager to explore its applications in the real world? \"Python for Machine Learning: Unlocking the Power of Artificial Intelligence\" is a dynamic course that takes you on a captivating journey through the history, concepts, and practical applications of AI. \n<br\/>\n<br\/>\n Using Python as your tool of choice, you'll gain hands-on experience in harnessing the power of AI to make predictions, comprehend language and images, and replicate human brain-inspired circuits. By the end of this course, you'll have the necessary skills and insights to build and test your own machine learning models, as well as invaluable guidance on forging a career in the exciting field of artificial intelligence. \n<br\/>\n<br\/><strong>Courses in this learning plan:<\/strong>\n<br\/>\n 1. Python for Data Science\u00a0 \n<br\/>\n 2. Machine Learning with Python \n<br\/>\n<br\/><strong>What you\u2019ll learn:<\/strong>\n<ul>\n<li>What is Python and why it is useful<\/li>\n<li>The application of Python\u00a0<\/li>\n<li>How to define\u00a0variables<\/li>\n<li>Sets\u00a0and\u00a0conditional statements\u00a0in Python<\/li>\n<li>The purpose of having\u00a0functions\u00a0in Python<\/li>\n<li>How to operate on files to\u00a0read and write data\u00a0in Python<\/li>\n<li>How to use\u00a0pandas, a must-have\u00a0package for anyone attempting data analysis in Python<\/li>\n<\/ul>\n<br\/>\n The knowledge and skills in these courses build on each other, so SkillsBuild recommends that you complete the courses in the order in which they are presented. \n<br\/>\n<br\/><strong>Language<\/strong><strong>:<\/strong>\u00a0English \n<br\/>\n \u00a0 \n<br\/>\n Select\u00a0<strong>Start tracking progress<\/strong>\u00a0to enroll in this learning plan and get started! \n<br\/>\n \u00a0<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Artificial intelligence"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-QPEKVQEKRYZG2KZ3",
+        "category":"python_data_science",
+        "type":"eLearning",
+        "title":"Techniques to Manage, Share, and Put Data to Work",
+        "duration":"25 mins",
+        "learners_amount":"33868 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 818 learners in the past 12 months.",
+        "star_num_ratings":"818",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Dive into applications of data science and machine learning. You'll see how programming languages like R and Python and visualization tools like Tableau and ggplot2 can help uncover data's deepest secrets.<\/p>\n<br\/>\n<p><strong>Duration:<\/strong> Complete the activities in this course and earn 25 minutes of learning credit!<\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Explore Emerging Tech",
+            "Learning Domain",
+            "Other - Emerging technologies",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "R (Programming Language) Skill",
+            "Machine Learning Skill",
+            "Tableau (Business Intelligence Software) Skill",
+            "Data Science Skill",
+            "Python (Programming Language) Skill"
+        ]
+    }
+]
