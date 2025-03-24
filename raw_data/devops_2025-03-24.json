@@ -1,0 +1,223 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-2AD65B874E84",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"D\u00e9couvrez la m\u00e9thodologie DevOps | OpenClassrooms",
+        "duration":"6 hrs",
+        "learners_amount":"16 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"fr\" translate=\"yes\">Vous avez entendu plusieurs fois parler du <strong>DevOps<\/strong>, mais vous ne savez pas vraiment de quoi il s'agit ? Vous \u00eates <strong>d\u00e9veloppeur ou SysAdmin<\/strong> et vous aimeriez savoir comment am\u00e9liorer et fluidifier votre cha\u00eene de valeur ? Ou vous \u00eates simplement intrigu\u00e9 par ce mouvement et aimeriez en savoir plus pour <strong>l'impl\u00e9menter dans votre entreprise<\/strong> ?\u00a0\n<br\/><strong>Ce cours est fait pour vous !<\/strong><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL0060450G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"IBM Z DevOps Testing Fundamentals",
+        "duration":"10 hrs",
+        "learners_amount":"419 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 5 learners in the past 12 months.",
+        "star_num_ratings":"5",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course is designed to provide a comprehensive understanding of ZUnit, a powerful unit testing framework specifically tailored for testing z\/OS applications and mainframe environments. During this course we will delve into the intricacies of ZUnit, exploring its features, best practices, and practical implementation techniques.\u00a0<\/p>\n<p>\u00a0<\/p>\n<p>We further expand on the concepts of integration testing, along with introduction to IBM Z Virtual Test Platform (ZVTP) and its combination with the IBM Distribution for Galasa.\u00a0<\/p>\n<p>\u00a0<\/p>\n<p><strong>Prerequisites<\/strong><\/p>\n<ul>\n<li>Basic z\/OS knowledge<\/li>\n<li>Familiarity with IDz<\/li>\n<li>Basic Java\/Groovy knowledge is an asset but is not required<\/li>\n<\/ul>Learn about Testing capabilities in the Z DevOps portfolio with primary focus on Unit Testing via ZUnit plus introductory content to integration testing with ZVTP and the Galasa Testing framework\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007121G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"DevOps For IBM zSystems CI\/CD Enablement - Architect",
+        "duration":"10 hrs",
+        "learners_amount":"33 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The expected skills of the Architect Persona include the following:<\/p>\n<p>\u00a0<\/p>\n<ul>\n<li>Mainframe Development processes and workflows<\/li>\n<li>CI\/CD and DevOps Principles<\/li>\n<li>GIT concepts and architecture<\/li>\n<\/ul>Enablement materials covering both, products in the Z DevOps portfolio as well as open source technologies, to assist a Z architect in a Mainframe DevOps transformation journey\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "DevOps Skill",
+            "Workflow Management Skill",
+            "CI\/CD Skill",
+            "Git (Version Control System) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007126G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"DevOps For IBM zSystems CI\/CD Enablement - Testing Specialist",
+        "duration":"5 hrs",
+        "learners_amount":"22 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The expected skills of the Test Specialist Persona include the following:<\/p>\n<p>\u00a0<\/p>\n<ul>\n<li>Creating effective tests<\/li>\n<li>Understanding of automating processes in a pipeline<\/li>\n<li>Knowledge of application systems<\/li>\n<\/ul>Enablement materials covering both, products in the Z DevOps portfolio as well as open source technologies, to assist a Z Testing Specialist in a Mainframe DevOps transformation journey\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "CI\/CD Skill",
+            "DevOps Skill",
+            "Automation Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007122G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"DevOps For IBM zSystems CI\/CD Enablement - Middleware Specialist",
+        "duration":"1 hr",
+        "learners_amount":"15 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 4 learners in the past 12 months.",
+        "star_num_ratings":"4",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The expected skills of the Middleware Specialist Persona include the following:\u00a0<\/p>\n<ul>\n<li>Linux skills for installation and configuration of the DBB WebApp, UCD Server, etc...<\/li>\n<li>System programmer skills to install and configure DevOps products host components<\/li>\n<\/ul>Enablement materials covering both, products in the Z DevOps portfolio as well as open source technologies, to assist a Z Middleware Specialist in a Mainframe DevOps transformation journey\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "CI\/CD Skill",
+            "DevOps Skill",
+            "Linux Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007127G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"DevOps For IBM zSystems CI\/CD Enablement - Deployment Specialist",
+        "duration":"5 hrs",
+        "learners_amount":"11 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The expected skills of the Deployment Specialist Persona include the following:<\/p>\n<p>\u00a0<\/p>\n<ul>\n<li>Develop and Maintain central deployment processes<\/li>\n<li>UCD Concepts; Mainframe Subsystem Interfaces<\/li>\n<\/ul>Enablement materials covering both, products in the Z DevOps portfolio as well as open source technologies, to assist a Z Deployment Specialist in a Mainframe DevOps transformation journey\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "CI\/CD Skill",
+            "DevOps Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007124G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"DevOps For IBM zSystems CI\/CD Enablement - Build Specialist",
+        "duration":"7 hrs",
+        "learners_amount":"22 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The expected skills of the Build Specialist Persona include the following:<\/p>\n<p>\u00a0<\/p>\n<ul>\n<li>Mainframe Build Fundamentals (JCL, REXX, Compile\/Link\/Build)<\/li>\n<li>DBB Architecture<\/li>\n<li>Develop and Maintain custom build framework (groovy scripting)<\/li>\n<\/ul>Enablement materials covering both, products in the Z DevOps portfolio as well as open source technologies, to assist a Z Build Specialist in a Mainframe DevOps transformation journey\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "CI\/CD Skill",
+            "Rexx (Programming Language) Skill",
+            "Scripting Skill",
+            "Job Control Language (JCL) Skill",
+            "DevOps Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007128G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"DevOps For IBM zSystems CI\/CD Enablement - Migration Specialist",
+        "duration":"2 hrs",
+        "learners_amount":"21 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The expected skills of the Migration Specialist Persona include the following:\u00a0<\/p>\n<ul>\n<li>Develop and Use analysis and migration tools to facilitate Git migrations from legacy systems<\/li>\n<\/ul>Enablement materials covering both, products in the Z DevOps portfolio as well as open source technologies, to assist a Z Migration Specialist in a Mainframe DevOps transformation journey\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "Git (Version Control System) Skill",
+            "DevOps Skill",
+            "CI\/CD Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007125G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"DevOps For IBM zSystems CI\/CD Enablement - Pipeline Specialist",
+        "duration":"10 hrs",
+        "learners_amount":"19 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The expected skills of the Pipeline Specialist Persona include the following:\u00a0<\/p>\n<ul>\n<li>CI Specialist<\/li>\n<li>Git Concepts &amp; Change Management Integrations<\/li>\n<li>Develop and Maintain custom intergration scripts<\/li>\n<\/ul>Enablement materials covering both, products in the Z DevOps portfolio as well as open source technologies, to assist a Z Pipeline Specialist in a Mainframe DevOps transformation journey\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "Git (Version Control System) Skill",
+            "DevOps Skill",
+            "CI\/CD Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL007123G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"DevOps For IBM zSystems CI\/CD Enablement - IDE Specialist",
+        "duration":"1 hr",
+        "learners_amount":"16 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The expected skills of the IDE Specialist Persona include the following:<\/p>\n<p>\u00a0<\/p>\n<ul>\n<li>IDE installation and deployment<\/li>\n<li>Customization and documentation of IDEs<\/li>\n<li>Training &amp; Coaching<\/li>\n<\/ul>Enablement materials covering both, products in the Z DevOps portfolio as well as open source technologies, to assist an IDE Specialist in a Mainframe DevOps transformation journey\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "CI\/CD Skill",
+            "DevOps Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70354G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"Continuous Delivery Services",
+        "duration":"30 mins",
+        "learners_amount":"1 learner has completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course covers Continuous Delivery Services on IBM Cloud\u00ae. This course includes information on toolchains, pipelines, and DevOps Insights as well as DevSecOps.<\/p>This course covers Continuous Delivery Services on IBM Cloud\u00ae. This course includes information on toolchains, pipelines, and DevOps Insights as well as DevSecOps.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70520G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"Quality Gates for Applications in DevSecOps",
+        "duration":"12 mins",
+        "learners_amount":"1 learner has completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you should learn how to capture security incidents with DevOps Insights.<\/p>In this course, you should learn how to capture security incidents with DevOps Insights.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL00035G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"Application Modernization on IBM Z",
+        "duration":"2 hrs",
+        "learners_amount":"22 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will be learning about modernization. Specifically, focused on the technological advancements that unlock computing environments hosted on IBM Z.\u00a0\u00a0 Throughout this course, the modernization strategies as they relate to DevOps, common tooling, REST enablement, and containers will be covered.<\/p>An introductory course to familiarize learners with basic concepts around the areas where application modernization can advance the capabilities of IBM Z.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL70521G",
+        "category":"devops",
+        "type":"eLearning",
+        "title":"Measuring DevSecOps",
+        "duration":"12 mins",
+        "learners_amount":"3 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you\u2019ll review the steps for working with DevOps Insights, the tasks for integration with a continuous delivery pipeline, and how DevOps Insights help measure development, deployment, and operations.<\/p>This course reviews the steps for working with DevOps Insights, the tasks for integration with a CD pipeline, and how DevOps Insights help measure development, deployment, and operations.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    }
+]

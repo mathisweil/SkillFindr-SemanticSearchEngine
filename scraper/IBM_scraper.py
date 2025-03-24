@@ -1,24 +1,33 @@
 import logging
+from pathlib import Path
+
+import pandas as pd
+from datetime import datetime
 from contextlib import contextmanager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from typing import Dict, List
 
-from utils.selenium_utils import wait_for_element, wait_and_perform_action, click_show_more_button
+from utils.config import load_config
+from utils.selenium_utils import init_driver, wait_for_element, wait_and_perform_action, click_show_more_button
 from scraper.html_parser import parse_course_page
 
 
 class IBMScraper:
-    def __init__(self, driver, config: Dict):
+    def __init__(self, driver, config: dict):
         self.driver = driver
         self.config = config
+        self.scraped_courses: set[str] = set()
 
     def login(self) -> None:
         """
         Logs into the website using credentials from the configuration.
         """
         try:
+            login_url = self.config["login_url"]
+            self.driver.get(login_url)
+            logging.info(f"Navigated to {login_url}.")
+
             wait_and_perform_action(
                 self.driver, By.CSS_SELECTOR, '[btntype="ibm"]', EC.element_to_be_clickable
             )
@@ -44,7 +53,7 @@ class IBMScraper:
             raise
 
     @contextmanager
-    def open_new_tab(self, url: str):
+    def __open_new_tab(self, url: str):
         """
         Context manager to open a new tab, switch to it, and ensure it is closed.
 
@@ -61,7 +70,7 @@ class IBMScraper:
             self.driver.close()
             self.driver.switch_to.window(original_handle)
 
-    def scrape_course_page(self, link: str) -> Dict:
+    def __scrape_course_page(self, link: str, category: str) -> dict[str, any]:
         """
         Scrapes a single course page.
 
@@ -69,9 +78,10 @@ class IBMScraper:
             link (str): URL of the course page.
 
         Returns:
-            Dict: Extracted course data.
+            dict: Extracted course data.
+            :param category:
         """
-        with self.open_new_tab(link):
+        with self.__open_new_tab(link):
             try:
                 wait_for_element(
                     self.driver,
@@ -83,33 +93,63 @@ class IBMScraper:
                     self.driver,
                     By.CSS_SELECTOR,
                     '[class^="TagLabel_labelContainer__"] > span',
-                    EC.presence_of_all_elements_located
+                    EC.presence_of_all_elements_located,
+                    timeout = self.config["scrape_delay"]
                 )
                 html_source = self.driver.page_source
                 course_data = parse_course_page(
-                    html_source, link, self.config["course_category"]
+                    html_source, link, category
                 )
-                return course_data
+                return course_data if course_data is not None else {}
             except Exception as e:
                 logging.error(f"Error scraping course page {link}: {e}")
                 return {}
 
-    def scrape_courses(self) -> List[Dict]:
+    @staticmethod
+    def __parse_course_links(container: any) -> list[str]:
+        """
+        Given a container element (sponsored or normal), finds
+        and returns all relevant course hrefs.
+        """
+        links: list[str] = []
+        try:
+            course_cards = container.find_elements(
+                By.XPATH,
+                './/div[contains(@class, "overflowContainer ItemCard_overflowContainer__tpWp9")]'
+            )
+            for card in course_cards:
+                try:
+                    link_element = card.find_element(
+                        By.XPATH,
+                        './div[contains(@class, "ItemCard_itemCardContainer__EJsD7")]/a[contains(@class, "ItemCard_linkContainer__jUUXI")]'
+                    )
+                    href = link_element.get_attribute("href")
+                    if href:
+                        links.append(href)
+                except Exception as e:
+                    logging.debug(f"Failed to extract link from card: {e}")
+                    continue
+        except Exception as e:
+            logging.error(f"Error parsing course links: {e}")
+        return links
+
+    def scrape_courses(self, search_keyword: dict[str, str]) -> list[dict[str, any]]:
         """
         Scrapes multiple course pages from various search sections.
 
         Returns:
-            List[Dict]: A list of dictionaries containing course information.
+            list[dict]: A list of dictionaries containing course information.
         """
         wait_for_element(self.driver, By.ID, 'search-input', EC.presence_of_element_located)
-        courses = []
-        scraped_courses = set()
-        search_sections = self.config.get("search_sections", {})
+        courses: list[dict[str, any]] = []
 
+        search_sections = self.config.get("search_sections", {})
         for section, slug in search_sections.items():
             try:
-                url = f"{self.config['base_url']}/search/{slug}/q={self.config['search_keyword']}"
+                url = f"{self.config['base_url']}/search/{slug}/q={search_keyword['keyword']}"
                 self.driver.get(url)
+                logging.info(f"Navigated to {url}.")
+
                 element = WebDriverWait(self.driver, 10).until(
                     EC.any_of(
                         EC.presence_of_element_located((By.CLASS_NAME, 'SearchNoResults_container__XFV7d')),
@@ -122,31 +162,73 @@ class IBMScraper:
 
                 click_show_more_button(self.driver, self.config["scrape_delay"])
 
-                courses_container = wait_for_element(
-                    self.driver,
-                    By.CLASS_NAME,
-                    "FocusOnShowMoreWrapper_wrapper__Ord-a",
-                    EC.presence_of_element_located,
-                )
-                if courses_container:
-                    course_links = courses_container.find_elements(
-                        By.XPATH,
-                        (
-                            '//div[contains(@class, "overflowContainer ItemCard_overflowContainer__tpWp9")]'
-                            '/div[contains(@class, "ItemCard_itemCardContainer__EJsD7")]'
-                            '/a[contains(@class, "ItemCard_linkContainer__jUUXI")]'
-                        )
+                links: list[str] = []
+                try:
+                    container = self.driver.find_element(
+                        By.CLASS_NAME,
+                        "withSearch_resultsContainer__msvVY"
                     )
-                    links = [
-                        course.get_attribute("href")
-                        for course in course_links if course.get_attribute("href")
-                    ]
-                    for link in links:
-                        if link not in scraped_courses:
-                            course_data = self.scrape_course_page(link)
-                            if course_data:
-                                courses.append(course_data)
-                            scraped_courses.add(link)
+                    links = self.__parse_course_links(container)
+                    logging.info(f"Found {len(links)} links for section: {section}")
+                except Exception:
+                    logging.info("No results container found.")
+
+                for link in links:
+                    if link not in self.scraped_courses:
+                        course_data = self.__scrape_course_page(link, search_keyword["category"])
+                        if course_data:
+                            courses.append(course_data)
+                        self.scraped_courses.add(link)
             except Exception as e:
                 logging.error(f"Error scraping section {section}: {e}")
         return courses
+
+
+def save_courses_data(courses: list[dict[str, any]], config: dict[str, any], file_name: str) -> None:
+    """
+    Saves the scraped courses data to CSV and JSON files.
+
+    Args:
+        courses (list): List of dictionaries containing course information.
+        config (dict): Configuration dictionary with paths and filenames.
+        :param courses:
+        :param config:
+        :param file_name:
+    """
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    df = pd.DataFrame(courses)
+    csv_filename = f"{config['raw_output_path']}/{file_name}_{current_date}.csv"
+    json_filename = f"{config['raw_output_path']}/{file_name}_{current_date}.json"
+    df.to_csv(csv_filename, index=False)
+    df.to_json(json_filename, orient="records", indent=4)
+    logging.info(f"Data successfully saved to CSV: {csv_filename} and JSON: {json_filename}")
+
+
+def main():
+    config = load_config()
+    logging.basicConfig(
+        filename=config["log_path"],
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s"
+    )
+    try:
+        raw_dir = Path(f"{config['raw_output_path']}")
+        raw_dir.mkdir(parents=True, exist_ok=True)
+
+        with init_driver(config) as driver:
+            scraper = IBMScraper(driver, config)
+            scraper.login()
+
+            search_keywords = config.get("search_keywords", {})
+            for search_keyword in search_keywords:
+                courses = scraper.scrape_courses(search_keyword)
+                if not courses:
+                    logging.warning(f"No courses to process for: {search_keyword['keyword']}.")
+                else:
+                    save_courses_data(courses, config, search_keyword["category"])
+    except Exception as e:
+        logging.error(f"An error occurred during scraping: {e}")
+
+
+if __name__ == '__main__':
+    main()

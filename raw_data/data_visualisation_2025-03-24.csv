@@ -1,0 +1,20 @@
+course_url,category,type,title,duration,learners_amount,star_rating,star_num_ratings,description,tags
+https://skills.yourlearning.ibm.com/activity/SN-COURSE-V1:COGNITIVECLASS+DV0151EN+V1,data_visualisation,eLearning,Data Visualization with R,3 hrs,42 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>Data visualization is the presentation of data with graphics. It's a way to summarize your findings and display it in a form that facilitates interpretation and can help in identifying patterns or trends. In this course you will learn how to create beautiful graphics and charts, customizing the look and feel of them as you wish.</p></div>","['Learning Domain', 'Technical skills - Data']"
+https://skills.yourlearning.ibm.com/activity/SN-COURSE-V1:BIGDATAU+ST0101EN+V1,data_visualisation,eLearning,Statistics 101,3 hrs,179 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>Welcome to the Statistics 101 course, taught by Murtaza Haider, Assistant Professor at Ryerson University. Statistics is one of the most challenging topics to learn, but Murtaza brings a gentle introduction to statistics in practice. Learn about descriptive statistics, variance, probability, correlation, and data visualization. This course ends with a fully-guided statistics exercise exploring the “hot” topic of: do good looking professors get better teaching evaluations? A free trial of SPSS Statistics is included in this course.</p></div>","['Learning Domain', 'Technical skills - Data', 'Lightcast Skills Taxonomy', 'Statistics Skill']"
+https://skills.yourlearning.ibm.com/activity/MDL-217,data_visualisation,eLearning,"Clean, Refine, and Visualize Data with IBM Watson Studio",1 hr 35 mins,51146 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 616 learners in the past 12 months.,616,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">In this course, you will practice cleaning, refining, and visualizing data, in a series of simulations, using IBM Watson Studio with the data refinery tool.
+<br/>
+<br/>
+<p><strong>What you’ll learn</strong><br/></p>
+<p>After completing this course, you should be able to:<br/></p>
+<p></p>
+<ul>
+<li>Explain the purpose and key features of IBM Watson Studio<br/></li>
+<li>Set up a new project in IBM Watson Studio<br/></li>
+<li>Import a data set<br/></li>
+<li>Clean data using the data refinery tool<br/></li>
+<li>Refine data using the data refinery tool<br/></li>
+<li>Create a data visualization<br/></li>
+<li>Conclude insights from a data visualization<br/></li>
+</ul>
+<p></p></div>","['Badge Learning', 'Data Fundamentals', 'Learning Domain', 'Technical skills - Data', 'Learning Domain Primary', 'Data']"
+https://skills.yourlearning.ibm.com/credential/CREDLY-b003e4a6-f731-41c7-9084-cbba25be2e15,data_visualisation,Digital Credential,Data Analytics and Visualization Camp,Weeks,166 learners have earned this digital credential.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this digital credential</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This credential earner understands basic statistical concepts such as measures of central tendency, dispersion, and linear regressions. The individual uses spreadsheets and database engines to handle, clean, and analyze data, and generates visual reports using data visualization tools such as Microsoft Power BI.</p></div>",[]

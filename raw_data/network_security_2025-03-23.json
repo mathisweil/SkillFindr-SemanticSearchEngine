@@ -1,0 +1,248 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA3536",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Adding a QNI appliance to the QRadar deployment",
+        "duration":"6 mins",
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this\u00a0video, we demonstrate how to add an already installed IBM Security QRadar Network Insights appliance into a QRadar deployment and how to deploy the license key, so that it\u00a0can provide a detailed analysis of network flows to extend the threat detection capabilities of QRadar.In this\u00a0video, we demonstrate how to add an already installed IBM Security QRadar Network Insights appliance into a QRadar deployment and how to deploy the license key, so that \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52807G",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Account Security",
+        "duration":"30 mins",
+        "learners_amount":"6 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explains the threats associated with cloud-based solutions and explores how IBM Cloud\u00ae security features and other network protocols can be used to mitigate these threats. IBM Cloud infrastructure and services that assist organizations in meeting government and industry regulations are also explained.<\/p>This course explains the threats associated with cloud-based solutions and explores how IBM Cloud\u00ae security features and other network protocols can be used to mitigate these threats. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52924G",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Security Services",
+        "duration":"30 mins",
+        "learners_amount":"77 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will review how to apply security compliance using various IBM Cloud\u00ae security services. You will use security services with App ID, certificate manager, data shield, HyTrust, and more. You will also review VMware security compliance solutions and network security solutions. You will apply the case study as you complete a series of knowledge checkpoints and activities throughout the course.\u00a0<\/p>In this course, you will review how to apply security compliance using various IBM Cloud\u00ae security services. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA4863",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Introducing QRadar Flows",
+        "duration":"30 mins",
+        "learners_amount":"20 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>IBM Security QRadar flows represent network activity by normalizing IP addresses, ports, byte and packet counts, and other data, into flow records, which are records of network sessions between two hosts. Flows are a differentiating component in QRadar that provide detailed visibility into your network traffic. In this course, you learn the difference between QRadar events and flows. Learn about the packet header and payload: which information is available in the header and packet, and which technologies to use to investigate header and payload information.<\/p>Learn the difference between QRadar events and flows. Learn which information is available in the header and packet, and which technologies to use to investigate header and payload information.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA7165",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Guardium selective and nonselective audit policy",
+        "duration":"6 mins",
+        "learners_amount":"9 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this video about IBM Security\u00ac\u00c6 Guardium\u00ac\u00c6, you learn the difference between selective and nonselective audit policies. In some cases, your data security requirements might focus on only a small set of commands.\u00a0By setting your policy wisely, you can reduce the load on your network and your Guardium collectors.\u00a0In this video about IBM Security\u00ac\u00c6 Guardium\u00ac\u00c6, you learn the difference between selective and nonselective audit policies. In some cases, your data security requirements might focus on\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA6092",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"QRadar foundations - Assets V2",
+        "duration":"54 mins",
+        "learners_amount":"28 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The ability to identify and understand how assets are being used in your network is critical to security. Not just for detecting devices, but building a dataset of historical information about assets and being able to track asset information across your network as it changes.The goal of asset profiles is to bring all the information known about the assets in your network and update the data as new information is provided to QRadar. This allows administrators to more effectively report on, search, audit, and leverage rules to identify threats, vulnerabilities, and asset usage with relevant data.<\/p>\n<p>In this course, you learn how assets can be discovered and then dynamically updated by QRadar, including network information, running applications and services, active users, vulnerabilities, and more.<\/p>In this course, learn how assets can be discovered and then dynamically updated by QRadar, including network information, running applications and services, active users, vulnerabilities, and more.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA6585",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Introduction to QRadar events",
+        "duration":"30 mins",
+        "learners_amount":"20 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you learn the difference between QRadar events and flows. You learn about QRadar log sources, and the Log Source Management app. Finally, you learn about QRadar Device Service Modules (DSMs), and the DSM editor.<\/p>\n<p>In IBM Security QRadar, an Event is a message that is received by QRadar from a log source and then processed. Most log sources are devices on your network that create a log when actions occur and that log is then received by QRadar.<\/p>\n<p>Make sure you take the other event-related courses that are listed in Additional resources on this page.<\/p>Learn the difference between QRadar events and flows, log sources, the Log Source Management app, and QRadar Device Service.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA6498",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"QRadar foundations - Network Hierarchy",
+        "duration":"30 mins",
+        "learners_amount":"1 learner has completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you learn about QRadar network hierarchy fundamentals. IBM Security QRadar uses the network hierarchy objects and groups to organize network activity and monitor groups or services in your network.When you develop your network hierarchy, consider the most effective method for viewing network activity. The network hierarchy does not need to resemble the physical deployment of your network. QRadar supports any network hierarchy that can be defined by a range of IP addresses. You can base your network on many different variables, including geographical or business units.<\/p>Learn about QRadar network hierarchy fundamentals. QRadar uses the network hierarchy objects and groups to organize network activity and monitor groups or services in your network.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA4197",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"QRadar foundations - user management",
+        "duration":"1 hr 24 mins",
+        "learners_amount":"13 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Employees in every organization are granted different levels of clearance to access information and classified or restricted areas based on their job profiles, such as different network locations, applications, or data. This process includes users who manage and have access to IT security products that protect the organization's critical resources, such as QRadar. Every organization implements its own security policies to provide users with different permissions according to their roles. In this context, QRadar provides the ability to segment users' access based on a combination of factors, which can yield granular results. The information contained in QRadar includes network hierarchy and topology, assets, log and flow sources, event and flow data, offenses, scanning activity, management activity, and more. This course introduces QRadar user management foundations, where you learn about user accounts and the different methods to authenticate, and how to implement granular user controls, such as user roles, security profiles, domains, and tenants.<\/p>Employees in every organization are granted different levels of clearance to access information and classified or restricted areas based on their job profiles, such as different network locations, app\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-236",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Computer Networking Basics: How Computers Communicate",
+        "duration":"1 hr 15 mins",
+        "learners_amount":"10480 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 237 learners in the past 12 months.",
+        "star_num_ratings":"237",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you\u2019ll learn about the ways that computer networking touches areas of everyday life. You\u2019ll examine how network connections help you send and receive information. You\u2019ll explore different types of networks that cover personal, local, and wide areas, and you\u2019ll discover the importance of network security.\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\nAfter completing this course, you should be able to:\n<ul>\n<li>Explain computer networking<\/li>\n<li>Recognize the differences between personal, local, and wide-area networks<\/li>\n<li>Explain the use of data to enable the internet to function as a network<\/li>\n<li>Recognize the importance of network security<\/li>\n<li>Describe the purpose of network addresses<\/li>\n<li>Describe the ways that applications use network communications<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Information Technology Fundamentals",
+            "Learning Domain",
+            "Technical skills - Information Technology"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-7DZR5UAAM0E",
+        "category":"network_security",
+        "type":"Video",
+        "title":"What Is IoT? | What Is IoT Technology And How It Works | Internet Of Things Explained | Simplilearn",
+        "duration":"13 mins",
+        "learners_amount":"2476 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 18 learners in the past 12 months.",
+        "star_num_ratings":"18",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Internet of Things is the next big thing. It is extending its power beyong just traditional computers or smart phones. It involves several physical devices interconnected and capable of transfering data over a network. The Internet of Things is actually a pretty simple concept, it means taking all the things in the world and connecting them to the internet. So, this video will help you get a good hang of IoT and its constitution. The topics include:\u00a0<\/p>\n<ul>\n<li>Why IoT?\u00a0<\/li>\n<li>Hardware used in IoT<\/li>\n<li>Connectivity blocks and protocols<\/li>\n<li>IoT device architecture\u00a0<\/li>\n<li>IoT security standards and best practices<\/li>\n<li>Internet of Everything: Introduction<\/li>\n<li>Use cases of IoT - IoT for Fleet management<\/li>\n<li>Use cases of IoT - IoT for Financial services<\/li>\n<li>IoT revolution in industries<\/li>\n<\/ul>This video is presented by Simplilearn. \n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, <strong> <\/strong>select <strong>Subtitles<\/strong>, <strong> <\/strong>select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Information Technology",
+            "Lightcast Skills Taxonomy",
+            "Management Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA5311",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Using IBM QRadar SIEM",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"22 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>With IBM Security QRadar SIEM, you can minimize the time gap between when suspicious activity occurs and when you detect it. Attacks and policy violations leave their footprints in the log events and network flows of your IT deployment. QRadar can connect the dots and provides you insight by performing the following tasks:Alerts to suspected attacks and policy violations in the IT environment Provides deep visibility into network, user, and application activity Puts security-relevant data from various sources in context with each other Provides reporting templates to meet operational and compliance requirements Provides reliable, tamper-proof log storage for forensic investigations and evidentiary use The exercises in this lab provide a broad introduction to the features of QRadar SIEM. The exercises cover the following topics: Navigating the web interfaceReviewing the Pulse app Investigating a suspicious activityUse QRadar Analyst Workflow app to investigate offenses Creating a report Managing the network hierarchy<\/p>With IBM Security QRadar SIEM, you can minimize the time gap between when suspicious activity occurs and when you detect it. Attacks and policy violations leave their footprints in the log events a\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA3714",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"IBM QRadar DNS Analyzer - Overview",
+        "duration":"6 mins",
+        "learners_amount":"2 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This course is an overview of IBM QRadar DNS Analyzer, which provides insights into your local DNS traffic by identifying malicious activity, and allowing your security team to detect Domain Generated Algorithm (DGA), tunneling, or squatting domains that are accessed from within your network. The DNS Analyzer also provides options to filter any domains using deny lists and allow lists. The video defines prerequisites, and provides an architecture overview explaining how the application is integrated with IBM QRadar SIEM and IBM X-Force Exchange. Utilizing QNI flows, or logs with domain information from other devices, such as DNS servers, proxies, Apache web servers, or other BIND compatible devices, you can detect and monitor outbound network traffic to potentially malicious sites. With the DNS Analyzer dashboard and drill down capabilities, your team can identify DNS trends and investigate activity such as squatting attempts. The application is also integrated with the IBM QRadar Pulse and IBM QRadar User Behavior Analytics app.This course is an overview of IBM QRadar DNS Analyzer, which provides insights into your local DNS traffic by identifying malicious activity, and allowing your security team to detect D\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-3E2A749669E2",
+        "category":"network_security",
+        "type":"Learning Plan",
+        "title":"Information Technology Fundamentals (Earn a credential!)",
+        "duration":"About 11 hours",
+        "learners_amount":"6267 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 480 learners in the past 12 months.",
+        "star_num_ratings":"480",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Are you ready to find out about the world of information technology (IT)? Learn about the history of computing and essential concepts about computer parts, network connections, hardware, software, computer security, and troubleshooting techniques. Then get hands-on practice troubleshooting a customer\u2019s network issue, in a series of simulations, with a remote connectivity tool. Finish by gathering tips and resources that can help you launch a great career in IT support. \n<br\/>\n \u00a0 \n<br\/>\n Complete the following required courses to earn an industry-recognized IBM SkillsBuild digital credential called <strong>Information Technology<\/strong> <strong>Fundamentals<\/strong>: \n<ol>\n<li>Computer Basics<\/li>\n<li>Computer Networking Basics: How Computers Communicate<\/li>\n<li>Computing from Past to Present<\/li>\n<li>Security Basics<\/li>\n<li>Support Basics<\/li>\n<li>Troubleshooting for Hardware, Networks, and Software<\/li>\n<li>Support a Customer with a Network Issue<\/li>\n<li>Your Future in IT Support: The Job Landscape<\/li>\n<\/ol>\u00a0 \n<br\/><strong>What you\u2019ll learn<\/strong>\n<br\/>\n After completing <em>Information Technology<\/em> <em>Fundamentals<\/em>, you should be able to: \n<ul>\n<li>Identify computer basics, including the parts of a computer, the differences between local and cloud computing, and the importance of user identity and security on computer systems<\/li>\n<li>Identify personal, local, and wide-area networks, network security, network addresses, and network communications<\/li>\n<li>Identify milestones in the history of computing, the developments that allowed computers to become multifunctional,<strong> <\/strong>and<strong> <\/strong>hardware and software support for usability, accessibility, and security<\/li>\n<li>Recognize common ways to make computer hardware and software secure and ways IT professionals can protect users and systems from common security threats<\/li>\n<li>Describe troubleshooting and a basic troubleshooting methodology<\/li>\n<li>Explain techniques for troubleshooting and debugging hardware, networking, and software issues<\/li>\n<li>Collect information about a customer\u2019s issue to form a theory, troubleshoot, and fix a network issue using a remote connectivity tool<\/li>\n<li>Recognize the job market, responsibilities and skill sets of IT support professionals, and resources and learning opportunities to explore<\/li>\n<\/ul>\u00a0 \n<br\/>\n The knowledge and skills in these courses build on each other, so SkillsBuild recommends that you complete the courses in the order in which they are presented. \n<br\/>\n<br\/><strong>Language<\/strong><strong>:<\/strong> English \n<br\/>\n<br\/>\n Select <strong>Enroll<\/strong>\u00a0to enroll in this learning plan and get started! \n<br\/>\n \u00a0<\/div>",
+        "tags":[
+            "Badge Learning",
+            "000 All digital credentials",
+            "Information Technology Fundamentals",
+            "Fundamentals",
+            "All Fundamentals",
+            "Learning Domain",
+            "Technical skills - Information Technology",
+            "Learning Domain Primary",
+            "IT support",
+            "Lightcast Skills Taxonomy",
+            "Usability Skill",
+            "Computer Hardware Skill",
+            "Information Technology Skill",
+            "Troubleshooting (Problem Solving) Skill",
+            "Technical Support Skill",
+            "Milestones (Project Management) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA5325",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"QRadar Use Case Manager app overview",
+        "duration":"30 mins",
+        "learners_amount":"2 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">The IBM QRadar Use Case Manager app provides many options for filtering and searching rules in IBM Security QRadar. You can create custom views and reports of your rules based on a wide variety of criteria, and view relationships between rules and content packs, log sources, reference sets, and other data. In addition to the filtering and searching options, the Use Case Manager app lets you view and configure your coverage of the MITRE ATT&amp;CK framework. You can also view and add a number of recommended changes to your rules. Tuning recommendations, unique to your environment, are also available in the Use Case Manager app.\u00a0 Follow guidance in the app to tune your rules that generate the most offences to reduce false-positives. You can update network hierarchy, building blocks, and server discovery based on recommendations. The Use Case Manager helps you to keep QRadar optimally configured to accurately detect threats throughout the attack chain. The IBM QRadar Use Case Manager app provides many options for filtering and searching rules in IBM Security QRadar. You can create custom views and reports of your rules based on \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1588493689559",
+        "category":"network_security",
+        "type":"Channel",
+        "title":"SUV: Cyber + Linux",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"1",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><strong>1.\u00a0Linux<\/strong>\n<br\/>\n<strong>2.\u00a0Cyber security<\/strong>\n<br\/>\n<strong>a.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <\/strong>Vulnerabilities &amp; mitigation \n<br\/>\n<strong>b.\u00a0\u00a0\u00a0\u00a0\u00a0 <\/strong>Secure coding, OWASP \n<br\/>\n<strong>c.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <\/strong>MITRE attack framework \/NIST framework \n<br\/>\n<strong>d.\u00a0\u00a0\u00a0\u00a0\u00a0 <\/strong>IOC , TTP, Wireshark \n<br\/>\n<strong>e.\u00a0\u00a0\u00a0\u00a0\u00a0 <\/strong>Security monitor systems \n<br\/>\n<strong>f.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <\/strong>forge\/clone web site (phishing) \n<br\/>\n<strong>g.\u00a0\u00a0\u00a0\u00a0\u00a0 <\/strong>network layers in security perspective \n<br\/>\u00a0<\/div>",
+        "tags":[
+
+        ]
+    }
+]

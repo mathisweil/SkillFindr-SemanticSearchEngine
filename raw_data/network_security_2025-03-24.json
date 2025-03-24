@@ -1,0 +1,73 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA3536",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Adding a QNI appliance to the QRadar deployment",
+        "duration":"6 mins",
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this\u00a0video, we demonstrate how to add an already installed IBM Security QRadar Network Insights appliance into a QRadar deployment and how to deploy the license key, so that it\u00a0can provide a detailed analysis of network flows to extend the threat detection capabilities of QRadar.In this\u00a0video, we demonstrate how to add an already installed IBM Security QRadar Network Insights appliance into a QRadar deployment and how to deploy the license key, so that \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52807G",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Account Security",
+        "duration":"30 mins",
+        "learners_amount":"6 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course explains the threats associated with cloud-based solutions and explores how IBM Cloud\u00ae security features and other network protocols can be used to mitigate these threats. IBM Cloud infrastructure and services that assist organizations in meeting government and industry regulations are also explained.<\/p>This course explains the threats associated with cloud-based solutions and explores how IBM Cloud\u00ae security features and other network protocols can be used to mitigate these threats. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL52924G",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"IBM Cloud Security Services",
+        "duration":"30 mins",
+        "learners_amount":"77 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you will review how to apply security compliance using various IBM Cloud\u00ae security services. You will use security services with App ID, certificate manager, data shield, HyTrust, and more. You will also review VMware security compliance solutions and network security solutions. You will apply the case study as you complete a series of knowledge checkpoints and activities throughout the course.\u00a0<\/p>In this course, you will review how to apply security compliance using various IBM Cloud\u00ae security services. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Learning Domain Primary",
+            "Cloud computing"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA4863",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Introducing QRadar Flows",
+        "duration":"30 mins",
+        "learners_amount":"20 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>IBM Security QRadar flows represent network activity by normalizing IP addresses, ports, byte and packet counts, and other data, into flow records, which are records of network sessions between two hosts. Flows are a differentiating component in QRadar that provide detailed visibility into your network traffic. In this course, you learn the difference between QRadar events and flows. Learn about the packet header and payload: which information is available in the header and packet, and which technologies to use to investigate header and payload information.<\/p>Learn the difference between QRadar events and flows. Learn which information is available in the header and packet, and which technologies to use to investigate header and payload information.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA7165",
+        "category":"network_security",
+        "type":"eLearning",
+        "title":"Guardium selective and nonselective audit policy",
+        "duration":"6 mins",
+        "learners_amount":"9 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this video about IBM Security\u00ac\u00c6 Guardium\u00ac\u00c6, you learn the difference between selective and nonselective audit policies. In some cases, your data security requirements might focus on only a small set of commands.\u00a0By setting your policy wisely, you can reduce the load on your network and your Guardium collectors.\u00a0In this video about IBM Security\u00ac\u00c6 Guardium\u00ac\u00c6, you learn the difference between selective and nonselective audit policies. In some cases, your data security requirements might focus on\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    }
+]

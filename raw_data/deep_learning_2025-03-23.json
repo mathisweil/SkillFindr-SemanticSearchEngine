@@ -1,0 +1,90 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:BIGDATAUNIVERSITY+ML0120EN+V2",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Deep Learning with TensorFlow",
+        "duration":"3 hrs",
+        "learners_amount":"57 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Majority of data in the world are unlabeled and unstructured data, for instance images, sound, and text data. Shallow neural networks cannot easily capture relevant structure in these kind of data, but deep networks are capable of discovering hidden structures within\u00a0these data. In this course, you will use TensorFlow library to apply deep learning on different data types to solve real world problems.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Lightcast Skills Taxonomy",
+            "TensorFlow Skill",
+            "Deep Learning Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-A454580D4FC8",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Racial Equality in Design | IBM",
+        "duration":"20 mins",
+        "learners_amount":"213 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 18 learners in the past 12 months.",
+        "star_num_ratings":"18",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The Racial Equity in Design site from IBM ensures racial equity is instilled in the design culture inside and outside of IBM by driving change through our interactions, investments, and actions that impact behaviors, policies, and deep-seated assumptions.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - User experience design (UX Design)",
+            "Other - Art, Illustration, and Design Principles"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-QPEEKVMMWPDG8Z95",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Solar Advocacy | Jeevitam",
+        "duration":"1 hr",
+        "learners_amount":"13 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2871 learners in the past 12 months.",
+        "star_num_ratings":"2,871",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The world is moving quickly towards the adoption of solar energy. India, as the founder of the International Solar Alliance (ISO), is keen to provide support, subsidies, and more to drive solar energy adoption. In this course, you can learn about this industry and how to be an advocate for solar adoption, which will have a deep and long-lasting impact on the environment.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Expand your horizons - Sustainability",
+            "Learning Domain Primary",
+            "Sustainability",
+            "Lightcast Skills Taxonomy",
+            "Advocacy Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-259",
+        "category":"deep_learning",
+        "type":"eLearning",
+        "title":"Introducing Tableau Prep Builder",
+        "duration":"30 mins",
+        "learners_amount":"22 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p><\/p>\n<p>What is Tableau Prep Builder, who is it for, and when is it useful?<\/p>\n<p>Have you ever been deep in analysis and then realized that your data is \"dirty\" with inconsistencies and needs to be cleaned before you can continue?\u00a0<\/p>\n<p>Or, are you trying to publish data for others and want to reshape it first so it will be easier for others to analyze?<\/p>\n<p>Tableau Prep Builder is a visual data preparation tool you can use to clean and prepare data for these situations and more. This module describes Tableau Prep Builder, explains why you'd use it, and how to best use it with other Tableau products.<\/p>\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<p><\/p>\n<p>At the end of this module, you will be able to:<\/p>\n<ul>\n<li>Define and describe the purpose of data preparation.\u00a0<\/li>\n<li>Describe how data preparation fits into the analytic process.\u00a0<\/li>\n<li>Identify the major benefits of Tableau Prep Builder.\u00a0<\/li>\n<li>Describe how Tableau Prep Builder is integrated with other Tableau products.\u00a0<\/li>\n<li>Summarize when to use Tableau Prep Builder as opposed to Tableau Desktop.\u00a0\u00a0<\/li>\n<li>Identify some common roles\/personas who would use Tableau Prep Builder.\u00a0<\/li>\n<li>Describe examples of how Tableau Prep Builder is used by people in these roles.\u00a0<\/li>\n<li>Describe typical scenarios where you could use Tableau Prep Builder.<\/li>\n<\/ul>\n<br\/>\n<p><\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Lightcast Skills Taxonomy",
+            "Tableau (Business Intelligence Software) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-59E2188081D7",
+        "category":"deep_learning",
+        "type":"Learning Plan",
+        "title":"Call for Code for Racial Justice Resources",
+        "duration":"Weeks",
+        "learners_amount":"74 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 6 learners in the past 12 months.",
+        "star_num_ratings":"6",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">Welcome! This learning plan provides the background and skills necessary to be ready to contribute to <a href=\"https:\/\/developer.ibm.com\/callforcode\/racial-justice\/\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Call for Code for Racial Justice<\/a> open source projects. In response to the murders of George Floyd, Ahmaud Arbery, Breonna Taylor, and too many others, Black IBMers had a vision to make use of technology to address social injustice. Their top ideas have been released as open source projects through the Linux Foundation.\n<br\/>\n<br\/>\nThis learning plan contains resources to help you learn about these projects and how you can start contributing to the technology solutions, even if you do not have a technical background. Use the resources found here to get inspired, grow your skills, and finds ways you can contribute, no matter your area of expertise.\n<ul>\n<li><strong>Learning activities<\/strong>: There are some required modules to make sure you know the basics about Call for Code for Racial Justice projects and open source contribution, but most modules are optional. You can explore general information about the program, technical materials, professional skills resources, or dive deep into information about one or more of our open source projects that interest you most.<\/li>\n<li><strong>Audience<\/strong>: Call for Code for Racial Justice invites problem solvers to contribute to technology solutions that directly benefit organizations doing grassroots work and local communities that need these solutions. Whatever your skills, there are valuable ways for you to participate. This learning plan is designed for anyone who is interested in how technology can be used to make a meaningful change and looking to gain skills to be ready to contribute.<\/li>\n<li><strong>Prerequisites<\/strong>: You do not need any previous programming or other experience to take this learning plan.<\/li>\n<li><strong>Duration<\/strong>: Varies. Depending on your interests and previous experience, you can complete the right combination of modules for you to build your skills.<\/li>\n<li><strong>Language<\/strong>: English<\/li>\n<\/ul>\n<br\/>\nRemember to:\n<ul>\n<li>Review the first section to learn about the <strong>program <\/strong>and explore more on the <strong>topics of racism, racial equity, and racial justice<\/strong>.<\/li>\n<li>Pay particular attention to details on joining the <strong>Call for Code for Racial Justice community<\/strong> to stay connected and benefit from community expertise and networking.<\/li>\n<li>Consider taking the <strong>Introduction to Open Source course<\/strong> if you\u2019re brand new to open source projects to learn about key concepts, tools, and processes that you need to start contributing to any open source project. You can earn a badge by completing this course!<\/li>\n<li>Check out the<strong> Design Thinking<\/strong> <strong>course <\/strong>to learn about techniques you should apply to keep your impacted users at the center of the solution you design. You can earn a badge by completing this course!<\/li>\n<li>Dive into the <strong>details <\/strong>about any of the<strong> <\/strong>seven <strong>Call for Code for Racial Justice open source projects<\/strong>.<\/li>\n<li>Learn about the <strong>technology building blocks<\/strong> used in our open source projects, if you are interested in making a technical contribution.<\/li>\n<\/ul>\n<br\/>\nThis plan is a starting point, and we encourage you to stay curious and explore additional resources as needed.\n<br\/>\n<br\/>\nSelect<strong> Start tracking progress<\/strong> to enroll in this learning plan and get started!<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Lightcast Skills Taxonomy",
+            "Detail Oriented Skill",
+            "Linux Skill"
+        ]
+    }
+]

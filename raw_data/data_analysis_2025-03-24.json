@@ -1,0 +1,341 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ALM-COURSE_3822994",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Digital Data Gathering, Analysis, and Presentation",
+        "duration":"30 mins",
+        "learners_amount":"1387 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 43 learners in the past 12 months.",
+        "star_num_ratings":"43",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en-us\" translate=\"yes\"><p>In this module, you\u2019ll learn about the principles of digital data gathering, the process of data analysis, and effective data presentation.\u00a0This completes the journey from data collection to decision making.<\/p><p>\u00a0<\/p><p><strong>What you\u2019ll learn<\/strong><\/p><p>After completing this course, you should be able to:<\/p><ul><li>Define the data gathering process and methods<\/li><li>Describe the data analysis process<\/li><li>Identify the key methods of effective data presentation<\/li><\/ul><p>\u00a0<\/p><p><strong>Lessons<\/strong><\/p><ol><li>What is data gathering?<\/li><li>What is data analysis?<\/li><li>What is data presentation?<\/li><\/ol><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Digital Literacy",
+            "Learning Domain",
+            "Workplace skills - Workforce readiness"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-AF8044952007",
+        "category":"data_analysis",
+        "type":"Learning Plan",
+        "title":"Data Analysis ou Analyse de Donn\u00e9es",
+        "duration":"Days",
+        "learners_amount":"47 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\">La Data Analysis, ou analyse de donn\u00e9es, est de plus en plus utilis\u00e9e dans les entreprises de tous les secteurs d'activit\u00e9. D\u00e9couvrez tout ce que vous devez savoir \u00e0 ce sujet. \n<br\/>\n Gr\u00e2ce aux technologies du num\u00e9rique, les entreprises ont d\u00e9sormais acc\u00e8s \u00e0 de vastes volumes de donn\u00e9es<strong> (Big Data) . <\/strong>Comprendre et analyser ces informations est un pr\u00e9cieux atout. \n<br\/>\n La Data Analysis, ou analyse de donn\u00e9es en fran\u00e7ais, est un processus consistant \u00e0 nettoyer, transformer, et mod\u00e9liser des donn\u00e9es. L\u2019objectif ? <strong>Extraire des informations exploitables<\/strong> pour prendre de meilleures d\u00e9cisions au sein d\u2019une entreprise. \n<br\/>\n Il s\u2019agit en r\u00e9alit\u00e9 de <strong>se baser sur le pass\u00e9 et le pr\u00e9sent<\/strong> afin de prendre les bonnes d\u00e9cisions pour le futur. Ceci peut se r\u00e9v\u00e9ler tr\u00e8s utile pour la croissance d\u2019une entreprise, pour d\u00e9velopper de nouveaux produits ou pour trouver des solutions aux probl\u00e8mes.<\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-2BB5ACC358F2",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Data Analysis with Python - Coursera",
+        "duration":"14 hrs",
+        "learners_amount":"1902 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 26 learners in the past 12 months.",
+        "star_num_ratings":"26",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Data Analysis with Python on Coursera pour Social Builder<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill",
+            "Python (Programming Language) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-P-BKQFKHQR8",
+        "category":"data_analysis",
+        "type":"Video",
+        "title":"Top 10 Data Analytics Tools 2020 | Best Tools for Data Analysis | Data Analytics Training | Edureka",
+        "duration":"13 mins",
+        "learners_amount":"7790 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 89 learners in the past 12 months.",
+        "star_num_ratings":"89",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Get a basic understanding of some of the top tools used for data analysis.<\/p>\n<ol>\n<li>R and Python<\/li>\n<li>Microsoft Excel<\/li>\n<li>Tableau<\/li>\n<li>RapidMiner<\/li>\n<li>KNIME<\/li>\n<li>Power BI<\/li>\n<li>Apache Spark<\/li>\n<li>QlikView<\/li>\n<li>Talend<\/li>\n<li>Splunk<\/li>\n<\/ol>This video is presented by Edureka.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.\n<br\/>\n<br\/><strong>Note<\/strong>: On the video toolbar, go to <strong>Settings<\/strong>, select <strong>Subtitles<\/strong>, select <strong>English<\/strong>, and then select <strong>Auto-Translate<\/strong> to enable subtitles in a language of your choice from the drop-down.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Microsoft Excel Skill",
+            "R (Programming Language) Skill",
+            "Tableau (Business Intelligence Software) Skill",
+            "Splunk Skill",
+            "Apache Spark Skill",
+            "Data Analysis Skill",
+            "Python (Programming Language) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-569905DA9552",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Data Analysis and Visualization Foundations - Coursera",
+        "duration":"32 hrs",
+        "learners_amount":"425 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 3.5 stars by 19 learners in the past 12 months.",
+        "star_num_ratings":"19",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Data Analysis and Visualization Foundations on Coursera pour Social Builder<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-NKWWYDVYQEDQ1AE5",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Data Analysis Fundamentals",
+        "duration":"1 hr",
+        "learners_amount":"2577 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 609 learners in the past 12 months.",
+        "star_num_ratings":"609",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course is designed to introduce you to data analysis. Data is everywhere and is an essential part of our lives. It\u2019s all about what you do with the data. You will learn about why data analysis is important, types of data, databases, data analysis process steps, types of data analysis, data visualization, and tools commonly used to manage and visualize data. You will also learn the answers to some frequently asked questions about the career and life of a data analyst.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-1E1158D2904C",
+        "category":"data_analysis",
+        "type":"Video",
+        "title":"Steps in data processing | IBM SkillsBuild",
+        "duration":"3 mins",
+        "learners_amount":"1226 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 40 learners in the past 12 months.",
+        "star_num_ratings":"40",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This short video outlines steps on how to gather data for analysis.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-06A93DC900EB",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Principles of Data Literacy",
+        "duration":"6 hrs",
+        "learners_amount":"1183 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 30 learners in the past 12 months.",
+        "star_num_ratings":"30",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This no-code course introduces the foundational how\u2019s and why\u2019s of data. How do statistics help us make conclusions from data? Why is good design critical for communicating data stories through data viz? What are the different kinds of analysis we can perform on a dataset? This course will help you feel empowered to answer these questions (and more!) and work with data with confidence.\n<br\/>\n<br\/>\nThis course is presented by Codecademy. You will need to register for a free account.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-508",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"How is technology used in tennis?",
+        "duration":"15 mins",
+        "learners_amount":null,
+        "star_rating":"Average rating of 4 stars by 3 learners in the past 12 months.",
+        "star_num_ratings":"3",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Emerging technologies are revolutionizing the way people play and experience the game of tennis. From the introduction of AI to the analysis of data, these technologies provide a richer experience for fans. In this micro learning activity, you will be introduced to the various emerging technologies that are used in professional tennis. You will explore the technology behind new innovations like electronic line calling, player and match analytics and insights, and enhanced broadcasting and highlights.<\/p><\/div>",
+        "tags":[
+            "Initiatives",
+            "AI2026"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:BDU+RP0105EN+V1",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Analyzing Big Data in R using Apache Spark",
+        "duration":"3 hrs",
+        "learners_amount":"9 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Apache Spark is a popular cluster computing framework used for performing large scale data analysis. SparkR provides a distributed data frame API that enables structured data processing with a syntax familiar to R users.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Lightcast Skills Taxonomy",
+            "Apache Spark Skill",
+            "Application Programming Interface (API) Skill",
+            "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-ZWASDVPPFFW",
+        "category":"data_analysis",
+        "type":"Video",
+        "title":"Data Analytics For Beginners | Introduction To Data Analytics | Data Analytics Using R | Simplilearn",
+        "duration":"51 mins",
+        "learners_amount":"6142 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 136 learners in the past 12 months.",
+        "star_num_ratings":"136",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This video for beginners covers all the basics and the concepts that will help you start learning data analytics. You will learn about the following:<\/p>\n<ul>\n<li>What is data analytics?\u00a0<\/li>\n<li>Steps involved in the data analytics process<\/li>\n<li>Tools used for data analytics<\/li>\n<li>Data analytics applications<\/li>\n<li>Companies using data analytics<\/li>\n<li>Case study<\/li>\n<li>Demo<\/li>\n<\/ul>\n<p>\u00a0<br\/>\n This video is presented by Simplilearn.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/><br\/><strong>Note<\/strong>: This video is available in English.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL25487G",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Quick Starts: Getting Started with Rhapsody Table and Matrix Views",
+        "duration":"2 hrs",
+        "learners_amount":"19 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>IBM Engineering Systems Design Rhapsody is an integrated, systems engineering environment for analyzing project requirements. It uses the OMG Systems Modeling Language\u2122 (OMG SysML) to enable rapid requirements analysis and visual, model-based design. Models may be verified and validated through execution and simulation. Rhapsody for Systems Engineers helps systems engineering teams design complex functionality in less time. Rhapsody allows the creation of Table and Matrix Views as part of the model \u2013 a very powerful and flexible way of consuming (and producing) model data. It doesn\u2019t matter what kind of model you have; UML, SysML, UAF and so on, all models can benefit from Tables and Matrix Views.\u00a0<\/p>\n<p>\u00a0<\/p>\n<p>In this Quick Start you will learn how to add your own table and matrix views to a Rhapsody model.<\/p>In this Quick Start students will learn how to add table and matrix views to a Rhapsody model.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "Systems Engineering Skill",
+            "Data Modeling Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-DNRXVYJGWJRG4N6B",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Introduction to Human Trafficking",
+        "duration":"1 hr 40 mins",
+        "learners_amount":"66 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 4 learners in the past 12 months.",
+        "star_num_ratings":"4",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Human trafficking is one of the fastest-growing crimes worldwide. This course is designed to provide introductory concepts about human trafficking to increase your knowledge.<\/p>\n<br\/>\n<p>The course covers:<\/p>\n<ul>\n<li>What is human trafficking?<\/li>\n<li>Types of human trafficking<\/li>\n<li>Causes and risk factors that can contribute to being exploited by human trafficking<\/li>\n<li>Examples of human trafficking in industries around the world<\/li>\n<li>Recruitment and control methods of victims<\/li>\n<li>The scale and business of human trafficking<\/li>\n<li>International measures and instruments<\/li>\n<li>The importance and value of data in the fight against human trafficking<\/li>\n<li>A case study about the Traffik Analysis Hub<\/li>\n<\/ul>\n<p><\/p>\n<br\/>\n<p><strong>Duration:<\/strong> This course is approximately 1 hour, 40 minutes.<\/p>\n<br\/><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Workplace skills - Ways of working",
+            "Learning Domain Primary",
+            "Professional skills"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL10012G",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"IBM Process Mining: Running a Process Analysis",
+        "duration":"1 hr",
+        "learners_amount":"13 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course provides instruction in the full IBM Process Mining project lifecycle. The course provides video instruction on how to perform the five main steps to implementing an IBM Process Mining project for a JIRA ticketing process. Students are provided the same source files used in the video so they can follow along. In this course, you learn how to import data and configure the process. You learn how to analyze the model views and perform a conformance check. You also learn how to analyze performance using dashboards and how to perform a what-if analysis. Lastly, after implementation, you use monitoring to trigger insight to action.<\/p>This course provides instruction in the full IBM Process Mining project lifecycle. \n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-SLA1897",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"How to Configure IBM zSecure Alerts to Send Events to IBM QRadar",
+        "duration":"30 mins",
+        "learners_amount":"2 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This video is a technical walk through of all steps needed to configure zSecure Alert to send events to QRadar. zSecure Alert is the real-time monitor component of the zSecure suite. It can correlate events and send out real-time alerts through e-mail, text message, Write To Operator console messages, SNMP traps, or syslog receiver events. It also integrates capabilities for data analysis and enrichment that are part of zSecure Audit. This integration allows forwarding real-time alerts from zSecure Alert to QRadar SIEM through the syslog protocol.<\/p>This video is a technical walk through of all steps needed to configure zSecure Alert to send events to QRadar. zSecure Alert is the real-time monitor component of the zSecure suite. It\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-258",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Introduction to Tableau Desktop",
+        "duration":"1 hr",
+        "learners_amount":"13655 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 344 learners in the past 12 months.",
+        "star_num_ratings":"344",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Are you a new user of Tableau Desktop, eager to start building visualizations?\u00a0<\/p>\n<p>In this module, you'll do that and more. You'll get a quick grasp of the fundamentals, learning the key phases of the data workflow in Tableau Desktop: connecting, analyzing, and sharing. Then you'll focus on each phase and complete it yourself: connecting to data, analyzing it using essential charts, and creating an interactive dashboard for sharing your views.<\/p>\n<br\/>\n<br\/><strong>What you\u2019ll learn<\/strong>\n<p><\/p>\n<p>At the end of this module, you will be able to:<\/p>\n<ul>\n<li>Describe the iterative Tableau Desktop workflow of connecting to, analyzing, and sharing your data.<\/li>\n<li>Connect to and preview data in Tableau Desktop.<\/li>\n<li>Describe the key areas of the Tableau Desktop workspace.<\/li>\n<li>Build a bar chart and a cross tab in the workspace.<\/li>\n<li>Use visualizations to answer questions about data.<\/li>\n<li>Bring views together in an interactive dashboard.<\/li>\n<li>Describe options for sharing your analysis.<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "Workflow Management Skill",
+            "Tableau (Business Intelligence Software) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-505",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"How is technology used in tennis?",
+        "duration":"15 mins",
+        "learners_amount":"1430 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 69 learners in the past 12 months.",
+        "star_num_ratings":"69",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Emerging technologies are revolutionizing the way people play and experience the game of tennis. From the introduction of AI to the analysis of data, these technologies provide a richer experience for fans. In this micro learning activity, you will be introduced to the various emerging technologies that are used in professional tennis. You will explore the technology behind new innovations like electronic line calling, player and match analytics and insights, and enhanced broadcasting and highlights.<\/p><\/div>",
+        "tags":[
+            "Initiatives",
+            "AI2026"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-215",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Introduction to Data Concepts",
+        "duration":"1 hr 15 mins",
+        "learners_amount":"70363 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2194 learners in the past 12 months.",
+        "star_num_ratings":"2,194",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">In this course, you will become familiar with fundamental data concepts such as types of data, big data, the typical steps in the data analytics process, and data visualization.\n<br\/>\n<br\/>\n<p><strong>What you\u2019ll learn<\/strong><br\/><\/p>\n<p>After completing this course, you should be able to:<br\/><\/p>\n<p><\/p>\n<ul>\n<li>Explain the importance of data in a digital world<br\/><\/li>\n<li>Differentiate between unstructured and structured data<br\/><\/li>\n<li>Identify the purpose of a database<br\/><\/li>\n<li>Differentiate between quantitative and qualitative data<br\/><\/li>\n<li>Describe the five V\u2019s of big data<br\/><\/li>\n<li>Describe the four types of data analytics<br\/><\/li>\n<li>Explain the work involved in each step of the data analysis process<br\/><\/li>\n<li>Identify the purpose of a data visualization<br\/><\/li>\n<li>Recognize different charts to display data visualizations in the best way<br\/><\/li>\n<\/ul>\n<p><\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Data Fundamentals",
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Analysis Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-E74983239450",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Advanced Google Analytics | Google Analytics Academy",
+        "duration":"4 hrs",
+        "learners_amount":"181 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 5 learners in the past 12 months.",
+        "star_num_ratings":"5",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Advanced Google Analytics walks you through how data gets collected and processed into readable reports. You'll learn how to use configurations like Custom Dimensions, Custom Metrics, and Event Tracking to collect data that's specific to your business. The course will also demonstrate more advanced analysis techniques using segmentation, channel reports, audience reports, and custom reports, as well as marketing strategies like remarketing and Dynamic Remarketing that show ads to customers who have visited your website.<br\/><br\/>This course is offered by Google Analytics Academy. You will need to register to Google Analytics Academy.<br\/><br\/>The course is available in Chinese (Simplified and Traditional), Czech, Dutch, English, French, German, Indonesian, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish, and Vietnamese. You can use the language selector in the bottom right corner of the course page to switch languages.<br\/><br\/>After you complete this course, return to this page to select <strong>Mark complete<\/strong> for completion credit.<br\/>\u00a0<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/MDL-367",
+        "category":"data_analysis",
+        "type":"eLearning",
+        "title":"Conducting UX Research",
+        "duration":"2 hrs",
+        "learners_amount":"4868 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 129 learners in the past 12 months.",
+        "star_num_ratings":"129",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>In this course, you\u2019ll learn the importance of research in creating a user-centered design. You\u2019ll explore various user experience (UX) research methods and techniques. You\u2019ll also learn the importance of user personas in UX design and the ways to create them based on the research conducted and the data collected. Furthermore, you\u2019ll learn the ways to conduct a competitive and comparative analysis by evaluating and comparing a product or service against its competitors in the market. Finally, you\u2019ll review an example UX case study that conducted research and created user personas.<br\/><br\/>\u00a0<\/p><p><strong>What you\u2019ll learn<\/strong><br\/>After completing this course, you should be able to:<br\/>\u00a0<\/p><ul><li>Describe the value of user research in UX design<\/li><li>Explain the purpose and importance of hypotheses in UX\u00a0research<\/li><li>Identify the methods and techniques used to conduct UX\u00a0research<\/li><li>Describe the purpose and importance of data synthesis<\/li><li>Explain the various frameworks to synthesize UX research data<\/li><li>Explain the purpose, importance, and key components of user\u00a0personas<\/li><li>Describe the process of creating a user persona<\/li><li>Describe the process of utilizing user personas throughout the UX\u00a0design process<\/li><li>Explain competitive and comparative analysis<\/li><li>Identify the steps and common frameworks to conduct a\u00a0competitive and comparative analysis<\/li><li>Review an example UX case study to make conclusions about\u00a0researching users, creating user personas, and researching\u00a0competitors<\/li><\/ul><\/div>",
+        "tags":[
+            "Badge Learning",
+            "User Experience Design Fundamentals",
+            "Learning Domain",
+            "Technical skills - User experience design (UX Design)",
+            "Learning Domain Primary",
+            "UX design"
+        ]
+    }
+]

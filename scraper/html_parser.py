@@ -1,15 +1,13 @@
 from bs4 import BeautifulSoup
-from typing import Any, Union, List, Dict, Optional
-
 
 def extract_elements(
     selector: str,
     soup: BeautifulSoup,
     single: bool = True,
-    unwanted_selector: Union[str, None] = None,
-    attribute: Union[str, None] = None,
+    unwanted_selector: str | None = None,
+    attribute: str | None = None,
     raw_html: bool = False,
-) -> Union[str, List[str], None]:
+) -> str | list[str] | None:
     """
     Extracts elements using a BeautifulSoup selector and returns their raw HTML,
     text, or an attribute value, with optional removal of unwanted nested elements.
@@ -23,7 +21,7 @@ def extract_elements(
         raw_html (bool): If True, returns inner HTML.
     """
 
-    def get_raw(element: Any) -> str:
+    def get_raw(element: any) -> str:
         if not element:
             return ""
 
@@ -46,7 +44,7 @@ def extract_elements(
         return [get_raw(elem) for elem in elements] if elements else []
 
 
-def parse_course_page(html_source: str, url: str, course_category: str) -> Optional[Dict[str, Union[str, None, List[str]]]]:
+def parse_course_page(html_source: str, url: str, course_category: str) -> dict[str, str | None | list[str]] | None:
     """
         Parses course data from HTML and returns a structured dictionary.
         Skips entries where the course URL is missing.

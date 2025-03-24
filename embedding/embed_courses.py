@@ -69,7 +69,7 @@ def load_data() -> pd.DataFrame:
     removing duplicates based on the 'course_id' field.
     """
     config = load_config()
-    processed_dir = Path(".") / config["processed_output_path"]
+    processed_dir = Path(f"{config['processed_output_path']}")
     dataframes = []
 
     for file_path in sorted(processed_dir.glob("*.json")):

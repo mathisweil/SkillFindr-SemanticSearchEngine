@@ -1,0 +1,63 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-B310E32FD59D",
+        "category":"html_css_js",
+        "type":"eLearning",
+        "title":"Website Development Level 1 Front end Dev. (UX)",
+        "duration":"5 mins",
+        "learners_amount":"1153 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 8 learners in the past 12 months.",
+        "star_num_ratings":"8",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Learn how to build up a website: everything you need to know about HTML, CSS, Javascript, Bootstrap and React JS! \n<br\/>\n Suitable for beginners<\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-71713800C96A",
+        "category":"html_css_js",
+        "type":"eLearning",
+        "title":"Cr\u00e9ez des pages web dynamiques avec JavaScript | OpenClassrooms",
+        "duration":"12 hrs",
+        "learners_amount":"17 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"fr\" translate=\"yes\">Vous ma\u00eetrisez les bases du langage JavaScript. Mais est-ce que vous savez comment utiliser le DOM\u00a0? Comment r\u00e9cup\u00e9rer les donn\u00e9es d\u2019une API en ligne\u00a0? Ou encore utiliser une librairie\u00a0?\n<br\/>\nVous voulez rendre vos pages web dynamiques et interactives, mais vous ne savez pas comment faire\u00a0?\n<br\/>\nDans ce cours, je vais vous aider \u00e0 cr\u00e9er une interface web \u00e0 la hauteur de vos ambitions. Au fur et \u00e0 mesure, nous allons impl\u00e9menter des fonctionnalit\u00e9s interactives, pour visualiser, trier et ordonner les \u00e9l\u00e9ments d\u2019une page et les commentaires des internautes.<\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL25488G",
+        "category":"html_css_js",
+        "type":"eLearning",
+        "title":"Quick Starts: Extending DOORS Next with JavaScript",
+        "duration":"2 hrs",
+        "learners_amount":"40 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>IBM Engineering Requirements Management DOORS Next behavior may be extended by creating <i>OpenSocial<\/i> gadgets that may be added to the Mini Dashboard. OpenSocial is a public specification for creating web applications using standard technologies like HTML, CSS, and JavaScript. DOORS Next provides a JavaScript API that allows the OpenSocial gadget to interact with the requirement data and automate complex operations.<\/p>In this Quick Start, students will learn how to use DOORS Next JavaScript API to allow OpenSocial gadgets to interact with requirement data and automate complex operations.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "Cascading Style Sheets (CSS) Skill",
+            "HyperText Markup Language (HTML) Skill",
+            "Application Programming Interface (API) Skill",
+            "Operations Skill",
+            "JavaScript (Programming Language) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-11E1142444D2",
+        "category":"html_css_js",
+        "type":"eLearning",
+        "title":"D\u00e9butez avec React | OpenClassrooms",
+        "duration":"8 hrs",
+        "learners_amount":"30 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"fr\" translate=\"yes\">Vous avez s\u00fbrement d\u00e9j\u00e0 entendu parler de React.\n<br\/>\nUtilis\u00e9e par les entreprises g\u00e9antes de la Tech comme Facebook, Twitter ou Netflix, il s'agit de l'une des biblioth\u00e8ques JavaScript les plus populaires pour construire des interfaces web. Son approche par composants r\u00e9utilisables en fait un outil particuli\u00e8rement modulaire pour d\u00e9velopper vos applications.\n<br\/>\nDans ce cours, vous construirez pas \u00e0 pas votre premi\u00e8re application React, en l'enrichissant de nouvelles fonctionnalit\u00e9s au fil des notions ma\u00eetris\u00e9es.\n<br\/>\nNous commencerons par nous <strong>initier au fonctionnement de React\u00a0et \u00e0 la syntaxe JSX<\/strong> avec un outil simple en ligne. Puis nous <strong>cr\u00e9erons les bases de notre application<\/strong> compl\u00e8te avec Create React App, \u00e0 laquelle nous ajouterons du style, et du contenu\u00a0! La derni\u00e8re partie sera l'occasion d'aborder le state et les effets de bord, afin de <strong>rendre l\u2019application interactive <\/strong>pour l\u2019utilisateur.\u00a0<\/div>",
+        "tags":[
+
+        ]
+    }
+]

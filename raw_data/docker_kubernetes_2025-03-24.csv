@@ -1,0 +1,11 @@
+course_url,category,type,title,duration,learners_amount,star_rating,star_num_ratings,description,tags
+https://skills.yourlearning.ibm.com/activity/URL-A557BF0DF558,docker_kubernetes,Video,Deploying Containerized Applications Technical Overview,1 hr 40 mins,172 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 3 learners in the past 12 months.,3,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><strong>An introduction to containerization concepts</strong>
+<br/>
+Deploying Containerized Applications Technical Overview (DO080) is a series of on-demand, online videos that introduces you to Linux® containers and container orchestration technology using Docker, Kubernetes, and Red Hat® OpenShift Container Platform. This course is based on Red Hat OpenShift Container Platform 4.1. In this series of short lectures and in-depth demonstrations, you will learn about the concepts of containerization—and see it in action. Learn about containerizing applications and services, testing them using Docker, and deploying them on a Kubernetes cluster using Red Hat OpenShift. You will also learn how to build and deploy an application from source code using the source-to-image facility of OpenShift. 
+<br/>
+<br/><strong>Audience:</strong> Anyone interested in learning the value of container technology, containerizing applications, and deploying them at scale on a Kubernetes cluster. 
+<br/>
+<br/><strong>Languages: </strong>English (as well as closed-captioned for English), Japanese, French, German, Chinese, Spanish, Korean, and Italian. 
+<br/>
+<br/>
+After you complete this activity, return to this page to select <strong>Mark complete </strong>for completion credit.</div>","['Lightcast Skills Taxonomy', 'Kubernetes Skill', 'Docker (Software) Skill']"
