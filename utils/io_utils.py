@@ -1,7 +1,9 @@
 import logging
+from pathlib import Path
+
 import pandas as pd
 
-def save_data(data: list[dict[str, any]] | pd.DataFrame, csv_filename: str = None, json_filename: str = None) -> None:
+def save_data(data: list[dict[str, any]] | pd.DataFrame, csv_filename: Path = None, json_filename: Path = None) -> None:
     """
     Saves the data to CSV and JSON files.
 
@@ -21,3 +23,31 @@ def save_data(data: list[dict[str, any]] | pd.DataFrame, csv_filename: str = Non
     if json_filename is not None:
         data.to_json(json_filename, orient="records", indent=4)
         logging.info(f"Data successfully saved to JSON: {json_filename}")
+
+
+def load_data(directory: str) -> pd.DataFrame:
+    """
+    Loads all JSON files from the specified directory into a single pandas DataFrame.
+    Removes duplicate entries based on the 'course_id' field.
+
+    Parameters:
+        directory (str | Path): Path to the directory containing JSON files.
+
+    Returns:
+        pd.DataFrame: Combined DataFrame of all loaded data, with duplicates removed.
+    """
+    directory = Path(directory)
+    dataframes = []
+
+    for file_path in sorted(directory.glob("*.json")):
+        try:
+            df = pd.read_json(file_path)
+            dataframes.append(df)
+        except ValueError as e:
+            print(f"Warning: Failed to read {file_path} — {e}")
+
+    if not dataframes:
+        return pd.DataFrame()
+
+    combined_df = pd.concat(dataframes, ignore_index=True)
+    return combined_df

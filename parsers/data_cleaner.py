@@ -11,7 +11,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 from utils.config import load_config
-from utils.io_utils import save_data
+from utils.io_utils import save_data, load_data
 
 
 BOILERPLATE = [
@@ -307,44 +307,44 @@ def extract_numeric(value) -> int:
 
 def main():
     config = load_config()
+    df = load_data(config['raw_output_path'])
 
-    raw_dir = Path(f"{config['raw_output_path']}")
-    processed_dir = Path(f"{config['processed_output_path']}")
+    df = df[df["course_url"].notnull()]
+    df["course_id"] = df["course_url"].apply(lambda url: url.split("/")[-1] if isinstance(url, str) else None)
+    df = df[df["course_id"].notnull()]
+
+    df = df.drop_duplicates(subset="course_id")
+
+    df["title_raw"] = df["title"]
+    df["title"] = df["title"].apply(lambda x: clean_title(x) if isinstance(x, str) and x.strip() else "Untitled")
+
+    df["description_raw"] = df["description"]
+    df[["description", "languages"]] = df["description"].apply(
+        lambda x: pd.Series(
+            clean_description(x) if isinstance(x, str) and x.strip() else ("no description available", ["en"]))
+    )
+
+    df["tags_raw"] = df["tags"]
+    df["tags"] = df["tags"].apply(lambda x: clean_tags(x) if isinstance(x, list) else [])
+
+    df["duration"] = df["duration"].apply(lambda x: convert_duration(x) if isinstance(x, str) else 0)
+    df["learners_amount"] = df["learners_amount"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
+    df["star_rating"] = df["star_rating"].apply(
+        lambda x: float(re.search(r"(\d+(\.\d+)?)", str(x)).group(1))
+        if isinstance(x, str) and re.search(r"(\d+(\.\d+)?)", x)
+        else float(x) if isinstance(x, (int, float)) and not pd.isna(x)
+        else 0.0
+    )
+    df["star_num_ratings"] = df["star_num_ratings"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
+
+    df = df.sort_values(by=["learners_amount", "star_rating"], ascending=[False, False])
+
+    processed_dir = Path(config['processed_output_path'])
     processed_dir.mkdir(parents=True, exist_ok=True)
 
-    for file_path in raw_dir.glob("*.json"):
-        df = pd.read_json(file_path)
-
-        df["course_id"] = df["course_url"].apply(lambda url: url.split("/")[-1])
-        df = df[df["course_url"].notnull() & df["course_id"].notnull()]
-
-        df["title_raw"] = df["title"]
-        df["title"] = df["title"].apply(lambda x: clean_title(x) if isinstance(x, str) and x.strip() else "Untitled")
-
-        df["description_raw"] = df["description"]
-        df[["description", "languages"]] = df["description"].apply(
-            lambda x: pd.Series(
-                clean_description(x) if isinstance(x, str) and x.strip() else ("no description available", ["en"]))
-        )
-
-        df["tags_raw"] = df["tags"]
-        df["tags"] = df["tags"].apply(lambda x: clean_tags(x) if isinstance(x, list) else [])
-
-        df["duration"] = df["duration"].apply(lambda x: convert_duration(x) if isinstance(x, str) else 0)
-        df["learners_amount"] = df["learners_amount"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
-        df["star_rating"] = df["star_rating"].apply(
-            lambda x: float(re.search(r"(\d+(\.\d+)?)", str(x)).group(1))
-            if isinstance(x, str) and re.search(r"(\d+(\.\d+)?)", x)
-            else float(x) if isinstance(x, (int, float)) and not pd.isna(x)
-            else 0.0
-        )
-        df["star_num_ratings"] = df["star_num_ratings"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
-
-        df = df.sort_values(by=["learners_amount", "star_rating"], ascending=[False, False])
-
-        stem = re.sub(r"_\d{4}-\d{2}-\d{2}$", "", file_path.stem)
-        output_base = processed_dir / stem
-        save_data(df, f"{output_base}.csv", f"{output_base}.json")
+    csv_filename = processed_dir / "processed_courses.csv"
+    json_filename = processed_dir / "processed_courses.json"
+    save_data(df, csv_filename, json_filename)
 
 
 if __name__ == "__main__":

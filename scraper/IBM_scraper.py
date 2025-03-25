@@ -209,8 +209,8 @@ def main():
                     logging.warning(f"No courses to process for: {search_keyword['keyword']}.")
                 else:
                     current_date = datetime.now().strftime("%Y-%m-%d")
-                    csv_filename = f"{config['raw_output_path']}/{search_keyword["category"]}_{current_date}.csv"
-                    json_filename = f"{config['raw_output_path']}/{search_keyword["category"]}_{current_date}.json"
+                    csv_filename = raw_dir / f"{search_keyword["category"]}_{current_date}.csv"
+                    json_filename = raw_dir / f"{search_keyword["category"]}_{current_date}.json"
 
                     save_data(courses, csv_filename, json_filename)
     except Exception as e:
