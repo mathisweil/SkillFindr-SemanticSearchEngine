@@ -1,0 +1,301 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:COGNITIVECLASS+DS0103EN+V3",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"Data Science Methodology",
+        "duration":"3 hrs",
+        "learners_amount":"242 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Grab your lab coat, beakers, and pocket calculator ... wait what? Wrong path! Fast forward and get in line with emerging data science methodologies that are in use and are making waves or rather predicting and determining which wave is coming and which one has just passed.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:COGNITIVECLASS+DS0105EN+V3",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"Data Science Tools",
+        "duration":"4 hrs",
+        "learners_amount":"399 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn about the most popular data science tools, including how to use them and what their features are.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-585304083735",
+        "category":"data_science",
+        "type":"Webpage",
+        "title":"IBM Data Science Community",
+        "duration":"30 mins",
+        "learners_amount":"1141 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 24 learners in the past 12 months.",
+        "star_num_ratings":"24",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">Interested in how to pursue a data science career at IBM and learning and certification? Participate in discussions and share resources with other members of the data science community. \n<br\/>\n<br\/><strong>Note: <\/strong>This activity is currently available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/SN-COURSE-V1:BIGDATAUNIVERSITY+DS0101EN+V1",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"Data Science 101",
+        "duration":"3 hrs",
+        "learners_amount":"780 learners have completed this activity in the past 12 months.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>The art of uncovering the insights and trends in data has been around since ancient times. The ancient Egyptians used census data to increase efficiency in tax collection and they accurately predicted the flooding of the Nile river every year. Since then, people working in data science have carved out a unique and distinct field for the work they do, this field is data science. In this course, we will meet some data science practitioners and we will get an overview of what data science is today.<\/p><p><strong>Note on grading - please read:<\/strong><br\/><br\/>Review questions are worth\u00a050% of the mark, and the final exam is worth 50%. The course passing grade is\u00a0<strong>70%<\/strong>.<\/p><ul><li><strong>Review Questions:<\/strong><ul><li>Have no time limit. This should encourage participants to go back to material previously explained to find the correct answer.<\/li><li>Multiple choice questions have\u00a0two chances while True\/False questions only have one\u00a0chance.<\/li><li>Review questions are marked\u00a0<strong>per question<\/strong>. As soon as you answer a particular question, when the \u201cFinal check\u201d button appears, it means you will have no more chances after clicking that button, and your answer will be immediately marked and cannot be changed (ever). You will be able to see your grade progress at any time using the \u201cProgress\u201d tab.<\/li><\/ul><\/li><li><strong>Final Exam:<\/strong><ul><li>Has a 1-hour time limit<\/li><li>Like Review Questions, as you click on \u201cFinal check\u201d per question, you will be marked.<\/li><\/ul><\/li><\/ul><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-968D607D4A12",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"Getting started with enterprise data science",
+        "duration":"5 hrs",
+        "learners_amount":"431 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 9 learners in the past 12 months.",
+        "star_num_ratings":"9",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Whether it is fighting fraud, detecting cancer, or predicting a hurricane, you need data and AI. Join a new wave of data-savvy professionals with access to millions of jobs available in\u00a0the market.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Data"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-66C52D485A64",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"Getting Started Off-Platform for Data Science",
+        "duration":"4 hrs",
+        "learners_amount":"70 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 3 stars by 2 learners in the past 12 months.",
+        "star_num_ratings":"2",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This course will introduce you to all of the tools you will need to get started off-platform as well as some helpful tricks for each technology. These are the most common technologies used by Data Professionals across sectors. This course will teach you how to do data science projects on your own computer locally. This course is presented by Codecademy. You will need to register for a free account. In this course, you will learn about:\n<ul>\n<li>Using the Command Line<\/li>\n<li>Installing and using Jupyter Notebooks<\/li>\n<li>Setting up and using PostgreSQL<\/li>\n<li>Git workflow<\/li>\n<li>Setting up and using integrated development environments<\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-HPAPZLDT6DE",
+        "category":"data_science",
+        "type":"Video",
+        "title":"What is Data Science? - Advice for New Data Scientists by IBM #3",
+        "duration":"3 mins",
+        "learners_amount":"1397 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 24 learners in the past 12 months.",
+        "star_num_ratings":"24",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This 3-minute video is part of an online course, What is Data Science?, created by IBM. This video addresses skills and qualities needed by data scientists. \n<br\/>\n<br\/><strong>Note: <\/strong>This activity is currently available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-B5819234974E",
+        "category":"data_science",
+        "type":"Webpage",
+        "title":"Data Science | IBM Cloud Learn Hub",
+        "duration":"15 mins",
+        "learners_amount":"1212 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 9 learners in the past 12 months.",
+        "star_num_ratings":"9",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Data science combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data.<br\/><br\/>\n The <strong>IBM Cloud Learn Hub<\/strong> website provides education about cloud topics, technologies, and strategies. Explore and read about topics such as:<\/p>\n<ul>\n<li>What is data science?<\/li>\n<li>The data science lifecycle<\/li>\n<li>Data science tools<\/li>\n<li>Data science and cloud computing<\/li>\n<li>Data science use cases<\/li>\n<li>Data science and IBM Cloud<\/li>\n<\/ul>After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit. \n<br\/>\n<br\/><strong>Note<\/strong>: This activity is available only in English.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical Skills - Cloud",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Mathematics Skill",
+            "Data Science Skill",
+            "Artificial Intelligence Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ILB-VQNVGKNRKDYX44W6",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"What is data science?",
+        "duration":"30 mins",
+        "learners_amount":"43822 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 2369 learners in the past 12 months.",
+        "star_num_ratings":"2,369",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn why data science is like hunting for treasure! You'll get a closer look at the work and why you might choose it as your own career.<\/p>\n<p><\/p>\n<p><strong>Duration:<\/strong> Complete the activities in this course and earn 30 minutes of learning credit!<\/p>\n<p><\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Explore Emerging Tech",
+            "Learning Domain",
+            "Other - Emerging technologies",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Data Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/ISG-DL55007G",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"IBM Cloud Pak for Data 5.0: Technical Essentials",
+        "duration":"3 hrs",
+        "learners_amount":"7 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 5 stars by 1 learner in the past 12 months.",
+        "star_num_ratings":"1",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This course provides an overview of the IBM Cloud Pak for Data platform, its deployment options, services, exemplary business scenarios, and the architecture. You learn how the Red Hat OpenShift Container Platform relates to IBM Cloud Pak for Data. You review the core Kubernetes glossary and basic concepts of containerization and microservices.\u00a0The course also introduces basic concepts of data science project workflow and data cycle.<\/p>This course provides an overview of the IBM Cloud Pak for Data platform, its deployment options, services, exemplary business scenarios, and the architecture.\n<p>This course requires you register for an IBMid to access.<\/p><\/div>",
+        "tags":[
+
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-6D3C3FA8F0DA",
+        "category":"data_science",
+        "type":"Learning Plan",
+        "title":"Data Analyst",
+        "duration":"About 6 months",
+        "learners_amount":"146 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 64 learners in the past 12 months.",
+        "star_num_ratings":"64",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn more about data analytics concepts, methodologies and applications of data science, and the tools and programming languages used in the data ecosystem. You will acquire a conceptual understanding of how to clean, refine, and visualize data using IBM Watson Studio.\u00a0<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-DE5111A56F27",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"Online data security | Khan Academy",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"2470 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 58 learners in the past 12 months.",
+        "star_num_ratings":"58",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This is the <strong>Online data security <\/strong>unit from an online, self-paced review course for Computer Science Principles. This unit introduces the concept of PII and the ways in which PII and other data can be tracked online (cookies, search history, browsing history, geolocation). Learn how attackers can gain access to data and devices with phishing, rogue access points, and malware, and see how you can protect yourself with encryption, secure protocols, strong passwords, and multifactor authentication.<br\/><br\/>\n You will find short instructional content offerings, videos, and sample quiz questions to practice what you've learned and \"level up\" on your skills.<br\/><br\/><strong>Note<\/strong>: It is designed to prepare for a U.S. college examination, however the computer science content is valuable more broadly.<br\/><br\/>\n The topics include:<\/p>\n<ul>\n<li>Introduction to online data security<\/li>\n<li>PII (Personally identifiable information)<\/li>\n<li>User data tracking<\/li>\n<li>Cyber attacks<\/li>\n<li>Data encryption techniques<\/li>\n<li>Secure Internet protocols<\/li>\n<li>User authentication methods<\/li>\n<\/ul>\n<p><br\/>\n The content is offered in English.<br\/><br\/>\n This learning activity is presented by Khan Academy.<br\/><br\/>\n After you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Technical skills - Cybersecurity",
+            "Learning Domain Primary",
+            "Cybersecurity",
+            "Lightcast Skills Taxonomy",
+            "Computer Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-0C1E03B880C1",
+        "category":"data_science",
+        "type":"eLearning",
+        "title":"Digital information | Khan Academy",
+        "duration":"1 hr 30 mins",
+        "learners_amount":"86 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4 stars by 7 learners in the past 12 months.",
+        "star_num_ratings":"7",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\">This is the <strong>Digital information <\/strong>unit from an online, self-paced review course for Computer Science Principles. This unit explains how computers store information digitally, as binary data. Learn about the binary number system, the conversion of analog to digital data, and data compression strategies.\n<br\/>\n<br\/>\nYou will find short instructional content offerings, videos, and sample quiz questions to practice what you've learned and \"level up\" on your skills.\n<br\/>\n<br\/><strong>Note<\/strong>: It is designed to prepare for a U.S. college examination, however the computer science content is valuable more broadly.\n<br\/>\n<br\/>\nThe topics include:\n<ul>\n<li>Bits and bytes<\/li>\n<li>Binary numbers<\/li>\n<li>Limitations of storing numbers<\/li>\n<li>Storing text in binary<\/li>\n<li>Converting analog data to binary<\/li>\n<li>Lossless data compression<\/li>\n<li>Lossy data compression<\/li>\n<li>Digital copyright and licenses<\/li>\n<\/ul>\n<br\/>\nThe content is offered in English.\n<br\/>\n<br\/>\nThis learning activity is presented by Khan Academy.\n<br\/>\n<br\/>\nAfter you complete this activity, return to this page to select <strong>Mark complete<\/strong> for completion credit.<\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Data",
+            "Learning Domain Primary",
+            "Data",
+            "Lightcast Skills Taxonomy",
+            "Computer Science Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-BE0E24A0BA5C",
+        "category":"data_science",
+        "type":"Learning Plan",
+        "title":"Fundamentals of Sustainability and Technology (Earn a credential!)",
+        "duration":"About 10 hours",
+        "learners_amount":"2822 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 184 learners in the past 12 months.",
+        "star_num_ratings":"184",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Are you looking for an opportunity to build skills for jobs in the green economy and contribute to a more sustainable future? The world increasingly recognizes the need for environmentally friendly practices in all areas of life, and this learning plan can help you acquire the skills and knowledge needed to make a meaningful impact.\u00a0<br\/><strong>\u00a0<\/strong>\u00a0<br\/>\n By enrolling in this learning plan, you\u2019ll have the chance to learn about sustainability science and its applications in various fields of technology. Not only will you gain knowledge about sustainability, but you\u2019ll also develop practical skills to make a difference in various industries such as renewable energy, sustainable agriculture, green building, and waste management. You\u2019ll learn to define sustainability, identify ways that sustainability updates and extends the concept of conservation, and describe key applications of artificial intelligence and data analytics to drive sustainability.\u00a0<br\/>\n \u00a0\u00a0<br\/>\n By completing these courses, you\u2019ll earn an industry recognized SkillsBuild credential in <strong>Fundamentals of Sustainability and Technology<\/strong>. This credential can help you stand out to potential employers and demonstrate your commitment to sustainability.\u00a0<br\/>\n \u00a0\u00a0<br\/>\n After completing the courses required for the <strong>Fundamentals of Sustainability and Technology<\/strong> credential, you should be able to:<\/p>\n<ul>\n<li>Define sustainability<\/li>\n<li>Identify ways that sustainability updates and extends the concept of conservation<\/li>\n<li>Define the environmental, social, and governance (ESG) pillars that help guide sustainability initiatives<\/li>\n<li>Explain how data analytics helps organizations identify and measure sustainability issues and guide their solutions<\/li>\n<li>Describe key sustainability applications of artificial intelligence and hybrid cloud<\/li>\n<li>Describe new or rapidly changing technologies that can impact sustainability issues<\/li>\n<li>Make decisions in the role of a sustainability scientist<\/li>\n<li>Identify with the personal experience of researchers working on sustainability initiatives<\/li>\n<\/ul>\n<p><br\/><strong>Language:<\/strong> English, Arabic, Brazilian Portuguese, French, Hindi, Japanese, Spanish<br\/>\n \u00a0\u00a0<br\/>\n Select <strong>Enroll<\/strong>\u00a0to enroll in this learning plan and get started!<\/p><\/div>",
+        "tags":[
+            "Badge Learning",
+            "Fundamentals of Sustainability and Technology",
+            "000 All digital credentials",
+            "Badge Learning - Academia",
+            "000 All digital credentials - Academia",
+            "Fundamentals",
+            "All Fundamentals",
+            "Learning Domain",
+            "Technical skills - Data",
+            "Expand your horizons - Sustainability",
+            "Technical skills - Artificial Intelligence",
+            "Learning Domain Primary",
+            "Sustainability"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/credential\/CREDLY-5ce6af3f-f3a2-4eb9-9d44-690812d45210",
+        "category":"data_science",
+        "type":"Skill Credential",
+        "title":"Data Fundamentals",
+        "duration":"Hours",
+        "learners_amount":"55614 learners have earned this digital credential.",
+        "star_rating":null,
+        "star_num_ratings":null,
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this digital credential<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>This credential earner demonstrates knowledge of data analytics concepts, methodologies and applications of data science, and the tools and programming languages used in the data ecosystem. The individual has a conceptual understanding of how to clean, refine, and visualize data using IBM Watson Studio. The earner is aware of the job outlook in data and is familiar with the skills required for success in various roles in the domain.<\/p>\n<p>\u00a0<\/p>\n<p><strong>Languages<\/strong>: English, Arabic, French<\/p>\n<p>\u00a0<\/p>\n<p><strong>Complete the learning here<\/strong>: <a href=\"https:\/\/skills.yourlearning.ibm.com\/activity\/PLAN-BC0FAEE8E439\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Data Fundamentals<\/a><\/p><\/div>",
+        "tags":[
+            "Fundamentals",
+            "All Fundamentals"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/channel\/CNL_LCB_1615195377798",
+        "category":"data_science",
+        "type":"Channel",
+        "title":"Jerusalem Hi-Tech Forum - Data Science",
+        "duration":null,
+        "learners_amount":null,
+        "star_rating":null,
+        "star_num_ratings":"176",
+        "description":"<div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Created at JHTF request<\/p><\/div>",
+        "tags":[
+
+        ]
+    }
+]

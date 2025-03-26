@@ -86,6 +86,11 @@ def main():
 
     # Load and process data
     df = load_data(config['processed_output_path']).drop_duplicates(subset="course_id")
+
+    for col in ["duration", "learners_amount", "star_num_ratings"]:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
+
     print("Loading embedding model...")
     model = SentenceTransformer(MODEL_NAME)
     print("Computing embeddings for combined input...")

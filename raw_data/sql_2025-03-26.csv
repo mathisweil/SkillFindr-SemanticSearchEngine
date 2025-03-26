@@ -1,0 +1,53 @@
+course_url,category,type,title,duration,learners_amount,star_rating,star_num_ratings,description,tags
+https://skills.yourlearning.ibm.com/activity/URL-96CD3FFFA8E5,sql,eLearning,Introduction to Databases and SQL Querying,2 hrs,1682 learners have completed this activity in the past 12 months.,Average rating of 4 stars by 50 learners in the past 12 months.,50,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>A step by step introduction to the concept of Databases and Introduction to SQL Querying.</p></div>","['Learning Domain', 'Technical skills - Data', 'Lightcast Skills Taxonomy', 'SQL (Programming Language) Skill']"
+https://skills.yourlearning.ibm.com/activity/SN-COURSE-V1:BDU+DB0101EN+V1,sql,eLearning,SQL and Relational Databases 101,3 hrs,437 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>Are you ready to dive into the world of SQL and relational databases? In just a few hours, you'll be able to discuss SQL basics and explain various aspects of the relational database model. Try our hands-on exercises as we guide your first steps into SQL and relational databases.</p></div>","['Lightcast Skills Taxonomy', 'SQL (Programming Language) Skill']"
+https://skills.yourlearning.ibm.com/activity/SN-COURSE-V1:BDU+BD0145EN+V1,sql,eLearning,SQL Access for Hadoop,4 hrs,,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This course will help you understand the Big SQL architecture and show the different methods for working with Big SQL.</p></div>","['Lightcast Skills Taxonomy', 'SQL (Programming Language) Skill', 'Apache Hadoop Skill']"
+https://skills.yourlearning.ibm.com/activity/ISG-SLA7003,sql,eLearning,Detecting SQL injection attacks with Guardium,18 mins,53 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 2 learners in the past 12 months.,2,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">This course discusses SQL injection attacks and how to detect them using Guardium Data Protection.This course discusses SQL injection attacks and how to detect them using Guardium Data Protection.
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/URL-A32889D1D1C4,sql,eLearning,Curso completo de Bases de Datos lenguaje sql y mysql,8 hrs,29 learners have completed this activity in the past 12 months.,Average rating of 4 stars by 2 learners in the past 12 months.,2,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>Curso de Bases de Datos lenguaje sql y mysql. Fundamentos. Creación. Administración.</p></div>","['Lightcast Skills Taxonomy', 'SQL (Programming Language) Skill']"
+https://skills.yourlearning.ibm.com/activity/ISG-6XS744G,sql,eLearning,Watson Query with IBM Cloud Pak for Data (v4.6) Foundations,3 hrs,18 learners have completed this activity in the past 12 months.,Average rating of 5 stars by 4 learners in the past 12 months.,4,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This course guides you through the key activities that are related to the Watson Query service in IBM Cloud Pak for Data. Throughout this course, you use Watson Query to virtualize data and learn how to create a unified view of different data sources. You also query the virtualized data using an SQL interface and improve your query performance.</p>This course guides you through the key activities that are related to the Watson Query service in IBM Cloud Pak for Data.
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/ISG-DL70495G,sql,eLearning,Capabilities of Database Services on IBM Cloud,30 mins,14 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This course introduces Database Services on IBM Cloud. You'll learn about different IBM Cloud use cases for different database options. You'll explore relational databases including examples and benefits, SQL and NoSQL databases, and the functions of Databases for DataStax. Finally, you'll review the importance of high availability, discover the differences between managed and unmanaged cloud infrastructure, and the formats of IBM Cloud SQL Query, and how customers use it.</p>This course introduces Database Services on IBM Cloud. 
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/ISG-SLA6936,sql,eLearning,How to install and configure Glowroot: A Verify Access extension,30 mins,14 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This short video walks you through how to download and install the Glowroot extension for IBM Security¬Æ Verify Access.Glowroot is an open source application performance management tool. It helps to detect and diagnose complex application performance problems to maintain an expected level of service. It will help you to isolate the reason behind slow requests , and you will be able to determine the time that it takes to complete each user action, and also trace SQL capture and aggregation statistics.</p>This short video walks you through how to download and install the Glowroot extension for IBM Security¬Æ Verify Access.Glowroot is an open source application performance management
+<p>This course requires you register for an IBMid to access.</p></div>",[]
+https://skills.yourlearning.ibm.com/activity/URL-OLRDSGG9MPW,sql,Video,Cyber Security Tutorial | Cyber Security Training For Beginners | Cyber Security | Simplilearn,1 hr 13 mins,5473 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 140 learners in the past 12 months.,140,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>Cyber Security refers to the practice of protecting networks, programs, computer systems, and their components from unauthorized digital access and attacks. In this video, you will learn about the various types of attacks such as:</p>
+<ul>
+<li>Malware attack</li>
+<li>Social engineering attack</li>
+<li>Denial of service attack</li>
+<li>Password attack</li>
+<li>SQL injection attack</li>
+<li>Man in the middle attack</li>
+</ul>You will learn about firewalls, IDS, and honeypots, which help us prevent these attacks. Finally, you will see a demo on Kali Linux. 
+<br/>
+<br/>
+This video is presented by Simplilearn. 
+<br/>
+<br/>
+After you complete this activity, return to this page to select <strong>Mark complete</strong> for completion credit. 
+<br/>
+<br/><strong>Note</strong>: On the video toolbar, go to <strong>Settings</strong>, <strong> </strong>select <strong>Subtitles</strong>, <strong> </strong>select <strong>English</strong>, and then select <strong>Auto-Translate</strong> to enable subtitles in a language of your choice from the drop-down.</div>","['Learning Domain', 'Technical skills - Cybersecurity', 'Learning Domain Primary', 'Cybersecurity', 'Lightcast Skills Taxonomy', 'Cyber Security Skill', 'Firewall Skill']"
+https://skills.yourlearning.ibm.com/activity/MDL-221,sql,eLearning,Overview of Data Tools and Languages,1 hr 30 mins,54386 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 646 learners in the past 12 months.,646,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">In this course, you will get an introduction to common data analysis and visualization tools so you’re familiar with them and can recognize how data science projects use them.
+<br/>
+<br/>
+<p><strong>What you’ll learn</strong><br/></p>
+<p>After completing this course, you should be able to:<br/></p>
+<p></p>
+<ul>
+<li>Recognize the value of collaborating and using open source in the field of data science<br/></li>
+<li>Identify the purpose of GitHub<br/></li>
+<li>Identify the purpose of a selection of common tools to analyze and visualize data, including:
+  <ul>
+<li>Microsoft Excel</li>
+<li>Google Sheets</li>
+<li>Structured Query Language (SQL)</li>
+<li>Python</li>
+<li>IBM Watson Studio</li>
+<li>Tableau</li>
+<li>Matplotlib</li>
+</ul></li>
+<li>Identify factors businesses can consider when selecting a data transformation tool<br/></li>
+<li>Identify factors individuals can consider when selecting a data transformation tool<br/></li>
+</ul>
+<p></p></div>","['Badge Learning', 'Data Fundamentals', 'Learning Domain', 'Technical skills - Data', 'Learning Domain Primary', 'Data', 'Lightcast Skills Taxonomy', 'Data Science Skill', 'Microsoft Excel Skill', 'Python (Programming Language) Skill', 'Data Analysis Skill', 'Tableau (Business Intelligence Software) Skill', 'SQL (Programming Language) Skill']"

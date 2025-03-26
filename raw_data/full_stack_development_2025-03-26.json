@@ -1,0 +1,39 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-74D4424121E3",
+        "category":"full_stack_development",
+        "type":"eLearning",
+        "title":"Full-stack web developers and back-end developers - Coursera",
+        "duration":"12 hrs",
+        "learners_amount":"5115 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 3.5 stars by 25 learners in the past 12 months.",
+        "star_num_ratings":"25",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>Learn the basics to be come a full stack developer with CSS and HTML. Sur Coursera pour Social Builder<\/p><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Web Development",
+            "Lightcast Skills Taxonomy",
+            "Cascading Style Sheets (CSS) Skill",
+            "HyperText Markup Language (HTML) Skill"
+        ]
+    },
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-08D6D135B771",
+        "category":"full_stack_development",
+        "type":"eLearning",
+        "title":"Fundamentals of Web apps",
+        "duration":"3 hrs",
+        "learners_amount":"24880 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 99 learners in the past 12 months.",
+        "star_num_ratings":"99",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><ul>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#http-get\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">HTTP GET<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#traditional-web-applications\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Traditional web applications<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#running-application-logic-on-the-browser\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Running application logic on the browser<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#event-handlers-and-callback-functions\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Event handlers and Callback functions<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#document-object-model-or-dom\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Document Object Model or DOM<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#manipulating-the-document-object-from-console\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Manipulating the document-object from console<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#css\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">CSS<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#loading-a-page-containing-java-script-revised\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Loading a page containing JavaScript - revised<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#forms-and-http-post\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Forms and HTTP POST<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#ajax\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">AJAX<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#single-page-app\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Single page app<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#javascript-libraries\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Javascript-libraries<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#full-stack-web-development\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Full stack -web development<\/a><\/li>\n<li><a href=\"https:\/\/fullstackopen.com\/en\/part0\/fundamentals_of_web_apps#javascript-fatigue\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Javascript fatigue<\/a><\/li>\n<\/ul><\/div>",
+        "tags":[
+            "Learning Domain",
+            "Technical skills - Web Development",
+            "Lightcast Skills Taxonomy",
+            "JavaScript (Programming Language) Skill",
+            "Cascading Style Sheets (CSS) Skill",
+            "Web Development Skill"
+        ]
+    }
+]

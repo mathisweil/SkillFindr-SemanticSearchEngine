@@ -218,53 +218,18 @@ def clean_description(text: str) -> tuple[str, list[str]]:
     return text, list(languages)
 
 
-def clean_text(text: str) -> str | None:
-    """
-    Remove HTML tags and excess whitespace from the input text.
-    """
-    if not isinstance(text, str) or not text.strip():
-        return None
-    text = html.unescape(text)
-    text = re.sub(r'<[^>]+>', '', text)
-    return re.sub(r'\s+', ' ', text.strip())
-
-
-def convert_duration(duration: str) -> int:
-    """
-    Convert a duration string into total minutes.
-    Returns None if the conversion is not possible.
-    """
-    if pd.isna(duration) or not isinstance(duration, str):
-        return 0
-
-    duration = duration.lower().strip()
-    duration = re.sub(r"[^\w\s:]", "", duration)  # Remove punctuation.
-
-    minutes = 0
-
-    hr_match = re.search(r"(\d+)\s*(?:h(?:ours?)?|hr)", duration)
-    if hr_match:
-        minutes += int(hr_match.group(1)) * 60
-
-    min_match = re.search(r"(\d+)\s*m(?:in(?:utes?)?)?", duration)
-    if min_match:
-        minutes += int(min_match.group(1))
-
-    return minutes if minutes > 0 else None
-
-
 def clean_title(text: str) -> str:
     """
-    Clean a title by fixing encoding issues, removing boilerplate phrases, and normalising whitespace and punctuation.
+    Cleans a course title: encoding fixes, removal of boilerplate phrases,
+    punctuation trimming and whitespace normalisation.
+    Returns an empty string if input is invalid.
     """
     if not isinstance(text, str):
-        return text
-
+        return ""
     text = ftfy.fix_text(text)
-    text = clean_text(text)
+    text = clean_text(text) or ""
 
     text = text.lower()
-
     boilerplate_phrases = [
         r"\(\s*earn a credential!?[\s]*\)",
         r"\(\s*earn a badge!?[\s]*\)",
@@ -273,36 +238,103 @@ def clean_title(text: str) -> str:
     for pattern in boilerplate_phrases:
         text = re.sub(pattern, "", text, flags=re.IGNORECASE)
 
-    text = re.sub(r"\s+", " ", text).strip()
-    return re.sub(r"[.,;:!?]+$", "", text)
+    text = re.sub(r"[.,;:!?]+$", "", text)
+    return text.strip()
 
 
 def clean_tags(tags) -> list[str]:
     """
-    Cleans and normalises a list of tags.
-    Returns an empty list if tags is None or invalid.
+    Normalises a list of tags to lowercase, stripped strings.
+    Returns an empty list if input is invalid.
     """
     if not isinstance(tags, list):
         return []
-
-    cleaned = set()
-    for tag in tags:
-        if isinstance(tag, str):
-            normalised = tag.strip().lower()
-            if normalised:
-                cleaned.add(normalised)
-
+    cleaned = {tag.strip().lower() for tag in tags if isinstance(tag, str) and tag.strip()}
     return list(cleaned)
 
 
-def extract_numeric(value) -> int:
+def clean_text(text: str) -> str | None:
     """
-    Extract numeric value from the input by removing non-digit characters.
+    Clean text by unescaping HTML, removing tags and normalising whitespace.
+    Returns None if input is not valid.
+    """
+    if not isinstance(text, str) or not text.strip():
+        return None
+    text = html.unescape(text)
+    text = re.sub(r'<[^>]+>', '', text)
+    return re.sub(r'\s+', ' ', text.strip())
+
+
+def convert_duration(duration: str | int | float | None) -> int | None:
+    """
+    Convert duration from string (e.g., '2 hours 30 minutes') to total minutes.
+    Returns None if conversion is not possible.
+    """
+    if pd.isna(duration):
+        return None
+    if isinstance(duration, (int, float)):
+        return int(duration)
+
+    if not isinstance(duration, str):
+        return None
+
+    duration = duration.lower().strip()
+    duration = re.sub(r"[^\w\s:]", "", duration)
+
+    minutes = 0
+
+    day_match = re.search(r"(\d+)\s*d(?:ays?)?", duration)
+    hr_match = re.search(r"(\d+)\s*(?:h(?:ours?)?|hr)", duration)
+    min_match = re.search(r"(\d+)\s*m(?:in(?:utes?)?)?", duration)
+
+    if day_match:
+        minutes += int(day_match.group(1)) * 1440
+    if hr_match:
+        minutes += int(hr_match.group(1)) * 60
+    if min_match:
+        minutes += int(min_match.group(1))
+
+    return minutes if minutes > 0 else None
+
+
+def extract_learner_count(text) -> int | None:
+    """
+    Extracts the number of learners from a string like:
+    '229993 learners have completed this activity in the past 12 months'
+
+    Returns:
+        int: The extracted number of learners, or None if not found.
+    """
+    if not isinstance(text, str) or pd.isna(text) or not text.strip():
+        return None
+
+    match = re.search(r"\b(\d{1,10})\b", text)
+    return int(match.group(1)) if match else None
+
+
+def extract_star_rating(text) -> float | None:
+    """
+    Extracts the average star rating from a string like:
+    'Average rating of 4.5 stars by 4267 learners in the past 12 months.'
+
+    Returns:
+        float: The extracted rating (e.g. 4.5), or None if not found.
+    """
+    if not isinstance(text, str) or pd.isna(text) or not text.strip():
+        return None
+
+    match = re.search(r"\b(\d+(\.\d+)?)\s*stars?\b", text, re.IGNORECASE)
+    return float(match.group(1)) if match else None
+
+
+def extract_numeric(value) -> int | None:
+    """
+    Extracts digits from a value. Returns an int or None if no digits found.
     """
     if pd.isna(value):
-        return 0
-    value = re.sub(r"[^\d]", "", str(value))
-    return int(value) if value.isdigit() else 0
+        return None
+    digits = re.sub(r"[^\d]", "", str(value))
+    return int(digits) if digits.isdigit() else None
 
 
 def main():
@@ -310,32 +342,26 @@ def main():
     df = load_data(config['raw_output_path'])
 
     df = df[df["course_url"].notnull()]
-    df["course_id"] = df["course_url"].apply(lambda url: url.split("/")[-1] if isinstance(url, str) else None)
+    df["course_id"] = df["course_url"].apply(lambda url: url.split("/")[-1] if isinstance(url, str) else pd.NA)
     df = df[df["course_id"].notnull()]
-
     df = df.drop_duplicates(subset="course_id")
 
     df["title_raw"] = df["title"]
-    df["title"] = df["title"].apply(lambda x: clean_title(x) if isinstance(x, str) and x.strip() else "Untitled")
+    df["title"] = df["title"].apply(lambda x: clean_title(x) if isinstance(x, str) and x.strip() else "")
 
     df["description_raw"] = df["description"]
     df[["description", "languages"]] = df["description"].apply(
-        lambda x: pd.Series(
-            clean_description(x) if isinstance(x, str) and x.strip() else ("no description available", ["en"]))
+        lambda x: pd.Series(clean_description(x) if isinstance(x, str) and x.strip() else ("", ["en"]))
     )
 
     df["tags_raw"] = df["tags"]
     df["tags"] = df["tags"].apply(lambda x: clean_tags(x) if isinstance(x, list) else [])
 
-    df["duration"] = df["duration"].apply(lambda x: convert_duration(x) if isinstance(x, str) else 0)
-    df["learners_amount"] = df["learners_amount"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
-    df["star_rating"] = df["star_rating"].apply(
-        lambda x: float(re.search(r"(\d+(\.\d+)?)", str(x)).group(1))
-        if isinstance(x, str) and re.search(r"(\d+(\.\d+)?)", x)
-        else float(x) if isinstance(x, (int, float)) and not pd.isna(x)
-        else 0.0
-    )
-    df["star_num_ratings"] = df["star_num_ratings"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else 0)
+    df["duration"] = df["duration"].apply(
+        lambda x: convert_duration(x) if isinstance(x, (str, int, float)) and not pd.isna(x) else pd.NA).astype("Int64")
+    df["learners_amount"] = df["learners_amount"].apply(lambda x: extract_learner_count(x) if pd.notnull(x) else pd.NA).astype("Int64")
+    df["star_rating"] = df["star_rating"].apply(lambda x: extract_star_rating(x) if pd.notnull(x) else pd.NA).astype("Float64")
+    df["star_num_ratings"] = df["star_num_ratings"].apply(lambda x: extract_numeric(x) if pd.notnull(x) else pd.NA).astype("Int64")
 
     df = df.sort_values(by=["learners_amount", "star_rating"], ascending=[False, False])
 

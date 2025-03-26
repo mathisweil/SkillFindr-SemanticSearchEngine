@@ -1,0 +1,75 @@
+course_url,category,type,title,duration,learners_amount,star_rating,star_num_ratings,description,tags
+https://skills.yourlearning.ibm.com/activity/SN-COURSE-V1:BIGDATAUNIVERSITY+ML0120EN+V2,neural_networks,eLearning,Deep Learning with TensorFlow,3 hrs,57 learners have completed this activity in the past 12 months.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>Majority of data in the world are unlabeled and unstructured data, for instance images, sound, and text data. Shallow neural networks cannot easily capture relevant structure in these kind of data, but deep networks are capable of discovering hidden structures within these data. In this course, you will use TensorFlow library to apply deep learning on different data types to solve real world problems.</p></div>","['Learning Domain', 'Technical skills - Data', 'Lightcast Skills Taxonomy', 'TensorFlow Skill', 'Deep Learning Skill']"
+https://skills.yourlearning.ibm.com/activity/MDL-348,neural_networks,eLearning,Gradient Descent Explained,15 mins,135 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 4 learners in the past 12 months.,4,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">Gradient Descent Explained discusses an optimization algorithm commonly used in training machine learning models and neural networks. It explains how training data and the cost function play crucial roles in model learning and accuracy.
+<br/>
+<br/>
+After completing this course, you should be able to: 
+<ul>
+<li>Differentiate between the three types of gradient descent learning algorithms</li>
+<li>Discuss the challenges of the gradient descent learning algorithm</li>
+</ul></div>","['Learning Domain', 'Technical skills - Artificial Intelligence']"
+https://skills.yourlearning.ibm.com/activity/URL-FB887C26B96B,neural_networks,Experiential,Get started with artificial intelligence | IBM Developer,2 hrs,2641 learners have completed this activity in the past 12 months.,Average rating of 4 stars by 71 learners in the past 12 months.,71,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">Artificial intelligence is the ability of machines to perform tasks usually associated with human beings. It includes concepts such as machine learning, deep learning, neural networks, natural language processing, and visual recognition. AI uses supervised learning, unsupervised learning, reinforcement learning, and deep learning to learn and train models with data.
+<br/>
+<br/>
+This is a beginner level learning path offered by IBM Developer. You will:
+<ul>
+<li>Learn the basics of artificial intelligence</li>
+<li>Build and test your first machine learning model using Python and scikit-learn</li>
+<li>Try out the various artificial intelligence concepts</li>
+</ul>
+<br/>
+After you complete this activity, return to this page to select <strong>Mark complete</strong> for completion credit.</div>","['Learning Domain', 'Technical skills - Artificial Intelligence', 'Learning Domain Primary', 'Artificial intelligence', 'Lightcast Skills Taxonomy', 'Deep Learning Skill', 'Machine Learning Skill', 'Natural Language Processing Skill', 'Python (Programming Language) Skill', 'Artificial Intelligence Skill']"
+https://skills.yourlearning.ibm.com/activity/URL-332C7DE56AB8,neural_networks,eLearning,Elements of AI | Finnish Government,30 hrs,1999 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 20 learners in the past 12 months.,20,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes"">This course, designed by the Finnish government, is for any one interested in learning what AI is, what is possible and not possible with AI, and how it affects people's lives – with no complicated math or programming required.
+<br/>
+<br/>
+Chapters:
+<ol>
+<li>What is AI?</li>
+<li>AI problem solving</li>
+<li>Real world AI</li>
+<li>Machine learning</li>
+<li>Neural networks</li>
+<li>Implications</li>
+</ol>
+<br/><strong>Duration: </strong>Plan to spend about 6 weeks to finish the course; each section takes between 5 and 10 hours.
+<br/>
+<br/><strong>Languages:</strong> The course is currently available in many languages. Please visit to see if your language is available.
+<br/>
+<br/>
+After you complete this activity, return to this page to select <strong>Mark complete</strong> for completion credit.</div>","['Learning Domain', 'Technical skills - Artificial Intelligence', 'Learning Domain Primary', 'Artificial intelligence', 'Popular Subjects', 'Artificial intelligence (AI)', 'Lightcast Skills Taxonomy', 'Artificial Intelligence Skill', 'Machine Learning Skill', 'Problem Solving Skill', 'Mathematics Skill']"
+https://skills.yourlearning.ibm.com/activity/MDL-212,neural_networks,eLearning,Machine Learning and Deep Learning,2 hrs 20 mins,130041 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 931 learners in the past 12 months.,931,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this learning activity</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>In this course, you’ll see how machines can learn and make amazing, evidence-based predictions. Explore the logic behind computers’ ability to learn, then investigate new ways that AI systems inspired by neurons in the human brain can solve difficult problems.<br/><br/><br/><strong>What you’ll learn</strong><br/>After completing this course, you should be able to:<br/> </p><ul><li>Distinguish between artificial intelligence, machine learning, and deep learning</li><li>Describe supervised, unsupervised, and reinforcement learning</li><li>Describe decision trees, linear regression, and logistic regression</li><li>List and explain advantages of classical machine learning</li><li>Describe how neural networks are inspired by the human brain</li><li>Trace the flow of information through a perceptron’s nodes</li><li>Describe machine learning’s trial-and-error learning process</li><li>Define and describe deep learning and its ecosystem</li><li>Identify real-world applications for the deep learning ecosystem</li><li>Identify future trends for machine learning<br/> </li></ul><p><strong>Czech learners can complete the learning here:</strong> <a href=""https://ole03.yourlearning.ibm.com/mod/scorm/player.php?a=1014&amp;currentorg=articulate_rise&amp;scoid=3557&amp;sesskey=Xbq2rj0qOp&amp;display=popup&amp;mode=normal"" rel=""noopener noreferrer nofollow"" target=""_blank"">Strojové učení a hluboké učení </a><br/><br/><strong>Traditional Chinese learners can complete the learning here: </strong><a href=""https://ole03.yourlearning.ibm.com/mod/scorm/player.php?a=990&amp;currentorg=articulate_rise&amp;scoid=3509&amp;sesskey=87xemTiuMx&amp;display=popup&amp;mode=normal"" rel=""noopener noreferrer nofollow"" target=""_blank"">機器學習和深度學習</a><br/> </p></div>","['Badge Learning', 'Artificial Intelligence Fundamentals', 'Initiatives', 'AI2026', 'SDI Explore', 'SDI', 'Learning Domain', 'Technical skills - Artificial Intelligence', 'Learning Domain Primary', 'Artificial intelligence', 'Lightcast Skills Taxonomy', 'Deep Learning Skill', 'Artificial Intelligence Skill', 'Machine Learning Skill']"
+https://skills.yourlearning.ibm.com/activity/PLAN-7913EE1DB030,neural_networks,Learning Plan,Artificial Intelligence Fundamentals (Earn a credential!),About 10 hours,72401 learners have completed this activity in the past 12 months.,Average rating of 4.5 stars by 2292 learners in the past 12 months.,"2,292","<div dir=""ltr"" lang=""en"" translate=""yes""><p>Does artificial intelligence (AI) spark your interest? Here’s your chance to visualize yourself in an AI career! You’ll explore AI’s history, then see how it can change the world. Along the way, you’ll deep dive into ways that AI makes predictions, understands language and images, and learns using circuits inspired by the human brain. After a hands-on simulation in which you build and test a machine learning model, you’ll finish with tips on how to find your own career in artificial intelligence. <br/>
+   <br/>
+ Complete the following required courses to earn an industry-recognized IBM SkillsBuild digital credential called <strong>Artificial Intelligence Fundamentals: </strong></p>
+<ol>
+<li>Introduction to Artificial Intelligence</li>
+<li>Natural Language Processing and Computer Vision</li>
+<li>Machine Learning and Deep Learning</li>
+<li>Run AI Models with IBM Watson Studio</li>
+<li>AI Ethics</li>
+<li>Your Future in AI: The Job Landscape</li>
+</ol>
+<p>  <br/><strong>What you’ll learn</strong> <br/>
+ After completing <i>Artificial Intelligence Fundamentals</i>, you should be able to:</p>
+<ul>
+<li>Describe the history of AI development</li>
+<li>Define and describe structured, unstructured, and semi-structured data, machine learning, and ways that AI makes predictions from data</li>
+<li>Explain how AI understands human language</li>
+<li>Explain how AI analyzes and creates images</li>
+<li>Describe three ways that AI analyzes data</li>
+<li>Describe how AI makes predictions using neural networks</li>
+<li>Explain generative AI and the impact in today's world</li>
+<li>Create an AI machine learning model using IBM Watson Studio</li>
+<li>Describe ways that AI systems can be designed to minimize bias</li>
+<li>Recognize the AI job market, responsibilities and skill sets of an AI professional, hand resources and learning opportunities to explore</li>
+</ul>
+<p>  <br/>
+ The knowledge and skills in these courses build on each other, so SkillsBuild recommends that you complete the courses in the order in which they are presented. <br/><br/><strong>Language:</strong> English, Arabic, Brazilian Portuguese, Chinese (Traditional), Czech, French, German, Hindi, Japanese, Spanish<br/>
+   <br/>
+ Select <strong>Enroll</strong> to enroll in this learning plan and get started!</p></div>","['Badge Learning', '000 All digital credentials', 'Artificial Intelligence Fundamentals', 'Badge Learning - Academia', '000 All digital credentials - Academia', 'Fundamentals', 'All Fundamentals', 'Initiatives', 'SDI Explore', 'SDI', 'Learning Domain', 'Technical skills - Artificial Intelligence', 'Learning Domain Primary', 'Artificial intelligence', 'Lightcast Skills Taxonomy', 'Apache Spark Skill', 'Artificial Intelligence Skill', 'Deep Learning Skill', 'Machine Learning Skill', 'Natural Language Processing Skill']"
+https://skills.yourlearning.ibm.com/credential/CREDLY-29bdaec3-af04-458e-a70e-2e6fa78c5dd5,neural_networks,Skill Credential,Artificial Intelligence Fundamentals,Hours,118502 learners have earned this digital credential.,,,"<h2 class=""FullPageDescription_title__WsNdH""><span dir=""ltr"" lang=""en"" translate=""yes"">About this digital credential</span></h2><div dir=""ltr"" lang=""en"" translate=""yes""><p>This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots, and neural networks; ethical AI; and the applications of AI. The individual has a conceptual understanding of how to run an AI model using IBM Watson Studio. The earner is aware of the job outlook in fields that use AI and is familiar with the skills required for success in various roles in the domain.</p>
+<p> </p>
+<p><strong>Languages</strong>: English, Arabic, Brazilian Portuguese, Chinese (Traditional), Czech, French, German, Hindi, Japanese, Spanish</p>
+<p> </p>
+<p><strong>Complete the learning here</strong>: <a href=""https://skills.yourlearning.ibm.com/activity/PLAN-7913EE1DB030"" rel=""noopener noreferrer nofollow"" target=""_blank"">Artificial Intelligence Fundamentals</a></p></div>","['Fundamentals', 'All Fundamentals', 'Learning Domain', 'Technical skills - Artificial Intelligence']"
+https://skills.yourlearning.ibm.com/channel/CNL_LCB_1683149632494,neural_networks,Channel,AI Accelerate: Keeping Pace with the Latest Advances in Artificial Intelligence,,,,64,"<div dir=""ltr"" lang=""en"" translate=""yes""><p>The world of AI is constantly evolving, with new breakthroughs, innovations, and discoveries emerging all the time. This AI Accelerate channel is dedicated to exploring these new developments and helping you stay up-to-date on the latest trends. You will find material on the latest advancements in the areas of machine learning, deep learning, neural networks, natural language processing, computer vision, robotics, and more. Whether you're a seasoned AI practitioner, a developer looking to expand your knowledge, a curious learner seeking to understand the latest trends, or a student interested in starting a career in AI, AI Accelerate is the perfect destination to stay informed and inspired.</p></div>",[]

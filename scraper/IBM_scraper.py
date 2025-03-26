@@ -3,6 +3,8 @@ from pathlib import Path
 
 from datetime import datetime
 from contextlib import contextmanager
+from unicodedata import category
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -133,7 +135,7 @@ class IBMScraper:
             logging.error(f"Error parsing course links: {e}")
         return links
 
-    def scrape_courses(self, search_keyword: dict[str, str]) -> list[dict[str, any]]:
+    def scrape_courses(self, search_category: str) -> list[dict[str, any]]:
         """
         Scrapes multiple course pages from various search sections.
 
@@ -147,7 +149,10 @@ class IBMScraper:
             search_sections = self.config.get("search_sections", {})
             for section, slug in search_sections.items():
                 try:
-                    url = f"{self.config['base_url']}/search/{slug}/q={search_keyword['keyword']}"
+                    keyword = search_category.replace("_", "%20")
+                    language_filters = self.config.get("language_filters", {})
+                    language_query = "&".join([f"languages={lang}" for lang in language_filters.values()])
+                    url = f"{self.config['base_url']}/search/{slug}/q={keyword}&{language_query}"
                     self.driver.get(url)
                     logging.info(f"Navigated to {url}.")
 
@@ -176,14 +181,14 @@ class IBMScraper:
 
                     for link in links:
                         if link not in self.scraped_courses:
-                            course_data = self.__scrape_course_page(link, search_keyword["category"])
+                            course_data = self.__scrape_course_page(link, search_category)
                             if course_data:
                                 courses.append(course_data)
                             self.scraped_courses.add(link)
                 except Exception as e:
                     logging.error(f"Error scraping section {section}: {e}")
         except Exception as e:
-            logging.error(f"Failed scraping for keyword {search_keyword['keyword']}: {e}")
+            logging.error(f"Failed scraping for keyword {search_category}: {e}")
         return courses
 
 
@@ -202,15 +207,16 @@ def main():
             scraper = IBMScraper(driver, config)
             scraper.login()
 
-            search_keywords = config.get("search_keywords", {})
-            for search_keyword in search_keywords:
-                courses = scraper.scrape_courses(search_keyword)
+            search_categories = config.get("search_categories", {})
+
+            for search_category in search_categories:
+                courses = scraper.scrape_courses(search_category)
                 if not courses:
-                    logging.warning(f"No courses to process for: {search_keyword['keyword']}.")
+                    logging.warning(f"No courses to process for: {search_category}.")
                 else:
                     current_date = datetime.now().strftime("%Y-%m-%d")
-                    csv_filename = raw_dir / f"{search_keyword["category"]}_{current_date}.csv"
-                    json_filename = raw_dir / f"{search_keyword["category"]}_{current_date}.json"
+                    csv_filename = raw_dir / f"{search_category}_{current_date}.csv"
+                    json_filename = raw_dir / f"{search_category}_{current_date}.json"
 
                     save_data(courses, csv_filename, json_filename)
     except Exception as e:

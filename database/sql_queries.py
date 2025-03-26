@@ -37,9 +37,9 @@ SELECT
     title,
     course_url,
     description,
-    ts_rank_cd(embedding_input_tsv, plainto_tsquery(:query_text)) AS rank
+    ts_rank_cd(to_tsvector(embedding_input), plainto_tsquery(:query_text)) AS rank
 FROM courses
-WHERE embedding_input_tsv @@ plainto_tsquery(:query_text)
+WHERE to_tsvector(embedding_input) @@ plainto_tsquery(:query_text)
 ORDER BY rank DESC
 LIMIT :limit
 """)
@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS courses (
     category TEXT,
     type TEXT,
     title TEXT,
-    duration REAL,
+    duration INTEGER,
     learners_amount INTEGER,
     star_rating REAL,
     star_num_ratings INTEGER,
