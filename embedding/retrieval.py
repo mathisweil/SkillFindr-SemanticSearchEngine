@@ -1,10 +1,10 @@
 from sentence_transformers import SentenceTransformer
-from sqlalchemy import create_engine, text
-from sql_queries import SEMANTIC_SEARCH_QUERY, BM25_SEARCH_QUERY
+from sqlalchemy import create_engine
+from database.sql_queries import SEMANTIC_SEARCH_QUERY, BM25_SEARCH_QUERY
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-query = "Cybersecurity Fundamentals"
+query = "Learn Java programming from scratch"
 query_vector = model.encode([query])[0].tolist()
 
 DATABASE_URL = "postgresql+psycopg2://mathisweil@localhost:5432/postgres"
@@ -14,7 +14,7 @@ query_vector_str = str(query_vector)
 
 with engine.connect() as conn:
     semantic_results = conn.execute(
-        text(SEMANTIC_SEARCH_QUERY),
+        SEMANTIC_SEARCH_QUERY,
         {"query_vector": query_vector_str, "threshold": 0.5, "limit": 5}
     ).fetchall()
 
@@ -26,8 +26,8 @@ print(semantic_context)
 
 with engine.connect() as conn:
     bm25_results = conn.execute(
-        text(BM25_SEARCH_QUERY),
-        {"query": query, "limit": 5}
+        BM25_SEARCH_QUERY,
+        {"query_text": query, "limit": 5}
     ).fetchall()
 
 print("\nBM25-style Results:\n")

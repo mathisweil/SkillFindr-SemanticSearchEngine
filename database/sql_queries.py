@@ -37,9 +37,9 @@ SELECT
     title,
     course_url,
     description,
-    ts_rank_cd(to_tsvector(embedding_input), plainto_tsquery(:query_text)) AS rank
+    ts_rank_cd(to_tsvector(embedding_input_combined), plainto_tsquery(:query_text)) AS rank
 FROM courses
-WHERE to_tsvector(embedding_input) @@ plainto_tsquery(:query_text)
+WHERE to_tsvector(embedding_input_combined) @@ plainto_tsquery(:query_text)
 ORDER BY rank DESC
 LIMIT :limit
 """)
@@ -62,9 +62,9 @@ WITH vector_matches AS (
 text_matches AS (
     SELECT
         course_id,
-        ts_rank_cd(embedding_input_tsv, plainto_tsquery(:query_text)) AS rank
+        ts_rank_cd(to_tsvector(embedding_input_combined), plainto_tsquery(:query_text)) AS rank
     FROM courses
-    WHERE embedding_input_tsv @@ plainto_tsquery(:query_text)
+    WHERE to_tsvector(embedding_input_combined) @@ plainto_tsquery(:query_text)
 ),
 combined AS (
     SELECT
@@ -74,7 +74,6 @@ combined AS (
         v.description,
         v.distance,
         t.rank,
-        -- You can weight these however you like
         (1 - v.distance) * 0.6 + t.rank * 0.4 AS score
     FROM vector_matches v
     JOIN text_matches t ON v.course_id = t.course_id
