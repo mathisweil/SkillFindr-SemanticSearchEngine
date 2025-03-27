@@ -14,9 +14,6 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Configuration
-config.json
-
 # Outputs
 processed_data/*
 
@@ -25,3 +22,6 @@ processed_data/*
 
 # Selenium Drivers
 *.exe
+
+# Environment Variables
+.env

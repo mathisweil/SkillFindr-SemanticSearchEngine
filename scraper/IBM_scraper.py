@@ -1,9 +1,11 @@
 import logging
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
 
 from datetime import datetime
 from contextlib import contextmanager
-from unicodedata import category
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -38,7 +40,7 @@ class IBMScraper:
                 By.ID,
                 'username',
                 EC.presence_of_element_located,
-                keys=self.config["auth"]["username"],
+                keys=os.getenv("USERNAME"),
                 submit=True
             )
             wait_and_perform_action(
@@ -46,7 +48,7 @@ class IBMScraper:
                 By.ID,
                 'password',
                 EC.presence_of_element_located,
-                keys=self.config["auth"]["password"],
+                keys=os.getenv("PASSWORD"),
                 submit=True
             )
             logging.info("Login successful.")
@@ -193,6 +195,7 @@ class IBMScraper:
 
 
 def main():
+    load_dotenv()
     config = load_config()
     logging.basicConfig(
         filename=config["log_path"],

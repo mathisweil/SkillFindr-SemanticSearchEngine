@@ -1,0 +1,18 @@
+[
+    {
+        "course_url":"https:\/\/skills.yourlearning.ibm.com\/activity\/URL-64E6E93A36A0",
+        "category":"react",
+        "type":"Learning",
+        "title":"Introduction to React",
+        "duration":"30 mins",
+        "learners_amount":"92 learners have completed this activity in the past 12 months.",
+        "star_rating":"Average rating of 4.5 stars by 6 learners in the past 12 months.",
+        "star_num_ratings":"6",
+        "description":"<h2 class=\"FullPageDescription_title__WsNdH\"><span dir=\"ltr\" lang=\"en\" translate=\"yes\">About this learning activity<\/span><\/h2><div dir=\"ltr\" lang=\"en\" translate=\"yes\"><p>An introduction to React with the following topics:<\/p><ul><li><a href=\"https:\/\/fullstackopen.com\/en\/part1\/introduction_to_react#component\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Component<\/a><\/li><li><a href=\"https:\/\/fullstackopen.com\/en\/part1\/introduction_to_react#jsx\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">JSX<\/a><\/li><li><a href=\"https:\/\/fullstackopen.com\/en\/part1\/introduction_to_react#multiple-components\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Multiple components<\/a><\/li><li><a href=\"https:\/\/fullstackopen.com\/en\/part1\/introduction_to_react#props-passing-data-to-components\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">props: passing data to components<\/a><\/li><li><a href=\"https:\/\/fullstackopen.com\/en\/part1\/introduction_to_react#some-notes\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Some additional notes<\/a><\/li><li><a href=\"https:\/\/fullstackopen.com\/en\/part1\/introduction_to_react#exercises-1-1-1-2\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Put your aqcired knowledge into practice with exercises 1.1.-1.2.<\/a><\/li><\/ul>Optionally, continue to sections b) Javascript, c) Component state, event handlers and d) A more complex state, bebugging React apps.<\/div>",
+        "tags":[
+            "Lightcast Skills Taxonomy",
+            "JavaScript (Programming Language) Skill",
+            "React.js Skill"
+        ]
+    }
+]

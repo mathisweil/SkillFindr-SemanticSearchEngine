@@ -43,7 +43,9 @@ If using Selenium:
    pip install -r requirements.txt
    ```
 3. (Optional) Configure your environment:
-   - Create a `.env` file for sensitive information, such as login credentials (if required).
+   - Create a `.env` file for sensitive information, such as login credentials.
+     - USERNAME=your_username 
+     - PASSWORD=your_password
 
 ## Usage
 
