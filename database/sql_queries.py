@@ -1,7 +1,7 @@
 from sqlalchemy import text
 
 # -------------------------------
-# VECTOR-BASED SEMANTIC SEARCH
+# VECTOR-BASED SEMANTIC SEARCH (without filters)
 # -------------------------------
 SEMANTIC_SEARCH_QUERY = text("""
 WITH matches AS (
@@ -92,7 +92,7 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 CREATE TABLE IF NOT EXISTS courses (
     course_id TEXT PRIMARY KEY,
-    course_url TEXT,
+    course_url TEXT NOT NULL UNIQUE,
     category TEXT,
     type TEXT,
     title TEXT,

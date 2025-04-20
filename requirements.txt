@@ -1,57 +1,89 @@
-attrs==24.3.0
-beautifulsoup4==4.12.3
-certifi==2024.12.14
+annotated-types==0.7.0
+anyio==4.9.0
+attrs @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_93pjmt0git/croot/attrs_1734533120523/work
+beautifulsoup4 @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_94rx5n7wo9/croot/beautifulsoup4-split_1718029832430/work
+Bottleneck @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_55txi4fy1u/croot/bottleneck_1731058642212/work
+Brotli @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_f7i0oxypt6/croot/brotli-split_1736182464088/work
+certifi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d8j59rqun5/croot/certifi_1734473289913/work/certifi
 charset-normalizer==3.4.1
+click==8.1.8
+dnspython==2.7.0
+email_validator==2.2.0
+fastapi==0.115.12
+fastapi-cli==0.0.7
 filelock==3.18.0
 fsspec==2025.3.0
 ftfy==6.3.1
-h11==0.14.0
+h11 @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_110bmw2coo/croot/h11_1706652289620/work
+httpcore==1.0.8
+httptools==0.6.4
+httpx==0.28.1
 huggingface-hub==0.29.3
 idna==3.10
-Jinja2==3.1.6
-joblib==1.4.2
+Jinja2 @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_2cnn4kenrm/croot/jinja2_1741710859444/work
+joblib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8ff7uji0v2/croot/joblib_1718217225309/work
 langcodes==3.5.0
 language_data==1.3.0
-lxml==5.3.0
+lxml @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_1cc0pw19wu/croot/lxml_1737040416995/work
 marisa-trie==1.2.1
-MarkupSafe==3.0.2
-mpmath==1.3.0
-networkx==3.4.2
-numpy==2.2.2
+markdown-it-py==3.0.0
+MarkupSafe @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_1f_uj4vxik/croot/markupsafe_1738584045311/work
+mdurl==0.1.2
+mpmath @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/mpmath_1699242500508/work
+networkx @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_e6lt1dcyid/croot/networkx_1737040482044/work
+numexpr @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b3kvvt6tc6/croot/numexpr_1730215947700/work
+numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_2bgq2wg6lu/croot/numpy_and_numpy_base_1738078509889/work/dist/numpy-2.2.2-cp312-cp312-macosx_11_0_arm64.whl#sha256=81375b613002064296c74201290d0a060a1247c9b4aebf7a304b764b4d60fcde
 outcome==1.3.0.post0
-packaging==24.2
-pandas==2.2.3
-pillow==11.1.0
-psycopg2==2.9.10
-PySocks==1.7.1
-python-dateutil==2.9.0.post0
+packaging @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a6_qk3qyg7/croot/packaging_1734472142254/work
+pandas @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4aifrweohv/croot/pandas_1732735109535/work/dist/pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl#sha256=123f63647068e74a9e99f9fd6ab9ee71cd9f6d1c55fa82c75a587a95021910a5
+pgvector==0.4.0
+pillow @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_bfoqpm49mx/croot/pillow_1744613079607/work
+psycopg2 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f66y8gigcw/croot/psycopg2_1744919800372/work
+pydantic==2.11.3
+pydantic_core==2.33.1
+Pygments==2.19.1
+PySocks @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/pysocks_1699237568675/work
+python-dateutil @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0a_6300s49/croot/python-dateutil_1716484897336/work
+python-dotenv==1.1.0
+python-multipart==0.0.20
 pytz==2024.2
-PyYAML==6.0.2
-regex==2024.11.6
-requests==2.32.3
-safetensors==0.5.3
-scikit-learn==1.6.1
-scipy==1.15.2
+PyYAML @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_faoex52hrr/croot/pyyaml_1728657970485/work
+regex @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_87pebw_aae/croot/regex_1736541331314/work
+requests @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ee45nsd33z/croot/requests_1730999134038/work
+rich==14.0.0
+rich-toolkit==0.14.1
+safetensors @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_40p0nh5amn/croot/safetensors_1741361303980/work
+scikit-learn @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_2coq3750ge/croot/scikit-learn_1737988773864/work
+scipy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_cc_7w74fto/croot/scipy_1743153255057/work/dist/scipy-1.15.2-cp312-cp312-macosx_11_0_arm64.whl#sha256=b9bc911f084173d5305a82fdec41b58219a08ddce84adf6bc94639c63b4ff820
 selenium==4.28.0
 sentence-transformers==3.4.1
 setuptools==75.1.0
-six==1.17.0
+shellingham==1.5.4
+six @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_03myqm7p6o/croot/six_1744271511946/work
 sniffio==1.3.1
-sortedcontainers==2.4.0
+sortedcontainers @ file:///tmp/build/80754af9/sortedcontainers_1623949099177/work
 soupsieve==2.6
 SQLAlchemy==2.0.39
+sqlmodel==0.0.24
+starlette==0.46.2
 sympy==1.13.1
 threadpoolctl==3.6.0
 tokenizers==0.21.1
 torch==2.6.0
-tqdm==4.67.1
+tqdm @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5642tzrprr/croot/tqdm_1738943467095/work
 transformers==4.50.0
 trio==0.28.0
-trio-websocket==0.11.1
-typing_extensions==4.12.2
+trio-websocket @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a0ggwrhsnu/croot/trio-websocket_1726669426635/work
+typer==0.15.2
+typing-inspection==0.4.0
+typing_extensions @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_0b3jpv_f79/croot/typing_extensions_1734714864260/work
 tzdata==2024.2
-urllib3==2.3.0
+urllib3 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8dwi5l2dj0/croot/urllib3_1737133640453/work
+uvicorn==0.34.1
+uvloop==0.21.0
+watchfiles==1.0.5
 wcwidth==0.2.13
-websocket-client==1.8.0
+websocket-client @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d37u7gqts8/croot/websocket-client_1715878310260/work
+websockets==15.0.1
 wheel==0.44.0
-wsproto==1.2.0
+wsproto @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_ba0dr5u245/croot/wsproto_1725051559549/work
