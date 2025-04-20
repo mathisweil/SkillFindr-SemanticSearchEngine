@@ -22,7 +22,6 @@ class Filters(SQLModel):
     )
 
 
-# 3. Define the envelope for your search request
 class SearchRequest(SQLModel):
     query: str = Field(..., description="Natural‐language search string")
     threshold: float = Field(
@@ -113,6 +112,12 @@ async def rag_endpoint(payload: SearchRequest):
         limit=payload.limit,
         filters=raw_filters
     )
+
+    if not tops:
+        return RAGResponse(
+            answer="I could not find anything close to your query. Try rephrasing or broadening your search.",
+            sources=[]
+        )
 
     answer = await generate_answer(
         query=payload.query,

@@ -27,7 +27,6 @@ def semantic_search(
     :return:          List of row‐dicts with keys
                       course_id, title, course_url, description, distance.
     """
-    # 1. Encode
     query_vector = model.encode([query])[0].tolist()
     query_vector_str = str(query_vector)
 
@@ -70,14 +69,6 @@ def semantic_search(
         LIMIT :limit
     )
     SELECT * FROM matches
-    UNION ALL
-    SELECT
-        NULL AS course_id,
-        'No match found within the threshold' AS title,
-        NULL AS course_url,
-        NULL AS description,
-        NULL AS distance
-    WHERE NOT EXISTS (SELECT 1 FROM matches)
     """)
 
     with engine.connect() as conn:
