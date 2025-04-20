@@ -24,7 +24,7 @@ async def generate_answer(query: str, contexts: list[str]) -> str:
             "you should:\n"
             "  1. Identify which courses best align with the goal.\n"
             "  2. Compare them on difficulty, duration, and learner feedback.\n"
-            "  3. Recommend the top 3, giving a brief rationale for each.\n"
+            "  3. Recommend the top 3, giving a brief rationale for each.\n"
             "  4. If you need more context (e.g. user background), ask a follow‑up question."
         )
     }
