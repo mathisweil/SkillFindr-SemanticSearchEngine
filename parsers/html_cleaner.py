@@ -8,7 +8,7 @@ import ftfy
 import langcodes
 from bs4 import BeautifulSoup
 
-from utils.config import load_config, load_boilerplate_phrases
+from config.config import load_config, load_boilerplate_phrases
 
 
 class DescriptionCleaner:
@@ -23,7 +23,7 @@ class DescriptionCleaner:
     def __init__(self, config: dict[str, Any] | None = None) -> None:
         if config is None:
             config = load_config()
-        phrases = load_boilerplate_phrases(config)
+        phrases = load_boilerplate_phrases()
 
         self.boilerplate_pattern = self._compile_phrases_pattern(phrases)
         self.duration_pattern = re.compile(
@@ -113,7 +113,7 @@ class DescriptionCleaner:
 
         html_langs = self._extract_languages_from_soup(soup)
 
-        text = soup.get_text(separator=" ")
+        text = soup.get_text()
         text = html.unescape(text).lower()
 
         text, text_langs = self._extract_iso_languages(text)

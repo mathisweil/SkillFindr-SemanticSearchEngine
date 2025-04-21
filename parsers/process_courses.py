@@ -1,7 +1,10 @@
+import os
 import pandas as pd
 from pathlib import Path
 
-from utils.config import load_config
+from dotenv import load_dotenv
+
+from config.config import load_config
 from utils.io_utils import save_data, load_data
 from parsers.text_cleaner import clean_title, clean_tags, convert_duration
 from parsers.html_cleaner import DescriptionCleaner
@@ -84,7 +87,7 @@ def sort_and_save(df: pd.DataFrame, config: dict) -> None:
     out = df.sort_values(
         by=["learners_amount", "star_rating"], ascending=[False, False]
     )
-    target = Path(config["processed_output_path"])
+    target = Path(os.getenv("PROCESSED_OUTPUT_PATH"))
     target.mkdir(parents=True, exist_ok=True)
     save_data(
         out,
@@ -94,8 +97,9 @@ def sort_and_save(df: pd.DataFrame, config: dict) -> None:
 
 
 def run_pipeline() -> None:
+    load_dotenv()
     cfg = load_config()
-    df = load_data(cfg["raw_output_path"])
+    df = load_data(os.getenv("RAW_OUTPUT_PATH"))
     df = filter_and_index(df)
     clean_titles(df)
     clean_descriptions(df)

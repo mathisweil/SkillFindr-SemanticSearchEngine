@@ -1,10 +1,4 @@
 {
-  "log_path": "../logs/scraper.log",
-  "raw_output_path": "../raw_data",
-  "processed_output_path": "../processed_data",
-  "login_url": "https://sb-auth.skillsbuild.org/login",
-  "base_url": "https://skills.yourlearning.ibm.com",
-  "scrape_delay": 2,
   "search_categories": {
     "react": "react",
     "html_css_javascript": "html_css_javascript",
@@ -59,7 +53,6 @@
     "english": "en"
   },
   "webdriver_args": {
-    "headless": "--headless",
     "incognito": "incognito"
   }
 }

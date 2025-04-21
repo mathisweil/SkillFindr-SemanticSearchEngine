@@ -1,9 +1,10 @@
 import logging
 from pathlib import Path
+from typing import Any
 
 import pandas as pd
 
-def save_data(data: list[dict[str, any]] | pd.DataFrame, csv_filename: Path = None, json_filename: Path = None) -> None:
+def save_data(data: list[dict[str, Any]] | pd.DataFrame, csv_filename: Path = None, json_filename: Path = None) -> None:
     """
     Saves the data to CSV and JSON files.
 

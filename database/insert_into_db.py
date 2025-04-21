@@ -1,9 +1,12 @@
+import os
+
+from dotenv import load_dotenv
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sqlalchemy import text
 from sqlalchemy.engine import Engine
 
-from utils.config import load_config, get_database_engine
+from config.config import get_database_engine
 from database.sql_queries import CREATE_TABLE_QUERY, INSERT_QUERY
 from utils.io_utils import load_data
 from embedding.model_loader import load_embedding_model
@@ -74,12 +77,12 @@ def preprocess_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def setup_engine_and_model() -> tuple[Engine, SentenceTransformer]:
+def setup_engine_and_model(database_url: str, embedding_model_name: str = None) -> tuple[Engine, SentenceTransformer]:
     """
     Initializes and returns the database engine and embedding model.
     """
-    engine = get_database_engine()
-    model = load_embedding_model()
+    engine = get_database_engine(database_url)
+    model = load_embedding_model(embedding_model_name)
     return engine, model
 
 
@@ -87,10 +90,10 @@ def main():
     """
     Entry point for the semantic indexing pipeline.
     """
-    config = load_config()
-    engine, model = setup_engine_and_model()
+    load_dotenv()
+    engine, model = setup_engine_and_model(os.getenv("DATABASE_URL"), os.getenv("EMBEDDING_MODEL_NAME"))
 
-    df = load_data(config['processed_output_path'])
+    df = load_data(os.getenv("PROCESSED_OUTPUT_PATH"))
     df = preprocess_dataframe(df)
 
     print("📊 Computing embeddings for combined input...")

@@ -1,20 +1,25 @@
 import logging
-from pathlib import Path
 import os
-from dotenv import load_dotenv
-
-
-from datetime import datetime
 from contextlib import contextmanager
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+from dotenv import load_dotenv
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from utils.config import load_config
-from utils.selenium_utils import init_driver, wait_for_element, wait_and_perform_action, click_show_more_button
-from utils.io_utils import save_data
+from config.config import load_config
 from scraper.html_parser import parse_course_page
+from utils.io_utils import save_data
+from utils.selenium_utils import (
+    click_show_more_button,
+    init_driver,
+    wait_and_perform_action,
+    wait_for_element,
+)
 
 
 class IBMScraper:
@@ -28,7 +33,7 @@ class IBMScraper:
         Logs into the website using credentials from the configuration.
         """
         try:
-            login_url = self.config["login_url"]
+            login_url = os.getenv("LOGIN_URL")
             self.driver.get(login_url)
             logging.info(f"Navigated to {login_url}.")
 
@@ -74,7 +79,7 @@ class IBMScraper:
             self.driver.close()
             self.driver.switch_to.window(original_handle)
 
-    def __scrape_course_page(self, link: str, category: str) -> dict[str, any]:
+    def __scrape_course_page(self, link: str, category: str) -> dict[str, Any]:
         """
         Scrapes a single course page.
 
@@ -98,7 +103,7 @@ class IBMScraper:
                     By.CSS_SELECTOR,
                     '[class^="TagLabel_labelContainer__"] > span',
                     EC.presence_of_all_elements_located,
-                    timeout = self.config["scrape_delay"]
+                    timeout = int(os.getenv("SCRAPE_DELAY", "2"))
                 )
                 html_source = self.driver.page_source
                 course_data = parse_course_page(
@@ -110,7 +115,7 @@ class IBMScraper:
                 return {}
 
     @staticmethod
-    def __parse_course_links(container: any) -> list[str]:
+    def __parse_course_links(container: Any) -> list[str]:
         """
         Given a container element (sponsored or normal), finds
         and returns all relevant course hrefs.
@@ -137,14 +142,14 @@ class IBMScraper:
             logging.error(f"Error parsing course links: {e}")
         return links
 
-    def scrape_courses(self, search_category: str) -> list[dict[str, any]]:
+    def scrape_courses(self, search_category: str) -> list[dict[str, Any]]:
         """
         Scrapes multiple course pages from various search sections.
 
         Returns:
             list[dict]: A list of dictionaries containing course information.
         """
-        courses: list[dict[str, any]] = []
+        courses: list[dict[str, Any]] = []
         try:
             wait_for_element(self.driver, By.ID, 'search-input', EC.presence_of_element_located)
 
@@ -154,7 +159,8 @@ class IBMScraper:
                     keyword = search_category.replace("_", "%20")
                     language_filters = self.config.get("language_filters", {})
                     language_query = "&".join([f"languages={lang}" for lang in language_filters.values()])
-                    url = f"{self.config['base_url']}/search/{slug}/q={keyword}&{language_query}"
+                    base_url = os.getenv("BASE_URL")
+                    url = f"{base_url}/search/{slug}/q={keyword}&{language_query}"
                     self.driver.get(url)
                     logging.info(f"Navigated to {url}.")
 
@@ -168,7 +174,7 @@ class IBMScraper:
                         logging.info(f"No search results for section: {section}")
                         continue
 
-                    click_show_more_button(self.driver, self.config["scrape_delay"])
+                    click_show_more_button(self.driver, int(os.getenv("SCRAPE_DELAY", "2")))
 
                     links: list[str] = []
                     try:
@@ -198,12 +204,12 @@ def main():
     load_dotenv()
     config = load_config()
     logging.basicConfig(
-        filename=config["log_path"],
+        filename=os.getenv("LOG_PATH"),
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s"
     )
     try:
-        raw_dir = Path(f"{config['raw_output_path']}")
+        raw_dir = Path(os.getenv("RAW_OUTPUT_PATH"))
         raw_dir.mkdir(parents=True, exist_ok=True)
 
         with init_driver(config) as driver:

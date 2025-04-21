@@ -1,22 +1,27 @@
+import os
+
+from dotenv import load_dotenv
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from sqlmodel import SQLModel, Field
 
 from embedding.retrieve_courses import semantic_search
 from embedding.model_loader import load_embedding_model
-from utils.llm import generate_answer
-from utils.config import get_database_engine
+from utils.llm import load_llm_model, generate_answer
+from config.config import get_database_engine
 
 
-ressources = {}
+resources = {}
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    ressources["embedding_model"] = load_embedding_model()
-    ressources["db_engine"] = get_database_engine()
+    load_dotenv()
+    resources["embedding_model"] = load_embedding_model(os.getenv("EMBEDDING_MODEL_NAME"))
+    resources["llm_model"], resources["llm_tokenizer"] = load_llm_model(os.getenv("LLM_MODEL_NAME"))
+    resources["db_engine"] = get_database_engine(os.getenv("DATABASE_URL"))
     yield
-    ressources.clear()
+    resources.clear()
 
 
 app = FastAPI(lifespan=lifespan)
@@ -101,8 +106,8 @@ async def semantic_search_endpoint(payload: SearchRequest):
         }
     results = semantic_search(
         query=payload.query,
-        model=ressources["embedding_model"],
-        engine=ressources["db_engine"],
+        model=resources["embedding_model"],
+        engine=resources["db_engine"],
         threshold=payload.threshold,
         limit=payload.limit,
         filters=raw_filters
@@ -126,8 +131,8 @@ async def rag_endpoint(payload: SearchRequest):
         }
     tops = semantic_search(
         query=payload.query,
-        model=ressources["embedding_model"],
-        engine=ressources["db_engine"],
+        model=resources["embedding_model"],
+        engine=resources["db_engine"],
         threshold=payload.threshold,
         limit=payload.limit,
         filters=raw_filters
@@ -141,7 +146,9 @@ async def rag_endpoint(payload: SearchRequest):
 
     answer = await generate_answer(
         query=payload.query,
-        contexts=[f"{c['title']}: {c['description']}" for c in tops]
+        contexts=[f"{c['title']}: {c['description']}" for c in tops],
+        model=resources["llm_model"],
+        tokenizer=resources["llm_tokenizer"]
     )
 
     return RAGResponse(answer=answer, sources=tops)

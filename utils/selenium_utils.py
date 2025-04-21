@@ -1,4 +1,5 @@
 import logging
+from typing import Any
 
 from selenium import webdriver
 from selenium.webdriver.remote.webdriver import WebDriver
@@ -8,7 +9,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
-def init_driver(config: dict[str, any]) -> WebDriver:
+def init_driver(config: dict[str, Any]) -> WebDriver:
     """Initialises the Chrome WebDriver with specified options from the configuration.
 
     Args:
@@ -27,7 +28,7 @@ def init_driver(config: dict[str, any]) -> WebDriver:
 
 def wait_for_element(
     driver: WebDriver,
-    by: By,
+    by: str,
     value: str,
     condition: any,
     timeout: int = 10
@@ -52,7 +53,7 @@ def wait_for_element(
 
 def wait_and_perform_action(
     driver: WebDriver,
-    by: By,
+    by: str,
     value: str,
     condition: any,
     keys: str | None = None,
@@ -65,7 +66,7 @@ def wait_and_perform_action(
         by (By): Locator strategy.
         value (str): The locator value (e.g., element's ID or class name).
         condition (any): Expected condition callable (e.g., element_to_be_clickable).
-        keys ( str | None, optional): Text to send to the element if provided.
+        keys (str | None, optional): Text to send to the element if provided.
         submit (bool, optional): Whether to submit the form after sending keys. Defaults to False.
     """
     element = wait_for_element(driver, by, value, condition)
