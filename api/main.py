@@ -1,14 +1,30 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from sqlmodel import SQLModel, Field
-from embedding.retrieve_courses import semantic_search
-from utils.llm import generate_answer
 
-app = FastAPI()
+from embedding.retrieve_courses import semantic_search
+from embedding.model_loader import load_embedding_model
+from utils.llm import generate_answer
+from utils.config import get_database_engine
+
+
+ressources = {}
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    ressources["embedding_model"] = load_embedding_model()
+    ressources["db_engine"] = get_database_engine()
+    yield
+    ressources.clear()
+
+
+app = FastAPI(lifespan=lifespan)
 
 
 class RangeFilter(SQLModel):
-    min: int = Field(..., ge=0, description="Lower bound (inclusive)")
-    max: int = Field(..., ge=0, description="Upper bound (inclusive)")
+    min: int | None = Field(None, ge=0, description="Lower bound (inclusive)")
+    max: int | None = Field(None, ge=0, description="Upper bound (inclusive)")
 
 
 class Filters(SQLModel):
@@ -85,6 +101,8 @@ async def semantic_search_endpoint(payload: SearchRequest):
         }
     results = semantic_search(
         query=payload.query,
+        model=ressources["embedding_model"],
+        engine=ressources["db_engine"],
         threshold=payload.threshold,
         limit=payload.limit,
         filters=raw_filters
@@ -93,7 +111,7 @@ async def semantic_search_endpoint(payload: SearchRequest):
 
 
 @app.post(
-    "/api/v1/rag",
+    "/api/v1/chat",
     response_model=RAGResponse,
     summary="Retrieval‐Augmented Generation over courses",
     tags=["rag"],
@@ -108,6 +126,8 @@ async def rag_endpoint(payload: SearchRequest):
         }
     tops = semantic_search(
         query=payload.query,
+        model=ressources["embedding_model"],
+        engine=ressources["db_engine"],
         threshold=payload.threshold,
         limit=payload.limit,
         filters=raw_filters

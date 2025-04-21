@@ -61,5 +61,5 @@
   "webdriver_args": {
     "headless": "--headless",
     "incognito": "incognito"
-  },
+  }
 }

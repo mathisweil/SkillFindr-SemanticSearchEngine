@@ -1,22 +1,24 @@
+from typing import Any
+
 from sentence_transformers import SentenceTransformer
 from sqlalchemy import text
 from sqlalchemy.engine import Engine
-from sqlalchemy import create_engine
-
-model = SentenceTransformer("all-MiniLM-L6-v2")
-engine: Engine = create_engine("postgresql+psycopg2://mathisweil@localhost:5432/postgres")
 
 
 def semantic_search(
     query: str,
+    model: SentenceTransformer,
+    engine: Engine,
     threshold: float = 0.5,
     limit: int = 5,
-    filters: dict[str, any] | None = None
-) -> list[dict[str, any]]:
+    filters: dict[str, Any] | None = None
+) -> list[dict[str, Any]]:
     """
     Perform a pgvector‐based semantic search over the `courses` table,
     optionally applying arbitrary filters supplied as a dict.
 
+    :param engine:
+    :param model:
     :param query:     The natural‐language search string.
     :param threshold: Maximum allowed vector distance.
     :param limit:     Maximum number of results to return.
@@ -32,17 +34,20 @@ def semantic_search(
 
     filters = filters or {}
     clauses = []
-    params: dict[str, any] = {
+    params: dict[str, Any] = {
         "query_vector": query_vector_str,
         "threshold": threshold,
         "limit": limit
     }
 
     for col, val in filters.items():
-        if isinstance(val, dict) and "min" in val and "max" in val:
-            clauses.append(f"{col} BETWEEN :{col}_min AND :{col}_max")
-            params[f"{col}_min"] = val["min"]
-            params[f"{col}_max"] = val["max"]
+        if isinstance(val, dict):
+            if "min" in val and val["min"] is not None:
+                clauses.append(f"{col} >= :{col}_min")
+                params[f"{col}_min"] = val["min"]
+            if "max" in val and val["max"] is not None:
+                clauses.append(f"{col} <= :{col}_max")
+                params[f"{col}_max"] = val["max"]
         elif isinstance(val, (list, tuple)):
             clauses.append(f"{col} = ANY(:{col})")
             params[col] = val

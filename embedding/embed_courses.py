@@ -1,30 +1,10 @@
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 
-
-# -------------------------
-# Global Configuration
-# -------------------------
-MODEL_NAME = "all-MiniLM-L6-v2"
-
-# -------------------------
-# Load Embedding Model
-# -------------------------
-model = SentenceTransformer(MODEL_NAME)
-
-def build_combined_text(row: dict) -> str:
-    """
-    Constructs a combined text string from title, description, and tags.
-    """
-    title = row.get("title", "")
-    description = row.get("description", "")
-    tags = "; ".join(row.get("tags", []))
-    if tags:
-        return f"{title}. {description}. Tags: {tags}"
-    return f"{title}. {description}"
+from utils.text_utils import build_combined_text
 
 
-def compute_embeddings(df: pd.DataFrame) -> pd.DataFrame:
+def compute_embeddings(df: pd.DataFrame, model: SentenceTransformer) -> pd.DataFrame:
     """
     Computes the combined text and its corresponding embedding vector for each row.
     """
