@@ -28,21 +28,101 @@ WHERE NOT EXISTS (SELECT 1 FROM matches)
 """)
 
 
-# -------------------------------
-# BM25 / TF-IDF STYLE SEARCH
-# -------------------------------
+# -----------------------------------
+# BM25 / TF-IDF STYLE SEARCH (With tags as TEXT[])
+# -----------------------------------
 BM25_SEARCH_QUERY = text("""
+WITH search_vectors AS (
+    SELECT
+        course_id,
+        title,
+        course_url,
+        description,
+        setweight(to_tsvector('english', coalesce(title, '')), 'A') ||  -- Title highly weighted
+        setweight(to_tsvector('english', coalesce(description, '')), 'B') ||  -- Description moderately weighted
+        setweight(to_tsvector('english', array_to_string(coalesce(tags, '{}'), ' ')), 'C') AS document  -- Tags lightly weighted
+    FROM courses
+)
 SELECT
     course_id,
     title,
     course_url,
     description,
-    ts_rank_cd(to_tsvector(embedding_input_combined), plainto_tsquery(:query_text)) AS rank
-FROM courses
-WHERE to_tsvector(embedding_input_combined) @@ plainto_tsquery(:query_text)
+    bm25(
+        document,
+        websearch_to_tsquery('english', :query_text),
+        1.2,   -- k1 hyperparameter (term frequency scaling)
+        0.75   -- b hyperparameter (document length normalization)
+    ) AS rank
+FROM search_vectors
+WHERE document @@ websearch_to_tsquery('english', :query_text)
+  AND bm25(
+        document,
+        websearch_to_tsquery('english', :query_text),
+        1.2,
+        0.75
+    ) > :threshold
 ORDER BY rank DESC
 LIMIT :limit
 """)
+
+
+
+BM25_CANDIDATE_QUERY = text("""
+SELECT
+    course_id,
+    title,
+    course_url,
+    description,
+    -- raw tsvector needed for length statistics in Python
+    document
+FROM   search.course_vectors
+WHERE  document @@ websearch_to_tsquery('english', :query_text)
+LIMIT  :candidate_limit          -- e.g. 2-3× the final k you want to return
+""")
+
+
+
+BM25_SEARCH_QUERY_OR = text("""
+WITH q AS (
+  SELECT to_tsquery(
+           'english',
+           replace(
+             regexp_replace(:query_text, '\\s+', ' ', 'g'),
+             ' ',
+             ' | '
+           )
+         ) AS query
+),
+docs AS (
+  SELECT
+    course_id,
+    title,
+    description,
+    tags,
+    setweight(to_tsvector('english', coalesce(title, '')),       'A') ||
+    setweight(to_tsvector('english', coalesce(description, '')), 'B') ||
+    setweight(
+      to_tsvector('english', coalesce(array_to_string(tags, ' '), '')),
+      'C'
+    ) AS document
+  FROM courses
+)
+SELECT
+  course_id,
+  title,
+  description,
+  tags,
+  ts_rank_cd(document, q.query) AS rank
+FROM docs
+CROSS JOIN q
+WHERE
+  docs.document @@ q.query
+  AND ts_rank_cd(document, q.query) > :threshold
+ORDER BY rank DESC
+LIMIT :limit;
+""")
+
 
 
 # -------------------------------

@@ -4,12 +4,14 @@ from sentence_transformers import SentenceTransformer
 from sqlalchemy import text
 from sqlalchemy.engine import Engine
 
+from database.sql_queries import BM25_SEARCH_QUERY
+
 
 def semantic_search(
     query: str,
     model: SentenceTransformer,
     engine: Engine,
-    threshold: float = 0.5,
+    threshold: float = 0.4,
     limit: int = 5,
     filters: dict[str, Any] | None = None
 ) -> list[dict[str, Any]]:
@@ -79,5 +81,15 @@ def semantic_search(
     with engine.connect() as conn:
         result = conn.execute(sql, params)
         rows = result.mappings().all()
+
+    return [dict(row) for row in rows]
+
+def keyword_search(query: str, engine: Engine, threshold: float = 0.1, limit: int = 5) -> list[dict[str, Any]]:
+    with engine.connect() as conn:
+        bm25_results = conn.execute(
+            BM25_SEARCH_QUERY,
+            {"query_text": query, "threshold": threshold, "limit": limit}
+        )
+        rows = bm25_results.mappings().all()
 
     return [dict(row) for row in rows]

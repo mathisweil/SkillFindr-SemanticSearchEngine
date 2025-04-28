@@ -61,7 +61,6 @@ def convert_duration(duration: str | int | float | None) -> int | None:
         return None
     if isinstance(duration, (int, float)):
         return int(duration)
-
     if not isinstance(duration, str):
         return None
 
@@ -80,5 +79,8 @@ def convert_duration(duration: str | int | float | None) -> int | None:
         minutes += int(hr_match.group(1)) * 60
     if min_match:
         minutes += int(min_match.group(1))
+
+    if minutes == 0 and re.search(r"\b(?:a few|some|several|just|only)?\s*hours?\b", duration):
+        minutes = 60
 
     return minutes if minutes > 0 else None
