@@ -149,4 +149,5 @@ if __name__ == "__main__":
         prediction_dataset_semantic[query] = [course["course_id"] for course in semantic_search_results]
 
         prediction_dataset_bm25[query] = [course["rank"] for course in bm25_search_results]
+        print(query)
         print(prediction_dataset_bm25[query])
