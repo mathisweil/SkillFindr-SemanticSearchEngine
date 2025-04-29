@@ -1,153 +1,140 @@
 import csv
-import math
-from collections import Counter
-from sqlalchemy import create_engine, MetaData, Table, select, text
 import os
+import math
+from typing import Any
+from collections import Counter
+
 from dotenv import load_dotenv
+from sqlalchemy import MetaData, Table, select
+from sqlalchemy.engine import Engine
+
+import spacy
+import nltk
+from nltk.corpus import wordnet as wn
 
 from config.config import get_database_engine
 
-# ----------------------
-# 0. Preprocessing Utilities
-# ----------------------
 
-STOPWORDS = {"the", "is", "at", "which", "on", "and", "a", "an", "for", "in", "to", "of", "with"}
-SYNONYMS = {
-    "course": ["module", "training", "class"],
-    "start": ["begin", "commence"],
-    "learn": ["study", "understand", "acquire"],
-    "security": ["protection", "safety", "defense"],
-    "data": ["information", "dataset"],
-    "finance": ["financial", "economics", "banking"],
-    "web": ["internet", "online"]
-}
+_courses: Table = None
+_nlp: spacy.language.Language = None
 
 
-def preprocess(text):
-    """Lowercase, split and remove stopwords."""
-    return [word for word in text.lower().split() if word not in STOPWORDS]
+def setup_environment(engine: Engine):
+    """
+    Load NLP models, NLTK data, and reflect the 'courses' table.
+    Must be called once per process (or per new engine).
+    """
+    global _courses, _nlp
+
+    metadata = MetaData()
+    _courses = Table("courses", metadata, autoload_with=engine)
+
+    nltk.download('wordnet', quiet=True)
+    nltk.download('omw-1.4', quiet=True)
+
+    _nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
 
 
-def expand_query(query_terms):
-    """Expand query terms with predefined synonyms."""
-    expanded = []
-    for term in query_terms:
-        expanded.append(term)
-        expanded.extend(SYNONYMS.get(term, []))
-    return expanded
+def preprocess(text: str) -> list[str]:
+    """
+    Lemmatise, lowercase, remove stopwords & non-alphabetic tokens,
+    and keep only NOUN/VERB/ADJ/PROPN.
+    """
+    doc = _nlp(text.lower())
+    return [
+        token.lemma_ for token in doc
+        if token.is_alpha and not token.is_stop and token.pos_ in {"NOUN", "VERB", "ADJ", "PROPN"}
+    ]
 
 
-# ----------------------
-# 1. Database Connection
-# ----------------------
-load_dotenv()
-DATABASE_URL = os.getenv("DATABASE_URL")
-
-engine = get_database_engine(DATABASE_URL)
-connection = engine.connect()
-metadata = MetaData()
-
-courses = Table('courses', metadata, autoload_with=engine)
+def get_synonyms(term: str) -> set:
+    """
+    Dynamically fetch synonyms for a single term from WordNet.
+    """
+    synsets = wn.synsets(term)
+    lemmas = {lemma.name().replace('_', ' ') for syn in synsets for lemma in syn.lemmas()}
+    return lemmas - {term}
 
 
-# ----------------------
-# 2. BM25 Scoring Function
-# ----------------------
+def expand_query(terms: list[str]) -> list[str]:
+    """
+    Expand the original terms set with their WordNet synonyms.
+    """
+    expanded = set(terms)
+    for term in terms:
+        expanded |= get_synonyms(term)
+    return list(expanded)
 
-def bm25_score(query_terms, document_terms, avgdl, doc_len, k1=0.9, b=0.4, N=1, df={}):
+
+def bm25_score(
+    query_terms: list[str],
+    doc_terms: list[str],
+    avgdl: float,
+    k1: float = 0.9,
+    b: float = 0.4,
+    N: int = 1,
+    df: dict[str, int] = None
+) -> float:
+    """
+    Compute BM25 score for a single document.
+    """
+    df = df or {}
+    freqs = Counter(doc_terms)
     score = 0.0
-    frequencies = Counter(document_terms)
 
     for term in query_terms:
-        f = frequencies.get(term, 0)
+        f = freqs.get(term, 0)
         n = df.get(term, 0)
-
-        if f == 0:
-            # Soft penalty for missing terms
-            idf = math.log((N + 0.5) / (0.5) + 1)
-            score += idf * (k1 * (1 - b + b * (doc_len / avgdl)))
-            continue
-
         idf = math.log((N - n + 0.5) / (n + 0.5) + 1)
         numerator = f * (k1 + 1)
-        denominator = f + k1 * (1 - b + b * (doc_len / avgdl))
+        denominator = f + k1 * (1 - b + b * (len(doc_terms) / avgdl))
         score += idf * (numerator / denominator)
 
     return score
 
 
-# ----------------------
-# 3. Perform the Search
-# ----------------------
+def search_courses_bm25(
+    query: str,
+    engine: Engine,
+    limit: int = 5
+) -> list[dict[str, Any]]:
+    if _courses is None or _nlp is None:
+        setup_environment(engine)
 
-def search_courses(query_string, top_k=10):
-    # Preprocess and expand query
-    raw_query_terms = preprocess(query_string)
-    query_terms = expand_query(raw_query_terms)
+    lemmas = preprocess(query)
+    if not lemmas:
+        return []
 
-    if not query_terms:
-        print("Query too vague or empty after preprocessing.")
-        return
+    expanded_terms = expand_query(lemmas)
 
-    # Step 1: Fetch candidates with flexible SQL filtering
-    stmt = select(courses)
-    for term in raw_query_terms:  # Use original terms to not over-fetch
-        stmt = stmt.where(courses.c.embedding_input_combined.ilike(f"%{term}%"))
+    stmt = select(_courses)
+    for term in lemmas:
+        stmt = stmt.where(_courses.c.embedding_input_combined.ilike(f"%{term}%"))
 
-    result = connection.execute(stmt)
-    rows = result.mappings().all()
+    with engine.connect() as conn:
+        rows = conn.execute(stmt).mappings().all()
 
     if not rows:
-        print("No courses found matching the query.")
-        return
+        return []
 
-    # Step 2: Prepare corpus
-    documents = []
-    course_ids = []
-    for row in rows:
-        embedding_input = row['embedding_input_combined']
-        if embedding_input:
-            documents.append(preprocess(embedding_input))
-            course_ids.append(row['course_id'])
-
-    if not documents:
-        print("No valid documents found in results.")
-        return
-
-    # Step 3: Corpus statistics
+    documents = [
+        preprocess(row['embedding_input_combined'] or "")
+        for row in rows
+    ]
     N = len(documents)
-    avgdl = sum(len(doc) for doc in documents) / N
+    avgdl = sum(len(doc) for doc in documents) / N if N > 0 else 1.0
+
     df = Counter()
     for doc in documents:
-        unique_terms = set(doc)
-        for term in unique_terms:
+        for term in set(doc):
             df[term] += 1
 
-    # Step 4: BM25 scoring
-    scored_courses = []
-    for idx, doc in enumerate(documents):
-        score = bm25_score(query_terms, doc, avgdl, len(doc), k1=0.9, b=0.4, N=N, df=df)
-        scored_courses.append((rows[idx], score))
+    scored = []
+    for idx, row in enumerate(rows):
+        score = bm25_score(expanded_terms, documents[idx], avgdl, N=N, df=df)
+        result = dict(row)
+        result['bm25_score'] = score
+        scored.append(result)
 
-    # Step 5: Sort by score descending
-    scored_courses.sort(key=lambda x: x[1], reverse=True)
-
-    # Step 6: Output top courses
-    print(f"\nTop {top_k} search results for query: '{query_string}'\n")
-    for course_row, score in scored_courses[:top_k]:
-        print(f"[{score:.4f}] {course_row['title']} — {course_row['course_url']}")
-        print(f"    Description: {course_row['description'][:100]}...")
-        print()
-
-
-# ----------------------
-# 4. Usage Example
-# ----------------------
-
-if __name__ == "__main__":
-    with open("../tests/datasets/ir_test_queries.csv", newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        query_set = [row["query"] for row in reader]
-
-    for user_query in query_set:
-        search_courses(user_query, top_k=10)
+    scored.sort(key=lambda x: x['bm25_score'], reverse=True)
+    return scored[:limit]
