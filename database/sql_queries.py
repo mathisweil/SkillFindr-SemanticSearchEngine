@@ -38,6 +38,7 @@ WITH search_vectors AS (
         title,
         course_url,
         description,
+        embedding_input_combined,
         setweight(to_tsvector('english', coalesce(title, '')), 'A') ||
         setweight(to_tsvector('english', coalesce(description, '')), 'B') ||
         setweight(to_tsvector('english', array_to_string(coalesce(tags, ARRAY[]::TEXT[]), ' ')), 'C') AS document
@@ -48,6 +49,7 @@ SELECT
     title,
     course_url,
     description,
+    embedding_input_combined,
     ts_rank_cd(document, websearch_to_tsquery('english', :query_text)) AS rank
 FROM search_vectors
 WHERE document @@ websearch_to_tsquery('english', :query_text)

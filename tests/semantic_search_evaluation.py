@@ -1,151 +1,149 @@
-from math import log2
-from dotenv import load_dotenv
 import os
+import math
 import json
 import csv
+import warnings
+from sqlalchemy.exc import SAWarning
+
+# 1. Silence the SAWarning about unrecognized 'vector' column types
+warnings.filterwarnings("ignore", category=SAWarning)
+
+from dotenv import load_dotenv
 
 from config.config import get_database_engine
 from embedding.model_loader import load_embedding_model
 from embedding.retrieve_courses import semantic_search, keyword_search, bm25_search
 
-# recall@k function
-def recall(actual, predicted, k):
+# ----------------------
+# 2. Metric Functions
+# ----------------------
+def recall_at_k(actual: list, predicted: list, k: int) -> float:
+    if not actual:
+        return 0.0
     act_set = set(actual)
     pred_set = set(predicted[:k])
-    result = round(len(act_set & pred_set) / float(len(act_set)), 2)
-    return result
+    return len(act_set & pred_set) / len(act_set)
 
-actual = ["2", "4", "5", "7"]
-predicted = ["1", "2", "3", "4", "5", "6", "7", "8"]
-for k in range(1, 9):
-    print(f"Recall@{k} = {recall(actual, predicted, k)}")
+def reciprocal_rank(actual: list, predicted: list) -> float:
+    for idx, p in enumerate(predicted, start=1):
+        if p in actual:
+            return 1.0 / idx
+    return 0.0
 
+def average_precision(actual: list, predicted: list, k: int) -> float:
+    if not actual:
+        return 0.0
+    act_set = set(actual)
+    score = 0.0
+    hits = 0
+    for i, p in enumerate(predicted[:k], start=1):
+        if p in act_set:
+            hits += 1
+            score += hits / i
+    return score / len(act_set)
 
-# relevant results for query #1, #2, and #3
-actual_relevant = [
-    [2, 4, 5, 7],
-    [1, 4, 5, 7],
-    [5, 8]
-]
+def ndcg_at_k(actual_items: list, predicted: list, k: int) -> float:
+    def dcg(scores):
+        return sum(rel / math.log2(idx + 1) for idx, rel in enumerate(scores, start=1))
 
-# number of queries
-Q = len(actual_relevant)
+    # Build a lookup: course_id -> graded relevance
+    rel_map = {
+        item["course_id"]: item.get("relevance", 0)
+        for item in actual_items
+    }
 
-# calculate the reciprocal of the first actual relevant rank
-cumulative_reciprocal = 0
-for i in range(Q):
-    first_result = actual_relevant[i][0]
-    reciprocal = 1 / first_result
-    cumulative_reciprocal += reciprocal
-    print(f"query #{i+1} = 1/{first_result} = {reciprocal}")
+    # Graded relevance for each predicted item
+    rels       = [rel_map.get(p, 0) for p in predicted[:k]]
+    ideal_rels = sorted(rel_map.values(), reverse=True)[:k]
 
-# calculate mrr
-mrr = 1/Q * cumulative_reciprocal
+    idcg = dcg(ideal_rels)
+    return (dcg(rels) / idcg) if idcg > 0 else 0.0
 
-# generate results
-print("MRR =", round(mrr,2))
+# ----------------------
+# 3. Evaluation Harness
+# ----------------------
+def evaluate(predictions: dict, test_dataset: dict, k: int = 10) -> dict:
+    """
+    predictions: { query -> [predicted_course_id, ...] }
+    test_dataset: { query -> [ { "course_id": ... }, ... ] }
+    Returns aggregate Recall@k, MRR, MAP@k, nDCG@k.
+    """
+    recs, rrs, aps, ndcgs = [], [], [], []
 
+    for query, actual_items in test_dataset.items():
+        # unwrap any dicts in the ground truth to simple IDs
+        actual_ids = [
+            item["course_id"]
+            for item in actual_items
+            if isinstance(item, dict) and item.get("relevance", 1) > 0
+        ]
+        predicted_ids = predictions.get(query, [])
 
-# initialize variables
-actual = [
-    [2, 4, 5, 7],
-    [1, 4, 5, 7],
-    [5, 8]
-]
-Q = len(actual)
-predicted = [1, 2, 3, 4, 5, 6, 7, 8]
-k = 8
-ap = []
+        recs.append(   recall_at_k(actual_ids, predicted_ids, k)   )
+        rrs.append(    reciprocal_rank(actual_ids, predicted_ids)  )
+        aps.append(    average_precision(actual_ids, predicted_ids, k) )
+        ndcgs.append(ndcg_at_k(actual_items, predicted_ids, k))
 
-# loop through and calculate AP for each query q
-for q in range(Q):
-    ap_num = 0
-    # loop through k values
-    for x in range(k):
-        # calculate precision@k
-        act_set = set(actual[q])
-        pred_set = set(predicted[:x+1])
-        precision_at_k = len(act_set & pred_set) / (x+1)
-        # calculate rel_k values
-        if predicted[x] in actual[q]:
-            rel_k = 1
-        else:
-            rel_k = 0
-        # calculate numerator value for ap
-        ap_num += precision_at_k * rel_k
-    # now we calculate the AP value as the average of AP
-    # numerator values
-    ap_q = ap_num / len(actual[q])
-    print(f"AP@{k}_{q+1} = {round(ap_q,2)}")
-    ap.append(ap_q)
+    Q = len(test_dataset)
+    return {
+        f"Recall@{k}": round(sum(recs)  / Q, 4),
+        "MRR":          round(sum(rrs)  / Q, 4),
+        f"MAP@{k}":     round(sum(aps)  / Q, 4),
+        f"nDCG@{k}":    round(sum(ndcgs)/ Q, 4),
+    }
 
-# now we take the mean of all ap values to get mAP
-map_at_k = sum(ap) / Q
-
-# generate results
-print(f"mAP@{k} = {round(map_at_k, 2)}")
-
-
-# initialize variables
-relevance = [0, 7, 2, 4, 6, 1, 4, 3]
-K = 8
-
-dcg = 0
-# loop through each item and calculate DCG
-for k in range(1, K+1):
-    rel_k = relevance[k-1]
-    # calculate DCG
-    dcg += rel_k / log2(1 + k)
-
-
-# sort items in 'relevance' from most relevant to less relevant
-ideal_relevance = sorted(relevance, reverse=True)
-
-print(ideal_relevance)
-
-idcg = 0
-# as before, loop through each item and calculate *Ideal* DCG
-for k in range(1, K+1):
-    rel_k = ideal_relevance[k-1]
-    # calculate DCG
-    idcg += rel_k / log2(1 + k)
-
-
-dcg = 0
-idcg = 0
-
-for k in range(1, K+1):
-    # calculate rel_k values
-    rel_k = relevance[k-1]
-    ideal_rel_k = ideal_relevance[k-1]
-    # calculate dcg and idcg
-    dcg += rel_k / log2(1 + k)
-    idcg += ideal_rel_k / log2(1 + k)
-    # calcualte ndcg
-    ndcg = dcg / idcg
-
-
+# ----------------------
+# 4. Main
+# ----------------------
 if __name__ == "__main__":
     load_dotenv()
-    model = load_embedding_model(os.getenv("EMBEDDING_MODEL_NAME"))
+
+    # 4.1 Load models & DB
+    model  = load_embedding_model(os.getenv("EMBEDDING_MODEL_NAME"))
     engine = get_database_engine(os.getenv("DATABASE_URL"))
 
+    # 4.2 Load queries (keep order)
     with open(os.getenv("TEST_QUERIES_PATH"), newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        query_set = [row["query"] for row in reader]
+        reader     = csv.DictReader(f)
+        query_list = [row["query"] for row in reader]
 
+    # 4.3 Load ground-truth
     with open(os.getenv("TEST_DATASET_PATH"), 'r', encoding='utf-8') as f:
-        test_dataset = json.load(f)
+        test_dataset: dict = json.load(f)
+        # test_dataset: { query -> [ { "course_id": "2" }, … ] }
 
-    prediction_dataset_semantic = {}
-    prediction_dataset_keyword = {}
-    prediction_dataset_bm25 = {}
+    # 4.4 Gather predictions
+    prediction_semantic = {}
+    prediction_keyword  = {}
+    prediction_bm25     = {}
 
-    for query in query_set:
-        semantic_search_results = semantic_search(query, model, engine, threshold=0.5, limit=20)
-        keyword_search_results = keyword_search(query, engine, threshold=0.0, limit=20)
-        bm25_search_results = bm25_search(query, engine, limit=20)
+    for q in query_list:
+        sem = semantic_search(q, model, engine, threshold=0.5, limit=20)
+        kw  = keyword_search(q, engine, threshold=0.0, limit=20)
+        bm  = bm25_search(q, engine, limit=20)
 
-        prediction_dataset_semantic[query] = [course["course_id"] for course in semantic_search_results]
-        prediction_dataset_keyword[query] = [course["course_id"] for course in keyword_search_results]
-        prediction_dataset_bm25[query] = [course["course_id"] for course in bm25_search_results]
+        prediction_semantic[q] = [c["course_id"] for c in sem]
+        prediction_keyword[q]  = [c["course_id"] for c in kw]
+        prediction_bm25[q]     = [c["course_id"] for c in bm]
+
+    # 4.5 Evaluate all three
+    K = 20
+    results = {
+        "Semantic": evaluate(prediction_semantic, test_dataset, K),
+        "Keyword":  evaluate(prediction_keyword,  test_dataset, K),
+        "BM25":     evaluate(prediction_bm25,     test_dataset, K),
+    }
+
+    # 4.6 Display
+    print(f"Evaluation over {len(test_dataset)} queries @ K={K}\n")
+    for name, metrics in results.items():
+        print(f"--- {name} Search ---")
+        for metric, val in metrics.items():
+            print(f"{metric:10s}: {val}")
+        print()
+
+    # test = "advanced deep reinforcement learning techniques explained"
+    #
+    # print([f"course_id: {c["course_id"]}, title + description + tags: {c["embedding_input_combined"]}" for c in semantic_search(test, model, engine, threshold=0.7, limit=30)])
+    # print([f"course_id: {c["course_id"]}, title + description + tags: {c["embedding_input_combined"]}" for c in keyword_search(test, engine, threshold=0.0, limit=20)])
+    # print([f"course_id: {c["course_id"]}, title + description + tags: {c["embedding_input_combined"]}" for c in bm25_search(test, engine, limit=20)])

@@ -1,18 +1,13 @@
-import csv
-import os
 import math
 from typing import Any
 from collections import Counter
 
-from dotenv import load_dotenv
 from sqlalchemy import MetaData, Table, select
 from sqlalchemy.engine import Engine
 
 import spacy
 import nltk
 from nltk.corpus import wordnet as wn
-
-from config.config import get_database_engine
 
 
 _courses: Table = None

@@ -69,6 +69,7 @@ def semantic_search(
             course_url,
             title,
             description,
+            embedding_input_combined,
             embedding_vector <=> :query_vector AS distance
         FROM courses
         WHERE embedding_vector <=> :query_vector < :threshold
