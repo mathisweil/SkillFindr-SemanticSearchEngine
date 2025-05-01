@@ -14,9 +14,6 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Outputs
-processed_data/*
-
 # Test Files
 *.test
 
