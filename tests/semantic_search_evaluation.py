@@ -3,7 +3,9 @@ import math
 import json
 import csv
 import warnings
+import time
 from sqlalchemy.exc import SAWarning
+import matplotlib.pyplot as plt
 
 # 1. Silence the SAWarning about unrecognized 'vector' column types
 warnings.filterwarnings("ignore", category=SAWarning)
@@ -110,21 +112,52 @@ if __name__ == "__main__":
     # 4.3 Load ground-truth
     with open(os.getenv("TEST_DATASET_PATH"), 'r', encoding='utf-8') as f:
         test_dataset: dict = json.load(f)
-        # test_dataset: { query -> [ { "course_id": "2" }, … ] }
 
     # 4.4 Gather predictions
     prediction_semantic = {}
     prediction_keyword  = {}
     prediction_bm25     = {}
 
-    for q in query_list:
-        sem = semantic_search(q, model, engine, threshold=0.5, limit=20)
-        kw  = keyword_search(q, engine, threshold=0.0, limit=20)
-        bm  = bm25_search(q, engine, limit=20)
+    times_semantic = []
+    times_keyword = []
+    times_bm25 = []
 
+    for q in query_list:
+        # semantic_search
+        t0 = time.perf_counter()
+        sem = semantic_search(q, model, engine, threshold=0.5, limit=20)
+        t1 = time.perf_counter()
+        times_semantic.append(t1 - t0)
         prediction_semantic[q] = [c["course_id"] for c in sem]
-        prediction_keyword[q]  = [c["course_id"] for c in kw]
-        prediction_bm25[q]     = [c["course_id"] for c in bm]
+
+        # keyword_search
+        t0 = time.perf_counter()
+        kw = keyword_search(q, engine, threshold=0.0, limit=20)
+        t1 = time.perf_counter()
+        times_keyword.append(t1 - t0)
+        prediction_keyword[q] = [c["course_id"] for c in kw]
+
+        # bm25_search
+        t0 = time.perf_counter()
+        bm = bm25_search(q, engine, limit=20)
+        t1 = time.perf_counter()
+        times_bm25.append(t1 - t0)
+        prediction_bm25[q] = [c["course_id"] for c in bm]
+
+        # Compute coverage rates
+        total_q = len(query_list)
+        coverage = {
+            "Semantic": sum(1 for preds in prediction_semantic.values() if preds) / total_q,
+            "Keyword": sum(1 for preds in prediction_keyword.values() if preds) / total_q,
+            "BM25": sum(1 for preds in prediction_bm25.values() if preds) / total_q,
+        }
+
+        # Compute average response times (in seconds)
+        avg_latency = {
+            "Semantic": sum(times_semantic) / total_q,
+            "Keyword": sum(times_keyword) / total_q,
+            "BM25": sum(times_bm25) / total_q,
+        }
 
     # 4.5 Evaluate all three
     K = 20
@@ -135,15 +168,82 @@ if __name__ == "__main__":
     }
 
     # 4.6 Display
-    print(f"Evaluation over {len(test_dataset)} queries @ K={K}\n")
+    print(f"Evaluation over {total_q} queries @ K={K}\n")
     for name, metrics in results.items():
         print(f"--- {name} Search ---")
+        # original metrics
         for metric, val in metrics.items():
             print(f"{metric:10s}: {val}")
+        # new coverage & latency
+        cov_pct = coverage[name] * 100
+        lat_ms = avg_latency[name] * 1000
+        print(f"{'Coverage':10s}: {cov_pct:.2f}%")  # e.g. 95.00%
+        print(f"{'Latency':10s}: {lat_ms:.1f} ms/query")  # e.g. 12.3 ms
         print()
 
-    # test = "advanced deep reinforcement learning techniques explained"
-    #
-    # print([f"course_id: {c["course_id"]}, title + description + tags: {c["embedding_input_combined"]}" for c in semantic_search(test, model, engine, threshold=0.7, limit=30)])
-    # print([f"course_id: {c["course_id"]}, title + description + tags: {c["embedding_input_combined"]}" for c in keyword_search(test, engine, threshold=0.0, limit=20)])
-    # print([f"course_id: {c["course_id"]}, title + description + tags: {c["embedding_input_combined"]}" for c in bm25_search(test, engine, limit=20)])
+        # ----------------------
+        # 5. Plotting
+        # ----------------------
+        # Prepare data
+        systems = list(results.keys())  # ['Semantic', 'Keyword', 'BM25']
+        metrics_labels = list(results['Semantic'].keys())  # ['Recall@20','MRR','MAP@20','nDCG@20']
+        metric_values = {
+            label: [results[sys][label] for sys in systems]
+            for label in metrics_labels
+        }
+
+        # 5.1 Grouped bar chart of core metrics @ K
+        fig, ax = plt.subplots(figsize=(8, 5))
+        x = range(len(systems))
+        width = 0.2
+
+        for i, label in enumerate(metrics_labels):
+            ax.bar([p + i * width for p in x],
+                   metric_values[label],
+                   width=width,
+                   label=label)
+
+        ax.set_xticks([p + (len(metrics_labels) - 1) * width / 2 for p in x])
+        ax.set_xticklabels(systems)
+        ax.set_ylabel('Score')
+        ax.set_title(f'Core Metrics @ K={K}')
+        ax.legend(loc='upper left', bbox_to_anchor=(1, 1))
+        ax.grid(axis='y', linestyle='--', alpha=0.5)
+        plt.tight_layout()
+        plt.show()
+
+        # 5.2 Line plots: Recall, MAP, nDCG vs k
+        ks = [1, 5, 10, 20]
+        fig, ax = plt.subplots(figsize=(8, 5))
+
+        for sys in systems:
+            rec = [evaluate(
+                prediction_semantic if sys == 'Semantic' else
+                prediction_keyword if sys == 'Keyword' else
+                prediction_bm25,
+                test_dataset, k)[f"Recall@{k}"]
+                   for k in ks]
+            mp = [evaluate(
+                prediction_semantic if sys == 'Semantic' else
+                prediction_keyword if sys == 'Keyword' else
+                prediction_bm25,
+                test_dataset, k)[f"MAP@{k}"]
+                  for k in ks]
+            nd = [evaluate(
+                prediction_semantic if sys == 'Semantic' else
+                prediction_keyword if sys == 'Keyword' else
+                prediction_bm25,
+                test_dataset, k)[f"nDCG@{k}"]
+                  for k in ks]
+
+            ax.plot(ks, rec, marker='o', linestyle='-', label=f'{sys} Recall')
+            ax.plot(ks, mp, marker='s', linestyle='--', label=f'{sys} MAP')
+            ax.plot(ks, nd, marker='^', linestyle=':', label=f'{sys} nDCG')
+
+        ax.set_xlabel('k')
+        ax.set_ylabel('Score')
+        ax.set_title('Metrics vs k')
+        ax.legend(fontsize='small', ncol=2, loc='upper left', bbox_to_anchor=(1, 1))
+        ax.grid(linestyle='--', alpha=0.5)
+        plt.tight_layout()
+        plt.show()
