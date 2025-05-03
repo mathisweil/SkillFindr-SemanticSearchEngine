@@ -1,106 +1,140 @@
-# IBM SkillsBuild Platform Scraper
 
-## Overview
-The IBM SkillsBuild Platform Scraper is a Python-based tool designed to automate the collection of course and program data from the IBM SkillsBuild platform. This tool simplifies data extraction for further analysis, enabling better insights into the available educational content.
+# 🧠 SkillFindr — Semantic Search for IBM SkillsBuild
 
-## Features
-- **Automated Data Extraction:** Scrapes course titles, descriptions, categories, and other metadata.
-- **Customisable Scraping Scope:** Allows targeting specific sections of the platform.
-- **Efficient and Scalable:** Utilises multithreading for faster scraping.
-- **Output Formats:** Saves extracted data in formats such as JSON, CSV, or a database.
+## 📚 Overview
 
-## Prerequisites
+**SkillFindr** is a full-stack Python application developed to enhance content discoverability on the [IBM SkillsBuild](https://skillsbuild.org) platform. It combines automated data scraping, semantic search, a hybrid PostgreSQL database (including vector storage), and a FastAPI-based API. The project was built as part of a final-year dissertation to demonstrate how AI-powered search can improve access to educational content.
+
+---
+
+## 🚀 Features
+
+### 🔎 Semantic Search Engine
+- Embedding-based retrieval using Sentence-BERT (`all-MiniLM-L6-v2`)
+- Vector similarity ranking using cosine distance
+- Real-time response via FastAPI
+
+### 🕸 Web Scraper
+- Extracts over 1,200+ courses and programs from IBM SkillsBuild
+- Captures metadata: title, description, duration, tags, rating
+- Built using Selenium and BeautifulSoup with dynamic content support
+
+### 🗃 Hybrid Database
+- PostgreSQL used for structured metadata (e.g., duration, title, tags)
+- `pgvector` extension stores and indexes 384-dimensional course embeddings
+
+### ⚙️ FastAPI Backend
+- RESTful API to serve course search queries and metadata filtering
+- JSON responses suitable for frontend integration or data analysis
+
+---
+
+## 📦 Prerequisites
 
 ### System Requirements
-- Python 3.8+
-- Operating System: Windows, macOS, or Linux
+- Python 3.12
+- OS: Windows / macOS / Linux
 
-### Libraries
-The following Python libraries are required:
-- `requests`
-- `beautifulsoup4`
-- `selenium`
-- `pandas`
-- `lxml`
+### Python Dependencies
+Install via:
+```bash
+pip install -r requirements.txt
+```
+Key libraries:
+- `selenium`, `beautifulsoup4`, `pandas`, `lxml`
+- `sentence-transformers`, `pgvector`
+- `fastapi`, `uvicorn`, `sqlalchemy`
 
-To install the dependencies, run:
+### Additional Tools
+- Chrome WebDriver (required for Selenium)
+- PostgreSQL 14+ with the `pgvector` extension
+
+---
+
+## 🛠 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/skillfindr.git
+cd skillfindr
+```
+
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-### Tools
-If using Selenium:
-- Chrome WebDriver (ensure the driver version matches your installed Chrome version)
-
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/ibm-skillsbuild-scraper.git
-   cd ibm-skillsbuild-scrapers
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. (Optional) Configure your environment:
-   - Create a `.env` file for sensitive information, such as login credentials.
-     - USERNAME=your_username 
-     - PASSWORD=your_password
-
-## Usage
-
-### Basic Command
-Run the scraper using:
-```bash
-python scrapers.py
+3. (Optional) Set environment variables in `.env`:
+```
+DB_URL=postgresql://user:password@localhost:5432/skillsbuild
 ```
 
-### Configuration
-Modify the `config.json` file to:
-- Set target URLs.
-- Specify the output format (JSON, CSV, or database).
-- Adjust scraping parameters (e.g., delay, headers).
-
-### Output
-The scraper outputs data into the `output/` directory by default. The format can be adjusted in the configuration file.
-
-## Project Structure
-```plaintext
-IBM_Scraper/
-├── logs/             # Directory for logs
-├── output/           # Directory for scraped data
-├── scraper/          # Package for scraper code
-│   ├── __init__.py   # Marks the folder as a Python package
-│   └── main.py       # Main script for the scraper
-└── config.json       # Configuration file
-```
-
-## Customisation
-- Extend the scraper by adding more parsing logic to `scraper.py`.
-- Update `config.json` to include additional fields or URLs to scrape.
-- Implement additional output options (e.g., database integration).
-
-## Error Handling
-The scraper includes basic error handling for:
-- Connection issues
-- Rate limiting
-- Page structure changes
-
-Logs are stored in the `logs/` directory for debugging purposes.
-
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork this repository.
-2. Create a new branch for your feature/bug fix.
-3. Submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-This project was developed as part of a final-year academic initiative to enhance educational data accessibility.
+4. Configure `config.json` for scraping parameters (e.g., URLs, language filters).
 
 ---
 
-### Contact
-For questions or feedback, please contact [Mathis Weil](mailto:ec22995@qmul.ac.uk).
+## ▶️ Usage
+
+### 🔍 Run Scraper
+```bash
+python scraper/IBM_scraper.py
+```
+
+### 🗂 Ingest Data into PostgreSQL
+```bash
+python database/load_data.py
+```
+
+### 🌐 Launch FastAPI Server
+```bash
+fastapi dev api/main.py
+```
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+skillfindr/
+├── scraper/           # Web scraping logic (Selenium + BeautifulSoup)
+├── embedding/         # Embedding generation and semantic indexing
+├── database/          # PostgreSQL + pgvector integration and loaders
+├── api/               # FastAPI backend for course search
+├── output/            # Scraped data
+├── logs/              # Logging info
+├── config.json        # Scraper configuration
+└── requirements.txt   # Python dependencies
+```
+
+---
+
+## 🔄 Customisation
+
+- **Add new fields**: Extend `config.json` and `scraper/main.py` to extract additional metadata.
+- **Use other models**: Swap Sentence-BERT with OpenAI/GTE embeddings.
+- **Expand filters**: Modify the API to support advanced filtering (e.g., duration, language).
+- **Connect frontend**: Consume FastAPI endpoints in a React or Flask interface.
+
+---
+
+## ❗ Error Handling
+
+- Built-in exception handling for:
+  - DOM structure changes
+  - Timeouts and connection failures
+  - Course duplication
+- Logs stored in `/logs/` for debugging
+
+---
+
+## 🙏 Acknowledgements
+
+- Developed as part of a BSc Computer Science final-year project at Queen Mary University of London.
+- Special thanks to IBM for platform access and technical support.
+
+---
+
+## 📬 Contact
+
+**Mathis Weil**  
+📧 [ec22995@qmul.ac.uk](mailto:ec22995@qmul.ac.uk)

@@ -17,15 +17,20 @@ from embedding.retrieve_courses import (
     bm25_search,
 )
 
-# -----------------------------------------------------------------------------
-# 1. Suppress SQLAlchemy 'vector' warnings
-# -----------------------------------------------------------------------------
 warnings.filterwarnings("ignore", category=SAWarning)
 
 
-# -----------------------------------------------------------------------------
-# 2. Metric functions
-# -----------------------------------------------------------------------------
+def precision_at_k(actual: list[str], predicted: list[str], k: int) -> float:
+    """
+    Precision@k = (# of relevant items in top-k) / k
+    """
+    if k <= 0:
+        return 0.0
+    act_set = set(actual)
+    topk = predicted[:k]
+    return len(act_set & set(topk)) / k
+
+
 def recall_at_k(actual: list[str], predicted: list[str], k: int) -> float:
     if not actual:
         return 0.0
@@ -57,24 +62,23 @@ def ndcg_at_k(actual_items: list[dict], predicted: list[str], k: int) -> float:
     def dcg(rels: list[float]) -> float:
         return sum(r / math.log2(idx + 1) for idx, r in enumerate(rels, start=1))
 
-    # map course_id → relevance
     rel_map = {item["course_id"]: item.get("relevance", 0) for item in actual_items}
     preds_rels = [rel_map.get(pid, 0) for pid in predicted[:k]]
-    ideal = sorted(rel_map.values(), reverse=True)[:k]
+    ideal_rels = sorted(rel_map.values(), reverse=True)[:k]
 
-    max_dcg = dcg(ideal)
+    max_dcg = dcg(ideal_rels)
     return dcg(preds_rels) / max_dcg if max_dcg > 0 else 0.0
 
 
-# -----------------------------------------------------------------------------
-# 3. Core evaluation harness
-# -----------------------------------------------------------------------------
 def evaluate(
     predictions: dict[str, list[str]],
     test_dataset: dict[str, list[dict]],
     k: int,
 ) -> dict[str, float]:
-    recs, rrs, aps, ndcgs = [], [], [], []
+    """
+    Compute average Precision@k, Recall@k, MRR, MAP@k, nDCG@k over all queries.
+    """
+    precisions, recs, rrs, aps, ndcgs = [], [], [], [], []
     for query, actual_items in test_dataset.items():
         actual_ids = [
             itm["course_id"]
@@ -82,23 +86,22 @@ def evaluate(
             if itm.get("relevance", 1) > 0
         ]
         preds = predictions.get(query, [])
+        precisions.append(precision_at_k(actual_ids, preds, k))
         recs.append(recall_at_k(actual_ids, preds, k))
         rrs.append(reciprocal_rank(actual_ids, preds))
         aps.append(average_precision(actual_ids, preds, k))
         ndcgs.append(ndcg_at_k(actual_items, preds, k))
 
-    n = len(test_dataset) or 1
+    n = max(len(test_dataset), 1)
     return {
-        f"Recall@{k}": round(sum(recs) / n, 4),
-        "MRR":          round(sum(rrs) / n, 4),
-        f"MAP@{k}":     round(sum(aps) / n, 4),
-        f"nDCG@{k}":    round(sum(ndcgs) / n, 4),
+        f"Precision@{k}": round(sum(precisions) / n, 4),
+        f"Recall@{k}":    round(sum(recs)       / n, 4),
+        "MRR":            round(sum(rrs)       / n, 4),
+        f"MAP@{k}":       round(sum(aps)       / n, 4),
+        f"nDCG@{k}":      round(sum(ndcgs)     / n, 4),
     }
 
 
-# -----------------------------------------------------------------------------
-# 4. Data loading
-# -----------------------------------------------------------------------------
 def load_queries(path: str) -> list[str]:
     with open(path, newline="", encoding="utf-8") as f:
         return [row["query"] for row in csv.DictReader(f)]
@@ -109,9 +112,6 @@ def load_test_dataset(path: str) -> dict[str, list[dict]]:
         return json.load(f)
 
 
-# -----------------------------------------------------------------------------
-# 5. Prediction gathering
-# -----------------------------------------------------------------------------
 def gather_predictions(
     queries: list[str],
     model,
@@ -129,19 +129,16 @@ def gather_predictions(
     t_sem, t_kw, t_bm = [], [], []
 
     for q in queries:
-        # Semantic
         t0 = time.perf_counter()
         sem = semantic_search(q, model, engine, threshold=0.5, limit=limit)
         t_sem.append(time.perf_counter() - t0)
         p_sem[q] = [c["course_id"] for c in sem]
 
-        # Keyword
         t0 = time.perf_counter()
         kw = keyword_search(q, engine, threshold=0.0, limit=limit)
         t_kw.append(time.perf_counter() - t0)
         p_kw[q] = [c["course_id"] for c in kw]
 
-        # BM25
         t0 = time.perf_counter()
         bm = bm25_search(q, engine, limit=limit)
         t_bm.append(time.perf_counter() - t0)
@@ -150,9 +147,6 @@ def gather_predictions(
     return p_sem, p_kw, p_bm, t_sem, t_kw, t_bm
 
 
-# -----------------------------------------------------------------------------
-# 6. Coverage & latency computation
-# -----------------------------------------------------------------------------
 def compute_coverage(preds: dict[str, list[str]]) -> float:
     return sum(bool(v) for v in preds.values()) / len(preds)
 
@@ -161,9 +155,6 @@ def compute_average_latency(times: list[float]) -> float:
     return sum(times) / len(times)
 
 
-# -----------------------------------------------------------------------------
-# 7. Plotting utilities
-# -----------------------------------------------------------------------------
 def plot_metrics(results: dict[str, dict[str, float]], K: int) -> None:
     systems = list(results.keys())
     labels  = list(results[systems[0]].keys())
@@ -171,7 +162,7 @@ def plot_metrics(results: dict[str, dict[str, float]], K: int) -> None:
 
     fig, ax = plt.subplots(figsize=(8, 5))
     x = range(len(systems))
-    w = 0.2
+    w = 0.15
 
     for i, lab in enumerate(labels):
         ax.bar([xi + i*w for xi in x], values[lab], width=w, label=lab)
@@ -191,14 +182,15 @@ def plot_metrics_vs_k(
     test_ds: dict[str, list[dict]],
     ks: list[int],
 ) -> None:
-    systems = list(preds.keys())
     fig, ax = plt.subplots(figsize=(8, 5))
 
     for sys, pm in preds.items():
-        recs = [evaluate(pm, test_ds, k)[f"Recall@{k}"] for k in ks]
-        maps = [evaluate(pm, test_ds, k)[f"MAP@{k}"]    for k in ks]
-        nds  = [evaluate(pm, test_ds, k)[f"nDCG@{k}"]   for k in ks]
+        recs = [evaluate(pm, test_ds, k)[f"Recall@{k}"]    for k in ks]
+        precs= [evaluate(pm, test_ds, k)[f"Precision@{k}"] for k in ks]
+        maps = [evaluate(pm, test_ds, k)[f"MAP@{k}"]       for k in ks]
+        nds  = [evaluate(pm, test_ds, k)[f"nDCG@{k}"]      for k in ks]
 
+        ax.plot(ks, precs, marker="x", linestyle="-.", label=f"{sys} Precision")
         ax.plot(ks, recs, marker="o", linestyle="-", label=f"{sys} Recall")
         ax.plot(ks, maps, marker="s", linestyle="--", label=f"{sys} MAP")
         ax.plot(ks, nds,  marker="^", linestyle=":", label=f"{sys} nDCG")
@@ -214,12 +206,10 @@ def plot_metrics_vs_k(
 
 def plot_latency(
     avg_latency: dict[str, float],
-    times: dict[str, list[float]],
 ) -> None:
     systems = list(avg_latency.keys())
     avg_ms  = [avg_latency[s]*1000 for s in systems]
 
-    # Bar chart
     fig, ax = plt.subplots(figsize=(6, 4))
     ax.bar(systems, avg_ms, width=0.6)
     ax.set_ylabel("Average Latency (ms/query)")
@@ -228,38 +218,21 @@ def plot_latency(
     plt.tight_layout()
     plt.show()
 
-    # Boxplot
-    fig, ax = plt.subplots(figsize=(6, 4))
-    ax.boxplot(
-        [times[s] for s in systems],
-        tick_labels=systems,
-        showfliers=False,
-    )
-    ax.set_ylabel("Latency (s/query)")
-    ax.set_title("Per-Query Latency Distribution")
-    ax.grid(axis="y", linestyle="--", alpha=0.5)
-    plt.tight_layout()
-    plt.show()
 
-
-# -----------------------------------------------------------------------------
-# 8. Main routine
-# -----------------------------------------------------------------------------
 def main():
     load_dotenv()
     model  = load_embedding_model(os.getenv("EMBEDDING_MODEL_NAME"))
     engine = get_database_engine(os.getenv("DATABASE_URL"))
 
-    queries     = load_queries(os.getenv("TEST_QUERIES_PATH"))
-    test_ds     = load_test_dataset(os.getenv("TEST_DATASET_PATH"))
+    queries       = load_queries(os.getenv("TEST_QUERIES_PATH"))
+    test_dataset  = load_test_dataset(os.getenv("TEST_DATASET_PATH"))
     p_sem, p_kw, p_bm, t_sem, t_kw, t_bm = gather_predictions(queries, model, engine)
 
-    # aggregate results
     K = 20
     results = {
-        "Semantic": evaluate(p_sem, test_ds, K),
-        "Keyword":  evaluate(p_kw,  test_ds, K),
-        "BM25":     evaluate(p_bm,  test_ds, K),
+        "Semantic": evaluate(p_sem, test_dataset, K),
+        "Keyword":  evaluate(p_kw,  test_dataset, K),
+        "BM25":     evaluate(p_bm,  test_dataset, K),
     }
 
     coverage = {
@@ -273,25 +246,22 @@ def main():
         "BM25":     compute_average_latency(t_bm),
     }
 
-    # console summary
     print(f"Evaluation over {len(queries)} queries @ K={K}\n")
-    for sys in results:
+    for sys, metrics in results.items():
         print(f"--- {sys} Search ---")
-        for metric, val in results[sys].items():
-            print(f"{metric:12s}: {val}")
-        print(f"{'Coverage':12s}: {coverage[sys]*100:.2f}%")
-        print(f"{'Latency':12s}: {avg_latency[sys]*1000:.1f} ms/query\n")
+        for metric, val in metrics.items():
+            print(f"{metric:14s}: {val}")
+        print(f"{'Coverage':14s}: {coverage[sys]*100:.2f}%")
+        print(f"{'Latency':14s}: {avg_latency[sys]*1000:.1f} ms/query\n")
 
-    # visualisations
     plot_metrics(results, K)
     plot_metrics_vs_k(
         {"Semantic": p_sem, "Keyword": p_kw, "BM25": p_bm},
-        test_ds,
+        test_dataset,
         ks=[1, 5, 10, K],
     )
     plot_latency(
         avg_latency,
-        {"Semantic": t_sem, "Keyword": t_kw, "BM25": t_bm},
     )
 
 

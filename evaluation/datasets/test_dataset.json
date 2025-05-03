@@ -1,20 +1,8 @@
 {
-  "beginner artificial intelligence course for non‑programmers": [
+  "beginner artificial intelligence course for non programmers": [
     {
       "course_id": "PLAN-E4B8D2E9096C",
       "relevance": 2
-    },
-    {
-      "course_id": "URL-02F93BB6ABC1",
-      "relevance": 0
-    },
-    {
-      "course_id": "URL-FB887C26B96B",
-      "relevance": 2
-    },
-    {
-      "course_id": "MDL-504",
-      "relevance": 0
     },
     {
       "course_id": "CNL_LCB_1567443069285",
@@ -25,60 +13,60 @@
       "relevance": 2
     },
     {
-      "course_id": "URL-LJNVQ0A_7WQ",
-      "relevance": 0
-    },
-    {
-      "course_id": "URL-806B8D9B07FD",
-      "relevance": 0
-    },
-    {
-      "course_id": "MDL-388",
+      "course_id": "URL-WNQKFPCPK1G",
       "relevance": 2
-    },
-    {
-      "course_id": "PLAN-7913EE1DB030",
-      "relevance": 2
-    },
-    {
-      "course_id": "MDL-219",
-      "relevance": 0
-    },
-    {
-      "course_id": "PLAN-40785C28AA0C",
-      "relevance": 1
     },
     {
       "course_id": "URL-8608AF032C16",
       "relevance": 2
     },
     {
-      "course_id": "SN-COURSE-V1:IBM+AI0111EN+V1",
-      "relevance": 0
-    },
-    {
-      "course_id": "PLAN-7A12E1671674",
+      "course_id": "PLAN-40785C28AA0C",
       "relevance": 2
-    },
-    {
-      "course_id": "URL-WNQKFPCPK1G",
-      "relevance": 2
-    },
-    {
-      "course_id": "URL-FE500146E8E2",
-      "relevance": 0
     },
     {
       "course_id": "URL-332C7DE56AB8",
       "relevance": 2
     },
     {
-      "course_id": "URL-PKZNO7MFNFG",
-      "relevance": 0
+      "course_id": "MDL-510",
+      "relevance": 2
+    },
+    {
+      "course_id": "ISG-W7S151G",
+      "relevance": 2
+    },
+    {
+      "course_id": "URL-A0_LO_GDCFW",
+      "relevance": 2
+    },
+    {
+      "course_id": "URL-8950DE68E642",
+      "relevance": 2
+    },
+    {
+      "course_id": "URL-FB887C26B96B",
+      "relevance": 1
+    },
+    {
+      "course_id": "MDL-388",
+      "relevance": 1
+    },
+    {
+      "course_id": "PLAN-7913EE1DB030",
+      "relevance": 1
+    },
+    {
+      "course_id": "MDL-219",
+      "relevance": 1
     },
     {
       "course_id": "URL-FWOZMMIUQHG",
-      "relevance": 2
+      "relevance": 1
+    },
+    {
+      "course_id": "URL-17AD64C4DC08",
+      "relevance": 1
     }
   ],
   "introductory machine learning with Python tutorials": [
@@ -395,7 +383,7 @@
   ],
   "complete overview of cloud computing for beginners": [
     {
-      "course_id": "SN-COURSE-V1:IBMDEVELOPERSKILLSNETWORK+CC0101EN+V1",
+      "course_id": "PLAN-2EC3A305F2C3",
       "relevance": 2
     },
     {
@@ -403,15 +391,7 @@
       "relevance": 2
     },
     {
-      "course_id": "ISG-DL52800G",
-      "relevance": 2
-    },
-    {
-      "course_id": "URL-143BC2C2EA08",
-      "relevance": 1
-    },
-    {
-      "course_id": "URL-2B15AA3C96BD",
+      "course_id": "SN-COURSE-V1:IBMDEVELOPERSKILLSNETWORK+CC0101EN+V1",
       "relevance": 2
     },
     {
@@ -423,7 +403,7 @@
       "relevance": 2
     },
     {
-      "course_id": "PLAN-2EC3A305F2C3",
+      "course_id": "URL-2B15AA3C96BD",
       "relevance": 2
     },
     {
@@ -435,11 +415,15 @@
       "relevance": 2
     },
     {
-      "course_id": "MDL-303",
+      "course_id": "ISG-DL52800G",
       "relevance": 1
     },
     {
-      "course_id": "MDL-305",
+      "course_id": "URL-143BC2C2EA08",
+      "relevance": 1
+    },
+    {
+      "course_id": "MDL-303",
       "relevance": 1
     },
     {
@@ -451,10 +435,6 @@
       "relevance": 1
     },
     {
-      "course_id": "ISG-DL70352G",
-      "relevance": 1
-    },
-    {
       "course_id": "MDL-302",
       "relevance": 1
     },
@@ -463,16 +443,24 @@
       "relevance": 1
     },
     {
-      "course_id": "ISG-DL52914G",
-      "relevance": 0
+      "course_id": "URL-F854E7C52DAC",
+      "relevance": 1
     },
     {
-      "course_id": "ISG-DL52816G",
-      "relevance": 0
+      "course_id": "MDL-193",
+      "relevance": 1
     },
     {
-      "course_id": "ISG-DL52829G",
-      "relevance": 0
+      "course_id": "MDL-194",
+      "relevance": 1
+    },
+    {
+      "course_id": "URL-UNJYZHN0I8W",
+      "relevance": 1
+    },
+    {
+      "course_id": "URL-EAD5DF36F78A",
+      "relevance": 1
     }
   ],
   "create a chatbot using open‑source NLP tools": [
@@ -1196,6 +1184,10 @@
     {
       "course_id": "SN-COURSE-V1:BDU+BD0133EN+V1",
       "relevance": 1
+    },
+    {
+      "course_id": "PLAN-BC0FAEE8E439",
+      "relevance": 1
     }
   ],
   "hands‑on lab: deploy applications to the cloud": [
@@ -1212,6 +1204,10 @@
       "relevance": 2
     },
     {
+      "course_id": "URL-MFH6T6J1_JO",
+      "relevance": 2
+    },
+    {
       "course_id": "URL-4C2C1AC7B6CB",
       "relevance": 2
     },
@@ -1221,6 +1217,10 @@
     },
     {
       "course_id": "CREDLY-fd600bd9-7565-458c-b5d2-7b5b8b856eeb",
+      "relevance": 1
+    },
+    {
+      "course_id": "ILB-QPEKVQEKRYZG2KZ3",
       "relevance": 1
     }
   ],
@@ -1394,7 +1394,16 @@
       "relevance": 0
     }
   ],
-  "foundations of reinforcement learning for beginners": [],
+ "foundations of reinforcement learning for beginners": [
+    {
+      "course_id": "MDL-212",
+      "relevance": 2
+    },
+    {
+      "course_id": "SN-COURSE-V1:IBM+AI0111EN+V1",
+      "relevance": 1
+    }
+  ],
   "career pathways in blockchain development": [
     {
       "course_id": "URL-QZUQ_TYBHUG",

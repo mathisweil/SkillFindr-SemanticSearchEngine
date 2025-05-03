@@ -1,33 +1,5 @@
 from sqlalchemy import text
 
-# -------------------------------
-# VECTOR-BASED SEMANTIC SEARCH (without filters)
-# -------------------------------
-SEMANTIC_SEARCH_QUERY = text("""
-WITH matches AS (
-    SELECT
-        course_id,
-        title,
-        course_url,
-        description,
-        embedding_vector <=> :query_vector AS distance
-    FROM courses
-    WHERE embedding_vector <=> :query_vector < :threshold
-    ORDER BY distance
-    LIMIT :limit
-)
-SELECT * FROM matches
-UNION ALL
-SELECT
-    NULL AS course_id,
-    'No match found within the threshold' AS title,
-    NULL AS course_url,
-    NULL AS description,
-    NULL AS distance
-WHERE NOT EXISTS (SELECT 1 FROM matches)
-""")
-
-
 # -----------------------------------
 # TF-IDF STYLE SEARCH
 # -----------------------------------
