@@ -1,24 +1,41 @@
-# Python Bytecode
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Logs
+# Logs and debug files
 logs/
-*.log
 
-# Virtual Environment
+# Virtual environments
 env/
 venv/
+ENV/
+.venv/
 
-# System Files
-.DS_Store
-Thumbs.db
-
-# Test Files
-*.test
-
-# Selenium Drivers
-*.exe
-
-# Environment Variables
+# Python environment variables
 .env
+
+# IDE files
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test files
+*.test
+*.spec
+
+# Selenium / WebDriver executables
+*.exe
+*.dll
+*.so
