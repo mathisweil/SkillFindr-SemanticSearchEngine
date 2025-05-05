@@ -2,8 +2,9 @@ import os
 
 from dotenv import load_dotenv
 from contextlib import asynccontextmanager
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from sqlmodel import SQLModel, Field
+from typing import Literal
 
 from embedding.retrieve_courses import semantic_search
 from embedding.model_loader import load_embedding_model
@@ -83,7 +84,19 @@ class CourseOut(SQLModel):
         orm_mode = True
 
 
-class RAGResponse(SQLModel):
+class ChatMessage(SQLModel):
+    role: Literal["user", "assistant"]
+    content: str
+
+
+class ChatRequest(SQLModel):
+    chat_history: list[ChatMessage]
+    threshold: float = Field(0.5, ge=0.0, le=1.0)
+    limit: int = Field(5, ge=1)
+    filters: Filters | None = None
+
+
+class ChatResponse(SQLModel):
     answer: str = Field(..., description="The LLM’s generated answer")
     sources: list[CourseOut] = Field(
         ..., description="Top matching courses used as context"
@@ -98,12 +111,11 @@ class RAGResponse(SQLModel):
     response_model_exclude_none=True
 )
 async def semantic_search_endpoint(payload: SearchRequest):
-    raw_filters = {}
-    if payload.filters:
-        raw_filters = {
-            k: v for k, v in payload.filters.model_dump().items()
-            if v is not None
-        }
+    raw_filters = {
+        k: v
+        for k, v in (payload.filters or Filters()).model_dump().items()
+        if v is not None
+    }
     results = semantic_search(
         query=payload.query,
         model=resources["embedding_model"],
@@ -117,20 +129,32 @@ async def semantic_search_endpoint(payload: SearchRequest):
 
 @app.post(
     "/api/v1/chat",
-    response_model=RAGResponse,
+    response_model=ChatResponse,
     summary="Retrieval‐Augmented Generation over courses",
     tags=["rag"],
     response_model_exclude_none=True
 )
-async def rag_endpoint(payload: SearchRequest):
-    raw_filters = {}
-    if payload.filters:
-        raw_filters = {
-            k: v for k, v in payload.filters.model_dump().items()
-            if v is not None
-        }
+async def rag_endpoint(payload: ChatRequest):
+    try:
+        last_user = next(
+            msg.content
+            for msg in reversed(payload.chat_history)
+            if msg.role == "user"
+        )
+    except StopIteration:
+        raise HTTPException(
+            status_code=400,
+            detail="chat_history must contain at least one user message"
+        )
+
+    raw_filters = {
+        key: val
+        for key, val in (payload.filters or Filters()).model_dump().items()
+        if val is not None
+    }
+
     tops = semantic_search(
-        query=payload.query,
+        query=last_user,
         model=resources["embedding_model"],
         engine=resources["db_engine"],
         threshold=payload.threshold,
@@ -139,16 +163,20 @@ async def rag_endpoint(payload: SearchRequest):
     )
 
     if not tops:
-        return RAGResponse(
-            answer="I could not find anything close to your query. Try rephrasing or broadening your search.",
+        return ChatResponse(
+            answer=(
+                "I could not find anything close to your last query. "
+                "Try rephrasing or broadening your search."
+            ),
             sources=[]
         )
 
     answer = await generate_answer(
-        query=payload.query,
-        contexts=[f"{c['title']}: {c['description']}" for c in tops],
+        query=last_user,
+        courses=[f"{c['embedding_input_combined']}" for c in tops],
+        chat_history=[msg.model_dump() for msg in payload.chat_history],
         model=resources["llm_model"],
         tokenizer=resources["llm_tokenizer"]
     )
 
-    return RAGResponse(answer=answer, sources=tops)
+    return ChatResponse(answer=answer, sources=tops)

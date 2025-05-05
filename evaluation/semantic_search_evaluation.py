@@ -130,7 +130,7 @@ def gather_predictions(
 
     for q in queries:
         t0 = time.perf_counter()
-        sem = semantic_search(q, model, engine, threshold=0.5, limit=limit)
+        sem = semantic_search(q, model, engine, threshold=0.8, limit=limit)
         t_sem.append(time.perf_counter() - t0)
         p_sem[q] = [c["course_id"] for c in sem]
 
@@ -258,7 +258,7 @@ def main():
     plot_metrics_vs_k(
         {"Semantic": p_sem, "Keyword": p_kw, "BM25": p_bm},
         test_dataset,
-        ks=[1, 5, 10, K],
+        ks=[1, 5, 10, 15, K],
     )
     plot_latency(
         avg_latency,
