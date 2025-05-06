@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from sqlmodel import SQLModel, Field
 from typing import Literal
 
@@ -26,6 +27,17 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+origins = [
+    "http://localhost:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,              # or ["*"] to allow all (not recommended for prod)
+    allow_credentials=True,
+    allow_methods=["*"],                # e.g. ["GET", "POST", "PUT", "DELETE"]
+    allow_headers=["*"],                # e.g. ["Authorization", "Content-Type"]
+)
 
 
 class RangeFilter(SQLModel):
@@ -81,7 +93,7 @@ class CourseOut(SQLModel):
     )
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class ChatMessage(SQLModel):
@@ -173,7 +185,7 @@ async def rag_endpoint(payload: ChatRequest):
 
     answer = await generate_answer(
         query=last_user,
-        courses=[f"{c['embedding_input_combined']}" for c in tops],
+        courses=tops,
         chat_history=[msg.model_dump() for msg in payload.chat_history],
         model=resources["llm_model"],
         tokenizer=resources["llm_tokenizer"]

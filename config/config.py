@@ -6,8 +6,9 @@ from typing import Any
 from pathlib import Path
 
 from dotenv import load_dotenv
-from sqlalchemy import create_engine
 from sqlalchemy.engine import Engine
+from sqlalchemy import create_engine, event
+from pgvector.psycopg2 import register_vector
 
 
 def load_config() -> dict[str, Any]:
@@ -68,4 +69,10 @@ def get_database_engine(database_url: str) -> Engine:
     Returns:
         sqlalchemy.Engine: Engine connected to the specified DATABASE_URL.
     """
-    return create_engine(database_url)
+    engine = create_engine(database_url, echo=False)
+
+    @event.listens_for(engine, "connect")
+    def _register_vector(dbapi_conn):
+        register_vector(dbapi_conn)
+
+    return engine

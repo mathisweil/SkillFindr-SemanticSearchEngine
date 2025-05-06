@@ -25,7 +25,7 @@ def load_llm_model(
 
 async def generate_answer(
     query: str,
-    courses: list[str],
+    courses: list[dict],
     chat_history: list[dict[str, str]],
     model,
     tokenizer,
@@ -44,32 +44,56 @@ async def generate_answer(
     system_msg = {
         "role": "system",
         "content": (
-            "You are an expert course-recommendation assistant. "
-            "When given a user’s learning goal and a set of course descriptions, you should:\n"
-            "  1. Identify which courses best align with the goal.\n"
-            "  2. Compare them on difficulty, duration, and learner feedback.\n"
-            "  3. Recommend the top 3, giving a brief rationale for each.\n"
-            "  4. If you need more context (e.g. user background), ask a follow-up question."
+            "You are an expert academic course recommendation assistant. "
+            "When given a user’s learning objective and a collection of course metadata, you should:\n"
+            "  1. Evaluate each course’s relevance to the learning objective using title, description, and tags.\n"
+            "  2. Compare courses by difficulty level, estimated duration, learner engagement, and ratings, handling missing values gracefully.\n"
+            "  3. Recommend the top three courses, providing for each:\n"
+            "     - Title\n"
+            "     - Key strengths vs. alternatives\n"
+            "     - Estimated duration and difficulty level\n"
+            "     - Summary of learner feedback (e.g. rating and number of ratings) if available\n"
+            "  4. Suggest follow-up questions only if essential context is missing."
         )
     }
 
-    course_list_text = "\n\n".join(f"{i+1}. {desc}" for i, desc in enumerate(courses))
+    # Build a formatted list of courses with metadata
+    formatted_courses = []
+    for idx, c in enumerate(courses, start=1):
+        parts = [f"{idx}. {c.get('title', 'Untitled Course')}"]
+        if desc := c.get('description'):
+            parts.append(f"Description: {desc}")
+        if duration := c.get('duration'):
+            parts.append(f"Duration: {duration}")
+        if learners := c.get('learners') is not None:
+            parts.append(f"Learners: {c['learners']}")
+        if rating := c.get('rating') is not None:
+            rating_info = f"Rating: {c['rating']} / 5"
+            if c.get('ratings_count'):
+                rating_info += f" ({c['ratings_count']} ratings)"
+            parts.append(rating_info)
+        if tags := c.get('tags'):
+            parts.append(f"Tags: {', '.join(tags)}")
+        formatted_courses.append("\n".join(parts))
+    course_list_text = "\n\n".join(formatted_courses)
+
+    # User prompt incorporating course metadata
     user_content = (
-        f"I want to **{query}**. Here are the candidate courses retrieved:\n\n"
+        f"I would like to **{query}**. Below are candidate courses with metadata:\n\n"
         f"{course_list_text}\n\n"
         "Please:\n"
-        "  • Rank and recommend the **3 best** courses to achieve my goal.\n"
-        "  • For each recommendation, include:\n"
-        "      – Course title\n"
-        "      – Why it’s a good fit (strengths vs. others)\n"
-        "      – Estimated duration and level\n"
-        "  • If you need more details about me, ask one clarifying question.\n"
-        "\nAnswer in clear, numbered bullet points."
+        "  • Identify and recommend the top **3** courses for this objective.\n"
+        "  • For each, provide:\n"
+        "      – Title\n"
+        "      – Rationale for selection, highlighting strengths\n"
+        "      – Estimated duration, difficulty level\n"
+        "      – Learner feedback summary (if available)\n"
+        "  • If necessary, ask one concise follow-up question to clarify my background or constraints.\n"
+        "\nAnswer in clear, numbered bullet points using formal academic tone."
     )
     user_msg = {"role": "user", "content": user_content}
 
     messages = [system_msg, *chat_history, user_msg]
-
     full_prompt = tokenizer.apply_chat_template(
         messages,
         tokenize=False,
