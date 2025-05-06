@@ -62,17 +62,12 @@ def load_boilerplate_phrases() -> list[str]:
     return data.get("boilerplate_phrases", [])
 
 
-def get_database_engine(database_url: str) -> Engine:
-    """
-    Load environment variables and return an SQLAlchemy engine.
-
-    Returns:
-        sqlalchemy.Engine: Engine connected to the specified DATABASE_URL.
-    """
+def get_database_engine(database_url: str):
     engine = create_engine(database_url, echo=False)
 
+    # This hook runs on every new DBAPI connection
     @event.listens_for(engine, "connect")
-    def _register_vector(dbapi_conn):
+    def _register_vector(dbapi_conn, conn_record):
         register_vector(dbapi_conn)
 
     return engine
