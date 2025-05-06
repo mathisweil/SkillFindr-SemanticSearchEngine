@@ -103,6 +103,51 @@ DATABASE_URL=postgresql+psycopg2://mathisweil@localhost:5432/postgres
 
 ## ▶️ Usage
 
+## ⚠️ Python Import Errors: Read Before Running
+
+If you encounter an error such as:
+
+```
+ModuleNotFoundError: No module named 'config'
+```
+
+it likely means that Python is not recognizing the root of the project when importing internal modules like `config`, `embedding`, or `scraper`.
+
+### ✅ Quick Fix
+
+Run Python scripts with the correct project context by setting the `PYTHONPATH`:
+
+```bash
+PYTHONPATH=. python path/to/your_script.py
+```
+
+For example:
+```bash
+PYTHONPATH=. python scraper/IBM_scraper.py
+```
+
+This ensures that your top-level project directory (`skillfindr` or `IBM_Semantic_Search`) is included in Python’s module search path.
+
+---
+
+### 💡 Alternative: Run as a Module
+
+You can also run your scripts using the `-m` flag:
+
+```bash
+python -m scraper.IBM_scraper
+```
+
+This method treats the script as part of a Python package and resolves imports more reliably.
+
+---
+
+These steps are especially useful when:
+- Running from terminal (outside of an IDE)
+- Using relative imports across folders
+- Working in conda or virtual environments
+
+
 ### 🔍 Run Scraper
 ```bash
 python scraper/IBM_scraper.py
