@@ -44,6 +44,26 @@ Key libraries:
 - `sentence-transformers`, `pgvector`
 - `fastapi`, `uvicorn`, `sqlalchemy`
 
+## 🐍 Conda Environment Setup
+
+To ensure compatibility and reproducibility, it is recommended to use a dedicated conda environment.
+
+### ✅ Create and Activate Environment
+
+```bash
+# Create a new environment with Python 3.12
+conda create -n skillfindr python=3.12
+
+# Activate the environment
+conda activate skillfindr
+
+# Install dependencies from requirements.txt
+pip install -r requirements.txt
+```
+
+### 💡 Notes
+- Make sure `conda` is installed (via [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/)).
+
 ### Additional Tools
 - Chrome WebDriver (for Selenium)
 - PostgreSQL 15+ with `pgvector` extension
