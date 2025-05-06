@@ -6,6 +6,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlmodel import SQLModel, Field
 from typing import Literal
+from models.course import Course
 
 from embedding.retrieve_courses import semantic_search
 from embedding.model_loader import load_embedding_model
@@ -66,34 +67,12 @@ class SearchRequest(SQLModel):
     filters: Filters | None = Field(None, description="Filters for specific course attributes")
 
 
-class CourseOut(SQLModel):
-    course_id: str = Field(..., description="Primary key: unique course identifier")
-    course_url: str = Field(None, description="URL to the course page")
-    category: str | None = Field(None, description="High‑level course category")
-    type: str | None = Field(None, description="Course format or type")
-    title: str | None = Field(None, description="Course title")
-    duration: int | None = Field(None, description="Duration in minutes")
-    learners_amount: int | None = Field(None, description="Number of enrolled learners")
-    star_rating: float | None = Field(None, description="Average star rating")
-    star_num_ratings: int | None = Field(None, description="Total number of ratings")
-    description: str | None = Field(None, description="Short course description")
-    tags: list[str] | None = Field(None, description="Normalized tags array")
-    title_raw: str | None = Field(None, description="Original, un‑normalized title")
-    description_raw: str | None = Field(None, description="Original, un‑normalized description")
-    languages: list[str] | None = Field(None, description="Languages in which course is offered")
-    tags_raw: list[str] | None = Field(None, description="Original tags array")
-    embedding_input_combined: str | None = Field(
-        None,
-        description="Text that was fed into the embedding model"
-    )
-    embedding_vector: list[float] | None = Field(
-        None,
-        description="384‑dimensional embedding vector (pgvector)",
-        exclude=True
-    )
+class CourseRead(Course):
+    embedding_vector: list[float] | None = None
 
     class Config:
         from_attributes = True
+        fields = {"embedding_vector": {"exclude": True}}
 
 
 class ChatMessage(SQLModel):
@@ -110,14 +89,14 @@ class ChatRequest(SQLModel):
 
 class ChatResponse(SQLModel):
     answer: str = Field(..., description="The LLM’s generated answer")
-    sources: list[CourseOut] = Field(
+    sources: list[CourseRead] = Field(
         ..., description="Top matching courses used as context"
     )
 
 
 @app.post(
     "/api/v1/courses/search/semantic",
-    response_model=list[CourseOut],
+    response_model=list[CourseRead],
     summary="Semantic search over courses",
     tags=["courses"],
     response_model_exclude_none=True

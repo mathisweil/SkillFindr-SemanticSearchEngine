@@ -65,7 +65,6 @@ def load_boilerplate_phrases() -> list[str]:
 def get_database_engine(database_url: str):
     engine = create_engine(database_url, echo=False)
 
-    # This hook runs on every new DBAPI connection
     @event.listens_for(engine, "connect")
     def _register_vector(dbapi_conn, conn_record):
         register_vector(dbapi_conn)

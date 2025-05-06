@@ -1,86 +1,54 @@
 import os
 from pathlib import Path
-
 from dotenv import load_dotenv
 import pandas as pd
 from sentence_transformers import SentenceTransformer
+from sqlmodel import SQLModel, Session, create_engine
 from sqlalchemy import text
-from sqlalchemy.engine import Engine
 
 from config.config import get_database_engine
-from database.sql_queries import CREATE_TABLE_QUERY, INSERT_QUERY
+from models.course import Course
 from utils.io_utils import load_data
 from embedding.model_loader import load_embedding_model
 from embedding.embed_courses import compute_embeddings
 
 
-def setup_database(engine: Engine, create_table_query: str) -> None:
+def setup_database(engine):
     """
-    Creates the PostgreSQL table with the pgvector extension if it does not exist.
-
-    Args:
-        engine: SQLAlchemy Engine instance.
-        create_table_query: SQL query string for creating the table.
+    Ensures the pgvector extension is present and creates all tables defined by SQLModel models.
     """
-    with engine.begin() as connection:
-        connection.execute(text(create_table_query))
-    print("✅ PostgreSQL table is ready.")
-
-
-def prepare_row(row: dict) -> dict:
-    """
-    Prepares a dictionary for a single row to be inserted into the database.
-    """
-    return {
-        "course_id": row["course_id"],
-        "course_url": row["course_url"],
-        "category": row["category"],
-        "type": row["type"],
-        "title": row["title"],
-        "duration": row["duration"],
-        "learners_amount": row["learners_amount"],
-        "star_rating": row["star_rating"],
-        "star_num_ratings": row["star_num_ratings"],
-        "description": row["description"],
-        "tags": row["tags"],
-        "title_raw": row["title_raw"],
-        "description_raw": row["description_raw"],
-        "languages": row["languages"],
-        "tags_raw": row["tags_raw"],
-        "embedding_input_combined": row["embedding_input_combined"],
-        "embedding_vector": row["embedding_vector"]
-    }
-
-
-def insert_data(df: pd.DataFrame, engine: Engine, insert_query: str) -> None:
-    """
-    Inserts all rows from the DataFrame into the PostgreSQL table.
-
-    Args:
-        df: DataFrame containing prepared data.
-        engine: SQLAlchemy Engine instance.
-        insert_query: SQLAlchemy text or query string for insertion.
-    """
-    records = [prepare_row(record) for record in df.to_dict(orient="records")]
-    with engine.begin() as connection:
-        connection.execute(insert_query, records)
-    print("✅ Data embedded and stored in PostgreSQL successfully!")
+    with engine.begin() as conn:
+        conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector;"))
+    SQLModel.metadata.create_all(engine)
+    print("✅ Database schema is ready.")
 
 
 def preprocess_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Drops duplicates and converts specific columns to integer type.
+    Drops duplicates and casts numeric columns.
     """
     df = df.drop_duplicates(subset="course_id")
-    for col in ["duration", "learners_amount", "star_num_ratings"]:
+    for col in ("duration", "learners_amount", "star_num_ratings"):
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
     return df
 
 
-def setup_engine_and_model(database_url: str, embedding_model_name: str = None) -> tuple[Engine, SentenceTransformer]:
+def insert_data(df: pd.DataFrame, engine) -> None:
     """
-    Initializes and returns the database engine and embedding model.
+    Converts each DataFrame row into a Course instance and persists via SQLModel session.
+    """
+    records = df.to_dict(orient="records")
+    courses = [Course(**r) for r in records]
+    with Session(engine) as session:
+        session.add_all(courses)
+        session.commit()
+    print("✅ Embedded course data stored successfully.")
+
+
+def setup_engine_and_model(database_url: str, embedding_model_name: str = None) -> tuple:
+    """
+    Initializes the SQLModel engine and the embedding model.
     """
     engine = get_database_engine(database_url)
     model = load_embedding_model(embedding_model_name)
@@ -88,23 +56,23 @@ def setup_engine_and_model(database_url: str, embedding_model_name: str = None) 
 
 
 def main():
-    """
-    Entry point for the semantic indexing pipeline.
-    """
     load_dotenv()
-    engine, model = setup_engine_and_model(os.getenv("DATABASE_URL"), os.getenv("EMBEDDING_MODEL_NAME"))
+    database_url = os.getenv("DATABASE_URL")
+    model_name = os.getenv("EMBEDDING_MODEL_NAME")
+
+    engine, model = setup_engine_and_model(database_url, model_name)
 
     BASE_DIR = Path(__file__).resolve().parent.parent
-    PROCESSED_OUTPUT_PATH = BASE_DIR / os.getenv("PROCESSED_OUTPUT_PATH", "output/processed_data")
-    df = load_data(PROCESSED_OUTPUT_PATH)
+    processed_path = BASE_DIR / os.getenv("PROCESSED_OUTPUT_PATH", "output/processed_data")
+    df = load_data(processed_path)
     df = preprocess_dataframe(df)
 
     print("📊 Computing embeddings for combined input...")
     df = compute_embeddings(df, model)
 
-    setup_database(engine, CREATE_TABLE_QUERY)
+    setup_database(engine)
     print("🛢️ Inserting data into PostgreSQL...")
-    insert_data(df, engine, INSERT_QUERY)
+    insert_data(df, engine)
 
 
 if __name__ == "__main__":
