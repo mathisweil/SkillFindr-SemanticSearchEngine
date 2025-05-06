@@ -1,4 +1,3 @@
-
 # 🧠 SkillFindr — Semantic Search for IBM SkillsBuild
 
 ## 📚 Overview
@@ -12,20 +11,20 @@
 ### 🔎 Semantic Search Engine
 - Embedding-based retrieval using Sentence-BERT (`all-MiniLM-L6-v2`)
 - Vector similarity ranking using cosine distance
-- Real-time response via FastAPI
+- Real-time query execution via FastAPI
 
 ### 🕸 Web Scraper
-- Extracts over 1,200+ courses and programs from IBM SkillsBuild
-- Captures metadata: title, description, duration, tags, rating
-- Built using Selenium and BeautifulSoup with dynamic content support
+- Extracts 1,200+ courses and programs from IBM SkillsBuild
+- Captures metadata: title, description, duration, tags, ratings
+- Built with Selenium + BeautifulSoup and supports dynamic DOM rendering
 
-### 🗃 Hybrid Database
-- PostgreSQL used for structured metadata (e.g., duration, title, tags)
-- `pgvector` extension stores and indexes 384-dimensional course embeddings
+### 🗃 Hybrid Database (PostgreSQL + pgvector)
+- Stores structured metadata and vector embeddings
+- Leverages `pgvector` for fast semantic similarity search
 
 ### ⚙️ FastAPI Backend
-- RESTful API to serve course search queries and metadata filtering
-- JSON responses suitable for frontend integration or data analysis
+- Exposes RESTful API for semantic and keyword-based search
+- Supports filterable JSON responses for integration and analysis
 
 ---
 
@@ -46,8 +45,8 @@ Key libraries:
 - `fastapi`, `uvicorn`, `sqlalchemy`
 
 ### Additional Tools
-- Chrome WebDriver (required for Selenium)
-- PostgreSQL 14+ with the `pgvector` extension
+- Chrome WebDriver (for Selenium)
+- PostgreSQL 15+ with `pgvector` extension
 
 ---
 
@@ -64,12 +63,21 @@ cd skillfindr
 pip install -r requirements.txt
 ```
 
-3. (Optional) Set environment variables in `.env`:
-```
-DB_URL=postgresql://user:password@localhost:5432/skillsbuild
-```
+3. Set environment variables in `.env`:
+```env
+USERNAME=YOUR_USERNAME
+PASSWORD=YOUR_PASSWORD
 
-4. Configure `config.json` for scraping parameters (e.g., URLs, language filters).
+# Project environment configuration
+LOGIN_URL=https://sb-auth.skillsbuild.org/login
+BASE_URL=https://skills.yourlearning.ibm.com
+SCRAPE_DELAY=2
+
+# Model & database settings
+EMBEDDING_MODEL_NAME=all-MiniLM-L6-v2
+LLM_MODEL_NAME=ibm-granite/granite-3.0-1b-a400m-instruct
+DATABASE_URL=postgresql+psycopg2://mathisweil@localhost:5432/postgres
+```
 
 ---
 
@@ -80,15 +88,102 @@ DB_URL=postgresql://user:password@localhost:5432/skillsbuild
 python scraper/IBM_scraper.py
 ```
 
-### 🗂 Ingest Data into PostgreSQL
+If you wish to run it in **headless mode**, modify the `config.json` file by adding the following key-value pair under `"webdriver_args"`:
+
+```json
+"webdriver_args": {
+  "incognito": "incognito",
+  "headless": "--headless"
+}
+```
+
+This will allow the browser to operate without opening a visible window, which is useful for background execution or deployment environments.
+
+### 🧹 Process Raw Data
+```bash
+python parsers/process_courses.py
+```
+
+### 🗃 Load Data into PostgreSQL
 ```bash
 python database/load_data.py
 ```
 
+### ✅ Run Evaluation of Semantic Search Engine
+```bash
+python evaluation/semantic_search_evaluation.py
+```
+
+## 📡 Running and Testing the API
+
 ### 🌐 Launch FastAPI Server
+
+To start the API locally, run the following command from the project root:
+
 ```bash
 fastapi dev api/main.py
 ```
+
+This will start a development server using `fastapi`’s CLI (make sure it's installed via `pip install fastapi[all]` if not already).
+
+The server will initialize all core resources during startup, including:
+
+- Sentence-BERT embedding model (`all-MiniLM-L6-v2`)
+- IBM Granite LLM and tokenizer
+- PostgreSQL vector database connection
+
+---
+
+### 🧪 Interactive API Testing via Swagger UI
+
+Once the server is running, open your browser and navigate to:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+This brings up **Swagger UI**, an auto-generated API documentation and test interface.
+
+You can simulate calls to:
+
+- **`POST /api/v1/courses/search/semantic`**  
+  Input a search query (e.g., *"beginner cybersecurity path"*) and add filters like `duration`, `category`, or `star_rating`. Click "Execute" to view results with real-time similarity search.
+
+- **`POST /api/v1/chat`**  
+  This endpoint implements **Retrieval-Augmented Generation (RAG)**.  
+  Provide a `chat_history` array with `"role": "user"` and `"role": "assistant"` messages. The system will search for semantically similar courses, feed them to a language model, and return a contextual answer.
+
+### 📁 Example Request Payloads
+
+#### `/api/v1/courses/search/semantic`
+
+```json
+{
+  "query": "data analysis beginner course",
+  "threshold": 0.5,
+  "limit": 5,
+  "filters": {
+    "duration": { "min": 30, "max": 120 },
+    "category": ["data_science"]
+  }
+}
+```
+
+#### `/api/v1/chat`
+
+```json
+{
+  "chat_history": [
+    { "role": "user", "content": "I'm interested in learning web development from scratch" }
+  ],
+  "threshold": 0.5,
+  "limit": 5
+}
+```
+
+---
+
+Both endpoints return rich metadata and ranked courses, helping users navigate educational content more intelligently.
 
 ---
 
@@ -96,41 +191,41 @@ fastapi dev api/main.py
 
 ```plaintext
 skillfindr/
-├── scraper/           # Web scraping logic (Selenium + BeautifulSoup)
-├── embedding/         # Embedding generation and semantic indexing
-├── database/          # PostgreSQL + pgvector integration and loaders
-├── api/               # FastAPI backend for course search
-├── output/            # Scraped data
-├── logs/              # Logging info
-├── config.json        # Scraper configuration
-└── requirements.txt   # Python dependencies
+├── scraper/           # Web scraping (Selenium + BeautifulSoup)
+├── embedding/         # Embedding logic and retrieval methods
+├── database/          # PostgreSQL loaders and vector storage
+├── api/               # FastAPI server and endpoints
+├── output/            # Scraped and processed data
+├── logs/              # Logs for debugging and monitoring
+├── config/            # configuration folder
+└── requirements.txt   # Python package list
 ```
 
 ---
 
 ## 🔄 Customisation
 
-- **Add new fields**: Extend `config.json` and `scraper/main.py` to extract additional metadata.
-- **Use other models**: Swap Sentence-BERT with OpenAI/GTE embeddings.
-- **Expand filters**: Modify the API to support advanced filtering (e.g., duration, language).
-- **Connect frontend**: Consume FastAPI endpoints in a React or Flask interface.
+- **Add fields**: Extend `config.json` and scraping logic
+- **Swap models**: Replace Sentence-BERT with other embedding models
+- **Advanced filtering**: Extend API to filter by rating, duration, category
+- **Frontend integration**: Consume FastAPI with React, Flask, etc.
 
 ---
 
-## ❗ Error Handling
+## ⚠️ Error Handling
 
-- Built-in exception handling for:
+- Handles:
   - DOM structure changes
-  - Timeouts and connection failures
-  - Course duplication
-- Logs stored in `/logs/` for debugging
+  - Timeout or network issues
+  - Duplicate entries
+- Logs saved in `logs/` for debugging
 
 ---
 
 ## 🙏 Acknowledgements
 
-- Developed as part of a BSc Computer Science final-year project at Queen Mary University of London.
-- Special thanks to IBM for platform access and technical support.
+- Final-year BSc Computer Science project at Queen Mary University of London.
+- Thanks to IBM for platform access and support.
 
 ---
 

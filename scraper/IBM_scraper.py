@@ -203,14 +203,22 @@ class IBMScraper:
 def main():
     load_dotenv()
     config = load_config()
+
+    BASE_DIR = Path(__file__).resolve().parent.parent
+
+    log_path_raw = os.getenv("LOG_PATH", "logs/ibm_scraper.log")
+    log_path_full = BASE_DIR / log_path_raw
+
+    log_path_full.parent.mkdir(parents=True, exist_ok=True)
+
     logging.basicConfig(
-        filename=os.getenv("LOG_PATH"),
+        filename=log_path_full,
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s"
     )
     try:
-        raw_dir = Path(os.getenv("RAW_OUTPUT_PATH"))
-        raw_dir.mkdir(parents=True, exist_ok=True)
+        RAW_OUTPUT_PATH = BASE_DIR / os.getenv("RAW_OUTPUT_PATH", "output/raw_data")
+        RAW_OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
 
         with init_driver(config) as driver:
             scraper = IBMScraper(driver, config)
@@ -224,8 +232,8 @@ def main():
                     logging.warning(f"No courses to process for: {search_category}.")
                 else:
                     current_date = datetime.now().strftime("%Y-%m-%d")
-                    csv_filename = raw_dir / f"{search_category}_{current_date}.csv"
-                    json_filename = raw_dir / f"{search_category}_{current_date}.json"
+                    csv_filename = RAW_OUTPUT_PATH / f"{search_category}_{current_date}.csv"
+                    json_filename = RAW_OUTPUT_PATH / f"{search_category}_{current_date}.json"
 
                     save_data(courses, csv_filename, json_filename)
     except Exception as e:

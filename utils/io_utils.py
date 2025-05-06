@@ -26,7 +26,7 @@ def save_data(data: list[dict[str, Any]] | pd.DataFrame, csv_filename: Path = No
         logging.info(f"Data successfully saved to JSON: {json_filename}")
 
 
-def load_data(directory: str) -> pd.DataFrame:
+def load_data(directory: Path) -> pd.DataFrame:
     """
     Loads all JSON files from the specified directory into a single pandas DataFrame.
     Removes duplicate entries based on the 'course_id' field.
@@ -37,7 +37,6 @@ def load_data(directory: str) -> pd.DataFrame:
     Returns:
         pd.DataFrame: Combined DataFrame of all loaded data, with duplicates removed.
     """
-    directory = Path(directory)
     dataframes = []
 
     for file_path in sorted(directory.glob("*.json")):

@@ -15,7 +15,7 @@ def load_config() -> dict[str, Any]:
     Load configuration from a JSON file.
 
     If CONFIG_PATH is defined in the environment, it will be used.
-    Otherwise, defaults to 'config.json' in the same directory as this script.
+    Otherwise, defaults to 'config/config.json' in the same directory as this script.
 
     Returns:
         dict[str, Any]: Configuration as a dictionary.
@@ -24,20 +24,17 @@ def load_config() -> dict[str, Any]:
         SystemExit: If the file does not exist or contains invalid JSON.
     """
     load_dotenv()
-    path = os.getenv("CONFIG_PATH", "config.json")
-    config_path = Path(path)
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    CONFIG_PATH = BASE_DIR / os.getenv("CONFIG_PATH", "config/config.json")
 
-    if not config_path.is_absolute():
-        config_path = Path(__file__).resolve().parent / config_path
-
-    if not config_path.exists():
-        logging.error("config.json not found at: %s", config_path)
-        raise SystemExit(f"Error: config.json file not found at {config_path}.")
+    if not CONFIG_PATH.exists():
+        logging.error("config.json not found at: %s", CONFIG_PATH)
+        raise SystemExit(f"Error: config.json file not found at {CONFIG_PATH}.")
 
     try:
-        with config_path.open("r", encoding="utf-8") as config_file:
+        with CONFIG_PATH.open("r", encoding="utf-8") as config_file:
             config = json.load(config_file)
-            logging.info("Configuration successfully loaded from %s", config_path)
+            logging.info("Configuration successfully loaded from %s", CONFIG_PATH)
             return config
     except json.JSONDecodeError as e:
         logging.error("Invalid JSON in config.json: %s", e)
@@ -51,16 +48,14 @@ def load_boilerplate_phrases() -> list[str]:
     Returns:
         list[str]: List of boilerplate phrases.
     """
+    load_dotenv()
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    BOILERPLATE_PATH = BASE_DIR / os.getenv("BOILERPLATE_PATH", "config/boilerplate.yaml")
 
-    path = os.getenv("BOILERPLATE_PATH", "boilerplate_phrases.yml")
-    boilerplate_path = Path(path)
-    if not boilerplate_path.is_absolute():
-        boilerplate_path = Path(__file__).resolve().parent / boilerplate_path
+    if not BOILERPLATE_PATH.exists() or not BOILERPLATE_PATH.is_file():
+        return []
 
-    if not boilerplate_path.exists():
-        raise FileNotFoundError(f"boilerplate_phrases.yml not found at: {boilerplate_path}")
-
-    with boilerplate_path.open("r", encoding="utf-8") as f:
+    with BOILERPLATE_PATH.open("r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
     return data.get("boilerplate_phrases", [])

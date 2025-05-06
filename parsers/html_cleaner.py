@@ -2,13 +2,12 @@ import re
 import html
 import unicodedata
 import codecs
-from typing import Any
 
 import ftfy
 import langcodes
 from bs4 import BeautifulSoup
 
-from config.config import load_config, load_boilerplate_phrases
+from config.config import load_boilerplate_phrases
 
 
 class DescriptionCleaner:
@@ -20,12 +19,12 @@ class DescriptionCleaner:
       - extract language codes
     """
 
-    def __init__(self, config: dict[str, Any] | None = None) -> None:
-        if config is None:
-            config = load_config()
+    def __init__(self) -> None:
         phrases = load_boilerplate_phrases()
 
-        self.boilerplate_pattern = self._compile_phrases_pattern(phrases)
+        self.boilerplate_pattern = (
+            self._compile_phrases_pattern(phrases) if phrases else None
+        )
         self.duration_pattern = re.compile(
             r"(?:duration|expected duration)\s*:\s*"
             r"(complete the activities.*?learning credit!|"
@@ -131,12 +130,13 @@ class DescriptionCleaner:
         text = re.sub(r"\d{5,}", "", text)
 
         for pattern in (
-            self.language_span_pattern,
-            self.duration_pattern,
-            self.boilerplate_pattern,
-            self.learners_pattern,
+                self.language_span_pattern,
+                self.duration_pattern,
+                self.boilerplate_pattern,
+                self.learners_pattern,
         ):
-            text = pattern.sub(" ", text)
+            if pattern is not None:
+                text = pattern.sub(" ", text)
 
         langs = set(html_langs) | set(text_langs)
         if not langs:

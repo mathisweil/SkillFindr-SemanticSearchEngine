@@ -1,6 +1,8 @@
 import os
 import json
 import csv
+from pathlib import Path
+
 from dotenv import load_dotenv
 
 from embedding.retrieve_courses import semantic_search, keyword_search
@@ -56,18 +58,20 @@ def annotate_courses(query_set: list[str], model, engine) -> dict:
 
 if __name__ == "__main__":
     load_dotenv()
+    BASE_DIR = Path(__file__).resolve().parent.parent
     model = load_embedding_model(os.getenv("EMBEDDING_MODEL_NAME"))
     engine = get_database_engine(os.getenv("DATABASE_URL"))
 
-    with open(os.getenv("TEST_QUERIES_PATH"), newline='', encoding='utf-8') as f:
+    TEST_QUERIES_PATH = BASE_DIR / os.getenv("TEST_QUERIES_PATH", "datasets/ir_test_queries.csv")
+    with open(TEST_QUERIES_PATH, newline='', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         query_set = [row["query"] for row in reader]
 
     test_dataset = annotate_courses(query_set, model, engine)
 
-    output_path = os.getenv("TEST_DATASET_PATH")
+    OUTPUT_PATH = BASE_DIR / os.getenv("TEST_DATASET_PATH", "datasets/test_dataset.json")
 
-    with open(output_path, "w", encoding="utf-8") as f:
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(test_dataset, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ Test dataset saved successfully to: {output_path}")
+    print(f"\n✅ Test dataset saved successfully to: {OUTPUT_PATH}")

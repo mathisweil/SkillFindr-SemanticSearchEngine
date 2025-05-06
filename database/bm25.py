@@ -42,13 +42,11 @@ def preprocess(text: str) -> list[str]:
     ]
 
 
-def get_synonyms(term: str) -> set:
-    """
-    Dynamically fetch synonyms for a single term from WordNet.
-    """
+def get_synonyms(term: str, max_synonyms: int = 3) -> set:
     synsets = wn.synsets(term)
-    lemmas = {lemma.name().replace('_', ' ') for syn in synsets for lemma in syn.lemmas()}
-    return lemmas - {term}
+    lemmas = [lemma.name().replace('_', ' ') for syn in synsets for lemma in syn.lemmas()]
+    unique_lemmas = list(dict.fromkeys(lemmas))
+    return set(unique_lemmas[:max_synonyms]) - {term}
 
 
 def expand_query(terms: list[str]) -> list[str]:
@@ -65,8 +63,8 @@ def bm25_score(
     query_terms: list[str],
     doc_terms: list[str],
     avgdl: float,
-    k1: float = 0.9,
-    b: float = 0.4,
+    k1: float = 1.2,
+    b: float = 0.75,
     N: int = 1,
     df: dict[str, int] = None
 ) -> float:
@@ -91,7 +89,9 @@ def bm25_score(
 def search_courses_bm25(
     query: str,
     engine: Engine,
-    limit: int = 5
+    limit: int = 5,
+    k1: float = 1.2,
+    b: float = 0.75
 ) -> list[dict[str, Any]]:
     if _courses is None or _nlp is None:
         setup_environment(engine)
@@ -126,7 +126,7 @@ def search_courses_bm25(
 
     scored = []
     for idx, row in enumerate(rows):
-        score = bm25_score(expanded_terms, documents[idx], avgdl, N=N, df=df)
+        score = bm25_score(expanded_terms, documents[idx], avgdl, k1, b, N=N, df=df)
         result = dict(row)
         result['bm25_score'] = score
         scored.append(result)

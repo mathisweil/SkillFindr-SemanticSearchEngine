@@ -62,7 +62,7 @@ def semantic_search(
     if clauses:
         extra_where = "\n          AND " + "\n          AND ".join(clauses)
 
-    sql = text(f"""
+    SEMANTIC_RETRIEVAL_QUERY = text(f"""
     WITH matches AS (
         SELECT
             course_id,
@@ -81,7 +81,7 @@ def semantic_search(
     """)
 
     with engine.connect() as conn:
-        result = conn.execute(sql, params)
+        result = conn.execute(SEMANTIC_RETRIEVAL_QUERY, params)
         rows = result.mappings().all()
 
     return [dict(row) for row in rows]
@@ -96,5 +96,5 @@ def keyword_search(query: str, engine: Engine, threshold: float = 0.1, limit: in
 
     return [dict(row) for row in rows]
 
-def bm25_search(query: str, engine: Engine, limit: int = 5) -> list[dict[str, Any]]:
-    return search_courses_bm25(query, engine, limit)
+def bm25_search(query: str, engine: Engine, limit: int = 5, k1: float = 0.9, b: float = 0.3) -> list[dict[str, Any]]:
+    return search_courses_bm25(query, engine, limit, k1, b)

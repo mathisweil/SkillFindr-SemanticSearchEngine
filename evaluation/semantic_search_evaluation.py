@@ -4,6 +4,7 @@ import json
 import csv
 import warnings
 import time
+from pathlib import Path
 
 import matplotlib.pyplot as plt
 from sqlalchemy.exc import SAWarning
@@ -102,12 +103,12 @@ def evaluate(
     }
 
 
-def load_queries(path: str) -> list[str]:
+def load_queries(path: Path) -> list[str]:
     with open(path, newline="", encoding="utf-8") as f:
         return [row["query"] for row in csv.DictReader(f)]
 
 
-def load_test_dataset(path: str) -> dict[str, list[dict]]:
+def load_test_dataset(path: Path) -> dict[str, list[dict]]:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -221,11 +222,15 @@ def plot_latency(
 
 def main():
     load_dotenv()
+    BASE_DIR = Path(__file__).resolve().parent.parent
     model  = load_embedding_model(os.getenv("EMBEDDING_MODEL_NAME"))
     engine = get_database_engine(os.getenv("DATABASE_URL"))
 
-    queries       = load_queries(os.getenv("TEST_QUERIES_PATH"))
-    test_dataset  = load_test_dataset(os.getenv("TEST_DATASET_PATH"))
+    TEST_QUERIES_PATH = BASE_DIR / os.getenv("TEST_QUERIES_PATH", "evaluation/datasets/ir_test_queries.csv")
+    queries = load_queries(TEST_QUERIES_PATH)
+
+    TEST_DATASET_PATH = BASE_DIR / os.getenv("TEST_DATASET_PATH", "evaluation/datasets/test_dataset.json")
+    test_dataset = load_test_dataset(TEST_DATASET_PATH)
     p_sem, p_kw, p_bm, t_sem, t_kw, t_bm = gather_predictions(queries, model, engine)
 
     K = 20

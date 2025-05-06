@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 import pandas as pd
@@ -93,7 +94,9 @@ def main():
     load_dotenv()
     engine, model = setup_engine_and_model(os.getenv("DATABASE_URL"), os.getenv("EMBEDDING_MODEL_NAME"))
 
-    df = load_data(os.getenv("PROCESSED_OUTPUT_PATH"))
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    PROCESSED_OUTPUT_PATH = BASE_DIR / os.getenv("PROCESSED_OUTPUT_PATH", "output/processed_data")
+    df = load_data(PROCESSED_OUTPUT_PATH)
     df = preprocess_dataframe(df)
 
     print("📊 Computing embeddings for combined input...")

@@ -4,7 +4,6 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from config.config import load_config
 from utils.io_utils import save_data, load_data
 from parsers.text_cleaner import clean_title, clean_tags, convert_duration
 from parsers.html_cleaner import DescriptionCleaner
@@ -82,29 +81,34 @@ def clean_tags_and_metadata(df: pd.DataFrame) -> None:
     )
 
 
-def sort_and_save(df: pd.DataFrame, config: dict) -> None:
+def sort_and_save(df: pd.DataFrame, output_path: Path) -> None:
     """Sort the DataFrame and write to CSV + JSON."""
     out = df.sort_values(
         by=["learners_amount", "star_rating"], ascending=[False, False]
     )
-    target = Path(os.getenv("PROCESSED_OUTPUT_PATH"))
-    target.mkdir(parents=True, exist_ok=True)
+
+    output_path.mkdir(parents=True, exist_ok=True)
     save_data(
         out,
-        target / "processed_courses.csv",
-        target / "processed_courses.json",
+        output_path / "processed_courses.csv",
+        output_path / "processed_courses.json",
     )
 
 
 def run_pipeline() -> None:
+    BASE_DIR = Path(__file__).resolve().parent.parent
     load_dotenv()
-    cfg = load_config()
-    df = load_data(os.getenv("RAW_OUTPUT_PATH"))
+
+    RAW_OUTPUT_PATH = BASE_DIR / os.getenv("RAW_OUTPUT_PATH", "output/raw_data")
+    df = load_data(RAW_OUTPUT_PATH)
+
     df = filter_and_index(df)
     clean_titles(df)
     clean_descriptions(df)
     clean_tags_and_metadata(df)
-    sort_and_save(df, cfg)
+
+    PROCESSED_OUTPUT_PATH = BASE_DIR / os.getenv("PROCESSED_OUTPUT_PATH", "output/processed_data")
+    sort_and_save(df, PROCESSED_OUTPUT_PATH)
 
 
 if __name__ == "__main__":

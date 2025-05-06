@@ -22,10 +22,10 @@ SELECT
     course_url,
     description,
     embedding_input_combined,
-    ts_rank_cd(document, websearch_to_tsquery('english', :query_text)) AS rank
+    ts_rank_cd(document, plainto_tsquery('english', :query_text)) AS rank
 FROM search_vectors
-WHERE document @@ websearch_to_tsquery('english', :query_text)
-  AND ts_rank_cd(document, websearch_to_tsquery('english', :query_text)) > :threshold
+WHERE document @@ plainto_tsquery('english', :query_text)
+  AND ts_rank_cd(document, plainto_tsquery('english', :query_text)) > :threshold
 ORDER BY rank DESC
 LIMIT :limit
 """)
