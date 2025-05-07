@@ -51,7 +51,7 @@ def load_boilerplate_phrases() -> list[str]:
     """
     load_dotenv()
     BASE_DIR = Path(__file__).resolve().parent.parent
-    BOILERPLATE_PATH = BASE_DIR / os.getenv("BOILERPLATE_PATH", "config/boilerplate.yaml")
+    BOILERPLATE_PATH = BASE_DIR / os.getenv("BOILERPLATE_PATH", "config/boilerplate_phrases.yml")
 
     if not BOILERPLATE_PATH.exists() or not BOILERPLATE_PATH.is_file():
         return []

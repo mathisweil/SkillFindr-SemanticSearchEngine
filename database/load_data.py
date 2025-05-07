@@ -31,6 +31,9 @@ def preprocess_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     for col in ("duration", "learners_amount", "star_num_ratings"):
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
+    for col in ("star_rating",):
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce").astype("Float64")
     return df
 
 

@@ -1,6 +1,3 @@
-# models/course.py
-
-from typing import Optional
 from sqlmodel import SQLModel, Field
 from sqlalchemy import Column
 from sqlalchemy.dialects.postgresql import TEXT, INTEGER, REAL, ARRAY
@@ -15,63 +12,64 @@ class Course(SQLModel, table=True):
     course_url: str = Field(
         sa_column=Column(TEXT, unique=True, nullable=False)
     )
-    category: Optional[str] = Field(
+    category: str | None = Field(
         default=None,
         sa_column=Column(TEXT)
     )
-    type: Optional[str] = Field(
+    type: str | None = Field(
         default=None,
         sa_column=Column(TEXT)
     )
-    title: Optional[str] = Field(
+    title: str | None = Field(
         default=None,
         sa_column=Column(TEXT)
     )
-    duration: Optional[int] = Field(
+    duration: int | None = Field(
         default=None,
         sa_column=Column(INTEGER)
     )
-    learners_amount: Optional[int] = Field(
+    learners_amount: int | None = Field(
         default=None,
         sa_column=Column(INTEGER)
     )
-    star_rating: Optional[float] = Field(
+    star_rating: float | None = Field(
         default=None,
         sa_column=Column(REAL)
     )
-    star_num_ratings: Optional[int] = Field(
+    star_num_ratings: int | None = Field(
         default=None,
         sa_column=Column(INTEGER)
     )
-    description: Optional[str] = Field(
+    description: str | None = Field(
         default=None,
         sa_column=Column(TEXT)
     )
-    tags: Optional[list[str]] = Field(
+    tags: list[str] | None = Field(
         default=None,
         sa_column=Column(ARRAY(TEXT))
     )
-    title_raw: Optional[str] = Field(
+    title_raw: str | None = Field(
         default=None,
         sa_column=Column(TEXT)
     )
-    description_raw: Optional[str] = Field(
+    description_raw: str | None = Field(
         default=None,
         sa_column=Column(TEXT)
     )
-    languages: Optional[list[str]] = Field(
+    languages: list[str] | None = Field(
         default=None,
         sa_column=Column(ARRAY(TEXT))
     )
-    tags_raw: Optional[list[str]] = Field(
+    tags_raw: list[str] | None = Field(
         default=None,
         sa_column=Column(ARRAY(TEXT))
     )
-    embedding_input_combined: Optional[str] = Field(
+    embedding_input_combined: str | None = Field(
         default=None,
         sa_column=Column(TEXT)
     )
-    embedding_vector: Optional[list[float]] = Field(
+    embedding_vector: list[float] | None = Field(
         default=None,
         sa_column=Column(Vector(384))
     )
+    distance: float | None = Field(default=None, sa_column=None)

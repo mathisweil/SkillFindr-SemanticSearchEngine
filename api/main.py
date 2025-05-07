@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlmodel import SQLModel, Field
 from typing import Literal
 from models.course import Course
+from models.filters import Filters
 
 from embedding.retrieve_courses import semantic_search
 from embedding.model_loader import load_embedding_model
@@ -28,33 +29,18 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+
 origins = [
     "http://localhost:3000",
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,              # or ["*"] to allow all (not recommended for prod)
+    allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],                # e.g. ["GET", "POST", "PUT", "DELETE"]
-    allow_headers=["*"],                # e.g. ["Authorization", "Content-Type"]
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
-
-
-class RangeFilter(SQLModel):
-    min: int | None = Field(None, ge=0, description="Lower bound (inclusive)")
-    max: int | None = Field(None, ge=0, description="Upper bound (inclusive)")
-
-
-class Filters(SQLModel):
-    star_rating: RangeFilter | None = Field(None, description="Range of star ratings")
-    learners_amount: RangeFilter | None = Field(None, description="Range of learners amounts")
-    duration: RangeFilter | None = Field(None, description="Range of durations in minutes")
-    category: list[str] | None = Field(
-        None,
-        min_items=1,
-        description="List of course categories (e.g. ['cloud_computing','cs'])"
-    )
 
 
 class SearchRequest(SQLModel):
@@ -65,14 +51,6 @@ class SearchRequest(SQLModel):
     )
     limit: int = Field(5, ge=1, description="Maximum number of results")
     filters: Filters | None = Field(None, description="Filters for specific course attributes")
-
-
-class CourseRead(Course):
-    embedding_vector: list[float] | None = None
-
-    class Config:
-        from_attributes = True
-        fields = {"embedding_vector": {"exclude": True}}
 
 
 class ChatMessage(SQLModel):
@@ -89,31 +67,26 @@ class ChatRequest(SQLModel):
 
 class ChatResponse(SQLModel):
     answer: str = Field(..., description="The LLM’s generated answer")
-    sources: list[CourseRead] = Field(
+    sources: list[Course] = Field(
         ..., description="Top matching courses used as context"
     )
 
 
 @app.post(
     "/api/v1/courses/search/semantic",
-    response_model=list[CourseRead],
+    response_model=list[Course],
     summary="Semantic search over courses",
     tags=["courses"],
     response_model_exclude_none=True
 )
 async def semantic_search_endpoint(payload: SearchRequest):
-    raw_filters = {
-        k: v
-        for k, v in (payload.filters or Filters()).model_dump().items()
-        if v is not None
-    }
     results = semantic_search(
         query=payload.query,
         model=resources["embedding_model"],
         engine=resources["db_engine"],
         threshold=payload.threshold,
         limit=payload.limit,
-        filters=raw_filters
+        filters=payload.filters
     )
     return results
 
@@ -138,19 +111,13 @@ async def rag_endpoint(payload: ChatRequest):
             detail="chat_history must contain at least one user message"
         )
 
-    raw_filters = {
-        key: val
-        for key, val in (payload.filters or Filters()).model_dump().items()
-        if val is not None
-    }
-
     tops = semantic_search(
         query=last_user,
         model=resources["embedding_model"],
         engine=resources["db_engine"],
         threshold=payload.threshold,
         limit=payload.limit,
-        filters=raw_filters
+        filters=payload.filters
     )
 
     if not tops:

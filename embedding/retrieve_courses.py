@@ -1,12 +1,16 @@
 from typing import Any
 
 from sentence_transformers import SentenceTransformer
-from sqlalchemy import text
 from sqlalchemy.engine import Engine
+from pgvector.sqlalchemy import Vector
 
 from database.sql_queries import TF_IDF_SEARCH_QUERY
 from database.bm25 import search_courses_bm25
-
+from models.course import Course
+from models.filters import Filters
+from sqlalchemy import text, bindparam, Float, Integer, String
+from sqlalchemy.dialects.postgresql import ARRAY
+from sqlalchemy.orm import Session
 
 def semantic_search(
     query: str,
@@ -14,87 +18,119 @@ def semantic_search(
     engine: Engine,
     threshold: float = 0.4,
     limit: int = 5,
-    filters: dict[str, Any] | None = None
-) -> list[dict[str, Any]]:
+    filters: Filters | None = None
+) -> list[Course]:
     """
     Perform a pgvector‐based semantic search over the `courses` table,
-    optionally applying arbitrary filters supplied as a dict.
+    optionally applying column filters. Falls back to BM25 if no vector
+    results are found.
 
-    :param engine:
-    :param model:
-    :param query:     The natural‐language search string.
-    :param threshold: Maximum allowed vector distance.
-    :param limit:     Maximum number of results to return.
-    :param filters:   Dict of extra constraints, e.g.
-                       {'level': 'beginner',
-                        'category': ['math','cs'],
-                        'duration': {'min':30, 'max':120}}
-    :return:          List of row‐dicts with keys
-                      course_id, title, course_url, description, distance.
+    :param query:     The natural‐language search string (must not be empty).
+    :param model:     SentenceTransformer used to embed the query.
+    :param engine:    SQLAlchemy Engine for DB connection.
+    :param threshold: Maximum allowed vector distance (>= 0).
+    :param limit:     Maximum number of results to return (> 0).
+    :param filters:   Optional Filters model with RangeFilter and list fields.
+    :return:          list of `Course` instances, each with a `.distance` attr.
     """
-    query_vector = model.encode([query])[0].tolist()
-    query_vector_str = str(query_vector)
+    filters = filters or Filters()
 
-    filters = filters or {}
-    clauses = []
+    embedding: list[float] = model.encode([query])[0].tolist()
+
     params: dict[str, Any] = {
-        "query_vector": query_vector_str,
-        "threshold": threshold,
-        "limit": limit
+        'query_vector': embedding,
+        'threshold': threshold,
+        'limit': limit,
     }
+    where_clauses: list[str] = [
+        "embedding_vector <=> CAST(:query_vector AS vector) < :threshold"
+    ]
 
-    for col, val in filters.items():
-        if isinstance(val, dict):
-            if "min" in val and val["min"] is not None:
-                clauses.append(f"{col} >= :{col}_min")
-                params[f"{col}_min"] = val["min"]
-            if "max" in val and val["max"] is not None:
-                clauses.append(f"{col} <= :{col}_max")
-                params[f"{col}_max"] = val["max"]
-        elif isinstance(val, (list, tuple)):
-            clauses.append(f"{col} = ANY(:{col})")
-            params[col] = val
-        else:
-            clauses.append(f"{col} = :{col}")
-            params[col] = val
+    for col_name, rf in (
+        ('star_rating', filters.star_rating),
+        ('learners_amount', filters.learners_amount),
+        ('duration', filters.duration),
+    ):
+        if rf:
+            if rf.min is not None:
+                where_clauses.append(f"{col_name} >= :{col_name}_min")
+                params[f"{col_name}_min"] = rf.min
+            if rf.max is not None:
+                where_clauses.append(f"{col_name} <= :{col_name}_max")
+                params[f"{col_name}_max"] = rf.max
 
-    extra_where = ""
-    if clauses:
-        extra_where = "\n          AND " + "\n          AND ".join(clauses)
+    if filters.category:
+        where_clauses.append("category = ANY(:category)")
+        params["category"] = filters.category
 
-    SEMANTIC_RETRIEVAL_QUERY = text(f"""
-    WITH matches AS (
+    where_sql = "\n    AND ".join(where_clauses)
+
+    sql = text(f"""
         SELECT
             course_id,
             course_url,
             title,
             description,
+            star_rating,
+            star_num_ratings,
+            learners_amount,
+            duration,
             embedding_input_combined,
-            embedding_vector <=> :query_vector AS distance
+            embedding_vector <=> CAST(:query_vector AS vector) AS distance
         FROM courses
-        WHERE embedding_vector <=> :query_vector < :threshold
-          {extra_where}
+        WHERE
+            {where_sql}
         ORDER BY distance
         LIMIT :limit
+    """).bindparams(
+        bindparam('query_vector',
+                  type_=Vector(model.get_sentence_embedding_dimension())),
+        bindparam('threshold', type_=Float),
+        bindparam('limit', type_=Integer),
+        *[
+            bindparam(f"{col}_min", type_=Float)
+            for col, rf in (
+                ('star_rating', filters.star_rating),
+                ('learners_amount', filters.learners_amount),
+                ('duration', filters.duration),
+            ) if rf and rf.min is not None
+        ],
+        *[
+            bindparam(f"{col}_max", type_=Float)
+            for col, rf in (
+                ('star_rating', filters.star_rating),
+                ('learners_amount', filters.learners_amount),
+                ('duration', filters.duration),
+            ) if rf and rf.max is not None
+        ],
+        *([
+              bindparam('category', type_=ARRAY(String))
+          ] if filters.category else [])
     )
-    SELECT * FROM matches
-    """)
 
-    with engine.connect() as conn:
-        result = conn.execute(SEMANTIC_RETRIEVAL_QUERY, params)
+    with Session(engine) as session:
+        result = session.execute(sql, params)
         rows = result.mappings().all()
 
-    return [dict(row) for row in rows]
+    courses: list[Course] = []
+    for row in rows:
+        data = {k: v for k, v in row.items() if k != 'distance'}
+        course = Course(**data)
+        course.distance = row['distance']
+        courses.append(course)
 
-def keyword_search(query: str, engine: Engine, threshold: float = 0.1, limit: int = 5) -> list[dict[str, Any]]:
+    return courses
+
+def keyword_search(query: str, engine: Engine, threshold: float = 0.1, limit: int = 5) -> list[Course]:
     with engine.connect() as conn:
-        bm25_results = conn.execute(
+        keyword_results = conn.execute(
             TF_IDF_SEARCH_QUERY,
             {"query_text": query, "threshold": threshold, "limit": limit}
         )
-        rows = bm25_results.mappings().all()
+        rows = keyword_results.mappings().all()
 
-    return [dict(row) for row in rows]
+    return [Course(**row) for row in rows]
 
-def bm25_search(query: str, engine: Engine, limit: int = 5, k1: float = 0.9, b: float = 0.3) -> list[dict[str, Any]]:
-    return search_courses_bm25(query, engine, limit, k1, b)
+def bm25_search(query: str, engine: Engine, limit: int = 5, k1: float = 0.9, b: float = 0.3) -> list[Course]:
+    bm25_results = search_courses_bm25(query, engine, limit, k1, b)
+    return [Course(**row) for row in bm25_results]

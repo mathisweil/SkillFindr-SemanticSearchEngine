@@ -133,17 +133,17 @@ def gather_predictions(
         t0 = time.perf_counter()
         sem = semantic_search(q, model, engine, threshold=0.8, limit=limit)
         t_sem.append(time.perf_counter() - t0)
-        p_sem[q] = [c["course_id"] for c in sem]
+        p_sem[q] = [c.course_id for c in sem]
 
         t0 = time.perf_counter()
         kw = keyword_search(q, engine, threshold=0.0, limit=limit)
         t_kw.append(time.perf_counter() - t0)
-        p_kw[q] = [c["course_id"] for c in kw]
+        p_kw[q] = [c.course_id for c in kw]
 
         t0 = time.perf_counter()
         bm = bm25_search(q, engine, limit=limit)
         t_bm.append(time.perf_counter() - t0)
-        p_bm[q] = [c["course_id"] for c in bm]
+        p_bm[q] = [c.course_id for c in bm]
 
     return p_sem, p_kw, p_bm, t_sem, t_kw, t_bm
 
