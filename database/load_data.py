@@ -2,8 +2,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 import pandas as pd
-from sentence_transformers import SentenceTransformer
-from sqlmodel import SQLModel, Session, create_engine
+from sqlmodel import SQLModel, Session
 from sqlalchemy import text
 
 from config.config import get_database_engine

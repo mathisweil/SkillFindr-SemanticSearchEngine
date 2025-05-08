@@ -1,5 +1,6 @@
 {
   "search_categories": {
+    "cybersecurity": "cybersecurity",
     "react": "react",
     "html_css_javascript": "html_css_javascript",
     "penetration_testing": "penetration_testing",
@@ -31,7 +32,6 @@
     "cloud_computing": "cloud_computing",
     "software_engineering": "software_engineering",
     "technology_skills": "technology_skills",
-    "cybersecurity": "cybersecurity",
     "machine_learning": "machine_learning",
     "sustainability": "sustainability",
     "quantum_computing": "quantum_computing",

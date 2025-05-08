@@ -48,7 +48,6 @@ async def generate_answer(
     :param top_p:         Nucleus sampling threshold.
     :return:              Generated assistant reply.
     """
-    # System instruction
     system_msg = {
         "role": "system",
         "content": (
@@ -60,7 +59,7 @@ async def generate_answer(
             "  - Duration, difficulty, learner feedback, and popularity\n\n"
             "Your task:\n"
             "  1. Evaluate and compare the provided courses.\n"
-            "  2. Recommend the top 3 courses that best match the user’s objective.\n"
+            "  2. Recommend the top 2 courses that best match the user’s objective.\n"
             "  3. For each recommendation, include:\n"
             "     - Title\n"
             "     - Rationale (why it fits the user's goal)\n"
@@ -69,7 +68,6 @@ async def generate_answer(
         )
     }
 
-    # Format the course metadata into numbered entries
     formatted_courses = []
     for idx, course in enumerate(courses, start=1):
         parts = [f"{idx}. {course.title or 'Untitled Course'}"]
@@ -100,7 +98,6 @@ async def generate_answer(
         "  - Rationale and alignment with the goal\n"
         "  - Duration and difficulty\n"
         "  - Summary of learner feedback (if applicable)\n\n"
-        "If any key information is missing, ask a single concise follow-up question."
     )
     user_msg = {"role": "user", "content": user_content}
 

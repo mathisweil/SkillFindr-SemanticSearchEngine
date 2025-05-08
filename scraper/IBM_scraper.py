@@ -164,6 +164,10 @@ class IBMScraper:
                     self.driver.get(url)
                     logging.info(f"Navigated to {url}.")
 
+                    wait_and_perform_action(
+                        self.driver, By.ID, 'truste-consent-button', EC.element_to_be_clickable
+                    )
+
                     element = WebDriverWait(self.driver, 10).until(
                         EC.any_of(
                             EC.presence_of_element_located((By.CLASS_NAME, 'SearchNoResults_container__XFV7d')),

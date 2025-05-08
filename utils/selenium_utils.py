@@ -19,8 +19,8 @@ def init_driver(config: dict[str, Any]) -> WebDriver:
         WebDriver: An instance of the Chrome WebDriver.
     """
     options = webdriver.ChromeOptions()
-    webdriver_args = config.get("webdriver_args", [])
-    for arg in webdriver_args:
+    webdriver_args = config.get("webdriver_args", {})
+    for arg in webdriver_args.values():
         options.add_argument(arg)
 
     logging.info("Chrome WebDriver initialised with options: %s", webdriver_args)
