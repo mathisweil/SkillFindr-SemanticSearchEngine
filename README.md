@@ -1,4 +1,4 @@
-# 🧠 SkillFindr — Semantic Search for IBM SkillsBuild
+# 🧠 SkillFindr - Semantic Search for IBM SkillsBuild
 
 ## 📚 Overview
 
