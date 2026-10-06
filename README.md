@@ -1,300 +1,98 @@
-# 🧠 SkillFindr - Semantic Search for IBM SkillsBuild
+# SkillFindr: semantic search for IBM SkillsBuild
 
-## 📚 Overview
+Natural-language course search over the IBM SkillsBuild catalogue, served through a FastAPI service with a retrieval-augmented generation (RAG) endpoint. This is the semantic search component of SkillFindr, a wider IBM-led learning-assistant initiative, built solo as my BSc Computer Science final-year project at Queen Mary University of London (2024/25). Full write-up: [IBM_project_report.pdf](IBM_project_report.pdf).
 
-**SkillFindr** is a full-stack Python application developed to enhance content discoverability on the [IBM SkillsBuild](https://skillsbuild.org) platform. It combines automated data scraping, semantic search, a hybrid PostgreSQL database (including vector storage), and a FastAPI-based API. The project was built as part of a final-year dissertation to demonstrate how AI-powered search can improve access to educational content.
+## What it does
 
----
+- **Scraper.** Selenium and BeautifulSoup crawl SkillsBuild and collect title, description, duration, tags and ratings for 1,200+ courses.
+- **Storage.** One PostgreSQL table holds the structured metadata and, in a pgvector column, a 384-dimensional Sentence-BERT (`all-MiniLM-L6-v2`) embedding of each course's title, description and tags.
+- **Search.** A query is embedded with the same model and ranked by cosine distance in pgvector, with a distance threshold and optional filters on duration, rating, learner count and category.
+- **API.** `POST /api/v1/courses/search/semantic` returns ranked courses. `POST /api/v1/chat` is a RAG endpoint: it retrieves courses for the latest user message and passes them, with the chat history, to an instruction-tuned LLM (`ibm-granite/granite-3.0-1b-a400m-instruct` in the example config) that writes a recommendation and returns it with the source courses. There is no front-end in this repo, and the chat endpoint was not part of the evaluation.
 
-## 🚀 Features
+![Flowchart: user query, convert query to embedding, search against the embedding vectors, apply a distance threshold, then return the top-k results or report that no suitable results were found.](assets/query-workflow.png)
 
-### 🔎 Semantic Search Engine
-- Embedding-based retrieval using Sentence-BERT (`all-MiniLM-L6-v2`)
-- Vector similarity ranking using cosine distance
-- Real-time query execution via FastAPI
+*Query workflow of the semantic search engine (Figure 3 of the report).*
 
-### 🕸 Web Scraper
-- Extracts 1,200+ courses and programs from IBM SkillsBuild
-- Captures metadata: title, description, duration, tags, ratings
-- Built with Selenium + BeautifulSoup and supports dynamic DOM rendering
+## Results
 
-### 🗃 Hybrid Database (PostgreSQL + pgvector)
-- Stores structured metadata and vector embeddings
-- Leverages `pgvector` for fast semantic similarity search
+Semantic search on 50 hand-written natural-language queries, cut-off K = 20 (Table 5 of the report):
 
-### ⚙️ FastAPI Backend
-- Exposes RESTful API for semantic and keyword-based search
-- Supports filterable JSON responses for integration and analysis
+| Metric | Score |
+|---|---|
+| Recall@20 | 0.899 |
+| MRR | 0.843 |
+| MAP@20 | 0.712 |
+| nDCG@20 | 0.781 |
+| Precision@20 | 0.295 |
 
----
+- Relevance (0, 1 or 2) was labelled by hand only for the courses the retrieval systems returned for each query, 7.2 per query on average. Recall is measured against that judged pool, not the whole catalogue.
+- Precision@20 is bounded by the number of relevant courses per query (6.7 on average), which caps it at about 0.34.
+- Keyword (PostgreSQL full-text) and BM25 baselines are reported in Chapter 5 of the report. They returned results for only 4% and 6% of these queries, so they are a weak reference rather than a tuned competitor, and the judged pool comes almost entirely from semantic search's own results.
 
-## 📦 Prerequisites
+## Running it
 
-### System Requirements
-- Python 3.12
-- OS: Windows / macOS / Linux
-
-### Python Dependencies
-Install via:
-```bash
-pip install -r requirements.txt
-```
-Key libraries:
-- `selenium`, `beautifulsoup4`, `pandas`, `lxml`
-- `sentence-transformers`, `pgvector`
-- `fastapi`, `uvicorn`, `sqlalchemy`
-
-## 🐍 Conda Environment Setup
-
-To ensure compatibility and reproducibility, it is recommended to use a dedicated conda environment.
-
-### ✅ Create and Activate Environment
+Requires Python 3.12, PostgreSQL 15+ with the pgvector extension, and Chrome for the scraper.
 
 ```bash
-# Create a new environment with Python 3.12
-conda create -n skillfindr python=3.12
-
-# Activate the environment
-conda activate skillfindr
-
-# Install dependencies from requirements.txt
-pip install -r requirements.txt
+git clone https://github.com/mathisweil/SkillFindr-SemanticSearchEngine.git
+cd SkillFindr-SemanticSearchEngine
+pip install -r requirements.txt pgvector
 ```
 
-### 💡 Notes
-- Make sure `conda` is installed (via [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/)).
+Create a `.env` in the repo root:
 
-### Additional Tools
-- Chrome WebDriver (for Selenium)
-- PostgreSQL 15+ with `pgvector` extension
-
----
-
-## 🛠 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/skillfindr.git
-cd skillfindr
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set environment variables in `.env`:
 ```env
-USERNAME=YOUR_USERNAME
-PASSWORD=YOUR_PASSWORD
-
-# Project environment configuration
+USERNAME=your-skillsbuild-username
+PASSWORD=your-skillsbuild-password
 LOGIN_URL=https://sb-auth.skillsbuild.org/login
 BASE_URL=https://skills.yourlearning.ibm.com
 SCRAPE_DELAY=2
-
-# Model & database settings
 EMBEDDING_MODEL_NAME=all-MiniLM-L6-v2
 LLM_MODEL_NAME=ibm-granite/granite-3.0-1b-a400m-instruct
-DATABASE_URL=postgresql+psycopg2://mathisweil@localhost:5432/postgres
+DATABASE_URL=postgresql+psycopg2://<user>@localhost:5432/postgres
 ```
 
----
-
-## ▶️ Usage
-
-## ⚠️ Python Import Errors: Read Before Running
-
-If you encounter an error such as:
-
-```
-ModuleNotFoundError: No module named 'config'
-```
-
-it likely means that Python is not recognizing the root of the project when importing internal modules like `config`, `embedding`, or `scraper`.
-
-### ✅ Quick Fix
-
-Run Python scripts with the correct project context by setting the `PYTHONPATH`:
+Run each step from the repo root. Raw and processed snapshots are already in `output/`, so the scrape and clean steps are optional.
 
 ```bash
-PYTHONPATH=. python path/to/your_script.py
+python -m scraper.IBM_scraper                    # scrape to output/raw_data
+python -m parsers.process_courses                # clean to output/processed_data
+python -m database.load_data                     # embed and load into PostgreSQL
+python -m evaluation.semantic_search_evaluation  # metrics at K = 20
+fastapi dev api/main.py                          # API, Swagger UI at http://127.0.0.1:8000/docs
 ```
 
-For example:
-```bash
-PYTHONPATH=. python scraper/IBM_scraper.py
-```
+To run the scraper headless, add `"headless": "--headless"` under `webdriver_args` in `config/config.json`.
 
-This ensures that your top-level project directory (`skillfindr` or `IBM_Semantic_Search`) is included in Python’s module search path.
-
----
-
-### 💡 Alternative: Run as a Module
-
-You can also run your scripts using the `-m` flag:
+Example requests once the API is running:
 
 ```bash
-python -m scraper.IBM_scraper
+curl -X POST http://127.0.0.1:8000/api/v1/courses/search/semantic \
+  -H "Content-Type: application/json" \
+  -d '{"query": "data analysis beginner course", "limit": 5, "filters": {"duration": {"min": 30, "max": 120}, "category": ["data_science"]}}'
+
+curl -X POST http://127.0.0.1:8000/api/v1/chat \
+  -H "Content-Type: application/json" \
+  -d '{"chat_history": [{"role": "user", "content": "I want to learn web development from scratch"}], "limit": 5}'
 ```
 
-This method treats the script as part of a Python package and resolves imports more reliably.
+## Layout
 
----
+| Path | Contents |
+|---|---|
+| `scraper/` | Selenium crawler and HTML parsing |
+| `parsers/` | Cleaning and normalisation of scraped data |
+| `embedding/` | Embedding and retrieval (semantic, keyword, BM25) |
+| `database/` | Schema setup, loading, SQL queries and BM25 |
+| `models/` | SQLModel course and filter schemas |
+| `api/` | FastAPI app |
+| `evaluation/` | Annotation tool, query set, relevance labels and metrics |
+| `config/` | Scraper settings and cleaning phrase list |
+| `utils/` | LLM, Selenium, I/O and text helpers |
+| `output/` | Raw and processed scraped data |
 
-These steps are especially useful when:
-- Running from terminal (outside of an IDE)
-- Using relative imports across folders
-- Working in conda or virtual environments
+## Credits
 
+Supervised by Aisha Abuelmatti at Queen Mary University of London. Thanks to IBM for access to SkillsBuild and for their support; the course data was collected with IBM's approval for academic, non-commercial use.
 
-### 🔍 Run Scraper
-```bash
-python scraper/IBM_scraper.py
-```
-
-If you wish to run it in **headless mode**, modify the `config.json` file by adding the following key-value pair under `"webdriver_args"`:
-
-```json
-"webdriver_args": {
-  "incognito": "incognito",
-  "headless": "--headless"
-}
-```
-
-This will allow the browser to operate without opening a visible window, which is useful for background execution or deployment environments.
-
-### 🧹 Process Raw Data
-```bash
-python parsers/process_courses.py
-```
-
-### 🗃 Load Data into PostgreSQL
-```bash
-python database/load_data.py
-```
-
-### ✅ Run Evaluation of Semantic Search Engine
-```bash
-python evaluation/semantic_search_evaluation.py
-```
-
-## 📡 Running and Testing the API
-
-### 🌐 Launch FastAPI Server
-
-To start the API locally, run the following command from the project root:
-
-```bash
-fastapi dev api/main.py
-```
-
-This will start a development server using `fastapi`’s CLI (make sure it's installed via `pip install fastapi[all]` if not already).
-
-The server will initialize all core resources during startup, including:
-
-- Sentence-BERT embedding model (`all-MiniLM-L6-v2`)
-- IBM Granite LLM and tokenizer
-- PostgreSQL vector database connection
-
----
-
-### 🧪 Interactive API Testing via Swagger UI
-
-Once the server is running, open your browser and navigate to:
-
-```
-http://127.0.0.1:8000/docs
-```
-
-This brings up **Swagger UI**, an auto-generated API documentation and test interface.
-
-You can simulate calls to:
-
-- **`POST /api/v1/courses/search/semantic`**  
-  Input a search query (e.g., *"beginner cybersecurity path"*) and add filters like `duration`, `category`, or `star_rating`. Click "Execute" to view results with real-time similarity search.
-
-- **`POST /api/v1/chat`**  
-  This endpoint implements **Retrieval-Augmented Generation (RAG)**.  
-  Provide a `chat_history` array with `"role": "user"` and `"role": "assistant"` messages. The system will search for semantically similar courses, feed them to a language model, and return a contextual answer.
-
-### 📁 Example Request Payloads
-
-#### `/api/v1/courses/search/semantic`
-
-```json
-{
-  "query": "data analysis beginner course",
-  "threshold": 0.5,
-  "limit": 5,
-  "filters": {
-    "duration": { "min": 30, "max": 120 },
-    "category": ["data_science"]
-  }
-}
-```
-
-#### `/api/v1/chat`
-
-```json
-{
-  "chat_history": [
-    { "role": "user", "content": "I'm interested in learning web development from scratch" }
-  ],
-  "threshold": 0.5,
-  "limit": 5
-}
-```
-
----
-
-Both endpoints return rich metadata and ranked courses, helping users navigate educational content more intelligently.
-
----
-
-## 📁 Project Structure
-
-```plaintext
-skillfindr/
-├── scraper/           # Web scraping (Selenium + BeautifulSoup)
-├── embedding/         # Embedding logic and retrieval methods
-├── database/          # PostgreSQL loaders and vector storage
-├── api/               # FastAPI server and endpoints
-├── output/            # Scraped and processed data
-├── logs/              # Logs for debugging and monitoring
-├── config/            # configuration folder
-└── requirements.txt   # Python package list
-```
-
----
-
-## 🔄 Customisation
-
-- **Add fields**: Extend `config.json` and scraping logic
-- **Swap models**: Replace Sentence-BERT with other embedding models
-- **Advanced filtering**: Extend API to filter by rating, duration, category
-- **Frontend integration**: Consume FastAPI with React, Flask, etc.
-
----
-
-## ⚠️ Error Handling
-
-- Handles:
-  - DOM structure changes
-  - Timeout or network issues
-  - Duplicate entries
-- Logs saved in `logs/` for debugging
-
----
-
-## 🙏 Acknowledgements
-
-- Final-year BSc Computer Science project at Queen Mary University of London.
-- Thanks to IBM for platform access and support.
-
----
-
-## 📬 Contact
-
-**Mathis Weil**  
-📧 [ec22995@qmul.ac.uk](mailto:ec22995@qmul.ac.uk)
+Mathis Weil, [mathis.weil@outlook.com](mailto:mathis.weil@outlook.com)
